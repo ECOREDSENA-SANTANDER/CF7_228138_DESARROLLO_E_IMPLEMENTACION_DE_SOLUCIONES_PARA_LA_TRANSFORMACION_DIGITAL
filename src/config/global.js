@@ -149,6 +149,12 @@ export default {
           },
         ],
       },
+      {
+        nombreRuta: 'tema8',
+        numero: '8',
+        titulo: 'Proveedores de servicio en la nube ',
+        desarrolloContenidos: true,
+      },
     ],
     subMenu: [
       {

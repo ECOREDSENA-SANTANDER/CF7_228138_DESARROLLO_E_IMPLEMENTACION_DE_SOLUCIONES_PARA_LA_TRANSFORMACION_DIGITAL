@@ -5,152 +5,124 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 7
-      h1 Buenas prácticas de documentación
-    p(data-aos="fade-down").mb-5 El cuidado de los detalles y las formas de presentar la documentación en los proyectos no es un asunto menor; implica escribir con claridad, buen estilo estético del texto, contenidos bien redactados, respeto por los estándares de derechos de autor y por las normas ortográficas, todo independiente de la metodología o corriente de desarrollo de los proyectos tecnológicos.
+      h1 Contratación 
+    .row.align-items-center.justify-content-center(data-aos="fade-down")
+      .col-lg-12
+        .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5
+          .bloque-texto-g__img(
+            :style="{'background-image': `url(${require('@/assets/curso/temas/94.png')})`}"
+          )
+          .bloque-texto-g__texto.p-5
+            p.mb-0 La necesidad de contar con acuerdos de nivel de servicios entre el cliente y el proveedor que entrega el servicio, para lograr esto al momento de planear la migración de servicios de computación tradicional a computación en la nube las organizaciones deben de responder una serie de preguntas que ayudarán a definir los objetivos del nivel del servicio, los interrogantes son:
+    p.mb-5 La respuesta a estas preguntas es lo que permite determinar los objetivos del acuerdo de nivel de servicios o SLA donde se establece un contrato entre el proveedor (externo o interno) y el cliente donde se establecen los servicios y las características de los mismos que el cliente espera de su proveedor.
+    .row.mb-5
+      .col-12.bg14
+        .row 
+          .col-8
+            .bg-white-r.mb-3.p-2.mt-4.mx-4.fw-bold Un acuerdo de nivel de servicio puede contar entre otras con las siguientes características:
+            ul.lista-ul--color.mx-4
+              li.mb-0.pb-0 
+                i.fas.fa-chevron-right
+                p Una definición de los servicios que el proveedor de servicios proporcionará al cliente.
+              li.mb-0.pb-0 
+                i.fas.fa-chevron-right
+                p Métodos para medir el rendimiento (indicadores de medición).
+              li.mb-0.pb-0 
+                i.fas.fa-chevron-right
+                p Protocolos para administrar problemas (métodos y canales de atención y soporte a usuarios, tiempos de respuesta y solución de incidentes).
+              li.mb-0.pb-0 
+                i.fas.fa-chevron-right
+                p Una lista de tareas de cliente (responsabilidades).
+              li.mb-0.pb-0 
+                i.fas.fa-chevron-right
+                p Garantías que debe respetar el proveedor de servicios.
+              li.mb-0.pb-0 
+                i.fas.fa-chevron-right
+                p Procedimientos necesarios para la recuperación ante desastres (continuidad del negocio).
+              li.mb-0.pb-0 
+                i.fas.fa-chevron-right
+                p Proceso y directivas con respecto a la terminación del contrato.
+          .col-4.pt-5 
+            img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/96.png', alt='')
+    p.mb-5 <b>Este manejo de las características del servicio, permite la optimización de asignación y costos de recursos en cuanto al tratamiento de la información. </b>Pues no se requiere una inversión en infraestructura, pues es utilizada la del prestador del servicio, a la vez que se busca garantía en dicha prestación, en cuanto a fallas o exceso de recursos, o los costos que puede acarrear situaciones como estas. Como sabemos, <b>la gestión de la información se encuentra de manera virtual, en manos del cliente o la organización contratante de servicios en la nube, que puede ser accedida a través de internet, mediante bases de datos, correo electrónico, nóminas o gestión de recursos humanos.</b> Sin embargo, puede que los datos no estén necesariamente en manos del contratista, dependiendo del modelo utilizado, por lo que el mantenimiento y soporte físico de la información, los procesos y las comunicaciones, pueden regularse por medio de terceros, quien regula el servicio desde cualquier parte del mundo, por medio de recursos como prácticas de deslocalización, compartición de recursos y movilidad, o si es el caso con contratos adicionales AT&T &TA T 6. 
+    .row.align-items-center.justify-content-center.mb-4
+      .col-lg-5.my-3
+        img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/93.png', alt='')
+      .col-lg-7.my-3
+        p.bg13.p-4.mb-3(data-aos="fade-left") Es así que el <b><i>cloud computing</i></b>, puede usar tecnologías de la información y las comunicaciones, mediante técnicas ya existentes de forma innovadora y en una nueva escala. Una consecuencia de este transformador de negocio, tiene como resultado que la persona o la organización que contrata los servicios, puede desconocer la localización precisa de sus datos, así como no disponer del control directo de acceso a los mismos, de su borrado y su portabilidad, por lo que la legislación vigente en países como Colombia, aún se encuentra en diseño, con el fin de llevar a cabo una regulación más responsable al respecto.
+        p La contratación como documento formal entre dos partes para la prestación y consumo de productos y/o servicios es un documento regulado en el cual se establecen los acuerdos o reglas de la prestación de un producto o servicio, para la adquisición de servicios en la nube es muy importante tener en cuenta los acuerdos, políticas y documentos contractuales relacionados con los servicios de <b><i>cloud computing</i></b> que un proveedor establece, ya que en los mismos se indican los acuerdos de nivel de servicios entre otra información relevante.
+    .row
+      .col-lg-2.mb-3
+        img(data-aos="zoom-in")(src='@/assets/curso/temas/97.svg', alt='')
+    
+        
+    .row.align-items-center.justify-content-center.mb-4
+      .col-lg-7.my-3
+        .bloque-texto-b.color-primario.p-4.mb-5
+          .bloque-texto-b__texto
+            i.fas.fa-quote-left
+            p.mb-2 <br>Se define contratación como “Pacto o convenio, oral o escrito, entre partes que se obligan sobre materia o cosa determinada, y a cuyo cumplimiento pueden ser compelidas”.
+            h5.d-flex.justify-content-end <br>Según la RAE (Real Academia Española), 
+              i.fas.fa-quote-right
+        p.bg13.p-4.mb-3(data-aos="fade-left") La contratación de servicios de <b><i>cloud computing</i></b> se lleva a cabo mediante un contrato de prestación de servicios, que se define como el contrato mediante el cual una persona, normalmente un especialista, en algún área, se obliga con respecto a otra a realizar una serie de servicios a cambio de un precio. <b>Es importante señalar que el pago del contrato está dirigido al cumplimiento de metas, horas, objetivos, proyectos, etc</b>. Se trata de un contrato oneroso, y a la contraprestación de pago, es en dinero o especie la cual será pagada proporcionalmente conforme a las actividades realizadas.
+        .d-flex.align-items-center.justify-content-center
+          img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/10.png', alt='')
+          p.ml-1-custom.mt-2 Un contrato oneroso, se define como un tipo de contrato en que ambas partes tienen obligaciones y ventajas económicas recíprocas. Entre los más comunes están: 
+      .col-lg-5.my-3
+        img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/98.png', alt='')
+    
+    .row.align-items-center.justify-content-center.mb-4
+      .col-lg-2.my-3
+        .bg11.d-flex.px-3.he-2-cus.align-items-center.justify-content-center.flex-column
+          img.img-a.img-t.bg12.px-1.py-2(data-aos="zoom-in")(src='@/assets/curso/temas/99.svg', alt='')
+          .wd-80-cus
+            p.ml-1-custom Supervisión 
+      .col-lg-2.my-3
+        .bg11.d-flex.px-3.he-2-cus.align-items-center.justify-content-center.flex-column
+          img.img-a.img-t.bg12.px-1.py-2(data-aos="zoom-in")(src='@/assets/curso/temas/77.svg', alt='')
+          .wd-80-cus
+            p.ml-1-custom Supervisión 
+      .col-lg-2.my-3
+        .bg11.d-flex.px-3.he-2-cus.align-items-center.justify-content-center.flex-column
+          img.img-a.img-t.bg12.px-1.py-2(data-aos="zoom-in")(src='@/assets/curso/temas/77.svg', alt='')
+          .wd-80-cus
+            p.ml-1-custom Supervisión 
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-10.bg2.p-4.brad
-        .row.justify-content-center.align-items-center
-          .col-lg-8.my-3
-            p(data-aos="fade-down") El elemento fundamental y principal de las relaciones comerciales y laborales surge a partir de la confianza; un documento mal elaborado, con errores elementales y sin referencias podría ser un aspecto negativo para la generación de desconfianza.
+      .col-lg-2.my-3
+        .bg11.d-flex.px-3.he-2-cus.align-items-center.justify-content-center.flex-column
+          img.img-a.img-t.bg12.px-1.py-2(data-aos="zoom-in")(src='@/assets/curso/temas/77.svg', alt='')
+          .wd-80-cus
+            p.ml-1-custom Supervisió
+        
+      .col-lg-2.my-3
+        .bg11.d-flex.px-3.he-2-cus.align-items-center.justify-content-center.flex-column
+          img.img-a.img-t.bg12.px-1.py-2(data-aos="zoom-in")(src='@/assets/curso/temas/77.svg', alt='')
+          .wd-80-cus
+            p.ml-1-custom Supervisión 
 
-            p(data-aos="fade-down").mb-0 Por lo cual se deben aplicar las buenas prácticas de documentación en todo documento que se elabore, incluyendo aquellos que están en las metodologías de desarrollo, ya sea SCRUM, IEEE u otra.
-          .col-lg-4.my-3
-            img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/103.png', alt='')
-
-    Separador
-    #t_7_1.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
-      h2 7.1 Normas APA
-    p(data-aos="fade-down").mb-5 Buscando una estandarización en las referencias bibliográficas, las Normas APA han sido el estándar más empleado para las citaciones de las fuentes complementarias o marcos referenciales de los documentos, APA son las iniciales de American Psychological Association (Asociación Americana de Psicología)&nbsp;
-      a.en(href="https://apastyle.apa.org" target="_blank") &nbsp;
-        span.or https://apastyle.apa.org &nbsp;
-        span que fue la organización que creó el estándar desde hace décadas atrás en 1929 para el campo de la Psicología, pero que actualmente muchas ramas del conocimiento lo emplean como esquema documental.
-
-    .row.align-items-center.justify-content-center
-      .col-auto
-        .bg8.p-2.text-center.px-5
-          p(data-aos="fade-down").mb-0 A continuación se presentan algunas indicaciones para el cumplimiento de las Normas APA:
-    .bg16.p-5.mb-5(data-aos="fade-left")
-      LineaTiempoB.color-acento-contenido(:datos="datosLineaTiempoB")
-
-    p(data-aos="fade-down").mb-5.text-center Se invita a que amplíe este concepto y tenga como referencia el “Instructivo uso del estilo APA 7ª edición” del SENA:
-    .row.justify-content-center.align-items-center(data-aos="flip-down")
-      .col-lg-10
-        .tarjeta.color-primario.p-3.mb-5
-          .row.justify-content-around.align-items-center
-            .col-3.col-sm-2.col-lg-1
-              img(src="@/assets/curso/temas/110.svg")
-            .col
-              .row.justify-content-between.align-items-center
-                .col.mb-3.mb-sm-0
-                  h3.mb-1 Estilo APA
-                  p.mb-0 En este documento podrá profundizar en las instrucciones del uso de estilo APA, citas bibliográficas, referencias bibliográficas; cómo aprovechar Microsoft Word para el uso de citas y referencias, y algunos sitios web recomendados.
-                .col-sm-auto
-                  a.boton.color-acento-botones(href="https://biblioteca.sena.edu.co/images/PDF/InstructivoAPA.pdf" target="_blank")
-                    span Descargar
-                    i.fas.fa-file-download
-
-    Separador
-    #t_7_2.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
-      h2 7.2 Buenas prácticas de redacción de requisitos
-    p(data-aos="fade-down") Se recomienda aplicar algunos puntos clave a la hora generar un buen documento enfocado a la comunicación, registro de proyectos de transformación digital y de requisitos; presentar textos a los clientes o equipos de trabajo con mal manejo de redacción y poca claridad puede tener implicaciones negativas cuando el proyecto esté en fases posteriores.
-
-    p(data-aos="fade-down").mb-5 Por esta razón, se presentan algunos consejos prácticos para la construcción de documentos bien elaborados:
-
-    .row.justify-content-center.align-items-center
-      .col-lg-12.up
-        SlyderF.custom(columnas="col-lg-4 col-md-4")(data-aos="fade-left")
-          .tarjeta.tarjeta--slyder.bg5.p-4.h-100
-            .row.justify-content-center.mb-3
-              .col-8
-                img.img-a.img-t.mb-3.mt-4(src="@/assets/curso/temas/111.png", alt="alt").img100.m-auto
-            h4.mb-3 Defina la metodología que seguirá
-            p.mb-0 Seleccione la línea metodológica que va a usar, ocasionalmente lo define el cliente o la empresa que dirige los proyectos, pero en caso de no hacerlo use las técnicas como la IEEE, SCRUM, entre otras.
-          .tarjeta.tarjeta--slyder.bg4.p-4.h-100
-            .row.justify-content-center.mb-3
-              .col-8
-                img.img-a.img-t.mb-3.mt-4(src="@/assets/curso/temas/112.png", alt="alt").img100.m-auto
-            h4.mb-3 Tenga claridad de los insumos e instrumentos
-            p.mb-0 Antes de la documentación debe tener instrumentos aplicados en la organización como encuestas, entrevistas, diagramas, mapas de procesos y tomas de requerimientos. Ya debe tener una idea clara de la organización y de los procesos.
-          .tarjeta.tarjeta--slyder.bg5.p-4.h-100
-            .row.justify-content-center.mb-3
-              .col-8
-                img.img-a.img-t.mb-3.mt-4(src="@/assets/curso/temas/113.png", alt="alt").img100.m-auto
-            h4.mb-3 Empiece con los objetivos
-            p.mb-0 Se deben definir los objetivos y las metas, estos darán claridad y orden al documento. Cuando se construyen documentos, estos deben ser claros para la correcta interpretación de cualquier lector, tanto los clientes como el equipo de trabajo.
-          .tarjeta.tarjeta--slyder.bg4.p-4.h-100
-            .row.justify-content-center.mb-3
-              .col-8
-                img.img-a.img-t.mb-3.mt-4(src="@/assets/curso/temas/114.png", alt="alt").img100.m-auto
-            h4.mb-3 La forma importa
-            p.mb-0 La ortografía y la forma de redactar son primordiales a la hora de documentar, esto da cuenta de la seriedad, la técnica y aporta  a la confianza en la gestión de los requerimientos en la organización.
-          .tarjeta.tarjeta--slyder.bg5.p-4.h-100
-            .row.justify-content-center.mb-3
-              .col-8
-                img.img-a.img-t.mb-3.mt-4(src="@/assets/curso/temas/115.png", alt="alt").img100.m-auto
-            h4.mb-3 Cite las referencias
-            p.mb-0 Es muy importante valorar las referencias, los marcos teóricos y técnicos con los que el proyecto se soporta. Recuerde que menos es más, evite redundar, procure escribir conciso, con pocas palabras puede dar claridad y se logrará más fácil el objetivo.
-          .tarjeta.tarjeta--slyder.bg4.p-4.h-100
-            .row.justify-content-center.mb-3
-              .col-8
-                img.img-a.img-t.mb-3.mt-4(src="@/assets/curso/temas/116.png", alt="alt").img100.m-auto
-            h4.mb-3 Claridad
-            p.mb-0 Redacte para todos, no emplee términos muy técnicos o poco usuales para descrestar, apóyese en recursos gráficos para describir mejor la idea; los recursos como mapas mentales, infografías, diagramas, tablas, etc. Hacen la lectura más simple y permite un mejor entendimiento.
-          .tarjeta.tarjeta--slyder.bg5.p-4.h-100
-            .row.justify-content-center.mb-3
-              .col-8
-                img.img-a.img-t.mb-3.mt-4(src="@/assets/curso/temas/117.png", alt="alt").img100.m-auto
-            h4.mb-3 Revise varias veces al final
-            p.mb-0 Cada vez que se relee un texto se va perfeccionando más, si tiene la oportunidad apóyese en otra persona que lea el documento para determinar la claridad de los requisitos, y que pueda brindar sugerencias.
-
+      .col-lg-2.my-3
+        .bg11.d-flex.px-3.he-2-cus.align-items-center.justify-content-center.flex-column
+          img.img-a.img-t.bg12.px-1.py-2(data-aos="zoom-in")(src='@/assets/curso/temas/77.svg', alt='')
+          .wd-80-cus
+            p.ml-1-custom Supervisión 
+    .row
+      .col-lg-2.mb-3
+        img(data-aos="zoom-in")(src='@/assets/curso/temas/100.svg', alt='')
+    p.mb-5 Como se indicaba anteriormente, <b><b>la contratación de servicios de cloud computing se realizará por medio de un contrato de prestación de servicios.</b></b> Resulta imprescindible que ese contrato incorpore entre sus cláusulas las garantías a las que obliga la Ley de Protección de Datos.
+    p.mb-5 Atendiendo a la relación contractual establecida entre el cliente y el proveedor de la nube, también este contrato se puede clasificar como negociado o de adhesión. Podemos decir que un contrato entre el cliente y el proveedor es negociado si el primero tiene, o se le ofrece, la capacidad para fijar las condiciones de contratación en función del tipo de datos que se van a procesar, las medidas de seguridad exigibles, el esquema de subcontratación, la localización de los datos, la portabilidad de los mismos y cualquier otro aspecto de adecuación a la regulación organizacional y a las restricciones que esta regulación implica.
+    .bg14.p-4.mb-1(data-aos="fade-left") 
+      .row.d-flex
+        .col-lg-1
+          img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/101.svg', alt='')
+        .col-lg-11 En la mayoría de los casos, sin embargo, lo que se oferta son contratos de adhesión, constituidos por cláusulas contractuales cerradas, en las que <b>el proveedor de cloud fija las condiciones con un contrato tipo igual para todos sus clientes, sin que el usuario tenga ninguna opción para negociar sus términos</b>. Este último caso es el más común, sobre todo cuando se encuentra el cliente en una situación de desequilibrio <b>(p.ej.: una pyme frente a un gran proveedor)</b>, aunque hay que tener en cuenta que esto no eximirá, a ninguno de los dos, de las responsabilidades que determina la ley de protección de datos.
+      
 </template>
 
 <script>
-import SlyderF from '../components/SlyderF.vue'
 export default {
   name: 'Tema7',
-  components: { SlyderF },
-  data: () => ({
-    datosLineaTiempoB: [
-      {
-        titulo: 'Citas',
-        texto:
-          'Hace referencia a un tema, construcción o concepto, pueden ser también antecedentes que contribuyen al escrito propio.',
-        icono: require('@/assets/curso/temas/104.svg'),
-      },
-      {
-        titulo: 'Citas en paráfrasis',
-        texto:
-          'Es usar palabras y expresiones propias de un texto o idea de otro autor, en este caso también se debe citar al autor, indicando apellidos y el año, por ejemplo, (Bonasera, 2012) y entregando el detalle completo de la fuente en las referencias bibliográficas.',
-        icono: require('@/assets/curso/temas/105.svg'),
-      },
-      {
-        titulo: 'Citas textuales cortas (40 o menos palabras)',
-        texto:
-          'Se deben emplear usando comillas e incluir el número de la página de referencia: “texto corto” (González, 2008, p. 34), segundo ejemplo, Según González (2008), “texto corto” (p. 34). Puede incluir la forma Según González (2008, p. 34), “texto corto”.',
-        icono: require('@/assets/curso/temas/106.svg'),
-      },
-      {
-        titulo: 'Citas textuales con más de 40 palabras',
-        texto:
-          'Estas citas deben estar separadas del texto propio usando tabulador con sangría de 1,27 cm desde el margen izquierdo, no se usan comillas. Un aspecto diferenciador de las citas cortas es que el punto final va antes del paréntesis que abre la cita. En caso de que la citación tenga un segundo párrafo, la primera línea de este debe tabularse otros 1,27 cm.',
-        icono: require('@/assets/curso/temas/107.svg'),
-      },
-      {
-        titulo: 'Citas de autores corporativos',
-        texto:
-          'Cuando se toman referencias de entidades y organizaciones como (SENA, ICBF, IBM, AWS, etc.), se recomienda la primera vez usar los nombres completos sin abreviar, por ejemplo, Según la Organización de las Naciones Unidas para la Educación, la Ciencia y la Cultura (UNESCO, 2012), la educación debe establecer…',
-        icono: require('@/assets/curso/temas/108.svg'),
-      },
-      {
-        titulo:
-          'Referencia de artículos y revistas digitales con DOI (Digital Object Identifier)',
-        texto:
-          'Debe tener el apellido, inicial del autor, año de publicación, título del artículo con volumen, en cursiva, páginas y dirección DOI, por ejemplo, Ortega, Y., Hernández, M. (2019). Concepción dinámica familiar: Análisis desde la percepción de un grupo de niños de cuatro años. Cultura, Educación y Sociedad, 10, 63-72.',
-        icono: require('@/assets/curso/temas/109.svg'),
-      },
-    ],
-  }),
+  components: {},
+  data: () => ({}),
   mounted() {
     this.$nextTick(() => {
       this.$aosRefresh()
