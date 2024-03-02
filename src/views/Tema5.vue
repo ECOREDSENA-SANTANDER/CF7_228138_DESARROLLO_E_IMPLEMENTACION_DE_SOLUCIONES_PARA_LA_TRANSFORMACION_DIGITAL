@@ -6,7 +6,7 @@
       .titulo-principal__numero
         span 5
       h1 Entrega de servicios  
-    .row.align-items-center.justify-content-center(data-aos="fade-down")
+    .row.align-items-center.justify-content-center(data-aos="zoom-in-left")
       .col-lg-12
         .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-5
           .bloque-texto-g__img(
@@ -17,18 +17,21 @@
     Separador
     #t_5_1.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2 5.1 Acuerdos de Nivel de servicio (ANS) 
-    p También conocidos como SLA, por sus siglas en inglés Service Level Agreement. Las actividades claves para la Gestión de Niveles de Servicio pueden observarse al desplegar el siguiente recurso:
-    .row.d-flex.align-items-center.justify-content-center.mb-5
+    p(data-aos="zoom-in-left") También conocidos como SLA, por sus siglas en inglés Service Level Agreement. Las actividades claves para la Gestión de Niveles de Servicio pueden observarse al desplegar el siguiente recurso:
+    .row.d-flex.align-items-center.justify-content-center.mb-5(data-aos="zoom-in-left")
       .col-lg-12
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/86.svg', alt='')
-    p.mb-5 En la siguiente figura se describen las interacciones y funcionalidades de la gestión de niveles de servicio.
-    figure.mt-4.mb-5
+    p.mb-5(data-aos="zoom-in-left") En la siguiente figura se describen las interacciones y funcionalidades de la gestión de niveles de servicio.
+    .titulo-sexto.color-acento-contenido.mb-4.aos-init.aos-animate(data-aos="zoom-in-left")
+      h5 Figura 5.
+      span
+        |  Interacciones y funcionalidades gestión de niveles de servicio
+    figure.mt-4.mb-5(data-aos="zoom-in-left")
       img(src='@/assets/curso/temas/87.svg', alt='Actividades del plan de gestión de servicios TI')
-      figcaption.ps-4 Figura 5. Interacciones y funcionalidades gestión de niveles de servicio
     Separador
     #t_5_2.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2 5.2 Acuerdo de Nivel de Operación (OLA) 
-    .row.align-items-center.justify-content-center(data-aos="fade-down")
+    .row.align-items-center.justify-content-center(data-aos="zoom-in-left")
         .col-lg-12
           .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5
             .bloque-texto-g__img(
@@ -36,45 +39,69 @@
             )
             .bloque-texto-g__texto.p-5
               p.mb-0 Acuerdo de Nivel Operacional, OLA por sus siglas en inglés: Operational Level Agreement, es un acuerdo realizado entre un proveedor de servicios de TI y otra parte de la misma organización, como por ejemplo: el área de sistemas, área de desarrollo u otras, en el que se definen los bienes y servicios que se proveen y las responsabilidades de ambas partes.
-    p.mb-5 A continuación, se presentan las recomendaciones para crear el OLA :
-    .row.justify-content-center.align-items-center.p-4.radius-4-cus(
+    p.mb-5(data-aos="zoom-in-left") A continuación, se presentan las recomendaciones para crear el OLA :
+    .row.justify-content-center.align-items-center.radius-4-cus(
             :style="{'background-image': `url(${require('@/assets/curso/temas/46.svg')})`}"
           )
       .col-lg-4
         img.img-a.img-t(src='@/assets/curso/temas/86.png', alt='Actividades del plan de gestión de servicios TI')
       .col-lg-8
         .row.justify-content-center.align-items-center
-          .col-lg-12.up
+          .col-lg-12
             SlyderF.custom(columnas="col-lg-6 col-md-6")(data-aos="fade-left")
               .tarjeta.tarjeta--slyder.bg7.p-4.h-100
                 .row.justify-content-center.mb-3
                   .col-8
-                    img.img-a.img-t.mb-3.mt-4(src="@/assets/curso/temas/47.svg", alt="alt").img100.m-auto
-                p.fw-bold Levantamiento de información
-                p.mb-0.text-center Es un proceso mediante el cual se recopilan los datos e información necesaria sobre la situación actual del parque tecnológico de la empresa.
+                    img.img-a.img-t.mb-3.mt-4(src="@/assets/curso/temas/124.svg", alt="alt").img100.m-auto
+                p.fw-bold.text-center Panorama general
+                p.mb-0.text-center Se debe redactar en un párrafo corto el panorama general sobre el Acuerdo de Nivel Operacional, en este deben recogerse los objetivos principales y los del OLA, esto facilitará el entendimiento y la comprensión de todos los participantes del acuerdo.
               .tarjeta.tarjeta--slyder.bg7.p-4.h-100
                 .row.justify-content-center.mb-3
                   .col-8
-                    img.img-a.img-t.mb-3.mt-4(src="@/assets/curso/temas/47.svg", alt="alt").img100.m-auto
-                p.fw-bold Infraestructura tecnológica
-                p.mb-0.text-center Es el conjunto de hardware y software que soportan los procesos y servicios de la organización.
+                    img.img-a.img-t.mb-3.mt-4(src="@/assets/curso/temas/125.svg", alt="alt").img100.m-auto
+                p.fw-bold.text-center Involucrados
+                p.mb-0.text-center Indicar quiénes son los involucrados en el acuerdo, los roles y cadena de mando, relacionando los datos de contacto telefónico y correo electrónico.
               .tarjeta.tarjeta--slyder.bg7.p-4.h-100
                 .row.justify-content-center.mb-3
                   .col-8
-                    img.img-a.img-t.mb-3.mt-4(src="@/assets/curso/temas/47.svg", alt="alt").img100.m-auto
-                p.fw-bold Equipos de comunicación y redes
-                p.mb-0.text-center Hace referencia al conjunto de equipos informáticos conectados entre sí, por medio de dispositivos de comunicación que permiten el transporte de datos,  información y recursos digitales. Estos pueden ser alámbricos o inalámbricos.
+                    img.img-a.img-t.mb-3.mt-4(src="@/assets/curso/temas/126.svg", alt="alt").img100.m-auto
+                p.fw-bold.text-center Oportunidades
+                p.mb-0.text-center Se debe describir las oportunidades de negocio que contempla el acuerdo, esto dará cuenta de los retos y brindará mayor contexto necesario para aplicar los términos y condiciones.
               .tarjeta.tarjeta--slyder.bg7.p-4.h-100
                 .row.justify-content-center.mb-3
                   .col-8
-                    img.img-a.img-t.mb-3.mt-4(src="@/assets/curso/temas/47.svg", alt="alt").img100.m-auto
-                p.fw-bold Computador
-                p.mb-0.text-center   
+                    img.img-a.img-t.mb-3.mt-4(src="@/assets/curso/temas/127.svg", alt="alt").img100.m-auto
+                p.fw-bold.text-center Plazos e indicadores
+                p.mb-0.text-center  Se deben especificar las fechas en las que será válido el acuerdo, estas pueden depender de contratos, otros acuerdos colectivos o  la disponibilidad de recursos. Es importante indicar cuáles serán los indicadores (KPIs) que se utilizarán para monitorear los logros y desempeños.
+              .tarjeta.tarjeta--slyder.bg7.p-4.h-100
+                .row.justify-content-center.mb-3
+                  .col-8
+                    img.img-a.img-t.mb-3.mt-4(src="@/assets/curso/temas/128.svg", alt="alt").img100.m-auto
+                p.fw-bold.text-center Manejo de información
+                p.mb-0.text-center  Indicar cómo se dará el adecuado manejo de la relacionada con los servicios, así como la manera que se hará el registro o modificaciones del acuerdo. 
+              .tarjeta.tarjeta--slyder.bg7.p-4.h-100
+                .row.justify-content-center.mb-3
+                  .col-8
+                    img.img-a.img-t.mb-3.mt-4(src="@/assets/curso/temas/129.svg", alt="alt").img100.m-auto
+                p.fw-bold.text-center Disponibilidad del servicio
+                p.mb-0.text-center  Es importante describir cuál será la disponibilidad del servicio, los días de operación, así como las horas de inicio y cierre.
+              .tarjeta.tarjeta--slyder.bg7.p-4.h-100
+                .row.justify-content-center.mb-3
+                  .col-8
+                    img.img-a.img-t.mb-3.mt-4(src="@/assets/curso/temas/130.svg", alt="alt").img100.m-auto
+                p.fw-bold.text-center Atención y priorización
+                p.mb-0.text-center Se debe indicar como se priorizarán los problemas o incidentes, además de aclarar cómo serán escalados y los niveles de atención con cada uno de sus alcances.  
+              .tarjeta.tarjeta--slyder.bg7.p-4.h-100
+                .row.justify-content-center.mb-3
+                  .col-8
+                    img.img-a.img-t.mb-3.mt-4(src="@/assets/curso/temas/131.svg", alt="alt").img100.m-auto
+                p.fw-bold.text-center Firmar el acuerdo
+                p.mb-0.text-center El acuerdo debe ser firmado por figuras de autoridad, se debe dejar una copia para cada parte involucrada y divulgarlos con los responsables definidos en el OLA.
     Separador
     #t_5_3.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2 5.3 Acuerdo de acompañamiento (UC)
-    p.mb-5 Son talleres interactivos para las zonas de trabajo híbridos (virtuales o presenciales) en los que se ponen en práctica las herramientas CoCreArE de acuerdo con las necesidades de cada equipo. Los acompañamientos pueden consistir en una o varias sesiones.      
-    .row.mb-5
+    p.mb-5(data-aos="zoom-in-left") Son talleres interactivos para las zonas de trabajo híbridos (virtuales o presenciales) en los que se ponen en práctica las herramientas CoCreArE de acuerdo con las necesidades de cada equipo. Los acompañamientos pueden consistir en una o varias sesiones.      
+    .row.mb-5(data-aos="zoom-in-left")
       .col-4
         p.mb-3 También dentro de toda infraestructura se pueden proporcionar herramientas de acompañamiento, que hoy en día se están utilizando, con el objetivo de optimizar los procesos, mejorar la comunicación, acompañamiento y conservar a los equipos de trabajo motivados. 
         .row.justify-content-center.align-items-center

@@ -6,7 +6,7 @@
       .titulo-principal__numero
         span 3
       h1 Buenas prácticas en ciberseguridad
-    .row.align-items-center.justify-content-center(data-aos="fade-down")
+    .row.align-items-center.justify-content-center(data-aos="zoom-in-left")
       .col-lg-12
         .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-5
           .bloque-texto-g__img(
@@ -16,9 +16,9 @@
             p.mb-0 Un sistema de seguridad debe mejorarse de manera continua y, para ello, desde el área de seguridad, existen propuestas que facilitan la implementación de técnicas y tácticas de fortalecimiento de los activos de información.
 
 
-    p(data-aos="fade-down").mb-5.fw-bold Conozca, ahora, algunas de las buenas prácticas más representativas:  
+    p(data-aos="zoom-in-left").mb-5.fw-bold Conozca, ahora, algunas de las buenas prácticas más representativas:  
 
-    SlyderA(tipo="b").slider-a-custom.mb-5
+    SlyderA(tipo="b").slider-a-custom.mb-5(data-aos="zoom-in-left")
       .row.align-items-center.justify-content-center
         .col-lg-6.col-md-12.my-3
           h4.mb-4 Controles CIS v8
@@ -50,7 +50,7 @@
         .col-lg-6.col-md-12.my-3
           img.img-a.img-t(src='@/assets/curso/temas/41.png', alt='')
       
-    .row.justify-content-center.align-items-center(data-aos="flip-down")
+    .row.justify-content-center.align-items-center(data-aos="zoom-in-left")
       .col-lg-10
         .tarjeta.color-primario.p-3.mb-5
           .row.justify-content-around.align-items-center
@@ -65,19 +65,19 @@
                   a.boton.color-acento-botones(href="https://biblioteca.sena.edu.co/images/PDF/InstructivoAPA.pdf" target="_blank")
                     span Ir al sitio
                     i.fas.fa-link
-    p(data-aos="flip-down").mb-3 Publicaciones especiales de NIST
-    .row.align-items-center.justify-content-center.mb-4
+    h4(data-aos="zoom-in-left").mb-3 Publicaciones especiales de NIST
+    .row.align-items-center.justify-content-center.mb-4(data-aos="zoom-in-left")
       .col-lg-7.my-3
-        p(data-aos="fade-down") Desde NIST, National Institute of Standards and Technology, se vienen publicando una serie de documentos de apoyo a la gestión de la seguridad, bajo el prefijo SP (Special Publication), con los cuales se busca aportar desde algunas pautas a la estandarización de acciones que buscan mejorar la seguridad de los activos de información.
-        .bg13.p-4.mb-1(data-aos="fade-left") 
+        p Desde NIST, National Institute of Standards and Technology, se vienen publicando una serie de documentos de apoyo a la gestión de la seguridad, bajo el prefijo SP (Special Publication), con los cuales se busca aportar desde algunas pautas a la estandarización de acciones que buscan mejorar la seguridad de los activos de información.
+        .bg13.p-4.mb-1
           .row.d-flex
             .col-lg-2
-              img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/44.svg', alt='')
+              img.img-a.img-t(src='@/assets/curso/temas/44.svg', alt='')
             .col-lg-10 Entre las publicaciones más importantes, se encuentran aquellas relacionadas con auditorías, control del teletrabajo, control de dispositivos móviles, gestión de inventario de activos, entre otros, y algunos marcos de interoperabilidad.
       .col-lg-5.my-3
-        img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/43.png', alt='')
+        img.img-a.img-t(src='@/assets/curso/temas/43.png', alt='')
 
-    .row.justify-content-center.align-items-center(data-aos="flip-down")
+    .row.justify-content-center.align-items-center(data-aos="zoom-in-left")
       .col-lg-10
         .tarjeta.color-primario.px-3.py-4.mb-5
           .row.justify-content-around.align-items-center

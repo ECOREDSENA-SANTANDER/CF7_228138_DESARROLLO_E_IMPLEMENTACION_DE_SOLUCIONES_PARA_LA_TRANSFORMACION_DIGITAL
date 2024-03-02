@@ -115,9 +115,12 @@
   border-color: #FF6148;
 .bg2
   background-color: #FFC8BF
+  border-radius: 6px
 
 .bg3
-  background-color: #FFF3EA
+  background-color: #CCD5D8
+  border-radius: 6px
+
 
 .bloque-texto-d.color-secundario::before
   background-color: #E1E6E8
@@ -131,7 +134,7 @@
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)
 .custom
   .horizontal-scroll__wrapper
-    padding: 2rem 0.5rem
+    padding: 0.5rem
 .img-w1
  width: 33% !important
  top: 15% !important
@@ -142,6 +145,7 @@
   background-color: #FFC8BF
 .bg5
   background-color: #FFE5CF
+
 
 .img-infografica-b__modal
   background-color: #FFE7E3
@@ -247,9 +251,10 @@
     background-repeat: no-repeat;
 .border-20-cus
   border-radius: 20px;
-
 .vcolor
   color: #FF6148
+.mt-2-cus
+    margin-top: 2rem !important;
 
 .bgw
   background-color: white
@@ -276,6 +281,16 @@
     height: 120px;
 .he-3-cus
     height: 200px;
+.he-4-cus
+  height: 430px;
+.ml-neg-cus
+  margin-left: -20px
+.text-left-cus
+  text-align: left;
+.w-auto-cus
+  width: fit-content;
+.w-45-cus
+  width: 45%;
 .ml-neg-cus
   margin-left: -20px
 
@@ -292,6 +307,8 @@
   border-radius: 6px
   &:hover
     background-color: #FFB476
+.bg11:hover .bg12 
+  background-color: #FFF1E5;
 .bg-white
   background-color: white;
 .color-green
@@ -304,7 +321,9 @@
 .bg12
   background-color: #FFB476
   border-radius: 6px
-
+.bg12-r
+  background-color: #FFB476
+  border-radius: 50%
 .bg13
   background-color:#FFECDC
   border-radius: 6px
@@ -338,11 +357,22 @@
 .bg17
    background-color: #FFF7F0
    border-radius: 6px
+.bg18
+  background-color: #FFE5CF
+  border-radius: 6px;
+.bg19
+  background-color: #FFECDC
+.bg20
+  background-color: #FFEEEB;
+  border-radius: 6px;
+
 .bg-white-r
   background-color: white;
   border-radius: 6px
 
-
+.img-center-cus
+  position: relative
+  top: 35%
 .linea-tiempo-b__icon::after
   left: 90%
 .linea-tiempo-b__icon
@@ -392,3 +422,5 @@
 @media screen and (max-width: $bp-max-xs)
   .slyder-a__bullets__item
     margin: 0 4px
+  .w-img-cus
+    width: 50%;

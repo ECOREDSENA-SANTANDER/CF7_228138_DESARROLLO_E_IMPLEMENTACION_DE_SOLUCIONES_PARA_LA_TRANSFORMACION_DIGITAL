@@ -9,7 +9,7 @@
           i.fas.fa-info
       h1 Introducción
     .tarjeta.color-acento-contenido-2.mb-4.py-2
-      .row.align-items-center
+      .row.justify-content-center.align-items-center
         .col-auto.my-3.mx-4
           img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/1.png', alt='')
         .col-9.my-3

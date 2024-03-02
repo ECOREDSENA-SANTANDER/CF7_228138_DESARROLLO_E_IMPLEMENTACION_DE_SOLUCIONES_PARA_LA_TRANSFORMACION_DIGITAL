@@ -6,7 +6,7 @@
       .titulo-principal__numero
         span 8
       h1 Proveedores de servicio en la nube 
-    .row.align-items-center.justify-content-center.mb-4
+    .row.align-items-center.justify-content-center.mb-4(data-aos="zoom-in-left")
       .col-lg-8.my-3
         p.mb-5 Debido a la masificación y cada vez mayor adopción de tecnologías de cloud computing, han sido muchos los nuevos proveedores que han ido surgiendo y posicionando sus ofertas de servicios, sin embargo, en el mundo occidental podemos mencionar los siguientes como los más grandes y más importantes proveedores de servicios en la nube.
         .bg17.p-4.mb-3(data-aos="fade-left") 
@@ -14,54 +14,91 @@
           .row.align-items-center.justify-content-center.mb-4
             .col-lg-2.my-3
               .bg11.d-flex.px-3.he-2-cus.align-items-center.justify-content-center.flex-column
-                img.img-a.img-t.bg12.px-1.py-2(data-aos="zoom-in")(src='@/assets/curso/temas/99.svg', alt='')
-                .wd-80-cus
-                  p.ml-1-custom Supervisión 
+                img.img-a.img-t.bg12-r.px-1.py-2.mt-4(data-aos="zoom-in")(src='@/assets/curso/temas/156.svg', alt='')
+                .w-100.text-center
+                  p Información 
             .col-lg-2.my-3
               .bg11.d-flex.px-3.he-2-cus.align-items-center.justify-content-center.flex-column
-                img.img-a.img-t.bg12.px-1.py-2(data-aos="zoom-in")(src='@/assets/curso/temas/77.svg', alt='')
-                .wd-80-cus
-                  p.ml-1-custom Supervisión 
+                img.img-a.img-t.bg12-r.px-1.py-2.mt-4(data-aos="zoom-in")(src='@/assets/curso/temas/157.svg', alt='')
+                .w-100.text-center
+                  p Conexión 
             .col-lg-2.my-3
               .bg11.d-flex.px-3.he-2-cus.align-items-center.justify-content-center.flex-column
-                img.img-a.img-t.bg12.px-1.py-2(data-aos="zoom-in")(src='@/assets/curso/temas/77.svg', alt='')
-                .wd-80-cus
-                  p.ml-1-custom Supervisión 
+                img.img-a.img-t.bg12-r.px-1.py-2.mt-4(data-aos="zoom-in")(src='@/assets/curso/temas/158.svg', alt='')
+                .w-100.text-center
+                  p Nube 
 
             .col-lg-2.my-3
               .bg11.d-flex.px-3.he-2-cus.align-items-center.justify-content-center.flex-column
-                img.img-a.img-t.bg12.px-1.py-2(data-aos="zoom-in")(src='@/assets/curso/temas/77.svg', alt='')
-                .wd-80-cus
-                  p.ml-1-custom Supervisió
+                img.img-a.img-t.bg12-r.px-1.py-2.mt-4(data-aos="zoom-in")(src='@/assets/curso/temas/159.svg', alt='')
+                .w-100.text-center
+                  p Seguridad
               
             .col-lg-2.my-3
               .bg11.d-flex.px-3.he-2-cus.align-items-center.justify-content-center.flex-column
-                img.img-a.img-t.bg12.px-1.py-2(data-aos="zoom-in")(src='@/assets/curso/temas/77.svg', alt='')
-                .wd-80-cus
-                  p.ml-1-custom Supervisión 
+                img.img-a.img-t.bg12-r.px-1.py-2.mt-4(data-aos="zoom-in")(src='@/assets/curso/temas/160.svg', alt='')
+                .w-100.text-center
+                  p Archivos 
       .col-lg-4.my-3
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/102.png', alt='')
-    p.mb-5 Los siguientes fueron considerados los principales proveedores de servicios en la nube en el año 2021: 
-    SlyderA(tipo="b").slider-a-custom.mb-5
+    h5.mb-5(data-aos="zoom-in-left") Los siguientes fueron considerados los principales proveedores de servicios en la nube en el año 2021: 
+    SlyderA(tipo="b").slider-a-custom.mb-5(data-aos="zoom-in-left")
         .row.align-items-center.justify-content-center
           .col-lg-6.col-md-12.my-3
-            h4.mb-4 Controles CIS v8
-            p Los controles CIS son una propuesta de controles de seguridad específicos y con los cuales se busca endurecer las acciones defensivas y así prevenir incidentes que afecten los activos de información.
+            h4.mb-4 Alibaba Cloud 
+            p Traducción del inglés- Alibaba Cloud-, también conocida como Aliyun, es una empresa de computación en la nube, una subsidiaria de Alibaba Group. Alibaba Cloud proporciona servicios de computación en la nube a empresas en línea y al propio ecosistema de comercio electrónico de Alibaba.
           .col-lg-6.col-md-12.my-3
-            img.img-a.img-t(src='@/assets/curso/temas/37.png', alt='')
+            img.img-a.img-t(src='@/assets/curso/temas/161.svg', alt='')
         .row.align-items-center.justify-content-center
           .col-lg-6.col-md-12.my-3
-            h4.mb-4 En qué se basan los controles CIS v8
-            p Esta propuesta está basada en múltiples marcos de seguridad, lo que permite abordar diferentes puntos de vista y, asimismo, recoge las mejores propuestas de seguridad.
+            h4.mb-4 Amazon Web Services 
+            p Amazon Web Services es una colección de servicios de computación en la nube pública que en conjunto forman una plataforma de computación en la nube, ofrecidas a través de Internet por Amazon.com. Es usado en aplicaciones populares como Dropbox, Foursquare, HootSuite.
           .col-lg-6.col-md-12.my-3
-            img.img-a.img-t(src='@/assets/curso/temas/38.png', alt='')
+            img.img-a.img-t(src='@/assets/curso/temas/162.svg', alt='')
         .row.align-items-center.justify-content-center
           .col-lg-6.col-md-12.my-3
-            h4.mb-4 Estructuración de CIS v8
-            p Los controles CIS están estructurados en 18 controles y 153 salvaguardas, distribuidos en 3 grupos de implementación.
+            h4.mb-4 Digital Occean 
+            p DigitalOcean es un proveedor estadounidense de servidores virtuales privados, con sede principal en la ciudad de Nueva York. La compañía alquila instalaciones de centros de cómputo existentes, incluyendo sitios como Nueva York, Toronto, Bangalore, Ámsterdam, San Francisco, Londres y Singapur.
           .col-lg-6.col-md-12.my-3
-            img.img-a.img-t(src='@/assets/curso/temas/39.png', alt='') 
-    .row.justify-content-center.align-items-center(data-aos="flip-down")
+            img.img-a.img-t(src='@/assets/curso/temas/163.svg', alt='')
+        .row.align-items-center.justify-content-center
+          .col-lg-6.col-md-12.my-3
+            h4.mb-4 Google Cloud
+            p Google Cloud es una plataforma que ha reunido todas las aplicaciones de desarrollo web que Google estaba ofreciendo por separado.
+          .col-lg-6.col-md-12.my-3
+            img.img-a.img-t(src='@/assets/curso/temas/164.svg', alt='')
+        .row.align-items-center.justify-content-center
+          .col-lg-6.col-md-12.my-3
+            h4.mb-4 Huawei Cloud
+            p Huawei Mobile Cloud es un sistema de almacenamiento nube o cloud computing desarrollado por Huawei. Fue lanzado el 27 de septiembre de 2017 para los dispositivos Huawei con el sistema operativo HarmonyOS y Android. 
+          .col-lg-6.col-md-12.my-3
+            img.img-a.img-t(src='@/assets/curso/temas/165.svg', alt='')
+        .row.align-items-center.justify-content-center
+          .col-lg-6.col-md-12.my-3
+            h4.mb-4 IBM Cloud 
+            p IBM cloud computing es un conjunto de servicios de computación en la nube para empresas que ofrece la compañía de tecnología de la información IBM. 
+          .col-lg-6.col-md-12.my-3
+            img.img-a.img-t(src='@/assets/curso/temas/166.svg', alt='')
+        .row.align-items-center.justify-content-center
+          .col-lg-6.col-md-12.my-3
+            h4.mb-4 Microsoft Azure 
+            p Microsoft Azure es un servicio de computación en la nube creado por Microsoft para construir, probar, desplegar y administrar aplicaciones y servicios mediante el uso de sus centros de datos.
+          .col-lg-6.col-md-12.my-3
+            img.img-a.img-t(src='@/assets/curso/temas/167.svg', alt='')
+        .row.align-items-center.justify-content-center
+          .col-lg-6.col-md-12.my-3
+            h4.mb-4 Oracle Cloud
+            p Es un servicio de computación en nube ofrecido por Oracle Corporation que proporciona servidores, almacenamiento, redes, aplicaciones y servicios a través de una red global de centros de datos administrados por Oracle Corporation.
+          .col-lg-6.col-md-12.my-3
+            img.img-a.img-t(src='@/assets/curso/temas/168.svg', alt='')
+        .row.align-items-center.justify-content-center
+          .col-lg-6.col-md-12.my-3
+            h4.mb-4 Sales force 
+            p Salesforce es una empresa estadounidense de software bajo demanda, más conocida por producir un CRM llamado Sales Cloud.
+          .col-lg-6.col-md-12.my-3
+            img.img-a.img-t(src='@/assets/curso/temas/169.svg', alt='')
+        
+    .row.justify-content-center.align-items-center(data-aos="zoom-in-left")
       .col-lg-10
         .tarjeta.color-primario.p-3.mb-5
           .row.justify-content-around.align-items-center
