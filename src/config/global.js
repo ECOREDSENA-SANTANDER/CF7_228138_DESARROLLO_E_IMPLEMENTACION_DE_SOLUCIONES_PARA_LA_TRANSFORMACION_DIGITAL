@@ -188,7 +188,7 @@ export default {
       tema: 'Plan de gestión de servicios de TI.',
       referencia:
         'Ministerio de Tecnologías de la Información y Comunicaciones. 2019 G.ST.01 Guía del dominio de servicios tecnológicos https://mintic.gov.co/arquitecturati/630/articles-9277_recurso_pdf.pdf',
-      tipo: 'Documento ',
+      tipo: 'Documento',
       link:
         'https://mintic.gov.co/arquitecturati/630/articles-9277_recurso_pdf.pdf',
     },
@@ -240,43 +240,59 @@ export default {
   ],
   glosario: [
     {
-      termino: 'Ágil',
+      termino: 'Active Directory',
       significado:
-        'Comprende un conjunto de tareas o acciones que se utilizan para producir y mantener productos, así como para lograr los objetivos del proceso. La actividad incluye los procedimientos, los estándares, las políticas y los objetivos para crear y modificar un conjunto de productos de trabajo.',
+        'Es una base de datos y un conjunto de servicios que conectan a los usuarios con los recursos de red que necesitan para realizar su trabajo.',
     },
     {
-      termino: 'Capa de red',
+      termino: 'Capacidad',
       significado:
-        'Es la capa tres en del modelo OSI, se encarga de permitir la conexión entre dispositivos que están ubicados en redes diferentes. Es la capa de direccionamiento.',
+        'Propiedad de poder contener cierta cantidad de alguna cosa hasta un límite determinado',
     },
     {
-      termino: 'Ciclo de vida <i>software</i>',
+      termino: 'Ciberseguridad',
       significado:
-        'Aplicación de metodologías para el desarrollo del sistema <i>software</i> (AECC, 1986).',
+        'Conjunto de elementos articulados para la protección de la información alojados en dispositivos en el ciberespacio.',
     },
     {
-      termino: 'Método',
+      termino: 'Comunicación',
       significado:
-        'Indica cómo construir técnicamente el <i>software</i>. Se incluyen técnicas de modelado y otras técnicas descriptivas.',
+        'La comunicación consciente consiste en la transmisión y recepción de datos entre dos o más actores con el fin de transmitir o recibir mensajes u opiniones distintas.',
     },
     {
-      termino: 'Metodología',
-      significado: 'Colección de métodos para resolver un tipo de problemas.',
+      termino: 'Continuidad',
+      significado:
+        'Hace referencia al principio en el que los recursos, información, servicios y aplicaciones se mantienen mantengan en funcionamiento continuo ante un evento no deseado.',
     },
     {
-      termino: 'Protocolo de comunicación',
+      termino: 'Contratación',
       significado:
-        'Conjunto de reglas que permiten la comunicación entre dos o más nodos en servicios específicos. En telemática los protocolos más usados son HTTP, FTP, SMTP, DNS, etc.',
+        'Es el pacto o convenio, oral o escrito, entre partes que se obligan sobre materia o cosa determinada, y a cuyo cumplimiento pueden ser compelidas.',
     },
     {
-      termino: 'Requerimiento',
+      termino: 'Cloud Computing',
       significado:
-        'Se refiere a la petición que se hace de algo que se solicita.',
+        'Conocida también como servicios en la nube, consiste en el uso de una red de servidores remotos alojados en Internet para almacenar, administrar y procesar datos e información, en lugar de un servidor local o una computadora personal.',
     },
     {
-      termino: 'Requisito',
+      termino: 'Disponibilidad',
       significado:
-        'Condición que debe cumplir algo, en general el requisito cumple con lo que se necesita con el requerimiento.',
+        'En tecnología, hace referencia al principio en el que los recursos, información, servicios y aplicaciones están disponibles para quienes tienen derecho de acceso a ellos.',
+    },
+    {
+      termino: 'Dominio',
+      significado:
+        'Un dominio cuando hablamos de virtualización almacena una partición de directorio de dominio que consta de información sobre el dominio en el que se encuentra, más el esquema y las particiones del directorio de configuración para todo el bosque.',
+    },
+    {
+      termino: 'Estándar',
+      significado:
+        'Es un documento técnico que puede ser tomado como referencia para un caso específico.',
+    },
+    {
+      termino: 'Framework',
+      significado:
+        'Es un marco de trabajo específico, con instrucciones y estructuras, para la implementación de alguna acción.',
     },
   ],
   referencias: [
