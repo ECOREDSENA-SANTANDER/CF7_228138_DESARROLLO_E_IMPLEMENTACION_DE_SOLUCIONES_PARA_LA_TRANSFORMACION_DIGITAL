@@ -92,7 +92,7 @@ export default {
         nombreRuta: 'tema5',
         icono: 'far fa-file-alt',
         numero: '5',
-        titulo: 'Ingeniería de requisitos',
+        titulo: 'Entrega de servicios',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -121,12 +121,12 @@ export default {
         subMenu: [
           {
             numero: '6.1',
-            titulo: 'Elemento',
+            titulo: 'Elaboración',
             hash: 't_6_1',
           },
           {
             numero: '6.2',
-            titulo: 'Elemento',
+            titulo: 'Evaluación',
             hash: 't_6_2',
           },
         ],
@@ -136,18 +136,6 @@ export default {
         numero: '7',
         titulo: 'Contratación ',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            numero: '7.1',
-            titulo: 'Elemento',
-            hash: 't_7_1',
-          },
-          {
-            numero: '7.2',
-            titulo: 'Elemento',
-            hash: 't_7_2',
-          },
-        ],
       },
       {
         nombreRuta: 'tema8',
@@ -161,12 +149,6 @@ export default {
         icono: 'fas fa-sitemap',
         titulo: 'Síntesis',
         nombreRuta: 'sintesis',
-        desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'actividad',
-        icono: 'far fa-question-circle',
-        titulo: 'Actividad didáctica',
         desarrolloContenidos: true,
       },
       {
