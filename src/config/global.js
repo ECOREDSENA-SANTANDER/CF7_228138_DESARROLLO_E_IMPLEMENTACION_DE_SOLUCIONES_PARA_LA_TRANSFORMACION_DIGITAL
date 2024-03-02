@@ -298,46 +298,146 @@ export default {
   referencias: [
     {
       referencia:
-        'Boehm, B. (1979). A Spiral Model of Software Development and Enhancement. <i>ACM Software Engineering Notes, 11</i>(4), 22-42.',
-    },
-    {
-      referencia:
-        'Durán, A. y Bernárdez, B. (2001). <i>Metodología para el análisis de requisitos de sistemas software</i>. DOCPLAYER.',
+        'A Linux a Day. (2016). Almacenamiento, introducción y terminología. Página web.',
       link:
-        'https://docplayer.es/9147696-Metodologia-para-el-analisis-de-requisitos-de-sistemas-software.html',
+        'https: //alinuxaday.wordpress.com/2016/01/19/almacenamiento-introduccion-y-terminologia',
+    },
+    {
+      referencia: 'Allcode.com (2021). 10 Top Cloud Providers in 2021.',
+      link: 'https: //allcode.com/cloud-providers/',
+    },
+    {
+      referencia: 'Amazon (2021). AWS Directory Service.Página web.',
+      link: 'https: //aws.amazon.com/es/directoryservice/?nc=sn&loc=1',
     },
     {
       referencia:
-        'Heras del Dedo, R. y Álvarez, A. (2017). <i>Métodos ágiles: Scrum, Kanban, Lean</i>. Difusora Larousse - Anaya Multimedia.',
+        'Castillo (2018). Active Directory ¿Qué es y para qué sirve’.',
+      link: 'https: //www.profesionalreview.com/2018/12/15/active-directory/',
     },
     {
       referencia:
-        'ISO/IEC 12207. (2008). <i>Systems and software engineering - Software life cycle processes</i>. ISO.',
-      link: 'https://www.iso.org/obp/ui/#iso:std:iso-iec:12207:ed-2:v1:en',
-    },
-    {
-      referencia:
-        'Penzenstadler, B. (s.f.). <i>Requirements Engineering. CSU Long Beach</i>. California State University Long Beach',
-      link: 'https://bit.ly/3rtBKXN',
-    },
-    {
-      referencia:
-        'Pfleeger, S. (2002). <i>Ingeniería del software. Teoría y práctica</i>. Prentice Hall.',
-    },
-    {
-      referencia:
-        'Porfirio, C. (s. f.). <i>Técnicas de priorización: el desafío de conseguir un orden para las funcionalidades. Atsistemas - Consultoría it blog</i>.',
+        'Claranet.es (2021). 6 enfoques para afrontar la migración a la nube.',
       link:
-        'https://www.atsistemas.com/es/blog/tcnicas-de-priorizacin-el-desafo-de-conseguir-un-orden-para-las-funcionalidades',
+        'https: //www.claranet.es/blog/6-enfoques-para-afrontar-la-migracion-a-la-nube',
     },
     {
       referencia:
-        'Rivadeneira, M. (2014). Metodologías ágiles enfocadas al modelado de requerimientos. <i>Informes Científicos Técnicos - UNPA, 5</i>(1), 1-29.',
-      link: 'https://doi.org/10.22305/ict-unpa.v5i1.66',
+        'Center for Internet Security (2021). CIS Benchmarks. CISECURITY.',
+      link: 'https: //www.cisecurity.org/cis-benchmarks/',
     },
     {
       referencia:
-        'Sommerville, I. (2011). <i>Ingeniería del software</i>. Addison-Wesley.',
+        'ICONTEC. (2012). Tecnología de la información. Técnicas de seguridad. Gestión de incidentes de seguridad de la información. (GTC-ISO/IEC 27035).',
+      link:
+        'https: //e-collection-icontec-org.bdigital.sena.edu.co/normavw.aspx?ID=311',
+    },
+    {
+      referencia:
+        'ICONTEC. (2017). Tecnología de la información. Gestión del servicio. Parte 2: código de práctica (NTC-ISO/IEC 20000-2).',
+      link: 'https: //www.avancejuridico.com/docpdf/NORMA_TECNICA_20000-02.pdf',
+    },
+    {
+      referencia:
+        'ICONTEC. (2020). Tecnologías de la información. Técnicas de seguridad. Directrices para ciberseguridad (GTC-ISO-IEC 27032: 2020).',
+      link:
+        'https: //tienda.icontec.org/gp-tecnologias-de-la-informacion-tecnicas-de-seguridad-directrices-para-ciberseguridad-gtc-iso-iec27032-2020.html',
+    },
+    {
+      referencia:
+        'ISO 27001. (s. f.-a). Evaluación del Desempeño en ISO 27001- Requisitos en detalle.',
+      link: 'https: //normaiso27001.es/evaluacion-del-desempeno-en-iso-27001/',
+    },
+    {
+      referencia:
+        'ISO 27001. (s. f.-b). ISO 27001 Paso a Paso - 8 Auditoría Interna - ¿Cómo afrontarla?',
+      link:
+        'https: //normaiso27001.es/fase-8-auditoria-interna-segun-iso-27001/',
+    },
+    {
+      referencia:
+        'ISO. (2018). Directrices para la auditoría de los sistemas de gestión. (ISO 19011).',
+      link:
+        'https: //e-collection-icontec-org.bdigital.sena.edu.co/normavw.aspx?ID=75245',
+    },
+    {
+      referencia:
+        'ISO. (2020). ISO/IEC 27001:2013. Information technology — Security techniques — Information security management systems — Requirements.',
+      link: 'https: //www.iso.org/standard/54534.html',
+    },
+    {
+      referencia: 'Microsoft (2021). Cuentas de Active Directory. Docs.',
+      link:
+        'https: //docs.microsoft.com/es-es/windows/security/identity-protection/access-control/active-directory-accounts',
+    },
+    {
+      referencia:
+        'Microsoft (2021). Línea base de seguridad de Azure para Azure Active Directory. Docs.',
+      link:
+        'https: //docs.microsoft.com/es-es/security/benchmark/azure/baselines/aad-security-baseline?toc=/azure/active-directory/fundamentals/toc.json',
+    },
+    {
+      referencia:
+        'Microsoft (2021). Configuración de redundancia geográfica con Replicación de SQL Server. Docs.',
+      link:
+        'https: //docs.microsoft.com/es-es/windows-server/identity/ad-fs/deployment/set-up-geographic-redundancy-with-sql-server-replication',
+    },
+    {
+      referencia: 'MinTIC (2016). Seguridad en la Nube. MinTIC.',
+      link:
+        'https: //mintic.gov.co/gestionti/615/articles-5482_G12_Seguridad_Nube.pdf',
+    },
+    {
+      referencia:
+        'MinTIC (2016). Guía de auditoría. Seguridad y privacidad de la información. MinTIC.',
+      link:
+        'https: //www.mintic.gov.co/gestionti/615/articles-5482_G15_Auditoría.pdf',
+    },
+    {
+      referencia:
+        'MinTIC. (2019). G.ST.01 Guía del dominio de servicios tecnológicos. MinTIC.',
+      link:
+        'https: //mintic.gov.co/arquitecturati/630/articles-9277_recurso_pdf.pdf',
+    },
+    {
+      referencia:
+        'RDR-IT.COM (2021). Active Directory: relación de confianza entre dos bosques / dominios',
+      link:
+        'https: //rdr-it.com/es/active-directory-relacion-de-confianza-entre-dos-bosques-dominios/',
+    },
+    {
+      referencia:
+        'SANS Institute (2003). Global Information Assurance Certification Paper',
+      link:
+        'https: //www.giac.org/paper/gsec/3292/seguridad-con-el-directorio-activo-politicas-de-grupo/105441#:~:text=Las%20pol%C3%ADticas%20de%20grupo%20del,las%20necesidades%20de%20cada%20usuario.',
+    },
+    {
+      referencia: 'Santos García, D. V. (2012). Comunicación oral y escrita.',
+      link:
+        'http: //190.57.147.202:90/jspui/bitstream/123456789/650/1/Comunicacion_oral_y_escrita.pdf',
+    },
+    {
+      referencia:
+        'Secretaria General De La Organización De Los Estados Americanos (1992). Honduras - Proyecto de Manejo de los Recursos Naturales Renovables de la Cuenca del Embalse el Cajón - Estudio de Factibilidad. Costos y financiamiento.',
+      link: 'https: //www.oas.org/dsd/publications/Unit/oea15s/ch09.htm',
+    },
+    {
+      referencia:
+        'South Security Cyber Community. (2021). CIS Mapeo de Controles.',
+      link:
+        'https: //www.southsecurity.org/resources/SouthSecurity-CIS_Mapeo_de_Controles.pdf',
+    },
+    {
+      referencia:
+        'TECNOLOGIA-INFORMATICA.COM (2021). ¿Qué es RAID? Los niveles de RAID.',
+      link:
+        'https: //www.tecnologia-informatica.com/que-es-raid-los-niveles-de-raid',
+    },
+    {
+      referencia:
+        'VIRTUALIZAMOS.ES (2021). ¿Qué tecnología de almacenamiento elijo? Fibre Channel, iSCSI o NAS.',
+      link:
+        'https: //www.virtualizamos.es/que-tecnologia-de-almacenamiento-elijo-fibre-channel-iscsi-o-nas',
     },
   ],
   creditos: [
