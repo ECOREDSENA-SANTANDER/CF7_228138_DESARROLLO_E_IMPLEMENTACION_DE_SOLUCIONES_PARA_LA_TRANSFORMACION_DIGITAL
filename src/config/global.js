@@ -43,7 +43,7 @@ export default {
           },
           {
             numero: '1.2',
-            titulo: 'Plan de gestión de servicios de TI ',
+            titulo: 'Plan de gestión de servicios de TI',
             hash: 't_1_2',
           },
         ],
@@ -68,7 +68,7 @@ export default {
         subMenu: [
           {
             numero: '4.1',
-            titulo: 'Conectividad e internet ',
+            titulo: 'Conectividad e internet',
             hash: 't_4_1',
           },
           {
@@ -116,7 +116,7 @@ export default {
         nombreRuta: 'tema6',
         icono: 'far fa-file-alt',
         numero: '6',
-        titulo: 'Propuesta técnico-económica ',
+        titulo: 'Propuesta técnico-económica',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -134,13 +134,13 @@ export default {
       {
         nombreRuta: 'tema7',
         numero: '7',
-        titulo: 'Contratación ',
+        titulo: 'Contratación',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema8',
         numero: '8',
-        titulo: 'Proveedores de servicio en la nube ',
+        titulo: 'Proveedores de servicio en la nube',
         desarrolloContenidos: true,
       },
     ],
@@ -185,44 +185,57 @@ export default {
   },
   complementario: [
     {
-      tema: 'Aplicaciones web',
-      referencia: 'Ferrer, J. (2014).<i> Aplicaciones web</i>. RA-MA.',
-      tipo: 'Libro',
-      link: 'https://www-ebooks7-24-com.bdigital.sena.edu.co/?il=12589',
-    },
-    {
-      tema: 'Ciclo de vida del <i>software</i>',
+      tema: 'Plan de gestión de servicios de TI.',
       referencia:
-        'Hernández, M. y Baquero, L. (2020). <i>Ciclo de vida de desarrollo ágil de software seguro</i>. Fundación Universitaria Los Libertadores.',
-      tipo: 'Libro',
-      link: 'https://www-ebooks7-24-com.bdigital.sena.edu.co/?il=22372',
+        'Ministerio de Tecnologías de la Información y Comunicaciones. 2019 G.ST.01 Guía del dominio de servicios tecnológicos https://mintic.gov.co/arquitecturati/630/articles-9277_recurso_pdf.pdf',
+      tipo: 'Documento ',
+      link:
+        'https://mintic.gov.co/arquitecturati/630/articles-9277_recurso_pdf.pdf',
     },
     {
-      tema: 'Requisitos',
-      referencia: 'iTunes U - UAEH. (2019). <i>Tipos de requerimientos</i>',
-      tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=PUyfzEzSUSg',
-    },
-    {
-      tema: 'Requisitos',
+      tema: 'Buenas prácticas en ciberseguridad.',
       referencia:
-        'CavernaTech. (2019). <i>Requisitos funcionales y no funcionales de software</i>.',
-      tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=Lv7XbZtnQ6A',
+        'Center for Internet Security. (2021). CIS Benchmarks. CISECURITY. https://www.cisecurity.org/cis-benchmarks/',
+      tipo: 'Norma',
+      link: 'https://www.cisecurity.org/cis-benchmarks/',
     },
     {
-      tema: 'Ingeniería de requisitos',
+      tema: 'Buenas prácticas en ciberseguridad.',
       referencia:
-        'Pressman, R. (2010). <i>Ingeniería del software: un enfoque práctico</i>. McGraw-Hill.',
-      tipo: 'Libro',
-      link: 'https://www-ebooks7-24-com.bdigital.sena.edu.co/?il=686',
+        'MinTIC (2016) Seguridad en la Nube. https://mintic.gov.co/gestionti/615/articles-5482_G12_Seguridad_Nube.pdf',
+      tipo: 'Guía',
+      link:
+        'https://mintic.gov.co/gestionti/615/articles-5482_G12_Seguridad_Nube.pdf',
     },
     {
-      tema: 'Ingeniería de requisitos',
+      tema: 'Contratación',
       referencia:
-        'Sommerville, I. (2011). <i>Ingeniería de software</i>. Pearson Educación.',
-      tipo: 'Libro',
-      link: 'https://www-ebooks7-24-com.bdigital.sena.edu.co/?il=3313',
+        'Ministerio de Comercio, Industria y Turismo. (2013). Decreto Número 1317 del 27 de junio de 2013. https://www.mintic.gov.co/arquitecturati/630/articles-9011_documento.pdf',
+      tipo: 'PDF',
+      link:
+        'https://www.mintic.gov.co/arquitecturati/630/articles-9011_documento.pdf',
+    },
+    {
+      tema: 'Contratación',
+      referencia:
+        'Agencia española de protección de datos. (2013). Guía para clientes que contraten servicios de Computing. http://www.oas.org/es/sla/ddi/docs/Gu%C3%ADa%20para%20 clientes%20que%20contraten%20 servicios%20de%20Cloud%20Computing%20-%20AGPD.pdf',
+      tipo: 'PDF',
+      link:
+        'http://www.oas.org/es/sla/ddi/docs/Gu%C3%ADa%20para%20clientes%20que%20contraten%20servicios%20de%20Cloud%20Computing%20-%20AGPD.pdf',
+    },
+    {
+      tema: 'Contratación',
+      referencia:
+        'República de Colombia, Ministerio de tecnologías de la información y las comunicaciones. (2012). Ley 1581 de 2012. https://www.funcionpublica.gov.co/eva/ gestornormativo/norma_pdf.php?i=49981',
+      tipo: 'PDF',
+      link:
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma_pdf.php?i=49981',
+    },
+    {
+      tema: 'Proveedores de servicio en la nube.',
+      referencia: 'Public Cloud Services Comparison, (s.f) comparecloud.in',
+      tipo: 'Página web',
+      link: 'https://comparecloud.in/',
     },
   ],
   glosario: [
@@ -383,10 +396,10 @@ export default {
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
-          nombre: 'Wilson Andrés Arenales Cáceres ',
-          cargo: 'Storyboard e Ilustración ',
+          nombre: 'Wilson Andrés Arenales Cáceres',
+          cargo: 'Storyboard e Ilustración',
           centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander ',
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
           nombre: 'Camilo Bolaño',
