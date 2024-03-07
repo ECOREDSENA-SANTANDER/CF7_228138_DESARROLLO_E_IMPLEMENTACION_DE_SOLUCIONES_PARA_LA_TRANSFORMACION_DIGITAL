@@ -10,7 +10,7 @@
       .col-lg-8.my-3
         p.mb-5 Debido a la masificación y cada vez mayor adopción de tecnologías de cloud computing, han sido muchos los nuevos proveedores que han ido surgiendo y posicionando sus ofertas de servicios, sin embargo, en el mundo occidental podemos mencionar los siguientes como los más grandes y más importantes proveedores de servicios en la nube.
         .bg17.p-4.mb-3(data-aos="fade-left") 
-          p.mb-3 Los proveedores de <b>servicios cloud</b> han surgido para ofrecer a las organizaciones soluciones innovadoras, de vanguardia, contempla funcionalidades tanto técnicas, que benefician la disponibilidad, así como herramientas para la gestión de los activos de información, a partir de modelos de negocio basados en servicios con componentes modulares. 
+          p.mb-3 Los proveedores de  #[b servicios cloud ] han surgido para ofrecer a las organizaciones soluciones innovadoras, de vanguardia, contempla funcionalidades tanto técnicas, que benefician la disponibilidad, así como herramientas para la gestión de los activos de información, a partir de modelos de negocio basados en servicios con componentes modulares. 
           .row.align-items-center.justify-content-center.mb-4
             .col-lg-2.my-3
               .bg11.d-flex.px-3.he-2-cus.align-items-center.justify-content-center.flex-column

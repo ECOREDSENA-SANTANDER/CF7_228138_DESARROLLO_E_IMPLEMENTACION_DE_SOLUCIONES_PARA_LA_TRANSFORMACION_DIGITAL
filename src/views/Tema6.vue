@@ -38,30 +38,30 @@
       .tarjeta.bg14.p-5(titulo="Presupuesto")
         h4 Presupuesto
         .row 
-          .col-9
+          .col-sm-12.col-md-9
             p En los primeros acercamientos con el posible cliente, hay que indagar sobre la capacidad económica de la empresa y con qué presupuesto dispone para el proyecto; esto, con el fin de amoldarse a él o presentar una propuesta adecuada a sus recursos.
-          .col-3 
+          .col-sm-12.col-md-3
             img.img-t(src='@/assets/curso/temas/132.svg')
       .tarjeta.bg14.p-5(titulo="Términos de referencia")
         h4 Términos de referencia
         .row 
-          .col-9
+          .col-sm-12.col-md-9
             p Reconozca los Términos de Referencia (TDR) que son los lineamientos generales establecidos por el contratante y donde define los resultados esperados, estos contienen los objetivos, alcances y resultados.
-          .col-3 
+          .col-sm-12.col-md-3
             img.img-t(src='@/assets/curso/temas/133.svg')
       .tarjeta.bg14.p-5(titulo="Propuesta técnica")
         h4 Propuesta técnica
         .row 
-          .col-9
+          .col-sm-12.col-md-9
             p Es un documento en que se detalla la estrategia a desarrollar para dar solución a la necesidad propuesta por un cliente o licitación, en esta se debe relacionar el resumen ejecutivo, objetivos, metodología, plazos / cronograma, perfiles, productos y propuesta económica.
-          .col-3 
+          .col-sm-12.col-md-3
             img.img-t(src='@/assets/curso/temas/134.svg')
       .tarjeta.bg14.p-5(titulo="Propuesta económica")
         h4 Propuesta económica
         .row 
-          .col-9
+          .col-sm-12.col-md-9
             p Es donde se plasman los costos de implementación de la propuesta técnica, se puede utilizar un cuadro donde se listen todos los productos y/o actividades que se contemplan en la solución con sus respectivas unidades, además se debe considerar recursos (papelería, viáticos, transporte, etc), recurso humano, imprevistos, impuestos, IVA y el monto total con impuestos.
-          .col-3 
+          .col-sm-12.col-md-3
             img.img-t(src='@/assets/curso/temas/135.svg')
 
 

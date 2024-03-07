@@ -229,7 +229,8 @@
 .tabla-a thead
   border-top: #FFF3EA  solid 5px !important
   background-color: #FF6148
-
+.tabs-a__tab
+    background-color: #E4E9EB;
 .bloque-texto-c.color-secundario
   background-color: #E1E6E8
 
@@ -283,6 +284,8 @@
     height: 200px;
 .he-4-cus
   height: 430px;
+.he-5-cus 
+    height: 70px;
 .ml-neg-cus
   margin-left: -20px
 .text-left-cus
@@ -365,7 +368,9 @@
 .bg20
   background-color: #FFEEEB;
   border-radius: 6px;
-
+.bg21
+  background-color: #FFF3EA
+  border-radius: 10px
 .bg-white-r
   background-color: white;
   border-radius: 6px
@@ -411,16 +416,53 @@
       position: relative
       margin-right: 7px
       font-size: 1.4rem
-
+.bg-img
+  background-image: 'img/55.svg'
+          
 
 .banner-principal
   .container.tarjeta
     @media screen and (max-width: $bp-max-xs)
       background-image: none !important
       background: #093A4F
+.w-75-cus
+  width: 75%
 
+.bg-img-blue
+    background-color: rgb(8, 49, 66); 
+    border-radius: 25px 
+    padding: 7px
+.icon-img-blue
+   max-width: 55px; 
+   left: -10%; 
+   position: relative
 @media screen and (max-width: $bp-max-xs)
+  .slyder-a__bullets__item
+    margin: 0 4px
+  .w-img-cus,.w-img-cus-2
+    width: 50%;
+  .flex-sm-column-cus
+    flex-direction: column;
+  .he-4-cus
+    height: 100%
+  .w-75-cus
+    width: 50%
+  .mb-2-cus
+    margin-bottom: 0.5rem !important
+  
+
+@media screen and (max-width: $bp-max-md)
   .slyder-a__bullets__item
     margin: 0 4px
   .w-img-cus
     width: 50%;
+  .w-img-cus-2
+    width: 25%;
+  .flex-sm-column-cus
+    flex-direction: column;
+  .he-4-cus
+    height: 100%
+  .w-75-cus
+    width: 30%
+  .mb-2-cus
+    margin-bottom: 0.5rem !important

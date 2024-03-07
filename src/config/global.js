@@ -90,7 +90,6 @@ export default {
       },
       {
         nombreRuta: 'tema5',
-        icono: 'far fa-file-alt',
         numero: '5',
         titulo: 'Entrega de servicios',
         desarrolloContenidos: true,
@@ -114,7 +113,6 @@ export default {
       },
       {
         nombreRuta: 'tema6',
-        icono: 'far fa-file-alt',
         numero: '6',
         titulo: 'Propuesta técnico-económica',
         desarrolloContenidos: true,

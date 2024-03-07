@@ -18,7 +18,7 @@
           .col-lg-12.align-items-center.justify-content-center
             .tarjeta.bg14.p-3.mb-5.align-items-center.justify-content-center
               .row.justify-content-around.align-items-center
-                .col-lg-2.w-img-cus
+                .col-lg-2.w-img-cus-2
                   img(src="@/assets/curso/temas/23.svg")
                 .col-lg-10
                   .row.justify-content-between.align-items-center
@@ -35,7 +35,7 @@
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
                   h3.mb-1 Normativa en Seguridad de la Información
-                  p.mb-0 Refuerce su conocimiento sobre las normas que orientan las acciones enfocadas a la seguridad de la información, visitando el archivo denominado <b>NormativaSeguridadInformación</b> y haciendo lectura atenta de la teoría allí contenida.
+                  p.mb-0 Refuerce su conocimiento sobre las normas que orientan las acciones enfocadas a la seguridad de la información, visitando el archivo denominado  #[b NormativaSeguridadInformación ] y haciendo lectura atenta de la teoría allí contenida.
                 .col-sm-auto
                   a.boton.color-acento-botones(:href="obtenerLink('/downloads/NormativaSeguridadInformacion.pdf')" target="_blank")
                     span Descargar

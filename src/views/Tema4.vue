@@ -138,37 +138,37 @@
       .tarjeta.bg14.p-5(titulo="Conexión analógica")
         h4 Conexión analógica
         .row 
-          .col-9
+          .col-sm-12.col-md-9
             p Es una conexión usada en hogares, con un rendimiento estable y básico que funciona por medio de un módem conectado a la red telefónica convirtiendo las señales digitales en analógicas.
-          .col-3 
+          .col-sm-12.col-md-3 
             img.img-t(src='@/assets/curso/temas/111.svg')
       .tarjeta.bg14.p-5(titulo="ADSL")
         h4 ADSL
         .row 
-          .col-9
+          .col-sm-12.col-md-9
             p Por medio de este método  se usa una línea digital de banda ancha permite que la señal sea enviada por el operador de telecomunicaciones pueda emitirse a un mayor alcance para la transmisión de datos a través de la red de telefonía básica.
-          .col-3 
+          .col-sm-12.col-md-3 
             img.img-t(src='@/assets/curso/temas/112.svg')
       .tarjeta.bg14.p-5(titulo="Cable")
         h4 Cable
         .row 
-          .col-9
+          .col-sm-12.col-md-9
             p Es reconocida por utilizar cables de fibra óptica y cable coaxial para así emitir una óptima señal, puede alcanzar hasta más de 200 Mbps en velocidad de bajada teniendo este tipo de señal con que cuenta el operador de internet.
-          .col-3 
+          .col-sm-12.col-md-3 
             img.img-t(src='@/assets/curso/temas/113.svg')
       .tarjeta.bg14.p-5(titulo="Internet inalámbrico")
         h4 Internet inalámbrico
         .row 
-          .col-9
+          .col-sm-12.col-md-9
             p Es el método donde  la conexión de nodos se da por medio de ondas electromagnéticas, sin necesidad de una red cableada o alámbrica.
-          .col-3 
+          .col-sm-12.col-md-3 
             img.img-t(src='@/assets/curso/temas/114.svg') 
       .tarjeta.bg14.p-5(titulo="Internet satelital")
         h4 Internet satelital
         .row 
-          .col-9
+          .col-sm-12.col-md-9
             p Es un método de conexión mediante ondas electromagnéticas utilizando como medio de comunicación un satélite y una estación terrena. Es un sistema de acceso muy recomendable en aquellos lugares donde no hay cobertura o factibilidad técnica para otros tipos de conexión tradicional.
-          .col-3 
+          .col-sm-12.col-md-3 
             img.img-t(src='@/assets/curso/temas/115.svg')
     Separador
 
@@ -177,30 +177,28 @@
     p(data-aos="zoom-in-left").mb-4 Es la capacidad para el manejo de los datos, en la cual se incluyen las operaciones en los sistemas de cómputo para realizar cálculos, procesos, transformación de la información, transmisión de datos de un lugar a otro, etc. 
     p(data-aos="zoom-in-left").mb-4.fw-bold Los tipos de conectividad pueden dividirse en: 
 
-    .row.justify-content-center.align-items-start.mb-4.bg-norepeat.border-20-cus(
-            :style="{'background-image': `url(${require('@/assets/curso/temas/55.svg')})`}"
-          )(data-aos="zoom-in-left")
-      .col-lg-9.my-3
+    .row.justify-content-center.align-items-start.mb-4.bg21
+      .col-lg-11.my-3
         .tarjeta.tarjeta--transparent.p-4.mb-5
           LineaTiempoC.color-acento-contenido
             .row.justify-content-center.align-items-start(titulo="Origen")
-              .col-11.d-flex.mt-3
+              .col-sm-12.col-md-11.d-flex.mt-0.flex-sm-column-cus
                 p Consiste en recolectar los datos e información inicial a procesar, es lo que se considera como el "documento fuente".
                 img.ml-1-custom.img-a.img-t.px-1.py-2(src='@/assets/curso/temas/57.svg', alt='')
             .row.justify-content-center.align-items-start(titulo="Entrada")
-              .col-11.d-flex.mt-3
+              .col-sm-12.col-md-11.d-flex.mt-0.flex-sm-column-cus
                 p Los datos iniciales se clasifican antes del procesamiento para su reconocimiento.
                 img.ml-1-custom.img-a.img-t.px-1.py-2(src='@/assets/curso/temas/56.svg', alt='')
             .row.justify-content-center.align-items-start(titulo="Procesamiento")
-              .col-11.d-flex.mt-3
+              .col-sm-12.col-md-11.d-flex.mt-0.flex-sm-column-cus
                 p Es el proceso durante el que ejecutarán las operaciones necesarias para convertir los datos en información significativa y cuando están transformados se preparan para la salida o visualización.
                 img.ml-1-custom.img-a.img-t.px-1.py-2(src='@/assets/curso/temas/58.svg', alt='')
             .row.justify-content-center.align-items-start(titulo="Salida")
-              .col-11.d-flex.mt-3
+              .col-sm-12.col-md-11.d-flex.mt-0.flex-sm-column-cus
                 p Es el mecanismo para presentar los resultados obtenidos en el procesamiento, pueden ser presentados en pantalla, impresos o entregados de la forma que se requiera específicamente.
                 img.ml-1-custom.img-a.img-t.px-1.py-2(src='@/assets/curso/temas/59.svg', alt='')
             .row.justify-content-center.align-items-start(titulo="Distribución")
-              .col-11.d-flex.mt-3
+              .col-sm-12.col-md-11.d-flex.mt-0.flex-sm-column-cus
                 p Es el proceso mediante el cual se envía o entrega la información o producto de salida del procesamiento, estos pueden llegar a ser documentos fuente para futuros procesamientos.
                 img.ml-1-custom.img-a.img-t.px-1.py-2(src='@/assets/curso/temas/60.svg', alt='')
             
@@ -220,8 +218,8 @@
         img.img-a.img-t(src='@/assets/curso/temas/61.png', alt='')
     .mb-4.d-flex.bg-img-title(data-aos="zoom-in-left")
       .d-flex.flex-wrap.align-items-center.pe-4
-        h3.col.px-4.mb-0.text-white.aos-init.aos-animate(style='background-color: rgb(8, 49, 66); border-radius: 25px; width: 300px; padding:7px;') Generalidades
-        img.col-lg.d-flex.aos-init.aos-animate(src='@/assets/curso/temas/103.svg' style='max-width: 55px; left: -10%; position: relative;')
+        h3.col.px-4.mb-0.text-white.bg-img-blue(style='width: 300px;') Generalidades
+        img.col-lg.d-flex(src='@/assets/curso/temas/103.svg').icon-img-blue
     
     .row.align-items-center.justify-content-center.mb-4(data-aos="zoom-in-left")
       .col-lg-5.my-3
@@ -233,8 +231,8 @@
             .col-lg-12 Normalmente en el campo de la virtualización encontramos tecnologías como FC que es de las más reconocidas, no debemos pasar por alto iSCSI o NAS como alternativas. Estas últimas tienen un abanico de dispositivos iSCSI o NAS en el mercado, observamos características como capacidades y escalabilidad y ver que nuestro requerimiento sea compensado. Por eso se precisa que en este momento del proyecto el almacenamiento es una parte crítica para ello.
     .mb-4.d-flex.bg-img-title(data-aos="zoom-in-left")
       .d-flex.flex-wrap.align-items-center.pe-4
-        h3.col.px-4.mb-0.text-white.aos-init.aos-animate(style='background-color: rgb(8, 49, 66); border-radius: 25px; width: 300px; padding:7px;') Tipos de almacenamiento
-        img.col-lg.d-flex.aos-init.aos-animate(src='@/assets/curso/temas/103.svg' style='max-width: 55px; left: -10%; position: relative;')
+        h3.col.px-4.mb-0.text-white.bg-img-blue(style='width: 300px;') Tipos de almacenamiento
+        img.col-lg.d-flex(src='@/assets/curso/temas/103.svg').icon-img-blue
     
     p(data-aos="zoom-in-left").mb-5    Existen diferencias en los tipos de almacenamiento de datos, a continuación, podrá consultar aquello de carácter principal de acuerdo a las especificaciones técnicas para la arquitectura tecnológica en nube, veamos el siguiente recurso didáctico:
     LineaTiempoD.color-secundario
@@ -289,19 +287,19 @@
     
     .mb-4.d-flex.bg-img-title(data-aos="zoom-in-left").mt-5
       .d-flex.flex-wrap.align-items-center.pe-4
-        h3.col.px-4.mb-0.text-white.aos-init.aos-animate(style='background-color: rgb(8, 49, 66); border-radius: 25px; width: 370px; padding:7px;') Tecnologías de almacenamiento
-        img.col-lg.d-flex.aos-init.aos-animate(src='@/assets/curso/temas/103.svg' style='max-width: 55px; left: -10%; position: relative;')
+        h3.col.px-4.mb-0.text-white.bg-img-blue(style='width: 370px;') Tecnologías de almacenamiento
+        img.col-lg.d-flex(src='@/assets/curso/temas/103.svg').icon-img-blue
     
     .row.d-flex.align-items-center.justify-content-center(data-aos="zoom-in-left")
         .col-lg-4.he-3-cus
           img.img-a.img-t(src='@/assets/curso/temas/67.png', alt='')
         .col-lg-8.bg19.he-3-cus.ml-neg-cus.align-items-center.justify-content-center
-          p(data-aos="zoom-in-left").mb-5.align-items-center.justify-content-center.img-center-cus Las principales tecnologías de almacenamiento, se relacionan con los protocolos de uso, componentes, y costos, <b>a continuación, se describen las principales.</b>
+          p(data-aos="zoom-in-left").mb-5.align-items-center.justify-content-center.img-center-cus Las principales tecnologías de almacenamiento, se relacionan con los protocolos de uso, componentes, y costos,  #[b a continuación, se describen las principales. ]
     .bg15.p-5.mt-5.mb-5(data-aos="zoom-in-left")   
       h3(data-aos="zoom-in-left").mb-5 iSCSI - Internet Small Computer System Interface
       p(data-aos="zoom-in-left").mb-5 Sistema de almacenamiento basado en bloques como FC -Fiber Channel, pero a diferencia, utiliza componentes de una red Ethernet tradicional para realizar la conexión entre los hosts y el sistema de almacenamiento. Al utilizar componentes Ethernet, iSCSI es más barato de implementar.
       .row 
-        .col-8
+        .col-sm-12.col-md-8
           ul.lista-ul--color
             li 
               i.fas.fa-chevron-right
@@ -313,16 +311,16 @@
               i.fas.fa-chevron-right
               p En cuanto a seguridad, a diferencia de FC, iSCSI implementa sistemas de autenticación (CHAP) y encriptación.
       
-        .col-4
-          img(src='@/assets/curso/temas/121.svg', alt='')
+        .col-sm-12.col-md-4
+          img.mb-5(src='@/assets/curso/temas/121.svg', alt='')
 
 
       h3(data-aos="zoom-in-left").mb-3 FC - Fiber channel
       p(data-aos="zoom-in-left").mb-5 FC presenta un grado alto de rendimiento y fiabilidad, pero implican realizar una inversión económica mayor e introducen complejidad en la configuración del centro de datos. FC es la solución más utilizada para entornos de virtualización de gran dimensión o máquinas virtuales con IOPS (número de E/S de acceso a disco) alto gracias a los anchos de banda que se alcanzan (8 Gpbs e incluso 16 Gbps).
       .row(data-aos="zoom-in-left")
-        .col-4
+        .col-sm-12.col-md-4.mb-5
           img(src='@/assets/curso/temas/69.svg', alt='')
-        .col-8
+        .col-sm-12.col-md-8
           .row
             .col-lg-12
               .tarjeta-avatar-b.mb-3
@@ -379,10 +377,10 @@
                 img(src='@/assets/curso/temas/84.svg', alt='Texto que describa la imagen')
     .mb-4.d-flex.bg-img-title(data-aos="zoom-in-left")
       .d-flex.flex-wrap.align-items-center.pe-4
-        h3.col.px-4.mb-0.text-white.aos-init.aos-animate(style='background-color: rgb(8, 49, 66); border-radius: 25px; width: 200px; padding:7px;') Arreglos Raid
-        img.col-lg.d-flex.aos-init.aos-animate(src='@/assets/curso/temas/103.svg' style='max-width: 55px; left: -10%; position: relative;')
+        h3.col.px-4.mb-0.text-white.bg-img-blue(style='width: 200px;') Arreglos Raid
+        img.col-lg.d-flex(src='@/assets/curso/temas/103.svg').icon-img-blue
     
-    p.mb-3(data-aos="zoom-in-left") <b>RAID es la sigla para</b>  “Redundant Array of Independent Disks”. Su definición en español sería "Matriz Redundante de Discos Independientes". Se trata de una tecnología que combina varios discos rígidos (HD) para formar una única unidad lógica, donde los mismos datos son almacenados en todos los discos (redundancia). En otras palabras, es un conjunto de discos rígidos que funcionan como si fueran uno solo.
+    p.mb-3(data-aos="zoom-in-left")  #[b RAID es la sigla para ]  “Redundant Array of Independent Disks”. Su definición en español sería "Matriz Redundante de Discos Independientes". Se trata de una tecnología que combina varios discos rígidos (HD) para formar una única unidad lógica, donde los mismos datos son almacenados en todos los discos (redundancia). En otras palabras, es un conjunto de discos rígidos que funcionan como si fueran uno solo.
     .row.align-items-center.justify-content-center.mb-4
       .col-lg-5.my-3
         img.img-a.img-t(src='@/assets/curso/temas/72.png', alt='')
@@ -406,30 +404,30 @@
           .bloque-texto-g__texto.px-4.py-5
             p.mb-0 La gestión de la capacidad, posibilita encargarse de las TI, asegurando que la capacidad de las tecnologías de la información, cumplen los requisitos establecidos, al momento y en el futuro de la organización, y que genera un costo que puede ser asumido sin problema, tanto en la gestión de la capacidad física, como económica.
     p.mb-5(data-aos="zoom-in-left") Una correcta definición de los servicios de una compañía, es clave en el proceso, por esta razón debe tenerse claro cuál es la herramienta o herramientas útiles en la gestión diaria del servicio, así como los indicadores que medirán dicho servicio. Las actividades más significativas de la Gestión de la Capacidad son: 
-    .row.align-items-center.justify-content-center.mb-4(data-aos="zoom-in-left")
-      .col-lg-4.my-3
-        .bg11.d-flex.px-3.he-2-cus.align-items-center.justify-content-center
+    .row.align-items-center.justify-content-center(data-aos="zoom-in-left")
+      .col-lg-4.m-0
+        .bg11.d-flex.px-3.he-5-cus.align-items-center.justify-content-center
           img.img-a.img-t.bg12.px-1.py-2(src='@/assets/curso/temas/74.svg', alt='')
           .wd-80-cus
             p.ml-1-custom Monitorización y seguimiento
-      .col-lg-4.my-3
-        .bg11.d-flex.px-3.he-2-cus.align-items-center.justify-content-center
+      .col-lg-4.m-0
+        .bg11.d-flex.px-3.he-5-cus.align-items-center.justify-content-center
           img.img-a.img-t.bg12.px-1.py-2(src='@/assets/curso/temas/75.svg', alt='')
           .wd-80-cus
             p.ml-1-custom Requisitos de capacidad
-      .col-lg-4.my-3
-        .bg11.d-flex.px-3.he-2-cus.align-items-center.justify-content-center
+      .col-lg-4.m-0
+        .bg11.d-flex.px-3.he-5-cus.align-items-center.justify-content-center
           img.img-a.img-t.bg12.px-1.py-2(src='@/assets/curso/temas/76.svg', alt='')
           .wd-80-cus
             p.ml-1-custom Planificación
     .row.align-items-center.justify-content-center.mb-4(data-aos="zoom-in-left")
-      .col-lg-4.my-3
-        .bg11.d-flex.px-3.he-2-cus.align-items-center.justify-content-center
+      .col-lg-4.m-0
+        .bg11.d-flex.px-3.he-5-cus.align-items-center.justify-content-center
           img.img-a.img-t.bg12.px-1.py-2(src='@/assets/curso/temas/77.svg', alt='')
           .wd-80-cus
             p.ml-1-custom Supervisión 
       .col-lg-4.my-3
-        .bg11.d-flex.px-3.he-2-cus.align-items-center.justify-content-center
+        .bg11.d-flex.px-3.he-5-cus.align-items-center.justify-content-center
           img.img-a.img-t.bg12.px-1.py-2(src='@/assets/curso/temas/78.svg', alt='')
           .wd-80-cus
             p.ml-1-custom Gestión de la demanda 

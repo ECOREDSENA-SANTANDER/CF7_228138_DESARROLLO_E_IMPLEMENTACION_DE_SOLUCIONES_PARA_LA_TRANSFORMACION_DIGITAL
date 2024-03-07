@@ -22,12 +22,14 @@
       .col-lg-12
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/86.svg', alt='')
     p.mb-5(data-aos="zoom-in-left") En la siguiente figura se describen las interacciones y funcionalidades de la gestión de niveles de servicio.
-    .titulo-sexto.color-acento-contenido.mb-4.aos-init.aos-animate(data-aos="zoom-in-left")
-      h5 Figura 5.
-      span
-        |  Interacciones y funcionalidades gestión de niveles de servicio
-    figure.mt-4.mb-5(data-aos="zoom-in-left")
-      img(src='@/assets/curso/temas/87.svg', alt='Actividades del plan de gestión de servicios TI')
+    .row.mb-5
+      .col-sm-12.col-md-12.col-lg-10.m-auto    
+        .titulo-sexto.color-acento-contenido.mb-4(data-aos="zoom-in-left")
+          h5 Figura 5.
+            span
+              |  Interacciones y funcionalidades gestión de niveles de servicio
+        figure.mt-4.mb-5(data-aos="zoom-in-left")
+            img(src='@/assets/curso/temas/87.svg', alt='Actividades del plan de gestión de servicios TI')
     Separador
     #t_5_2.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2 5.2 Acuerdo de Nivel de Operación (OLA) 
@@ -102,21 +104,21 @@
       h2 5.3 Acuerdo de acompañamiento (UC)
     p.mb-5(data-aos="zoom-in-left") Son talleres interactivos para las zonas de trabajo híbridos (virtuales o presenciales) en los que se ponen en práctica las herramientas CoCreArE de acuerdo con las necesidades de cada equipo. Los acompañamientos pueden consistir en una o varias sesiones.      
     .row.mb-5(data-aos="zoom-in-left")
-      .col-4
+      .col-sm-12.col-md-12.col-lg-4
         p.mb-3 También dentro de toda infraestructura se pueden proporcionar herramientas de acompañamiento, que hoy en día se están utilizando, con el objetivo de optimizar los procesos, mejorar la comunicación, acompañamiento y conservar a los equipos de trabajo motivados. 
         .row.justify-content-center.align-items-center
           .col-lg-12
             .tarjeta.bg14.p-3.mb-5.mt-4
               .row.justify-content-around.align-items-center
-                .col-5.col-sm-2.col-lg-2
+                .col-sm-2.col-md-2.w-img-cus
                   img(src="@/assets/curso/temas/88.svg")
-                .col
+                .col-sm-12.col-md-10
                   .row.justify-content-between.align-items-center
                     .col.mb-3.mb-sm-0
                       p.mb-0 En estos momentos, la comunicación interna es fundamental en todas las empresas, para que exista esa sinergia, especialmente si se ha implementado el teletrabajo u home-office, que han dado apertura a la aparición de la tendencia de nómadas digitales.
-      .col-4
+      .col-sm-12.col-md-12.col-lg-4
         img.img-a.img-t.mb-3(src="@/assets/curso/temas/89.png", alt="alt").img100.m-auto
-      .col-4
+      .col-sm-12.col-md-12.col-lg-4
         .bg10.p-4.mb-1(data-aos="fade-left") 
             .row
               .col-lg-12
