@@ -189,10 +189,93 @@
         h3.col.px-4.mb-0.text-white.bg-img-blue(style='width: 300px;') Gestión de la continuidad
         img.col-lg.d-flex(src='@/assets/curso/temas/103.svg').icon-img-blue
     p(data-aos="zoom-in-left") Esta actividad se relaciona, con las acciones que se realizan al interior de la organización, y que permiten asegurar que todos los procesos críticos estarán disponibles para los clientes, proveedores y otras entidades que deban acceder a ellos, estas actividades se observan en el siguiente recurso educativo:
-    .row(data-aos="zoom-in-left")
-      .col-lg-12.mb-3
-        img(src='@/assets/curso/temas/27.png', alt='Las actividades claves para la Gestión de la Continuidad de los Servicios TI')
-
+    
+    .row.mb-5
+      .col-12.bg-img-card 
+        .row.mb-5.align-items-center.justify-content-center.z-index-cus 
+          .col-1.m-0.p-0
+              img.he-5-cus.img-pos-3(src='@/assets/curso/temas/176.svg')
+          .col-6.bg22.text-white.m-0.p-0.he-5-cus.px-3.z-index-cus 
+              h5.mt-5-cus Las actividades claves para la Gestión de la Continuidad de los Servicios TI 
+        .row.mb-5.align-items-center.justify-content-center
+          .col-6.z-index-cus.px-5.m-auto 
+            img(src='@/assets/curso/temas/178.svg')
+          .col-6.z-index-cus
+            .row.mb-3
+              .col-11
+                .tarjeta-avatar-b.he-5-cus 
+                  .tarjeta-avatar-b__img
+                    img(src='@/assets/curso/temas/179.svg' alt='AvatarTop')
+                  .tarjeta.tarjeta--white.tarjeta-avatar-cus
+                    .p-4
+                      p Establecer  las políticas y alcance de la ITSCM.
+            .row.mb-3
+              .col-11
+                .tarjeta-avatar-b.he-5-cus 
+                  .tarjeta-avatar-b__img
+                    img(src='@/assets/curso/temas/180.svg' alt='AvatarTop')
+                  .tarjeta.tarjeta--white.tarjeta-avatar-cus
+                    .p-4
+                      p Evaluar el impacto en el negocio de una interrupción de los servicios TI.
+            .row.mb-3
+              .col-11
+                .tarjeta-avatar-b.he-5-cus 
+                  .tarjeta-avatar-b__img
+                    img(src='@/assets/curso/temas/181.svg' alt='AvatarTop')
+                  .tarjeta.tarjeta--white.tarjeta-avatar-cus
+                    .p-4
+                      p Analizar y prever los riesgos a los que está expuesto la infraestructura TI.
+            .row.mb-3
+              .col-11
+                .tarjeta-avatar-b.he-5-cus 
+                  .tarjeta-avatar-b__img
+                    img(src='@/assets/curso/temas/182.svg' alt='AvatarTop')
+                  .tarjeta.tarjeta--white.tarjeta-avatar-cus
+                    .p-4
+                      p Establecer las estrategias de continuidad del servicio TI.
+            .row.mb-3
+              .col-11
+                .tarjeta-avatar-b.he-5-cus 
+                  .tarjeta-avatar-b__img
+                    img(src='@/assets/curso/temas/183.svg' alt='AvatarTop')
+                  .tarjeta.tarjeta--white.tarjeta-avatar-cus
+                    .p-4
+                      p Adoptar medidas proactivas de prevención del riesgo.
+            .row.mb-3
+              .col-11
+                .tarjeta-avatar-b.he-5-cus 
+                  .tarjeta-avatar-b__img
+                    img(src='@/assets/curso/temas/184.svg' alt='AvatarTop')
+                  .tarjeta.tarjeta--white.tarjeta-avatar-cus
+                    .p-4
+                      p Desarrollar los planes de contingencia.
+            .row.mb-3
+              .col-11
+                .tarjeta-avatar-b.he-5-cus 
+                  .tarjeta-avatar-b__img
+                    img(src='@/assets/curso/temas/185.svg' alt='AvatarTop')
+                  .tarjeta.tarjeta--white.tarjeta-avatar-cus
+                    .p-4
+                      p Poner a prueba dichos planes. 
+            .row.mb-3
+              .col-11
+                .tarjeta-avatar-b.he-5-cus 
+                  .tarjeta-avatar-b__img
+                    img(src='@/assets/curso/temas/186.svg' alt='AvatarTop')
+                  .tarjeta.tarjeta--white.tarjeta-avatar-cus
+                    .px-4.pt-3
+                      p Formar al personal sobre los procedimientos necesarios para la pronta recuperación del servicio.
+            .row.mb-3
+              .col-11
+                .tarjeta-avatar-b.he-5-cus 
+                  .tarjeta-avatar-b__img
+                    img(src='@/assets/curso/temas/187.svg' alt='AvatarTop')
+                  .tarjeta.tarjeta--white.tarjeta-avatar-cus
+                    .px-4.pt-2
+                      p Revisar periódicamente los planes para adaptarlos a las necesidades reales del negocio.
+      
+      
+      
     .row.justify-content-center.align-items-center(data-aos="zoom-in-left")
       .col-lg-12
         .bloque-texto-a.color-acento-contenido.p-2.p-md-3.mb-5
@@ -221,9 +304,59 @@
           .bloque-texto-g__texto.px-4.py-5
             p.mb-0 Esta gestión es la encargada de asegurar que la infraestructura, así como los procesos, las herramientas y las funciones de TI, sean los adecuados para dar cumplimiento a los objetivos de disponibilidad establecidos.
     p.mb-3(data-aos="zoom-in-left") Las actividades claves para la Gestión de la Disponibilidad son las siguientes:
-    .row(data-aos="zoom-in-left")
-      .col-lg-12.mb-3
-        img(src='@/assets/curso/temas/32.svg', alt='Actividades del plan de gestión de servicios TI')
+    .row.bg-img-card-2.mb-5.p-4
+      .col-lg-10.m-auto
+        .row 
+          .col-3.bg23
+            p.px-2.py-4.text-center Determinar cuáles son los requisitos de disponibilidad reales del negocio.
+          .col-1 
+          .col-3.bg24
+            p.px-2.py-4.text-center Monitorizar la disponibilidad de los servicios TI.
+          .col-1.mt-5
+            img(src='@/assets/curso/temas/189.svg')
+          .col-3.bg23
+            p.px-2.py-4.text-center Elaborar informes de seguimiento con la información recopilada sobre disponibilidad, fiabilidad, mantenibilidad y cumplimiento de OLAs y UCs.
+        .row.my-3 
+          .col-3.m-auto
+            img.he-5-cus(src='@/assets/curso/temas/190.svg')
+          .col-1 
+          .col-3.m-auto
+            img.he-5-cus(src='@/assets/curso/temas/191.svg')
+          .col-1
+          .col-3.m-auto
+            img.he-5-cus(src='@/assets/curso/temas/190.svg') 
+        .row 
+          .col-3.bg24
+            p.px-2.py-4.text-center Desarrollar un plan de disponibilidad donde se estimen las necesidades de disponibilidad futura a corto y medio plazo.
+          .col-1 
+          .col-3.bg23
+            p.px-2.py-4.text-center Evaluar la capacidad de servicio de los proveedores internos y externos.
+          .col-1
+          .col-3.bg24
+            p.px-2.py-4.text-center Evaluar el impacto de las políticas de seguridad en la disponibilidad.
+        .row.my-3 
+          .col-3.m-auto
+            img.he-5-cus(src='@/assets/curso/temas/190.svg')
+          .col-1 
+          .col-3.m-auto
+            img.he-5-cus(src='@/assets/curso/temas/191.svg')
+          .col-1
+          .col-3.m-auto
+            img.he-5-cus(src='@/assets/curso/temas/190.svg') 
+        .row 
+          .col-3.bg23
+            p.px-2.py-4.text-center Mantenimiento del servicio en operación y recuperación del mismo en caso de fallo.
+          .col-1.mt-5
+            img(src='@/assets/curso/temas/189.svg') 
+          .col-3.bg24
+            p.px-2.py-4.text-center Realizar diagnósticos periódicos sobre la disponibilidad de los sistemas y servicios.
+          .col-1
+          .col-3.bg23
+            p.px-2.py-4.text-center Asesorar a la Gestión del Cambio sobre el posible impacto de un cambio en la disponibilidad.
+        
+    
+    
+    
     .row.justify-content-center.align-items-center(data-aos="zoom-in-left")
       .col-lg-12
         .bloque-texto-a.color-acento-contenido.p-2.p-md-3.mb-5

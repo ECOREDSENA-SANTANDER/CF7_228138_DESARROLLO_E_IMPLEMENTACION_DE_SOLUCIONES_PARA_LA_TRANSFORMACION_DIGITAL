@@ -265,7 +265,7 @@
 .en
   text-decoration: none !important
 
-.text-center
+center.text-
   text-align: center;
 .slyder-f__btn i
     height: 48px;
@@ -377,9 +377,29 @@
 .bg21
   background-color: #FFF3EA
   border-radius: 10px
+.bg22
+  background-color: #083142
+  border-radius: 0 10px 10px 0
+.bg23
+  background-color: #FFB476
+  border-radius: 20px
+.bg24
+  background-color: #D7DEE0
+  border-radius: 20px
+.bg23, .bg24
+  width: 270px
+  height: 160px
+.img-pos-3
+  position: relative;
+  left: 15px;
+.mt-5-cus
+  margin-top: 1.5em;
+
 .bg-white-r
   background-color: white;
   border-radius: 6px
+
+
 
 .img-center-cus
   position: relative
@@ -422,8 +442,6 @@
       position: relative
       margin-right: 7px
       font-size: 1.4rem
-.bg-img
-  background-image: 'img/55.svg'
           
 
 .banner-principal
@@ -456,7 +474,6 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    position: relative;
 
 .cajaLM:before 
     background-color: #FFF9F3;
@@ -472,7 +489,6 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    position: relative;
 
 .caja-cus:before 
     background: linear-gradient( #DEE9F0 85%, #ffffff);
@@ -484,9 +500,36 @@
     right: 0;
     bottom: 0;
 
+.bg-img-card
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  &::before
+    background-image: url('../assets/curso/temas/177.svg');
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0
+    left: 0
+    right: 0
+    top: 35px
+.z-index-cus
+  z-index: 1
+.bg-img-card-2
+  background: url('../assets/curso/temas/188.svg')
+
+  
+
 .bg-color-gra-3 
     background: linear-gradient(to bottom, #ffffff, #EEF1F2, #ffffff);
-    
+.tarjeta-avatar-cus
+  border-radius: 10px 0 0 10px !important;
+  border-right: 5px solid #FF6148 !important; 
+.tarjeta--white
+  background-color: #ffffff;   
+.tarjeta-avatar-b__img 
+    min-width: 15% !important;
+    max-width: 15% !important;
 
 .bg-img-1
   background: url('../assets/curso/temas/171.svg')
