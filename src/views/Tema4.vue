@@ -177,7 +177,10 @@
     p(data-aos="zoom-in-left").mb-4 Es la capacidad para el manejo de los datos, en la cual se incluyen las operaciones en los sistemas de cómputo para realizar cálculos, procesos, transformación de la información, transmisión de datos de un lugar a otro, etc. 
     p(data-aos="zoom-in-left").mb-4.fw-bold Los tipos de conectividad pueden dividirse en: 
 
-    .row.justify-content-center.align-items-start.mb-4.bg21
+    
+    .row.justify-content-center.align-items-start.mb-4.bg21.bg-norepeat.border-20-cus(
+            :style="{'background-image': `url(${require('@/assets/curso/temas/55.svg')})`, 'background-size': 'cover'}"
+          )(data-aos="zoom-in-left")
       .col-lg-11.my-3
         .tarjeta.tarjeta--transparent.p-4.mb-5
           LineaTiempoC.color-acento-contenido
@@ -284,97 +287,99 @@
     
     
     
-    
-    .mb-4.d-flex.bg-img-title(data-aos="zoom-in-left").mt-5
-      .d-flex.flex-wrap.align-items-center.pe-4
-        h3.col.px-4.mb-0.text-white.bg-img-blue(style='width: 370px;') Tecnologías de almacenamiento
-        img.col-lg.d-flex(src='@/assets/curso/temas/103.svg').icon-img-blue
-    
-    .row.d-flex.align-items-center.justify-content-center(data-aos="zoom-in-left")
-        .col-lg-4.he-3-cus
-          img.img-a.img-t(src='@/assets/curso/temas/67.png', alt='')
-        .col-lg-8.bg19.he-3-cus.ml-neg-cus.align-items-center.justify-content-center
-          p(data-aos="zoom-in-left").mb-5.align-items-center.justify-content-center.img-center-cus Las principales tecnologías de almacenamiento, se relacionan con los protocolos de uso, componentes, y costos,  #[b a continuación, se describen las principales. ]
-    .bg15.p-5.mt-5.mb-5(data-aos="zoom-in-left")   
-      h3(data-aos="zoom-in-left").mb-5 iSCSI - Internet Small Computer System Interface
-      p(data-aos="zoom-in-left").mb-5 Sistema de almacenamiento basado en bloques como FC -Fiber Channel, pero a diferencia, utiliza componentes de una red Ethernet tradicional para realizar la conexión entre los hosts y el sistema de almacenamiento. Al utilizar componentes Ethernet, iSCSI es más barato de implementar.
-      .row 
-        .col-sm-12.col-md-8
-          ul.lista-ul--color
-            li 
-              i.fas.fa-chevron-right
-              p iSCSI utiliza los llamados iniciadores (initiator) para enviar comando iSCSI a los dispositivos de almacenamiento. Estos iniciadores pueden ser basados en software o hardware. En la mayoría de las situaciones, los iniciadores software pueden ser suficientes, una solución | ofrece un mejor rendimiento en E/S utilizando menos recursos del host. Hay que tener en cuenta que una solución software introduce un overhead de CPU en el host que se conecta a la red de almacenamiento.
-            li 
-              i.fas.fa-chevron-right
-              p iSCSI da un buen rendimiento en redes de 1Gbps (más si utilizamos multipathing), pero actualmente se pueden construir redes iSCSI de 10 Gbps que ofrecen un rendimiento parecido e incluso mejor que FC. El problema de las redes de 10 Gbps es que son tan caras de implementar como una red FC.
-            li 
-              i.fas.fa-chevron-right
-              p En cuanto a seguridad, a diferencia de FC, iSCSI implementa sistemas de autenticación (CHAP) y encriptación.
+    .caja-cus
+      .mb-4.d-flex.bg-img-title(data-aos="zoom-in-left").mt-5
+        .d-flex.flex-wrap.align-items-center.pe-4
+          h3.col.px-4.mb-0.text-white.bg-img-blue(style='width: 370px;') Tecnologías de almacenamiento
+          img.col-lg.d-flex(src='@/assets/curso/temas/103.svg').icon-img-blue
       
-        .col-sm-12.col-md-4
-          img.mb-5(src='@/assets/curso/temas/121.svg', alt='')
+      .row.d-flex.align-items-center.justify-content-center(data-aos="zoom-in-left").mx-5
+          .col-lg-4.he-7-cus
+            img.img-a.img-t(src='@/assets/curso/temas/67.png', alt='')
+          .col-lg-8.bg19.he-7-cus.ml-neg-cus.align-items-center.justify-content-center
+            p(data-aos="zoom-in-left").mb-5.align-items-center.justify-content-center.img-center-cus Las principales tecnologías de almacenamiento, se relacionan con los protocolos de uso, componentes, y costos,  #[b a continuación, se describen las principales. ]
+      .p-5.mt-5.mb-5(data-aos="zoom-in-left")   
+        h3(data-aos="zoom-in-left").mb-5 iSCSI - Internet Small Computer System Interface
+        p(data-aos="zoom-in-left").mb-5 Sistema de almacenamiento basado en bloques como FC -Fiber Channel, pero a diferencia, utiliza componentes de una red Ethernet tradicional para realizar la conexión entre los hosts y el sistema de almacenamiento. Al utilizar componentes Ethernet, iSCSI es más barato de implementar.
+        .row 
+          .col-sm-12.col-md-8
+            ul.lista-ul--color
+              li 
+                i.fas.fa-chevron-right
+                p iSCSI utiliza los llamados iniciadores (initiator) para enviar comando iSCSI a los dispositivos de almacenamiento. Estos iniciadores pueden ser basados en software o hardware. En la mayoría de las situaciones, los iniciadores software pueden ser suficientes, una solución | ofrece un mejor rendimiento en E/S utilizando menos recursos del host. Hay que tener en cuenta que una solución software introduce un overhead de CPU en el host que se conecta a la red de almacenamiento.
+              li 
+                i.fas.fa-chevron-right
+                p iSCSI da un buen rendimiento en redes de 1Gbps (más si utilizamos multipathing), pero actualmente se pueden construir redes iSCSI de 10 Gbps que ofrecen un rendimiento parecido e incluso mejor que FC. El problema de las redes de 10 Gbps es que son tan caras de implementar como una red FC.
+              li 
+                i.fas.fa-chevron-right
+                p En cuanto a seguridad, a diferencia de FC, iSCSI implementa sistemas de autenticación (CHAP) y encriptación.
+        
+          .col-sm-12.col-md-4
+            img.mb-5(src='@/assets/curso/temas/121.svg', alt='')
 
 
-      h3(data-aos="zoom-in-left").mb-3 FC - Fiber channel
-      p(data-aos="zoom-in-left").mb-5 FC presenta un grado alto de rendimiento y fiabilidad, pero implican realizar una inversión económica mayor e introducen complejidad en la configuración del centro de datos. FC es la solución más utilizada para entornos de virtualización de gran dimensión o máquinas virtuales con IOPS (número de E/S de acceso a disco) alto gracias a los anchos de banda que se alcanzan (8 Gpbs e incluso 16 Gbps).
-      .row(data-aos="zoom-in-left")
-        .col-sm-12.col-md-4.mb-5
-          img(src='@/assets/curso/temas/69.svg', alt='')
-        .col-sm-12.col-md-8
-          .row
-            .col-lg-12
-              .tarjeta-avatar-b.mb-3
-                .tarjeta-avatar-b__img
-                  img(src='@/assets/curso/temas/68.svg' alt='AvatarTop')
-                .tarjeta.tarjeta--blanca
-                  .p-2
-                    h3.mt-2 Seguridad
-                    p Las redes de almacenamiento basadas en FC en principio son más seguras que las basadas en Ethernet ya que el tráfico está aislado del tráfico normal. Pero por otro lado es más complicado implementar sistemas de autenticación y encriptación.
-          .row
-            .col-lg-12
-              .tarjeta-avatar-b.mb-3
-                .tarjeta-avatar-b__img
-                  img(src='@/assets/curso/temas/70.svg' alt='AvatarTop')
-                .tarjeta.tarjeta--blanca
-                  .p-2
-                    h3.mt-2 Costos
-                    p La necesidad de disponer de hardware propio para la tecnología (HBAs y switches FC), hacen la solución más cara y compleja de administrar e implementar. Puede darse el caso de que la empresa no disponga de personal con conocimientos en entornos FC, por lo tanto, se puede incurrir en costes adicionales de formación o consultoría externa.
-      
-      p(data-aos="zoom-in-left").mb-3 NAS - Network Attached Storage
-      TabsB.color-acento-botones.mb-5.bg-white(data-aos="zoom-in-left")
-        .py-4.py-md-5(titulo="Protocolo de uso" :icono="require('@/assets/curso/temas/79.svg')")
-          .row.px-5
-            .col-md-8.mb-4.mb-md-0
-              h4 Protocolo de uso
-              p La principal diferencia entre iSCSI y NAS es el tipo de protocolo utilizado. Mientras que iSCSI está basado en bloques de discos, NAS es un sistema de compartición de archivos.
-              .row.align-items-center.justify-content-center 
-                .col-1
-                  img(src='@/assets/curso/temas/122.svg' alt='AvatarTop')
-                .col-11.mt-3
-                  p De este modo, se descarga al dispositivo de almacenamiento de la responsabilidad de escribir datos a disco. NAS utiliza un software cliente que se comunica al servidor NFS mediante red Ethernet.
-          
-            .col-md-4
-                img(src='@/assets/curso/temas/82.svg', alt='Texto que describa la imagen')
-        .py-4.py-md-5(titulo="Costo y rendimento" :icono="require('@/assets/curso/temas/80.svg')")
-          .row.px-5
-            .col-md-8.mb-4.mb-md-0
-              h4 Costo y rendimiento
-              p La mayor parte de las plataformas de virtualización soporta NAS. Debido a que NAS es un protocolo muy utilizado, existen diferentes opciones para utilizar un almacenamiento NAS con tus máquinas virtuales: desde un servidor físico convertido en servidor NAS o un dispositivo de almacenamiento dedicado basado en NAS. 
-              .row.align-items-center.justify-content-center 
-                .col-1
-                  img(src='@/assets/curso/temas/123.svg' alt='AvatarTop')
-                .col-11
-                  p.mt-3 El coste y rendimiento de cada solución puede variar grandemente siendo los dispositivos dedicados los que ofrecen mayor rendimiento, pero a un coste más alto
-              p.mt-3 En la mayoría de los casos, NAS no ofrece el mismo rendimiento que una red SAN FC pero una arquitectura de red bien configurada puede ofrecer un rendimiento adaptado a tus necesidades. De manera similar a iSCSI, NAS utiliza tarjetas de red para comunicarse con los dispositivos de almacenamiento, por lo tanto tenemos un límite de 1 Gpbs. A diferencia de iSCSI no permite multipathing ofreciendo un rendimiento inferior.
-            .col-md-4
-                img(src='@/assets/curso/temas/83.svg', alt='Texto que describa la imagen')
-        .py-4.py-md-5(titulo="Desventajas" :icono="require('@/assets/curso/temas/81.svg')")
-          .row.px-5
-            .col-md-8.mb-4.mb-md-0
-              h4 Desventajas
-              p Entre las desventajas de NAS, no es posible arrancar un servidor directamente desde un dispositivo NAS. Adicionalmente, ciertos fabricantes no recomiendan NAS para ciertas aplicaciones sensibles a latencias.
-            .col-md-4
-                img(src='@/assets/curso/temas/84.svg', alt='Texto que describa la imagen')
+        h3(data-aos="zoom-in-left").mb-3 FC - Fiber channel
+        p(data-aos="zoom-in-left").mb-5 FC presenta un grado alto de rendimiento y fiabilidad, pero implican realizar una inversión económica mayor e introducen complejidad en la configuración del centro de datos. FC es la solución más utilizada para entornos de virtualización de gran dimensión o máquinas virtuales con IOPS (número de E/S de acceso a disco) alto gracias a los anchos de banda que se alcanzan (8 Gpbs e incluso 16 Gbps).
+        .row(data-aos="zoom-in-left")
+          .col-sm-12.col-md-4.mb-5
+            img(src='@/assets/curso/temas/69.svg', alt='')
+          .col-sm-12.col-md-8
+            .row
+              .col-lg-12
+                .tarjeta-avatar-b.mb-3
+                  .tarjeta-avatar-b__img
+                    img(src='@/assets/curso/temas/68.svg' alt='AvatarTop')
+                  .tarjeta.tarjeta--blanca
+                    .p-2
+                      h3.mt-2 Seguridad
+                      p Las redes de almacenamiento basadas en FC en principio son más seguras que las basadas en Ethernet ya que el tráfico está aislado del tráfico normal. Pero por otro lado es más complicado implementar sistemas de autenticación y encriptación.
+            .row
+              .col-lg-12
+                .tarjeta-avatar-b.mb-3
+                  .tarjeta-avatar-b__img
+                    img(src='@/assets/curso/temas/70.svg' alt='AvatarTop')
+                  .tarjeta.tarjeta--blanca
+                    .p-2
+                      h3.mt-2 Costos
+                      p La necesidad de disponer de hardware propio para la tecnología (HBAs y switches FC), hacen la solución más cara y compleja de administrar e implementar. Puede darse el caso de que la empresa no disponga de personal con conocimientos en entornos FC, por lo tanto, se puede incurrir en costes adicionales de formación o consultoría externa.
+        
+        p(data-aos="zoom-in-left").mb-3 NAS - Network Attached Storage
+        TabsB.color-acento-botones.mb-5.bg-white(data-aos="zoom-in-left")
+          .py-4.py-md-5(titulo="Protocolo de uso" :icono="require('@/assets/curso/temas/79.svg')")
+            .row.px-5
+              .col-md-8.mb-4.mb-md-0
+                h4 Protocolo de uso
+                p La principal diferencia entre iSCSI y NAS es el tipo de protocolo utilizado. Mientras que iSCSI está basado en bloques de discos, NAS es un sistema de compartición de archivos.
+                .row.align-items-center.justify-content-center 
+                  .col-1
+                    img(src='@/assets/curso/temas/122.svg' alt='AvatarTop')
+                  .col-11.mt-3
+                    p De este modo, se descarga al dispositivo de almacenamiento de la responsabilidad de escribir datos a disco. NAS utiliza un software cliente que se comunica al servidor NFS mediante red Ethernet.
+            
+              .col-md-4
+                  img(src='@/assets/curso/temas/82.svg', alt='Texto que describa la imagen')
+          .py-4.py-md-5(titulo="Costo y rendimento" :icono="require('@/assets/curso/temas/80.svg')")
+            .row.px-5
+              .col-md-8.mb-4.mb-md-0
+                h4 Costo y rendimiento
+                p La mayor parte de las plataformas de virtualización soporta NAS. Debido a que NAS es un protocolo muy utilizado, existen diferentes opciones para utilizar un almacenamiento NAS con tus máquinas virtuales: desde un servidor físico convertido en servidor NAS o un dispositivo de almacenamiento dedicado basado en NAS. 
+                .row.align-items-center.justify-content-center 
+                  .col-1
+                    img(src='@/assets/curso/temas/123.svg' alt='AvatarTop')
+                  .col-11
+                    p.mt-3 El coste y rendimiento de cada solución puede variar grandemente siendo los dispositivos dedicados los que ofrecen mayor rendimiento, pero a un coste más alto
+                p.mt-3 En la mayoría de los casos, NAS no ofrece el mismo rendimiento que una red SAN FC pero una arquitectura de red bien configurada puede ofrecer un rendimiento adaptado a tus necesidades. De manera similar a iSCSI, NAS utiliza tarjetas de red para comunicarse con los dispositivos de almacenamiento, por lo tanto tenemos un límite de 1 Gpbs. A diferencia de iSCSI no permite multipathing ofreciendo un rendimiento inferior.
+              .col-md-4
+                  img(src='@/assets/curso/temas/83.svg', alt='Texto que describa la imagen')
+          .py-4.py-md-5(titulo="Desventajas" :icono="require('@/assets/curso/temas/81.svg')")
+            .row.px-5
+              .col-md-8.mb-4.mb-md-0
+                h4 Desventajas
+                p Entre las desventajas de NAS, no es posible arrancar un servidor directamente desde un dispositivo NAS. Adicionalmente, ciertos fabricantes no recomiendan NAS para ciertas aplicaciones sensibles a latencias.
+              .col-md-4
+                  img(src='@/assets/curso/temas/84.svg', alt='Texto que describa la imagen')
+
+
     .mb-4.d-flex.bg-img-title(data-aos="zoom-in-left")
       .d-flex.flex-wrap.align-items-center.pe-4
         h3.col.px-4.mb-0.text-white.bg-img-blue(style='width: 200px;') Arreglos Raid

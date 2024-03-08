@@ -16,17 +16,17 @@
             p.mb-0 La necesidad de contar con acuerdos de nivel de servicios entre el cliente y el proveedor que entrega el servicio, para lograr esto al momento de planear la migración de servicios de computación tradicional a computación en la nube las organizaciones deben de responder una serie de preguntas que ayudarán a definir los objetivos del nivel del servicio, los interrogantes son:
     .row.text-left-cus.mb-4
       .col-lg-4.my-3.text-left-cus
-        .bg11.d-flex.px-3.he-3-cus.flex-column.text-left-cus
+        .bg11.bg-card.bg-img-1.d-flex.px-3.he-6-cus.flex-column.text-left-cus
           img.w-auto-cus.bg12.px-3.py-1.mx-3.my-4(src='@/assets/curso/temas/143.svg', alt='')
           .wd-100
             p.ml-1-custom ¿Cuáles y en qué cantidad son los servicios a contratar? 
       .col-lg-4.my-3.text-left-cus
-        .bg11.d-flex.px-3.he-3-cus.flex-column
+        .bg11.bg-card.bg-img-2.d-flex.px-3.he-6-cus.flex-column
           img.w-auto-cus.bg12.px-3.py-1.mx-3.my-4(data-aos="zoom-in")(src='@/assets/curso/temas/144.svg', alt='')
           .wd-100
             p.ml-1-custom ¿Qué nivel de soporte y respuesta a incidentes esperan por parte del proveedor? 
       .col-lg-4.my-3.text-left-cus
-        .bg11.d-flex.px-3.he-3-cus.flex-column
+        .bg11.bg-card.bg-img-3.d-flex.px-3.he-6-cus.flex-column
           img.w-auto-cus.bg12.px-3.py-1.mx-3.my-4(data-aos="zoom-in")(src='@/assets/curso/temas/145.svg', alt='')
           .wd-100
             p.ml-1-custom ¿Cómo la organización puede validar la calidad en el servicio ofrecido por el proveedor? 

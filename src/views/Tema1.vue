@@ -128,49 +128,51 @@
         img.col-lg.d-flex(src='@/assets/curso/temas/103.svg').icon-img-blue
     p.mb-5.color-green(data-aos="zoom-in-left")  #[b La gestión de la capacidad, posibilita encargarse de las TI,  ] 
       span.color-black asegurando que la capacidad de las tecnologías de la información, cumplen los requisitos establecidos, al momento y en el futuro de la organización, y que genera un costo que puede ser asumido sin problema, tanto en la gestión de la capacidad física, como económica.
-    .row.justify-content-center.align-items-center(data-aos="zoom-in-left")
-      .col-lg-7
-        .row.justify-content-center.align-items-center
-          .col-lg-12
-            .tarjeta.bg14.p-3
-              .row.justify-content-around.align-items-center
-                .col-sm-12.col-lg-2
-                  img.w-img-cus-2.m-auto(src="@/assets/curso/temas/23.svg")
-                .col
-                  .row.justify-content-between.align-items-center
-                    .col.mb-3.mb-sm-0
-                      p.mb-0 Una correcta definición de los servicios de una compañía, es clave en el proceso, por esta razón debe tenerse claro cuál es la herramienta o herramientas útiles en la gestión diaria del servicio, así como los indicadores que medirán dicho servicio. Las actividades más significativas de la Gestión de la Capacidad son: 
-        .row.justify-content-center.align-items-center
-          .col-lg-12
-            SlyderF.custom(columnas="col-lg-4 col-md-4")  
-              .tarjeta.tarjeta--slyder.bg5.p-4.h-100
-                .row.justify-content-center.mb-3
-                  .col-8
-                    img.img-a.img-t.mb-3.mt-4(src="@/assets/curso/temas/25.png", alt="alt").img100.m-auto
-                p.mb-0.text-center Desarrollo del Plan de Capacidad
-              .tarjeta.tarjeta--slyder.bg5.p-4.h-100
-                .row.justify-content-center.mb-3
-                  .col-8
-                    img.img-a.img-t.mb-3.mt-4(src="@/assets/curso/temas/25.png", alt="alt").img100.m-auto
-                p.mb-0.text-center Modelado y simulación de diferentes escenarios de capacidad
-              .tarjeta.tarjeta--slyder.bg5.p-4.h-100
-                .row.justify-content-center.mb-3
-                  .col-8
-                    img.img-a.img-t.mb-3.mt-4(src="@/assets/curso/temas/25.png", alt="alt").img100.m-auto
-                p.mb-0.text-center Monitorización del uso y rendimiento de la infraestructura TI. 
-              .tarjeta.tarjeta--slyder.bg5.p-4.h-100
-                .row.justify-content-center.mb-3
-                  .col-8
-                    img.img-a.img-t.mb-3.mt-4(src="@/assets/curso/temas/25.png", alt="alt").img100.m-auto
-                p.mb-0.text-center Gestión de la demanda
-              .tarjeta.tarjeta--slyder.bg5.p-4.h-100
-                .row.justify-content-center.mb-3
-                  .col-8
-                    img.img-a.img-t.mb-3.mt-4(src="@/assets/curso/temas/25.png", alt="alt").img100.m-auto
-                p.mb-0.text-center Creación y mantenimiento de la Base de Datos de Capacidad (CDB).
-          
-      .col-lg-5
-        img.img-a.img-t(src='@/assets/curso/temas/24.png', alt='Actividades del plan de gestión de servicios TI')
+    
+    .cajaLM.px-5
+      .row.justify-content-center.align-items-center(data-aos="zoom-in-left")
+        .col-lg-7
+          .row.justify-content-center.align-items-center
+            .col-lg-12
+              .tarjeta.bg14.p-3
+                .row.justify-content-around.align-items-center
+                  .col-sm-12.col-lg-2
+                    img.w-img-cus-2.m-auto(src="@/assets/curso/temas/23.svg")
+                  .col
+                    .row.justify-content-between.align-items-center
+                      .col.mb-3.mb-sm-0
+                        p.mb-0 Una correcta definición de los servicios de una compañía, es clave en el proceso, por esta razón debe tenerse claro cuál es la herramienta o herramientas útiles en la gestión diaria del servicio, así como los indicadores que medirán dicho servicio. Las actividades más significativas de la Gestión de la Capacidad son: 
+          .row.justify-content-center.align-items-center
+            .col-lg-12
+              SlyderF.custom(columnas="col-lg-4 col-md-4")  
+                .tarjeta.tarjeta--slyder.bg5.p-4.h-100
+                  .row.justify-content-center.mb-3
+                    .col-8
+                      img.img-a.img-t.mb-3.mt-4(src="@/assets/curso/temas/25.png", alt="alt").img100.m-auto
+                  p.mb-0.text-center Desarrollo del Plan de Capacidad
+                .tarjeta.tarjeta--slyder.bg5.p-4.h-100
+                  .row.justify-content-center.mb-3
+                    .col-8
+                      img.img-a.img-t.mb-3.mt-4(src="@/assets/curso/temas/25.png", alt="alt").img100.m-auto
+                  p.mb-0.text-center Modelado y simulación de diferentes escenarios de capacidad
+                .tarjeta.tarjeta--slyder.bg5.p-4.h-100
+                  .row.justify-content-center.mb-3
+                    .col-8
+                      img.img-a.img-t.mb-3.mt-4(src="@/assets/curso/temas/25.png", alt="alt").img100.m-auto
+                  p.mb-0.text-center Monitorización del uso y rendimiento de la infraestructura TI. 
+                .tarjeta.tarjeta--slyder.bg5.p-4.h-100
+                  .row.justify-content-center.mb-3
+                    .col-8
+                      img.img-a.img-t.mb-3.mt-4(src="@/assets/curso/temas/25.png", alt="alt").img100.m-auto
+                  p.mb-0.text-center Gestión de la demanda
+                .tarjeta.tarjeta--slyder.bg5.p-4.h-100
+                  .row.justify-content-center.mb-3
+                    .col-8
+                      img.img-a.img-t.mb-3.mt-4(src="@/assets/curso/temas/25.png", alt="alt").img100.m-auto
+                  p.mb-0.text-center Creación y mantenimiento de la Base de Datos de Capacidad (CDB).
+            
+        .col-lg-5
+          img.img-a.img-t(src='@/assets/curso/temas/24.png', alt='Actividades del plan de gestión de servicios TI')
 
       p.mt-3(data-aos="zoom-in-left") En la siguiente figura se relacionan las actividades más significativas para la gestión de la capacidad:
       .row(data-aos="zoom-in-left")

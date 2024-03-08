@@ -7,19 +7,22 @@
       .col-6.col-md-4.col-lg-3.mb-4.mb-md-0
         .tarjeta.h-100.d-flex.align-items-center.p-4
           figure
-            img(src="@/assets/template/cuestionario.svg", alt="Actividad de afianzamiento de tipo cuestionario")
+            img(src="@/assets/template/completar.svg", alt="Actividad de afianzamiento de tipo Completar Espacios")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
-          h2 Autoevaluación de los conceptos de documentación de requisitos y presentación de informes
-        p.mb-4 Identificar los conceptos de documentación de requisitos y la redacción de informes, con el fin de afianzar los conocimientos adquiridos en el componente.
+          h2 Autoevaluación de conceptos sobre despliegue de servicios de infraestructura y capacidades
+        p.mb-4 Identificar los conceptos sobre despliegue de servicios de infraestructura y capacidades con el fin de reforzar los conocimientos adquiridos en el componente.
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center
             .col-sm.mb-3.mb-sm-0
-              p.fw-bold.mb-0 Cuestionario
+              p.fw-bold.mb-0 Completar Espacios
             .col-auto
-              a.boton.boton--b(:href="obtenerLink('/actividades/story.html')" target="_blank")
+              a.boton.boton--b(:href="obtenerLink('/actividades/actividad.html')" target="_blank")
                 span Realizar
                 i.fas.fa-puzzle-piece
+
+
+        
 
 </template>
 
