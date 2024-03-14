@@ -113,6 +113,7 @@
         .d-flex.align-items-center.justify-content-center
           img.img-a.img-t(src='@/assets/curso/temas/10.png', alt='')
           p.ml-1-custom.mt-2 Las actividades en cada una de las gestiones corresponden a las descritas en la siguiente imagen, que serán explicadas a continuación:
+    
     .row.mb-5
       .col-sm-12.col-md-12.col-lg-8.m-auto
         .titulo-sexto.color-acento-contenido.mb-4

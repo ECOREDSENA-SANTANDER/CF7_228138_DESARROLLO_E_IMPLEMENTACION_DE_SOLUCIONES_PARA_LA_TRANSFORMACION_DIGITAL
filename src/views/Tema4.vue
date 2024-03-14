@@ -293,12 +293,12 @@
           h3.col.px-4.mb-0.text-white.bg-img-blue(style='width: 370px;') Tecnologías de almacenamiento
           img.col-lg.d-flex(src='@/assets/curso/temas/103.svg').icon-img-blue
       
-      .row.d-flex.align-items-center.justify-content-center(data-aos="zoom-in-left").mx-5
-          .col-lg-4.he-7-cus
+      .row.d-flex.align-items-center.justify-content-center(data-aos="zoom-in-left").mx-5-cus
+          .col-sm-12.col-lg-4.he-7-cus
             img.img-a.img-t(src='@/assets/curso/temas/67.png', alt='')
-          .col-lg-8.bg19.he-7-cus.ml-neg-cus.align-items-center.justify-content-center
-            p(data-aos="zoom-in-left").mb-5.align-items-center.justify-content-center.img-center-cus Las principales tecnologías de almacenamiento, se relacionan con los protocolos de uso, componentes, y costos,  #[b a continuación, se describen las principales. ]
-      .p-5.mt-5.mb-5(data-aos="zoom-in-left")   
+          .col-sm-12.col-lg-8.bg19.he-8-cus.ml-neg-cus.align-items-center.justify-content-center
+            p(data-aos="zoom-in-left").align-items-center.justify-content-center.img-center-cus Las principales tecnologías de almacenamiento, se relacionan con los protocolos de uso, componentes, y costos,  #[b a continuación, se describen las principales. ]
+      .p-5-cus.mt-5.mb-5 
         h3(data-aos="zoom-in-left").mb-5 iSCSI - Internet Small Computer System Interface
         p(data-aos="zoom-in-left").mb-5 Sistema de almacenamiento basado en bloques como FC -Fiber Channel, pero a diferencia, utiliza componentes de una red Ethernet tradicional para realizar la conexión entre los hosts y el sistema de almacenamiento. Al utilizar componentes Ethernet, iSCSI es más barato de implementar.
         .row 
@@ -306,15 +306,15 @@
             ul.lista-ul--color
               li 
                 i.fas.fa-chevron-right
-                p iSCSI utiliza los llamados iniciadores (initiator) para enviar comando iSCSI a los dispositivos de almacenamiento. Estos iniciadores pueden ser basados en software o hardware. En la mayoría de las situaciones, los iniciadores software pueden ser suficientes, una solución | ofrece un mejor rendimiento en E/S utilizando menos recursos del host. Hay que tener en cuenta que una solución software introduce un overhead de CPU en el host que se conecta a la red de almacenamiento.
+                p.z-index-cus iSCSI utiliza los llamados iniciadores (initiator) para enviar comando iSCSI a los dispositivos de almacenamiento. Estos iniciadores pueden ser basados en software o hardware. En la mayoría de las situaciones, los iniciadores software pueden ser suficientes, una solución | ofrece un mejor rendimiento en E/S utilizando menos recursos del host. Hay que tener en cuenta que una solución software introduce un overhead de CPU en el host que se conecta a la red de almacenamiento.
               li 
                 i.fas.fa-chevron-right
-                p iSCSI da un buen rendimiento en redes de 1Gbps (más si utilizamos multipathing), pero actualmente se pueden construir redes iSCSI de 10 Gbps que ofrecen un rendimiento parecido e incluso mejor que FC. El problema de las redes de 10 Gbps es que son tan caras de implementar como una red FC.
+                p.z-index-cus iSCSI da un buen rendimiento en redes de 1Gbps (más si utilizamos multipathing), pero actualmente se pueden construir redes iSCSI de 10 Gbps que ofrecen un rendimiento parecido e incluso mejor que FC. El problema de las redes de 10 Gbps es que son tan caras de implementar como una red FC.
               li 
                 i.fas.fa-chevron-right
-                p En cuanto a seguridad, a diferencia de FC, iSCSI implementa sistemas de autenticación (CHAP) y encriptación.
+                p.z-index-cus En cuanto a seguridad, a diferencia de FC, iSCSI implementa sistemas de autenticación (CHAP) y encriptación.
         
-          .col-sm-12.col-md-4
+          .col-sm-12.col-md-4.z-index-cus
             img.mb-5(src='@/assets/curso/temas/121.svg', alt='')
 
 
