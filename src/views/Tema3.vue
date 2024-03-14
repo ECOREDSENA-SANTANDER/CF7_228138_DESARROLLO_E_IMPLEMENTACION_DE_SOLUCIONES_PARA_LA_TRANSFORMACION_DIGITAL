@@ -8,7 +8,7 @@
       h1 Buenas prácticas en ciberseguridad
     .row.align-items-center.justify-content-center(data-aos="zoom-in-left")
       .col-lg-12
-        .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-5
+        .bloque-texto-g.color-adicional-1.p-3.p-sm-4.p-md-5.mb-5
           .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/temas/36.png')})`}"
           )

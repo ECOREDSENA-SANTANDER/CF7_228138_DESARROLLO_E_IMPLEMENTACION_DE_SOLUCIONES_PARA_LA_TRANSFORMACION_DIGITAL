@@ -25,18 +25,18 @@
   100%
     transform: translateY(0px)
 
-@keyframes float2
+@keyframes float2  
   0%
     transform: translateX(30px)
-  100%
+  100% 
     transform: translateX(0px)
 
 .banner-principal__img
   width: 30%
 .titulo-principal.color-acento-contenido .titulo-principal__numero span, .linea-tiempo-d.color-acento-contenido .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
-  color: #12263F !important
+  color: #FFF !important
 .titulo-principal.color-acento-contenido .titulo-principal__numero
-  background-color: $color-acento-botones;
+  background-color: #9F0925;
 .tarjeta.color-acento-contenido-2
   background-color: #FDEDE0;
 
@@ -231,6 +231,8 @@
   background-color: #FF6148
 .tabs-a__tab
     background-color: #E4E9EB;
+.tabs-a.color-acento-botones .tabs-a__tab__selected
+  color: #12263F !important
 .bloque-texto-c.color-secundario
   background-color: #E1E6E8
 
@@ -246,6 +248,14 @@
   color: white;
 .linea-tiempo-c__header__btn, .linea-tiempo-c__header__btn--left, .linea-tiempo-c__header__btn--right, .pasos-b__header__btn--left, .pasos-b__header__btn--right
   border: 2px solid #fff;
+.linea-tiempo-c.color-acento-contenido .linea-tiempo-c__header__item--before .linea-tiempo-c__header__item__dot,
+.linea-tiempo-c.color-acento-contenido .linea-tiempo-c__header__item--active .linea-tiempo-c__header__item__dot
+  border-color: #FF6148 !important
+.linea-tiempo-c.color-acento-contenido .linea-tiempo-c__header__item--before .linea-tiempo-c__header__item__line-container:before, 
+.linea-tiempo-c.color-acento-contenido .linea-tiempo-c__header__item--before .linea-tiempo-c__header__item__line-container:after,
+.linea-tiempo-c.color-acento-contenido .linea-tiempo-c__header__item--active .linea-tiempo-c__header__item__line-container:before,
+.linea-tiempo-c.color-acento-contenido .linea-tiempo-c__header__item--active .linea-tiempo-c__header__item__dot:after
+  background-color: #FF6148 !important
 .tarjeta--transparent 
     background-color: transparent;
 .bg-norepeat
@@ -395,6 +405,11 @@ center.text-
 .bg23, .bg24
   width: 270px
   height: 160px
+.bg25
+  background-color: #e8c2c9
+  border-radius: 6px
+.lista-ul--color li > i:first-of-type
+  color: #FF6148 !important;
 
 
 .img-pos-3
@@ -461,7 +476,7 @@ center.text-
   width: 75%
 
 .bg-img-blue
-    background-color: rgb(8, 49, 66); 
+    background-color: #9F0925; 
     border-radius: 25px 
     padding: 7px
 .icon-img-blue
@@ -529,13 +544,16 @@ center.text-
 .bg-img-card-2
   background: url('../assets/curso/temas/188.svg')
 
-  
+.boton.color-acento-botones *, .color-acento-botones.boton--sm *
+  color: #12263F
+.bloque-texto-g.color-adicional-1
+  background-color: $color-adicional-1 !important  
 
 .bg-color-gra-3 
     background: linear-gradient(to bottom, #ffffff, #EEF1F2, #ffffff);
 .tarjeta-avatar-cus
   border-radius: 10px 0 0 10px !important;
-  border-right: 5px solid #FF6148 !important; 
+  border-right: 5px solid #9F0925 !important; 
 .tarjeta--white
   background-color: #ffffff;   
 .tarjeta-avatar-b__img 

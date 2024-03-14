@@ -70,8 +70,7 @@
         p La contratación como documento formal entre dos partes para la prestación y consumo de productos y/o servicios es un documento regulado en el cual se establecen los acuerdos o reglas de la prestación de un producto o servicio, para la adquisición de servicios en la nube es muy importante tener en cuenta los acuerdos, políticas y documentos contractuales relacionados con los servicios de  #[b #[em cloud computing]  ] que un proveedor establece, ya que en los mismos se indican los acuerdos de nivel de servicios entre otra información relevante.
     .mb-4.d-flex.bg-img-title(data-aos="zoom-in-left")
       .d-flex.flex-wrap.align-items-center.pe-4
-        h3.col.px-4.mb-0.text-white.bg-img-blue(style='width: 200px;') Concepto
-        img.col-lg.d-flex(src='@/assets/curso/temas/103.svg').icon-img-blue
+        h3.col.px-4.mb-0.text-white.bg-img-blue Concepto
     
     
         
@@ -127,8 +126,7 @@
 
     .mb-4.d-flex.bg-img-title(data-aos="zoom-in-left")
       .d-flex.flex-wrap.align-items-center.pe-4
-        h3.col.px-4.mb-0.text-white.bg-img-blue(style='width: 250px;') Tipos de contrato
-        img.col-lg.d-flex(src='@/assets/curso/temas/103.svg').icon-img-blue
+        h3.col.px-4.mb-0.text-white.bg-img-blue Tipos de contrato
     
     p(data-aos="zoom-in-left") Como se indicaba anteriormente,  #[b la contratación de servicios de cloud computing se realizará por medio de un contrato de prestación de servicios. ]  Resulta imprescindible que ese contrato incorpore entre sus cláusulas las garantías a las que obliga la Ley de Protección de Datos.
     .row.d-flex.justify-content-between

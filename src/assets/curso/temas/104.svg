@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="92" height="92" viewBox="0 0 92 92">
   <g id="Grupo_1070117" data-name="Grupo 1070117" transform="translate(-1133 -872)">
-    <circle id="Elipse_9028" data-name="Elipse 9028" cx="46" cy="46" r="46" transform="translate(1133 872)" fill="#f77e6b"/>
+    <circle id="Elipse_9028" data-name="Elipse 9028" cx="46" cy="46" r="46" transform="translate(1133 872)" fill="#9f0925"/>
     <g id="digital_1_" data-name="digital (1)" transform="translate(1147 890)">
       <path id="Trazado_813481" data-name="Trazado 813481" d="M54,40v4H48V40Z" fill="#aab2bd"/>
       <path id="Trazado_813482" data-name="Trazado 813482" d="M62,36v2a2.006,2.006,0,0,1-2,2H42a2.006,2.006,0,0,1-2-2V36Z" fill="#ccd1d9"/>
@@ -26,4 +26,3 @@
     </g>
   </g>
 </svg>
-

@@ -121,12 +121,11 @@
           span
             |  Actividades del plan de gestión de servicios TI
         figure.mt-4.mb-5(data-aos="zoom-in-left")
-          img(src='@/assets/curso/temas/21.svg', alt='Actividades del plan de gestión de servicios TI')
+          img(src='@/assets/curso/temas/21.svg', alt='Diagrama que enuncia las tres actividades del plan de gestión de servicios TI: Gestión de Capacidad, de Continuidad y de Disponibilidad.')
     
     .mb-4.d-flex.bg-img-title(data-aos="zoom-in-left")
       .d-flex.flex-wrap.align-items-center.pe-4
-        h3.col.px-4.mb-0.text-white.bg-img-blue(style='width: 300px;') Gestión de la capacidad
-        img.col-lg.d-flex(src='@/assets/curso/temas/103.svg').icon-img-blue
+        h3.col.px-4.mb-0.text-white.bg-img-blue Gestión de la capacidad
     p.mb-5.color-green(data-aos="zoom-in-left")  #[b La gestión de la capacidad, posibilita encargarse de las TI,  ] 
       span.color-black asegurando que la capacidad de las tecnologías de la información, cumplen los requisitos establecidos, al momento y en el futuro de la organización, y que genera un costo que puede ser asumido sin problema, tanto en la gestión de la capacidad física, como económica.
     
@@ -183,12 +182,11 @@
             span
               | Gestión de capacidad
           figure.mt-4.mb-5(data-aos="zoom-in-left")
-            img(src='@/assets/curso/temas/25.svg', alt='Actividades del plan de gestión de servicios TI')
+            img(src='@/assets/curso/temas/25.svg', alt='Esquema que relaciona las actividades de la gestión de la capacidad: Requisitos de capacidad, planificación, supervisión, gestión de la demanda.')
     
     .mb-4.d-flex.bg-img-title(data-aos="zoom-in-left")
       .d-flex.flex-wrap.align-items-center.pe-4
-        h3.col.px-4.mb-0.text-white.bg-img-blue(style='width: 300px;') Gestión de la continuidad
-        img.col-lg.d-flex(src='@/assets/curso/temas/103.svg').icon-img-blue
+        h3.col.px-4.mb-0.text-white.bg-img-blue Gestión de la continuidad
     p(data-aos="zoom-in-left") Esta actividad se relaciona, con las acciones que se realizan al interior de la organización, y que permiten asegurar que todos los procesos críticos estarán disponibles para los clientes, proveedores y otras entidades que deban acceder a ellos, estas actividades se observan en el siguiente recurso educativo:
     
     .row.mb-5
@@ -294,8 +292,7 @@
       figcaption.ps-4  Nota. https://mintic.gov.co/arquitecturati/630/articles-9277_recurso_pdf.pdf    
     .mb-4.d-flex.bg-img-title(data-aos="zoom-in-left")
       .d-flex.flex-wrap.align-items-center.pe-4
-        h3.col.px-4.mb-0.text-white.bg-img-blue(style='width: 350px;') Gestión de la disponibilidad
-        img.col-lg.d-flex(src='@/assets/curso/temas/103.svg').icon-img-blue
+        h3.col.px-4.mb-0.text-white.bg-img-blue Gestión de la disponibilidad
     .row.align-items-center.justify-content-center.mb-5(data-aos="zoom-in-left")
       .col-lg-12
         .bloque-texto-g.bloque-texto-g--inverso.color-primario.p-3.p-sm-4.p-md-5

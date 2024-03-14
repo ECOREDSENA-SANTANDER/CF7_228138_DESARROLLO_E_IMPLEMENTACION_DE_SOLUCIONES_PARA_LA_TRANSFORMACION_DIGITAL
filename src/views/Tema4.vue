@@ -80,7 +80,7 @@
     p(data-aos="zoom-in-left").mb-2 El medio de conexión es un punto de partida que se usa para interconectar las máquinas de una red, se puede realizar a través de dispositivos permiten la conexión mediante un cable coaxial, un cable de par trenzado o un cable de fibra óptica. La conexión también puede establecerse de forma inalámbrica mediante señales de radio, tecnología láser o infrarroja o transmisión por satélite.
     .row.align-items-center.justify-content-center.mb-4(data-aos="zoom-in-left")
       .col-lg-7.my-3
-        p.bg10.p-4.mb-3 En la actualidad estamos en ambientes de interconexión la mayor parte del tiempo, pues la mayoría de los dispositivos se conectan alguna red que permite la conectividad a los servicios, el funcionamiento de los aplicativos, el almacenamiento en la nube, la recepción y envío de mensajes instantáneos o de correo electrónico, esto ha revolucionado y transformado la sociedad.
+        p.bg25.p-4.mb-3 En la actualidad estamos en ambientes de interconexión la mayor parte del tiempo, pues la mayoría de los dispositivos se conectan alguna red que permite la conectividad a los servicios, el funcionamiento de los aplicativos, el almacenamiento en la nube, la recepción y envío de mensajes instantáneos o de correo electrónico, esto ha revolucionado y transformado la sociedad.
         p Para que las redes funcionen requieren de un medio que permita la conexión, como el cableado o de forma inalámbrica por señas de radio, infrarrojo, satélites, entre otros. 
         .d-flex.align-items-center.justify-content-center
           img.img-a.img-t(src='@/assets/curso/temas/10.png', alt='')
@@ -221,21 +221,19 @@
         img.img-a.img-t(src='@/assets/curso/temas/61.png', alt='')
     .mb-4.d-flex.bg-img-title(data-aos="zoom-in-left")
       .d-flex.flex-wrap.align-items-center.pe-4
-        h3.col.px-4.mb-0.text-white.bg-img-blue(style='width: 300px;') Generalidades
-        img.col-lg.d-flex(src='@/assets/curso/temas/103.svg').icon-img-blue
+        h3.col.px-4.mb-0.text-white.bg-img-blue Generalidades
     
     .row.align-items-center.justify-content-center.mb-4(data-aos="zoom-in-left")
       .col-lg-5.my-3
         img.img-a.img-t(src='@/assets/curso/temas/64.png', alt='')
       .col-lg-7.my-3
         p(data-aos="zoom-in-left") Hay que tener ciertos criterios a la hora de elegir una solución como es: presupuesto disponible, rendimiento y capacidad. Además hay fabricantes que ya cuentan con una propuesta en virtualización que podemos adoptar en el proyecto que se esté proponiendo como una alternativa para trabajar con la misma línea.
-        .bg10.p-4.mb-1 
+        .bg25.p-4.mb-1 
           .row.d-flex.align-items-center.justify-content-center
             .col-lg-12 Normalmente en el campo de la virtualización encontramos tecnologías como FC que es de las más reconocidas, no debemos pasar por alto iSCSI o NAS como alternativas. Estas últimas tienen un abanico de dispositivos iSCSI o NAS en el mercado, observamos características como capacidades y escalabilidad y ver que nuestro requerimiento sea compensado. Por eso se precisa que en este momento del proyecto el almacenamiento es una parte crítica para ello.
     .mb-4.d-flex.bg-img-title(data-aos="zoom-in-left")
       .d-flex.flex-wrap.align-items-center.pe-4
-        h3.col.px-4.mb-0.text-white.bg-img-blue(style='width: 300px;') Tipos de almacenamiento
-        img.col-lg.d-flex(src='@/assets/curso/temas/103.svg').icon-img-blue
+        h3.col.px-4.mb-0.text-white.bg-img-blue Tipos de almacenamiento
     
     p(data-aos="zoom-in-left").mb-5    Existen diferencias en los tipos de almacenamiento de datos, a continuación, podrá consultar aquello de carácter principal de acuerdo a las especificaciones técnicas para la arquitectura tecnológica en nube, veamos el siguiente recurso didáctico:
     LineaTiempoD.color-secundario
@@ -290,8 +288,7 @@
     .caja-cus
       .mb-4.d-flex.bg-img-title(data-aos="zoom-in-left").mt-5
         .d-flex.flex-wrap.align-items-center.pe-4
-          h3.col.px-4.mb-0.text-white.bg-img-blue(style='width: 370px;') Tecnologías de almacenamiento
-          img.col-lg.d-flex(src='@/assets/curso/temas/103.svg').icon-img-blue
+          h3.col.px-4.mb-0.text-white.bg-img-blue Tecnologías de almacenamiento
       
       .row.d-flex.align-items-center.justify-content-center(data-aos="zoom-in-left").mx-5-cus
           .col-sm-12.col-lg-4.he-7-cus
@@ -382,8 +379,7 @@
 
     .mb-4.d-flex.bg-img-title(data-aos="zoom-in-left")
       .d-flex.flex-wrap.align-items-center.pe-4
-        h3.col.px-4.mb-0.text-white.bg-img-blue(style='width: 200px;') Arreglos Raid
-        img.col-lg.d-flex(src='@/assets/curso/temas/103.svg').icon-img-blue
+        h3.col.px-4.mb-0.text-white.bg-img-blue Arreglos Raid
     
     p.mb-3(data-aos="zoom-in-left")  #[b RAID es la sigla para ]  “Redundant Array of Independent Disks”. Su definición en español sería "Matriz Redundante de Discos Independientes". Se trata de una tecnología que combina varios discos rígidos (HD) para formar una única unidad lógica, donde los mismos datos son almacenados en todos los discos (redundancia). En otras palabras, es un conjunto de discos rígidos que funcionan como si fueran uno solo.
     .row.align-items-center.justify-content-center.mb-4

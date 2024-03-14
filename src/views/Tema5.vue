@@ -8,7 +8,7 @@
       h1 Entrega de servicios  
     .row.align-items-center.justify-content-center(data-aos="zoom-in-left")
       .col-lg-12
-        .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-5
+        .bloque-texto-g.color-adicional-1.p-3.p-sm-4.p-md-5.mb-5
           .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/temas/85.png')})`}"
           )
@@ -17,7 +17,9 @@
     Separador
     #t_5_1.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2 5.1 Acuerdos de Nivel de servicio (ANS) 
-    p(data-aos="zoom-in-left") También conocidos como SLA, por sus siglas en inglés Service Level Agreement. Las actividades claves para la Gestión de Niveles de Servicio pueden observarse al desplegar el siguiente recurso:
+    p(data-aos="zoom-in-left") También conocidos como SLA, por sus siglas en inglés 
+      span.color-green #[b #[em Service Level Agreement]]. 
+      span  Las actividades claves para la Gestión de Niveles de Servicio pueden observarse al desplegar el siguiente recurso:
     .row.d-flex.align-items-center.justify-content-center.mb-5(data-aos="zoom-in-left")
       .col-lg-12
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/86.svg', alt='')
@@ -29,7 +31,7 @@
             span
               |  Interacciones y funcionalidades gestión de niveles de servicio
         figure.mt-4.mb-5(data-aos="zoom-in-left")
-            img(src='@/assets/curso/temas/87.svg', alt='Actividades del plan de gestión de servicios TI')
+            img(src='@/assets/curso/temas/87.svg', alt='Esquema que muestra cómo interactúan los elementos de la gestión de los niveles de servicio: soporte al servicio, centro de servicios y provisión de servicios, cliente, planificación, implementación, revisión y catálogo de servicios.')
     Separador
     #t_5_2.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2 5.2 Acuerdo de Nivel de Operación (OLA) 
