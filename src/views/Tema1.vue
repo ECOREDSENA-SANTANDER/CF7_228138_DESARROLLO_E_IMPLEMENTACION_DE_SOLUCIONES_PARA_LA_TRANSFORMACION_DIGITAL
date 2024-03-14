@@ -192,85 +192,85 @@
     .row.mb-5
       .col-12.bg-img-card 
         .row.mb-5.align-items-center.justify-content-center.z-index-cus 
-          .col-1.m-0.p-0
+          .col-sm-12.col-md-2.col-lg-1.m-0.p-0.d-none.d-md-block
               img.he-5-cus.img-pos-3(src='@/assets/curso/temas/176.svg')
-          .col-6.bg22.text-white.m-0.p-0.he-5-cus.px-3.z-index-cus 
+          .col-sm-12.col-md-10.col-lg-6.bg22.text-white.m-0.p-0.he-5-cus.px-3.z-index-cus 
               h5.mt-5-cus Las actividades claves para la Gestión de la Continuidad de los Servicios TI 
         .row.mb-5.align-items-center.justify-content-center
-          .col-6.z-index-cus.px-5.m-auto 
+          .col-sm-12.col-lg-6.z-index-cus.px-5.m-auto 
             img(src='@/assets/curso/temas/178.svg')
-          .col-6.z-index-cus
+          .col-sm-12.col-lg-6.z-index-cus
             .row.mb-3
-              .col-11
+              .col-sm-12.col-lg-11
                 .tarjeta-avatar-b.he-5-cus 
                   .tarjeta-avatar-b__img
                     img(src='@/assets/curso/temas/179.svg' alt='AvatarTop')
                   .tarjeta.tarjeta--white.tarjeta-avatar-cus
-                    .p-4
+                    .p-4-cus
                       p Establecer  las políticas y alcance de la ITSCM.
             .row.mb-3
-              .col-11
+              .col-sm-12.col-lg-11
                 .tarjeta-avatar-b.he-5-cus 
                   .tarjeta-avatar-b__img
                     img(src='@/assets/curso/temas/180.svg' alt='AvatarTop')
                   .tarjeta.tarjeta--white.tarjeta-avatar-cus
-                    .p-4
+                    .p-4-cus
                       p Evaluar el impacto en el negocio de una interrupción de los servicios TI.
             .row.mb-3
-              .col-11
+              .col-sm-12.col-lg-11
                 .tarjeta-avatar-b.he-5-cus 
                   .tarjeta-avatar-b__img
                     img(src='@/assets/curso/temas/181.svg' alt='AvatarTop')
                   .tarjeta.tarjeta--white.tarjeta-avatar-cus
-                    .p-4
+                    .p-4-cus
                       p Analizar y prever los riesgos a los que está expuesto la infraestructura TI.
             .row.mb-3
-              .col-11
+              .col-sm-12.col-lg-11
                 .tarjeta-avatar-b.he-5-cus 
                   .tarjeta-avatar-b__img
                     img(src='@/assets/curso/temas/182.svg' alt='AvatarTop')
                   .tarjeta.tarjeta--white.tarjeta-avatar-cus
-                    .p-4
+                    .p-4-cus
                       p Establecer las estrategias de continuidad del servicio TI.
             .row.mb-3
-              .col-11
+              .col-sm-12.col-lg-11
                 .tarjeta-avatar-b.he-5-cus 
                   .tarjeta-avatar-b__img
                     img(src='@/assets/curso/temas/183.svg' alt='AvatarTop')
                   .tarjeta.tarjeta--white.tarjeta-avatar-cus
-                    .p-4
+                    .p-4-cus
                       p Adoptar medidas proactivas de prevención del riesgo.
             .row.mb-3
-              .col-11
+              .col-sm-12.col-lg-11
                 .tarjeta-avatar-b.he-5-cus 
                   .tarjeta-avatar-b__img
                     img(src='@/assets/curso/temas/184.svg' alt='AvatarTop')
                   .tarjeta.tarjeta--white.tarjeta-avatar-cus
-                    .p-4
+                    .p-4-cus
                       p Desarrollar los planes de contingencia.
             .row.mb-3
-              .col-11
+              .col-sm-12.col-lg-11
                 .tarjeta-avatar-b.he-5-cus 
                   .tarjeta-avatar-b__img
                     img(src='@/assets/curso/temas/185.svg' alt='AvatarTop')
                   .tarjeta.tarjeta--white.tarjeta-avatar-cus
-                    .p-4
+                    .p-4-cus
                       p Poner a prueba dichos planes. 
             .row.mb-3
-              .col-11
+              .col-sm-12.col-lg-11
                 .tarjeta-avatar-b.he-5-cus 
                   .tarjeta-avatar-b__img
                     img(src='@/assets/curso/temas/186.svg' alt='AvatarTop')
                   .tarjeta.tarjeta--white.tarjeta-avatar-cus
-                    .px-4.pt-3
+                    .p-4-cus.pt-3
                       p Formar al personal sobre los procedimientos necesarios para la pronta recuperación del servicio.
             .row.mb-3
-              .col-11
+              .col-sm-12.col-lg-11
                 .tarjeta-avatar-b.he-5-cus 
                   .tarjeta-avatar-b__img
                     img(src='@/assets/curso/temas/187.svg' alt='AvatarTop')
                   .tarjeta.tarjeta--white.tarjeta-avatar-cus
-                    .px-4.pt-2
+                    .p-4-cus.pt-2
                       p Revisar periódicamente los planes para adaptarlos a las necesidades reales del negocio.
       
       
@@ -302,7 +302,7 @@
           .bloque-texto-g__texto.px-4.py-5
             p.mb-0 Esta gestión es la encargada de asegurar que la infraestructura, así como los procesos, las herramientas y las funciones de TI, sean los adecuados para dar cumplimiento a los objetivos de disponibilidad establecidos.
     p.mb-3(data-aos="zoom-in-left") Las actividades claves para la Gestión de la Disponibilidad son las siguientes:
-    .row.bg-img-card-2.mb-5.p-4
+    .row.bg-img-card-2.mb-5.p-4.d-none.d-lg-block
       .col-lg-10.m-auto
         .row 
           .col-3.bg23
@@ -351,7 +351,48 @@
           .col-1
           .col-3.bg23
             p.px-2.py-4.text-center Asesorar a la Gestión del Cambio sobre el posible impacto de un cambio en la disponibilidad.
+    
+    .row.bg-img-card-2.mb-5.p-4.d-block.d-lg-none
+      .col-lg-10.m-auto
+        .row.flex-column 
+          .col-3.bg23.m-auto
+            p.px-2.py-4.text-center Determinar cuáles son los requisitos de disponibilidad reales del negocio.
+          .col-3.m-auto.my-2
+            img.he-5-cus(src='@/assets/curso/temas/190.svg')
+          .col-3.bg24.m-auto
+            p.px-2.py-4.text-center Desarrollar un plan de disponibilidad donde se estimen las necesidades de disponibilidad futura a corto y medio plazo.
+          .col-3.m-auto.my-2
+            img.he-5-cus(src='@/assets/curso/temas/190.svg')
+          .col-3.bg23.m-auto
+            p.px-2.py-4.text-center Mantenimiento del servicio en operación y recuperación del mismo en caso de fallo.
+        .row.flex-column 
+          .col-3.m-auto.my-2
+            img.he-5-cus(src='@/assets/curso/temas/190.svg')
+          .col-3.bg24.m-auto
+            p.px-2.py-4.text-center Realizar diagnósticos periódicos sobre la disponibilidad de los sistemas y servicios.
+          .col-3.m-auto.my-2
+            img.he-5-cus(src='@/assets/curso/temas/190.svg') 
+          .col-3.bg23.m-auto
+            p.px-2.py-4.text-center Evaluar la capacidad de servicio de los proveedores internos y externos.
+          .col-3.m-auto.my-2
+            img.he-5-cus(src='@/assets/curso/temas/190.svg')
+          .col-3.bg24.m-auto
+            p.px-2.py-4.text-center Monitorizar la disponibilidad de los servicios TI.
         
+        .row.flex-column  
+          .col-3.m-auto.my-2
+            img.he-5-cus(src='@/assets/curso/temas/190.svg')
+          .col-3.bg23.m-auto
+            p.px-2.py-4.text-center Elaborar informes de seguimiento con la información recopilada sobre disponibilidad, fiabilidad, mantenibilidad y cumplimiento de OLAs y UCs.
+          .col-3.m-auto.my-2
+            img.he-5-cus(src='@/assets/curso/temas/190.svg') 
+          .col-3.bg24.m-auto
+            p.px-2.py-4.text-center Evaluar el impacto de las políticas de seguridad en la disponibilidad.
+          .col-3.m-auto.my-2
+            img.he-5-cus(src='@/assets/curso/temas/190.svg')
+          .col-3.bg23.m-auto
+            p.px-2.py-4.text-center Asesorar a la Gestión del Cambio sobre el posible impacto de un cambio en la disponibilidad.
+            
     
     
     
