@@ -44,7 +44,7 @@
             .bloque-texto-g__texto.p-5
               p.mb-0 Acuerdo de Nivel Operacional, OLA por sus siglas en inglés: Operational Level Agreement, es un acuerdo realizado entre un proveedor de servicios de TI y otra parte de la misma organización, como por ejemplo: el área de sistemas, área de desarrollo u otras, en el que se definen los bienes y servicios que se proveen y las responsabilidades de ambas partes.
     p.mb-5(data-aos="zoom-in-left") A continuación, se presentan las recomendaciones para crear el OLA :
-    .row.justify-content-center.align-items-center.radius-4-cus(
+    .row.justify-content-center.align-items-center.radius-4-cus.bg-norepeat.bg-cover.pb-3(
             :style="{'background-image': `url(${require('@/assets/curso/temas/46.svg')})`}"
           )
       .col-lg-4
@@ -52,7 +52,7 @@
       .col-lg-8
         .row.justify-content-center.align-items-center
           .col-lg-12
-            SlyderF.custom(columnas="col-lg-6 col-md-6")(data-aos="fade-left")
+            SlyderF.custom-2(columnas="col-lg-6 col-md-6")(data-aos="fade-left")
               .tarjeta.tarjeta--slyder.bg7.p-4.h-100
                 .row.justify-content-center.mb-3
                   .col-8

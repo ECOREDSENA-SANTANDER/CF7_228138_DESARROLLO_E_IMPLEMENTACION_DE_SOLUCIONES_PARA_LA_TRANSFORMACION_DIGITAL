@@ -18,37 +18,37 @@
 
     p(data-aos="zoom-in-left").mb-5.fw-bold Conozca, ahora, algunas de las buenas prácticas más representativas:  
 
-    SlyderA(tipo="b").slider-a-custom.mb-5(data-aos="zoom-in-left")
-      .row.align-items-center.justify-content-center
-        .col-lg-6.col-md-12.my-3
-          h4.mb-4 Controles CIS v8
-          p Los controles CIS son una propuesta de controles de seguridad específicos y con los cuales se busca endurecer las acciones defensivas y así prevenir incidentes que afecten los activos de información.
-        .col-lg-6.col-md-12.my-3
-          img.img-a.img-t(src='@/assets/curso/temas/37.png', alt='')
-      .row.align-items-center.justify-content-center
-        .col-lg-6.col-md-12.my-3
-          h4.mb-4 En qué se basan los controles CIS v8
-          p Esta propuesta está basada en múltiples marcos de seguridad, lo que permite abordar diferentes puntos de vista y, asimismo, recoge las mejores propuestas de seguridad.
-        .col-lg-6.col-md-12.my-3
-          img.img-a.img-t(src='@/assets/curso/temas/38.png', alt='')
-      .row.align-items-center.justify-content-center
-        .col-lg-6.col-md-12.my-3
-          h4.mb-4 Estructuración de CIS v8
-          p Los controles CIS están estructurados en 18 controles y 153 salvaguardas, distribuidos en 3 grupos de implementación.
-        .col-lg-6.col-md-12.my-3
-          img.img-a.img-t(src='@/assets/curso/temas/39.png', alt='')
-      .row.align-items-center.justify-content-center
-        .col-lg-6.col-md-12.my-3
-          h4.mb-4 CIS Benchmarks
-          p Esta otra iniciativa de recomendaciones específicas para productos de diferentes proveedores y tipos recopila una serie de recomendaciones y pautas para el endurecimiento de sistemas y aplicaciones, y así poder cumplir con un nivel básico de seguridad.
-        .col-lg-6.col-md-12.my-3
-          img.img-a.img-t(src='@/assets/curso/temas/40.png', alt='')
-      .row.align-items-center.justify-content-center
-        .col-lg-6.col-md-12.my-3
-          h4.mb-4 Las más comunes
-          p Entre las guías más comunes, se encuentran: sistemas operativos Linux y Windows, servicios web, bases de datos, hipervisores, servicios en la nube, dispositivos móviles, dispositivos de red, software de escritorio, dispositivos de impresión.
-        .col-lg-6.col-md-12.my-3
-          img.img-a.img-t(src='@/assets/curso/temas/41.png', alt='')
+    TabsC.color-primario.mb-5(data-aos="zoom-in-left")
+      .py-3.py-md-4.bg26.px-3(titulo="Controles CIS v8 ")
+        .row.align-items-center.justify-content-center
+          .col-lg-9.col-md-12.my-3
+            p Los controles CIS son una propuesta de controles de seguridad específicos y con los cuales se busca endurecer las acciones defensivas y así prevenir incidentes que afecten los activos de información.
+          .col-lg-3.col-md-12.my-3
+            img.img-a.img-t(src='@/assets/curso/temas/37.png', alt='')
+      .py-3.py-md-4.bg26.px-3(titulo="En qué se basan los controles CIS v8 ")
+        .row.align-items-center.justify-content-center
+          .col-lg-9.col-md-12.my-3
+            p Esta propuesta está basada en múltiples marcos de seguridad, lo que permite abordar diferentes puntos de vista y, asimismo, recoge las mejores propuestas de seguridad.
+          .col-lg-3.col-md-12.my-3
+            img.img-a.img-t(src='@/assets/curso/temas/38.png', alt='')
+      .py-3.py-md-4.bg26.px-3(titulo="Estructuración de CIS v8 ")
+        .row.align-items-center.justify-content-center
+          .col-lg-9.col-md-12.my-3
+            p Los controles CIS están estructurados en 18 controles y 153 salvaguardas, distribuidos en 3 grupos de implementación.
+          .col-lg-3.col-md-12.my-3
+            img.img-a.img-t(src='@/assets/curso/temas/39.png', alt='')
+      .py-3.py-md-4.bg26.px-3(titulo="CIS Benchmarks ")
+        .row.align-items-center.justify-content-center
+          .col-lg-9.col-md-12.my-3
+            p Esta otra iniciativa de recomendaciones específicas para productos de diferentes proveedores y tipos recopila una serie de recomendaciones y pautas para el endurecimiento de sistemas y aplicaciones, y así poder cumplir con un nivel básico de seguridad.
+          .col-lg-3.col-md-12.my-3
+            img.img-a.img-t(src='@/assets/curso/temas/40.png', alt='')
+      .py-3.py-md-4.bg26.px-3(titulo="Las más comunes ")
+        .row.align-items-center.justify-content-center
+          .col-lg-9.col-md-12.my-3
+            p Entre las guías más comunes, se encuentran: sistemas operativos Linux y Windows, servicios web, bases de datos, hipervisores, servicios en la nube, dispositivos móviles, dispositivos de red, software de escritorio, dispositivos de impresión.
+          .col-lg-3.col-md-12.my-3
+            img.img-a.img-t(src='@/assets/curso/temas/41.png', alt='')
       
     .row.justify-content-center.align-items-center(data-aos="zoom-in-left")
       .col-lg-10

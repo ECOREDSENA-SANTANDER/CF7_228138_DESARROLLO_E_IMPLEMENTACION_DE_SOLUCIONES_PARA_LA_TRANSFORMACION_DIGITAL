@@ -17,37 +17,47 @@
 
     p.mb-5.fw-bold(data-aos="zoom-in-left") Las tecnologías de la información, se pueden clasificar de la siguiente manera:  
 
-    SlyderA(tipo="b").slider-a-custom(data-aos="zoom-in-left")
-      .row.align-items-center.justify-content-center
-        .col-lg-6.col-md-12.my-3
-          h4.mb-4 Tecnologías de la información
-          p Están orientadas a dar solución a los problemas del negocio y los procesos. Esta tecnología se aplica al nivel de rendimiento del personal de baja calificación con el fin de optimizar o automatizar algunas funciones rutinarias y repetitivas del trabajo administrativo.
-        .col-lg-6.col-md-12.my-3
-          img.img-a.img-t(src='@/assets/curso/temas/4.png', alt='')
-      .row.align-items-center.justify-content-center
-        .col-lg-6.col-md-12.my-3
-          h4.mb-4 Tecnologías de gestión
-          p Está destinada al servicio de información de todos los empleados de la organización, concerniente con la admisión de las decisiones administrativas. En este caso, la información se presenta en forma de informes de gestión comunes y contiene información sobre el pasado, el presente y el posible futuro de la organización.
-        .col-lg-6.col-md-12.my-3
-          img.img-a.img-t(src='@/assets/curso/temas/5.png', alt='')
-      .row.align-items-center.justify-content-center
-        .col-lg-6.col-md-12.my-3
-          h4.mb-4 Tecnologías de automatización
-          p Aportan a la automatización de los procesos, el análisis de información y apoya los procesos de comunicación interna y externa, se soporta en redes de datos informáticas, medios modernos de transferencia y gestión de la información.
-        .col-lg-6.col-md-12.my-3
-          img.img-a.img-t(src='@/assets/curso/temas/6.png', alt='')
-      .row.align-items-center.justify-content-center
-        .col-lg-6.col-md-12.my-3
-          h4.mb-4 Tecnología para la toma de decisiones
-          p Aporta a la gestión de la información, ayudando a mejorar calidad de las decisiones de negocios, esta tecnología también aporta herramientas para el desarrollo trabajo colaborativo.
-        .col-lg-6.col-md-12.my-3
-          img.img-a.img-t(src='@/assets/curso/temas/7.png', alt='')
-      .row.align-items-center.justify-content-center
-        .col-lg-6.col-md-12.my-3
-          h4.mb-4 Sistemas expertos
-          p Esta tecnología se basa en el uso de la inteligencia artificial, permitiendo a los líderes de la organización recibir recomendaciones técnicas sobre problemas específicos y complejos, simula procesos sobre los cuales se va acumulado conocimiento para predicciones cada vez más confiables.
-        .col-lg-6.col-md-12.my-3
-          img.img-a.img-t(src='@/assets/curso/temas/8.png', alt='')    
+    SlyderF.custom(columnas="col-lg-4")
+      .tarjeta-avatar
+        img(src='@/assets/curso/temas/4.png' alt='AvatarTop')
+        .tarjeta.color-acento-botones-2.p-4
+          .row.align-items-center.justify-content-center
+            .col-12.my-3.mt-5
+              h4.mb-4 Tecnologías de la información
+              p Están orientadas a dar solución a los problemas del negocio y los procesos. Esta tecnología se aplica al nivel de rendimiento del personal de baja calificación con el fin de optimizar o automatizar algunas funciones rutinarias y repetitivas del trabajo administrativo.
+          
+      .tarjeta-avatar
+        img(src='@/assets/curso/temas/5.png' alt='AvatarTop')
+        .tarjeta.color-acento-botones-2.p-4
+          .row.align-items-center.justify-content-center
+            .col-12.my-3.mt-5
+              h4.mb-4 Tecnologías de gestión
+              p Está destinada al servicio de información de todos los empleados de la organización, concerniente con la admisión de las decisiones administrativas. En este caso, la información se presenta en forma de informes de gestión comunes y contiene información sobre el pasado, el presente y el posible futuro de la organización.
+         
+      .tarjeta-avatar
+        img(src='@/assets/curso/temas/6.png' alt='AvatarTop')
+        .tarjeta.color-acento-botones-2.p-4
+          .row.align-items-center.justify-content-center
+            .col-12.my-3.mt-5
+              h4.mb-4 Tecnologías de automatización
+              p Aportan a la automatización de los procesos, el análisis de información y apoya los procesos de comunicación interna y externa, se soporta en redes de datos informáticas, medios modernos de transferencia y gestión de la información.
+          
+      .tarjeta-avatar
+        img(src='@/assets/curso/temas/7.png' alt='AvatarTop')
+        .tarjeta.color-acento-botones-2.p-4
+          .row.align-items-center.justify-content-center
+            .col-12.my-3.mt-5
+              h4.mb-4 Tecnología para la toma de decisiones
+              p Aporta a la gestión de la información, ayudando a mejorar calidad de las decisiones de negocios, esta tecnología también aporta herramientas para el desarrollo trabajo colaborativo.
+            
+      .tarjeta-avatar
+        img(src='@/assets/curso/temas/8.png' alt='AvatarTop')
+        .tarjeta.color-acento-botones-2.p-4
+          .row.align-items-center.justify-content-center
+            .col-12.my-3.mt-5
+              h4.mb-4 Sistemas expertos
+              p Esta tecnología se basa en el uso de la inteligencia artificial, permitiendo a los líderes de la organización recibir recomendaciones técnicas sobre problemas específicos y complejos, simula procesos sobre los cuales se va acumulado conocimiento para predicciones cada vez más confiables.
+         
     Separador
 
     #t_1_1.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
@@ -55,7 +65,7 @@
     .row.align-items-center.justify-content-center.mb-4(data-aos="zoom-in-left")
       .col-lg-7.mb-2-cus
         p Las tecnologías de la información van evolucionando con el tiempo, de acuerdo con las necesidades sociales, gubernamentales, empresariales o de negocio, permitiendo lo que hoy conocemos como desarrollo tecnológico, que trae consigo la creación de nuevas tecnologías y que han permitido transformaciones y cambios en la cultura, la comunicación.
-        .bg10.p-4.mb-1   Las características de las TI estimulan la interactividad entre usuarios y la transmisión de información por medio de dispositivos, se adaptan según las necesidades de las personas y del mercado, se ejecutan a gran velocidad gracias al internet y tienen un impacto social e individual.
+        p.mb-2   Las características de las TI estimulan la interactividad entre usuarios y la transmisión de información por medio de dispositivos, se adaptan según las necesidades de las personas y del mercado, se ejecutan a gran velocidad gracias al internet y tienen un impacto social e individual.
         .d-flex.align-items-center.justify-content-center
           img.img-a.img-t(src='@/assets/curso/temas/10.png', alt='')
           p.ml-1-custom.mt-2 Por esto es importante reconocer las características y tipificaciones de la tecnología, las cuales se presentan a continuación: 
@@ -123,28 +133,28 @@
         figure.mt-4.mb-5(data-aos="zoom-in-left")
           img(src='@/assets/curso/temas/21.svg', alt='Diagrama que enuncia las tres actividades del plan de gestión de servicios TI: Gestión de Capacidad, de Continuidad y de Disponibilidad.')
     
+    
     .mb-4.d-flex.bg-img-title(data-aos="zoom-in-left")
       .d-flex.flex-wrap.align-items-center.pe-4
-        h3.col.px-4.mb-0.text-white.bg-img-blue Gestión de la capacidad
-    p.mb-5.color-green(data-aos="zoom-in-left")  #[b La gestión de la capacidad, posibilita encargarse de las TI,  ] 
-      span.color-black asegurando que la capacidad de las tecnologías de la información, cumplen los requisitos establecidos, al momento y en el futuro de la organización, y que genera un costo que puede ser asumido sin problema, tanto en la gestión de la capacidad física, como económica.
+        h3.col.px-4.mb-0.text-white.aos-init.aos-animate(style='width: 290px;').bg-img-blue Gestión de la capacidad
+        img.col-lg.d-flex.aos-init.aos-animate(src='@/assets/curso/temas/103.svg').icon-blue 
+    p.mb-5(data-aos="zoom-in-left")   La gestión de la capacidad, posibilita encargarse de las TI,  asegurando que la capacidad de las tecnologías de la información, cumplen los requisitos establecidos, al momento y en el futuro de la organización, y que genera un costo que puede ser asumido sin problema, tanto en la gestión de la capacidad física, como económica.
     
-    .cajaLM.px-5
+    .cajaLM
       .row.justify-content-center.align-items-center(data-aos="zoom-in-left")
-        .col-lg-7
+        .col-lg-8
           .row.justify-content-center.align-items-center
             .col-lg-12
-              .tarjeta.bg14.p-3
                 .row.justify-content-around.align-items-center
                   .col-sm-12.col-lg-2
-                    img.w-img-cus-2.m-auto(src="@/assets/curso/temas/23.svg")
-                  .col
+                    img(src="@/assets/curso/temas/23.svg")
+                  .col-sm-12.col-lg-10
                     .row.justify-content-between.align-items-center
                       .col.mb-3.mb-sm-0
                         p.mb-0 Una correcta definición de los servicios de una compañía, es clave en el proceso, por esta razón debe tenerse claro cuál es la herramienta o herramientas útiles en la gestión diaria del servicio, así como los indicadores que medirán dicho servicio. Las actividades más significativas de la Gestión de la Capacidad son: 
           .row.justify-content-center.align-items-center
             .col-lg-12
-              SlyderF.custom(columnas="col-lg-4 col-md-4")  
+              SlyderF(columnas="col-lg-4 col-md-4")  
                 .tarjeta.tarjeta--slyder.bg5.p-4.h-100
                   .row.justify-content-center.mb-3
                     .col-8
@@ -171,7 +181,7 @@
                       img.img-a.img-t.mb-3.mt-4(src="@/assets/curso/temas/25.png", alt="alt").img100.m-auto
                   p.mb-0.text-center Creación y mantenimiento de la Base de Datos de Capacidad (CDB).
             
-        .col-lg-5
+        .col-lg-4
           img.img-a.img-t(src='@/assets/curso/temas/24.png', alt='Actividades del plan de gestión de servicios TI')
 
       p.mt-3(data-aos="zoom-in-left") En la siguiente figura se relacionan las actividades más significativas para la gestión de la capacidad:
@@ -186,7 +196,8 @@
     
     .mb-4.d-flex.bg-img-title(data-aos="zoom-in-left")
       .d-flex.flex-wrap.align-items-center.pe-4
-        h3.col.px-4.mb-0.text-white.bg-img-blue Gestión de la continuidad
+        h3.col.px-4.mb-0.text-white.aos-init.aos-animate(style='width: 300px;').bg-img-blue Gestión de la continuidad
+        img.col-lg.d-flex.aos-init.aos-animate(src='@/assets/curso/temas/103.svg').icon-blue
     p(data-aos="zoom-in-left") Esta actividad se relaciona, con las acciones que se realizan al interior de la organización, y que permiten asegurar que todos los procesos críticos estarán disponibles para los clientes, proveedores y otras entidades que deban acceder a ellos, estas actividades se observan en el siguiente recurso educativo:
     
     .row.mb-5
@@ -277,7 +288,7 @@
       
     .row.justify-content-center.align-items-center(data-aos="zoom-in-left")
       .col-lg-12
-        .bloque-texto-a.color-acento-contenido.p-2.p-md-3.mb-5
+        .bloque-texto-a.color-acento-botones-cus.p-2.p-md-3.mb-5
           .row.m-0.align-items-center.justify-content-between
             .col-lg-2.mb-4.mb-lg-0
               img.w-75-cus(src='@/assets/curso/temas/28.svg', alt='Actividades del plan de gestión de servicios TI')
@@ -288,11 +299,15 @@
       span
         | Gestión de la continuidad
     figure.mt-4.mb-5(data-aos="zoom-in-left")
-      img(src='@/assets/curso/temas/29.svg', alt='Esquema de pasos que señala las fases activas de la gestión de capacidad: Alcance, Análisis, Estrategias, Planificación, Supervisión, Operación.')
+      .row.mb-5.justify-content-center.align-items-center
+        .col-sm-12.col-lg-8.justify-content-center.align-items-center
+          img(src='@/assets/curso/temas/29.svg', alt='Esquema de pasos que señala las fases activas de la gestión de capacidad: Alcance, Análisis, Estrategias, Planificación, Supervisión, Operación.')
       figcaption.ps-4  Nota. https://mintic.gov.co/arquitecturati/630/articles-9277_recurso_pdf.pdf    
     .mb-4.d-flex.bg-img-title(data-aos="zoom-in-left")
       .d-flex.flex-wrap.align-items-center.pe-4
-        h3.col.px-4.mb-0.text-white.bg-img-blue Gestión de la disponibilidad
+        h3.col.px-4.mb-0.text-white.bg-img-blue(style='width: 350px;') Gestión de la disponibilidad
+        img.col-lg.d-flex.aos-init.aos-animate(src='@/assets/curso/temas/103.svg').icon-blue
+
     .row.align-items-center.justify-content-center.mb-5(data-aos="zoom-in-left")
       .col-lg-12
         .bloque-texto-g.bloque-texto-g--inverso.color-primario.p-3.p-sm-4.p-md-5
@@ -301,104 +316,16 @@
           )
           .bloque-texto-g__texto.px-4.py-5
             p.mb-0 Esta gestión es la encargada de asegurar que la infraestructura, así como los procesos, las herramientas y las funciones de TI, sean los adecuados para dar cumplimiento a los objetivos de disponibilidad establecidos.
-    p.mb-3(data-aos="zoom-in-left") Las actividades claves para la Gestión de la Disponibilidad son las siguientes:
-    .row.bg-img-card-2.mb-5.p-4.d-none.d-lg-block
-      .col-lg-10.m-auto
-        .row 
-          .col-3.bg23
-            p.px-2.py-4.text-center Determinar cuáles son los requisitos de disponibilidad reales del negocio.
-          .col-1 
-          .col-3.bg24
-            p.px-2.py-4.text-center Monitorizar la disponibilidad de los servicios TI.
-          .col-1.mt-5
-            img(src='@/assets/curso/temas/189.svg')
-          .col-3.bg23
-            p.px-2.py-4.text-center Elaborar informes de seguimiento con la información recopilada sobre disponibilidad, fiabilidad, mantenibilidad y cumplimiento de OLAs y UCs.
-        .row.my-3 
-          .col-3.m-auto
-            img.he-5-cus(src='@/assets/curso/temas/190.svg')
-          .col-1 
-          .col-3.m-auto
-            img.he-5-cus(src='@/assets/curso/temas/191.svg')
-          .col-1
-          .col-3.m-auto
-            img.he-5-cus(src='@/assets/curso/temas/190.svg') 
-        .row 
-          .col-3.bg24
-            p.px-2.py-4.text-center Desarrollar un plan de disponibilidad donde se estimen las necesidades de disponibilidad futura a corto y medio plazo.
-          .col-1 
-          .col-3.bg23
-            p.px-2.py-4.text-center Evaluar la capacidad de servicio de los proveedores internos y externos.
-          .col-1
-          .col-3.bg24
-            p.px-2.py-4.text-center Evaluar el impacto de las políticas de seguridad en la disponibilidad.
-        .row.my-3 
-          .col-3.m-auto
-            img.he-5-cus(src='@/assets/curso/temas/190.svg')
-          .col-1 
-          .col-3.m-auto
-            img.he-5-cus(src='@/assets/curso/temas/191.svg')
-          .col-1
-          .col-3.m-auto
-            img.he-5-cus(src='@/assets/curso/temas/190.svg') 
-        .row 
-          .col-3.bg23
-            p.px-2.py-4.text-center Mantenimiento del servicio en operación y recuperación del mismo en caso de fallo.
-          .col-1.mt-5
-            img(src='@/assets/curso/temas/189.svg') 
-          .col-3.bg24
-            p.px-2.py-4.text-center Realizar diagnósticos periódicos sobre la disponibilidad de los sistemas y servicios.
-          .col-1
-          .col-3.bg23
-            p.px-2.py-4.text-center Asesorar a la Gestión del Cambio sobre el posible impacto de un cambio en la disponibilidad.
+    p.mb-5(data-aos="zoom-in-left").fw-bold Las actividades claves para la Gestión de la Disponibilidad son las siguientes:
+    .row.my-5.d-none.d-lg-block
+      .col-lg-12.m-auto 
+        img(src='@/assets/curso/temas/192.svg')
     
-    .row.bg-img-card-2.mb-5.p-4.d-block.d-lg-none
-      .col-lg-10.m-auto
-        .row.flex-column 
-          .col-3.bg23.m-auto
-            p.px-2.py-4.text-center Determinar cuáles son los requisitos de disponibilidad reales del negocio.
-          .col-3.m-auto.my-2
-            img.he-5-cus(src='@/assets/curso/temas/190.svg')
-          .col-3.bg24.m-auto
-            p.px-2.py-4.text-center Desarrollar un plan de disponibilidad donde se estimen las necesidades de disponibilidad futura a corto y medio plazo.
-          .col-3.m-auto.my-2
-            img.he-5-cus(src='@/assets/curso/temas/190.svg')
-          .col-3.bg23.m-auto
-            p.px-2.py-4.text-center Mantenimiento del servicio en operación y recuperación del mismo en caso de fallo.
-        .row.flex-column 
-          .col-3.m-auto.my-2
-            img.he-5-cus(src='@/assets/curso/temas/190.svg')
-          .col-3.bg24.m-auto
-            p.px-2.py-4.text-center Realizar diagnósticos periódicos sobre la disponibilidad de los sistemas y servicios.
-          .col-3.m-auto.my-2
-            img.he-5-cus(src='@/assets/curso/temas/190.svg') 
-          .col-3.bg23.m-auto
-            p.px-2.py-4.text-center Evaluar la capacidad de servicio de los proveedores internos y externos.
-          .col-3.m-auto.my-2
-            img.he-5-cus(src='@/assets/curso/temas/190.svg')
-          .col-3.bg24.m-auto
-            p.px-2.py-4.text-center Monitorizar la disponibilidad de los servicios TI.
-        
-        .row.flex-column  
-          .col-3.m-auto.my-2
-            img.he-5-cus(src='@/assets/curso/temas/190.svg')
-          .col-3.bg23.m-auto
-            p.px-2.py-4.text-center Elaborar informes de seguimiento con la información recopilada sobre disponibilidad, fiabilidad, mantenibilidad y cumplimiento de OLAs y UCs.
-          .col-3.m-auto.my-2
-            img.he-5-cus(src='@/assets/curso/temas/190.svg') 
-          .col-3.bg24.m-auto
-            p.px-2.py-4.text-center Evaluar el impacto de las políticas de seguridad en la disponibilidad.
-          .col-3.m-auto.my-2
-            img.he-5-cus(src='@/assets/curso/temas/190.svg')
-          .col-3.bg23.m-auto
-            p.px-2.py-4.text-center Asesorar a la Gestión del Cambio sobre el posible impacto de un cambio en la disponibilidad.
-            
-    
-    
+     
     
     .row.justify-content-center.align-items-center(data-aos="zoom-in-left")
       .col-lg-12
-        .bloque-texto-a.color-acento-contenido.p-2.p-md-3.mb-5
+        .bloque-texto-a.color-acento-contenido-cus.p-2.p-md-3.mb-5
           .row.m-0.align-items-center.justify-content-between
             .col-lg-2.mb-4.mb-lg-0
               img.w-75-cus(src='@/assets/curso/temas/28.svg', alt='Actividades del plan de gestión de servicios TI')
@@ -410,7 +337,9 @@
       span
         | Gestión de la continuidad
     figure.mt-4.mb-5(data-aos="zoom-in-left")
-      img(src='@/assets/curso/temas/33.svg', alt='Esquema de secuencia que enuncia los momentos de la gestión de continuidad: Requisitos, Planificación, Mantenimiento, Planificación, Monitorización.')
+      .row.mb-5.justify-content-center.align-items-center
+          .col-sm-12.col-lg-8.justify-content-center.align-items-center
+            img(src='@/assets/curso/temas/33.svg', alt='Esquema de secuencia que enuncia los momentos de la gestión de continuidad: Requisitos, Planificación, Mantenimiento, Planificación, Monitorización.')
       figcaption.ps-4  Nota. https://mintic.gov.co/arquitecturati/630/articles-9277_recurso_pdf.pdf    
 
 </template>

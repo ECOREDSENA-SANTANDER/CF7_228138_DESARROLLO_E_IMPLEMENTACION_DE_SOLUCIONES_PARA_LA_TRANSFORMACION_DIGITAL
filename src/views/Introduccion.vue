@@ -8,9 +8,9 @@
         span
           i.fas.fa-info
       h1 Introducción
-    .tarjeta.color-acento-contenido-2.mb-4.py-2
+    .tarjeta.mb-4.py-2
       .row.justify-content-center.align-items-center
-        .col-auto.my-3.mx-4
+        .col-3.my-3.d-none.d-lg-block
           img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/1.png', alt='')
         .col-9.my-3
           p(data-aos="fade-down") En este componente se abordarán los   #[b conceptos y fundamentos para el despliegue de servicios de infraestructura, con base a las buenas prácticas, además se abordarán conceptos acerca dimensionamiento de servicios de cómputo, acuerdos, propuesta técnico-económica, y la contratación de proveedores. ] Preste atención al video que se muestra enseguida y que ofrece una contextualización general sobre las temáticas a desarrollar.

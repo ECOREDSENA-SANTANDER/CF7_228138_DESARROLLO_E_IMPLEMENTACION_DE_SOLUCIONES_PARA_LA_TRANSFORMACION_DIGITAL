@@ -15,15 +15,15 @@
           .bloque-texto-g__texto.px-4.py-5
             p.mb-0 Para realizar el dimensionamiento de los servicios de cómputo, es necesario contar con el reconocimiento del inventario tecnológico existente, su ubicación, estado, tipo, rol/servicios, responsable y usuarios que hacen uso de este, con el fin de conocer el estado real de los activos tecnológicos de la organización, permitiendo la toma de decisiones respecto a la adquisición de nuevos, reubicación requerida, repotenciación acorde a las capacidades que ofrece o dar de baja de los que presentan obsolescencia.
     h4(data-aos="zoom-in-left").mb-5 Para esto es importante reconocer los siguientes conceptos:
-    .row.justify-content-center.align-items-center.p-4.radius-4-cus.bg-norepeat(
+    .row.justify-content-center.align-items-center.radius-4-cus.bg-norepeat.bg-cover.pt-3(
             :style="{'background-image': `url(${require('@/assets/curso/temas/46.svg')})`}"
           )(data-aos="zoom-in-left")
       .col-lg-4.mt-2-cus
         img.img-a.img-t(src='@/assets/curso/temas/45.png', alt='Actividades del plan de gestión de servicios TI')
       .col-lg-8
         .row.justify-content-center.align-items-center
-          .col-lg-12.up
-            SlyderF.custom(columnas="col-lg-6 col-md-6")
+          .col-lg-12.pb-3
+            SlyderF.custom-2(columnas="col-lg-6 col-md-6")
               .tarjeta.tarjeta--slyder.bg7.p-4.h-100.align-items-center.justify-content-center
                 .row.justify-content-center.mb-3
                   .col-8
@@ -222,6 +222,8 @@
     .mb-4.d-flex.bg-img-title(data-aos="zoom-in-left")
       .d-flex.flex-wrap.align-items-center.pe-4
         h3.col.px-4.mb-0.text-white.bg-img-blue Generalidades
+        img.col-lg.d-flex.aos-init.aos-animate(src='@/assets/curso/temas/103.svg').icon-blue
+
     
     .row.align-items-center.justify-content-center.mb-4(data-aos="zoom-in-left")
       .col-lg-5.my-3
@@ -233,7 +235,9 @@
             .col-lg-12 Normalmente en el campo de la virtualización encontramos tecnologías como FC que es de las más reconocidas, no debemos pasar por alto iSCSI o NAS como alternativas. Estas últimas tienen un abanico de dispositivos iSCSI o NAS en el mercado, observamos características como capacidades y escalabilidad y ver que nuestro requerimiento sea compensado. Por eso se precisa que en este momento del proyecto el almacenamiento es una parte crítica para ello.
     .mb-4.d-flex.bg-img-title(data-aos="zoom-in-left")
       .d-flex.flex-wrap.align-items-center.pe-4
-        h3.col.px-4.mb-0.text-white.bg-img-blue Tipos de almacenamiento
+        h3.col.px-4.mb-0.text-white.bg-img-blue(style='width: 310px;') Tipos de almacenamiento
+        img.col-lg.d-flex.aos-init.aos-animate(src='@/assets/curso/temas/103.svg').icon-blue
+        
     
     p(data-aos="zoom-in-left").mb-5    Existen diferencias en los tipos de almacenamiento de datos, a continuación, podrá consultar aquello de carácter principal de acuerdo a las especificaciones técnicas para la arquitectura tecnológica en nube, veamos el siguiente recurso didáctico:
     LineaTiempoD.color-secundario
@@ -288,7 +292,9 @@
     .caja-cus
       .mb-4.d-flex.bg-img-title(data-aos="zoom-in-left").mt-5
         .d-flex.flex-wrap.align-items-center.pe-4
-          h3.col.px-4.mb-0.text-white.bg-img-blue Tecnologías de almacenamiento
+          h3.col.px-4.mb-0.text-white.bg-img-blue(style='width: 380px;') Tecnologías de almacenamiento
+          img.col-lg.d-flex.aos-init.aos-animate(src='@/assets/curso/temas/103.svg').icon-blue
+
       
       .row.d-flex.align-items-center.justify-content-center(data-aos="zoom-in-left").mx-5-cus
           .col-sm-12.col-lg-4.he-7-cus
@@ -340,7 +346,7 @@
                       h3.mt-2 Costos
                       p La necesidad de disponer de hardware propio para la tecnología (HBAs y switches FC), hacen la solución más cara y compleja de administrar e implementar. Puede darse el caso de que la empresa no disponga de personal con conocimientos en entornos FC, por lo tanto, se puede incurrir en costes adicionales de formación o consultoría externa.
         
-        p(data-aos="zoom-in-left").mb-3 NAS - Network Attached Storage
+        h3(data-aos="zoom-in-left").mb-3 NAS - Network Attached Storage
         TabsB.color-acento-botones.mb-5.bg-white(data-aos="zoom-in-left")
           .py-4.py-md-5(titulo="Protocolo de uso" :icono="require('@/assets/curso/temas/79.svg')")
             .row.px-5
@@ -379,9 +385,11 @@
 
     .mb-4.d-flex.bg-img-title(data-aos="zoom-in-left")
       .d-flex.flex-wrap.align-items-center.pe-4
-        h3.col.px-4.mb-0.text-white.bg-img-blue Arreglos Raid
+        h3.col.px-4.mb-0.text-white.bg-img-blue(style='width: 190px;') Arreglos Raid
+        img.col-lg.d-flex.aos-init.aos-animate(src='@/assets/curso/temas/103.svg').icon-blue
+
     
-    p.mb-3(data-aos="zoom-in-left")  #[b RAID es la sigla para ]  “Redundant Array of Independent Disks”. Su definición en español sería "Matriz Redundante de Discos Independientes". Se trata de una tecnología que combina varios discos rígidos (HD) para formar una única unidad lógica, donde los mismos datos son almacenados en todos los discos (redundancia). En otras palabras, es un conjunto de discos rígidos que funcionan como si fueran uno solo.
+    p.mb-3(data-aos="zoom-in-left")  #[b RAID es la sigla para   “Redundant Array of Independent Disks”]. Su definición en español sería "Matriz Redundante de Discos Independientes". Se trata de una tecnología que combina varios discos rígidos (HD) para formar una única unidad lógica, donde los mismos datos son almacenados en todos los discos (redundancia). En otras palabras, es un conjunto de discos rígidos que funcionan como si fueran uno solo.
     .row.align-items-center.justify-content-center.mb-4
       .col-lg-5.my-3
         img.img-a.img-t(src='@/assets/curso/temas/72.png', alt='')
