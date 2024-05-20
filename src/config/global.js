@@ -214,7 +214,7 @@ export default {
     {
       tema: 'Contratación',
       referencia:
-        'Ministerio de Comercio, Industria y Turismo. (2013). Decreto Número 1317 del 27 de junio de 2013. https://www.mintic.gov.co/arquitecturati/630/articles-9011_documento.pdf',
+        'Ministerio de Comercio, Industria y Turismo. (2013). Decreto Número 1317 del 27 de junio de 2013. https://www.funcionpublica.gov.co/eva/gestornormativo/norma_pdf.php?i=53646',
       tipo: 'PDF',
       link:
         'https://www.funcionpublica.gov.co/eva/gestornormativo/norma_pdf.php?i=53646',
