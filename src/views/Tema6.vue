@@ -72,7 +72,7 @@
       h2 6.1 Elaboración 
     .row.align-items-center.justify-content-center.mb-4(data-aos="zoom-in-left")
       .col-lg-7.my-3
-        p Es necesario, entonces, recordar que se debe tener una papelería adecuada que represente al negocio; el formato de documento, físico o virtual, debe contar con un diseño sobrio pero atractivo, el documento debe tener un encabezado en el cual debe ir el nombre de la empresa y el NIT o el nombre de la persona que trabaja freelance, este debe ir acompañado del logo. 
+        p Es necesario, entonces, recordar que se debe tener una papelería adecuada que represente al negocio; el formato de documento, físico o virtual, debe contar con un diseño sobrio pero atractivo, el documento debe tener un encabezado en el cual debe ir el nombre de la empresa y el NIT o el nombre de la persona que trabaja <i>freelance</i>, este debe ir acompañado del logo. 
         p.bg10.p-4.mb-3(data-aos="fade-left") En el pie de página debe ir la dirección de la empresa y datos de contacto como números telefónicos correos, <i>WhatsApp, Facebook, Instagram</i> etc. Se debe tener en cuenta, como insumos principales, los <i> TDR </i> o la entrevista al momento de elaborar la propuesta.
         .d-flex.align-items-center.justify-content-center
           img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/10.png' )
