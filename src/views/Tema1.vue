@@ -19,7 +19,7 @@
 
     SlyderF.custom(columnas="col-lg-4")
       .tarjeta-avatar
-        img(src='@/assets/curso/temas/4.png' alt='AvatarTop')
+        img(src='@/assets/curso/temas/4.png')
         .tarjeta.color-acento-botones-2.p-4
           .row.align-items-center.justify-content-center
             .col-12.my-3.mt-5
@@ -27,7 +27,7 @@
               p Están orientadas a dar solución a los problemas del negocio y los procesos. Esta tecnología se aplica al nivel de rendimiento del personal de baja calificación con el fin de optimizar o automatizar algunas funciones rutinarias y repetitivas del trabajo administrativo.
           
       .tarjeta-avatar
-        img(src='@/assets/curso/temas/5.png' alt='AvatarTop')
+        img(src='@/assets/curso/temas/5.png')
         .tarjeta.color-acento-botones-2.p-4
           .row.align-items-center.justify-content-center
             .col-12.my-3.mt-5
@@ -35,7 +35,7 @@
               p Está destinada al servicio de información de todos los empleados de la organización, concerniente con la admisión de las decisiones administrativas. En este caso, la información se presenta en forma de informes de gestión comunes y contiene información sobre el pasado, el presente y el posible futuro de la organización.
          
       .tarjeta-avatar
-        img(src='@/assets/curso/temas/6.png' alt='AvatarTop')
+        img(src='@/assets/curso/temas/6.png')
         .tarjeta.color-acento-botones-2.p-4
           .row.align-items-center.justify-content-center
             .col-12.my-3.mt-5
@@ -43,7 +43,7 @@
               p Aportan a la automatización de los procesos, el análisis de información y apoya los procesos de comunicación interna y externa, se soporta en redes de datos informáticas, medios modernos de transferencia y gestión de la información.
           
       .tarjeta-avatar
-        img(src='@/assets/curso/temas/7.png' alt='AvatarTop')
+        img(src='@/assets/curso/temas/7.png')
         .tarjeta.color-acento-botones-2.p-4
           .row.align-items-center.justify-content-center
             .col-12.my-3.mt-5
@@ -51,7 +51,7 @@
               p Aporta a la gestión de la información, ayudando a mejorar calidad de las decisiones de negocios, esta tecnología también aporta herramientas para el desarrollo trabajo colaborativo.
             
       .tarjeta-avatar
-        img(src='@/assets/curso/temas/8.png' alt='AvatarTop')
+        img(src='@/assets/curso/temas/8.png')
         .tarjeta.color-acento-botones-2.p-4
           .row.align-items-center.justify-content-center
             .col-12.my-3.mt-5
@@ -67,48 +67,48 @@
         p Las tecnologías de la información van evolucionando con el tiempo, de acuerdo con las necesidades sociales, gubernamentales, empresariales o de negocio, permitiendo lo que hoy conocemos como desarrollo tecnológico, que trae consigo la creación de nuevas tecnologías y que han permitido transformaciones y cambios en la cultura, la comunicación.
         p.mb-2   Las características de las <i>TI</i> estimulan la interactividad entre usuarios y la transmisión de información por medio de dispositivos, se adaptan según las necesidades de las personas y del mercado, se ejecutan a gran velocidad gracias al internet y tienen un impacto social e individual.
         .d-flex.align-items-center.justify-content-center
-          img.img-a.img-t(src='@/assets/curso/temas/10.png', alt='')
+          img.img-a.img-t(src='@/assets/curso/temas/10.png')
           p.ml-1-custom.mt-2 Por esto es importante reconocer las características y tipificaciones de la tecnología, las cuales se presentan a continuación: 
       .col-lg-5.mb-2-cus
-        img.img-a.img-t(src='@/assets/curso/temas/9.png', alt='')
+        img.img-a.img-t(src='@/assets/curso/temas/9.png')
     .row.align-items-center.justify-content-center.mb-4(data-aos="zoom-in-left")
       .col-lg-4.mb-2-cus
         .bg11.d-flex.px-3.he-1-cus
-          img.img-a.img-t.bg12.bg12-img.px-1.py-2(src='@/assets/curso/temas/11.png', alt='')
+          img.img-a.img-t.bg12.bg12-img.px-1.py-2(src='@/assets/curso/temas/11.png')
           p.ml-1-custom.mt-2.wd-80-cus Tecnología dura – hace referencia a los elementos tangibles, es decir, que se pueden almacenar de forma física.
       .col-lg-4.mb-2-cus
         .bg11.d-flex.px-3.he-1-cus
-          img.img-a.img-t.bg12.px-1.py-2(src='@/assets/curso/temas/12.png', alt='')
+          img.img-a.img-t.bg12.px-1.py-2(src='@/assets/curso/temas/12.png')
           p.ml-1-custom.mt-2.wd-80-cus Tecnologías que generan nuevas formas de comunicación.
       .col-lg-4.mb-2-cus
         .bg11.d-flex.px-3.he-1-cus
-          img.img-a.img-t.bg12.px-1.py-2(src='@/assets/curso/temas/13.png', alt='')
+          img.img-a.img-t.bg12.px-1.py-2(src='@/assets/curso/temas/13.png')
           p.ml-1-custom.mt-2.wd-80-cus Tecnología blanda – hace referencia a los elementos intangibles, cualquier tipo de <i>software</i>.
     .row.align-items-center.justify-content-center.mb-4(data-aos="zoom-in-left")
       .col-lg-4.mb-2-cus
         .bg11.d-flex.px-3.he-1-cus
-          img.img-a.img-t.bg12.px-1.py-2(src='@/assets/curso/temas/14.png', alt='')
+          img.img-a.img-t.bg12.px-1.py-2(src='@/assets/curso/temas/14.png')
           p.ml-1-custom.mt-2.wd-80-cus Almacenamiento.
       .col-lg-4.mb-2-cus
         .bg11.d-flex.px-3.he-1-cus
-          img.img-a.img-t.bg12.px-1.py-2(src='@/assets/curso/temas/15.png', alt='')
+          img.img-a.img-t.bg12.px-1.py-2(src='@/assets/curso/temas/15.png')
           p.ml-1-custom.mt-2.wd-80-cus Procesamiento.
       .col-lg-4.mb-2-cus
         .bg11.d-flex.px-3.he-1-cus
-          img.img-a.img-t.bg12.px-1.py-2(src='@/assets/curso/temas/16.png', alt='')
+          img.img-a.img-t.bg12.px-1.py-2(src='@/assets/curso/temas/16.png')
           p.ml-1-custom.mt-2.wd-80-cus Permiten la comunicación y transmisión de datos, apertura hacia los servicios en la nube y una estrecha relación con la internet.
     .row.align-items-center.justify-content-center.mb-4(data-aos="zoom-in-left")
       .col-lg-4.mb-2-cus
         .bg11.d-flex.px-3.he-1-cus
-          img.img-a.img-t.bg12.px-1.py-2(src='@/assets/curso/temas/17.png', alt='')
+          img.img-a.img-t.bg12.px-1.py-2(src='@/assets/curso/temas/17.png')
           p.ml-1-custom.mt-2.wd-80-cus Transformación socio-cultural en la forma de relacionamiento y comunicación.
       .col-lg-4.mb-2-cus
         .bg11.d-flex.px-3.he-1-cus
-          img.img-a.img-t.bg12.px-1.py-2(src='@/assets/curso/temas/18.png', alt='')
+          img.img-a.img-t.bg12.px-1.py-2(src='@/assets/curso/temas/18.png')
           p.ml-1-custom.mt-2.wd-80-cus Multimedio permitiendo la combinación de diferentes tipos de contenidos.
       .col-lg-4.mb-2-cus
         .bg11.d-flex.px-3.he-1-cus
-          img.img-a.img-t.bg12.px-1.py-2(src='@/assets/curso/temas/19.png', alt='')
+          img.img-a.img-t.bg12.px-1.py-2(src='@/assets/curso/temas/19.png')
           p.ml-1-custom.mt-2.wd-80-cus Permite la innovación constante, mediante la creación de nuevas tecnologías o complemento a otras tecnologías o productos.
     Separador
 
@@ -116,12 +116,12 @@
       h2 1.2  Plan de gestión de servicios de <i>TI</i> 
     .row.align-items-center.justify-content-center.mb-4(data-aos="zoom-in-left")
       .col-lg-5.my-3
-        img.img-a.img-t(src='@/assets/curso/temas/20.png', alt='')
+        img.img-a.img-t(src='@/assets/curso/temas/20.png')
       .col-lg-7.my-3
         p La disposición de los sistemas de información, #[b requieren establecer un plan que posibilite adoptar estrategias de servicios tecnológicos, y de esta forma se pueda garantizar la disponibilidad y la operación del servicio.  ]  Pues éste debe ser permanente y constante, para sus usuarios.
         .bg13.p-4.mb-1   Para el diseño del plan de gestión de servicios de <i>TI</i>, es importante tener en cuenta las actividades descritas en la G.ST.01 Guía del dominio de servicios tecnológicos, del Ministerio de Tecnologías de la Información y las Comunicaciones, del 2014, documento que permite la adopción de los elementos del dominio de los servicios tecnológicos, para Colombia, en el marco de la arquitectura de <i>TI</i>, razón por la cual se tomará de manera literal para su comprensión e implementación.
         .d-flex.align-items-center.justify-content-center
-          img.img-a.img-t(src='@/assets/curso/temas/10.png', alt='')
+          img.img-a.img-t(src='@/assets/curso/temas/10.png')
           p.ml-1-custom.mt-2 Las actividades en cada una de las gestiones corresponden a las descritas en la siguiente imagen, que serán explicadas a continuación:
     
     .row.mb-5
@@ -158,27 +158,27 @@
                 .tarjeta.tarjeta--slyder.bg5.p-4.h-100
                   .row.justify-content-center.mb-3
                     .col-8
-                      img.img-a.img-t.mb-3.mt-4(src="@/assets/curso/temas/25.png", alt="alt").img100.m-auto
+                      img.img-a.img-t.mb-3.mt-4(src="@/assets/curso/temas/25.png").img100.m-auto
                   p.mb-0.text-center Desarrollo del Plan de Capacidad.
                 .tarjeta.tarjeta--slyder.bg5.p-4.h-100
                   .row.justify-content-center.mb-3
                     .col-8
-                      img.img-a.img-t.mb-3.mt-4(src="@/assets/curso/temas/25.png", alt="alt").img100.m-auto
+                      img.img-a.img-t.mb-3.mt-4(src="@/assets/curso/temas/25.png").img100.m-auto
                   p.mb-0.text-center Modelado y simulación de diferentes escenarios de capacidad.
                 .tarjeta.tarjeta--slyder.bg5.p-4.h-100
                   .row.justify-content-center.mb-3
                     .col-8
-                      img.img-a.img-t.mb-3.mt-4(src="@/assets/curso/temas/25.png", alt="alt").img100.m-auto
+                      img.img-a.img-t.mb-3.mt-4(src="@/assets/curso/temas/25.png").img100.m-auto
                   p.mb-0.text-center Monitorización del uso y rendimiento de la infraestructura <i>TI</i>. 
                 .tarjeta.tarjeta--slyder.bg5.p-4.h-100
                   .row.justify-content-center.mb-3
                     .col-8
-                      img.img-a.img-t.mb-3.mt-4(src="@/assets/curso/temas/25.png", alt="alt").img100.m-auto
+                      img.img-a.img-t.mb-3.mt-4(src="@/assets/curso/temas/25.png").img100.m-auto
                   p.mb-0.text-center Gestión de la demanda.
                 .tarjeta.tarjeta--slyder.bg5.p-4.h-100
                   .row.justify-content-center.mb-3
                     .col-8
-                      img.img-a.img-t.mb-3.mt-4(src="@/assets/curso/temas/25.png", alt="alt").img100.m-auto
+                      img.img-a.img-t.mb-3.mt-4(src="@/assets/curso/temas/25.png").img100.m-auto
                   p.mb-0.text-center Creación y mantenimiento de la Base de Datos de Capacidad (CDB).
             
         .col-lg-4
@@ -215,7 +215,7 @@
               .col-sm-12.col-lg-11
                 .tarjeta-avatar-b.he-5-cus 
                   .tarjeta-avatar-b__img
-                    img(src='@/assets/curso/temas/179.svg' alt='AvatarTop')
+                    img(src='@/assets/curso/temas/179.svg')
                   .tarjeta.tarjeta--white.tarjeta-avatar-cus
                     .p-4-cus
                       p Establecer  las políticas y alcance de la <i>ITSCM</i>.
@@ -223,7 +223,7 @@
               .col-sm-12.col-lg-11
                 .tarjeta-avatar-b.he-5-cus 
                   .tarjeta-avatar-b__img
-                    img(src='@/assets/curso/temas/180.svg' alt='AvatarTop')
+                    img(src='@/assets/curso/temas/180.svg')
                   .tarjeta.tarjeta--white.tarjeta-avatar-cus
                     .p-4-cus
                       p Evaluar el impacto en el negocio de una interrupción de los servicios <i>TI</i>.
@@ -231,7 +231,7 @@
               .col-sm-12.col-lg-11
                 .tarjeta-avatar-b.he-5-cus 
                   .tarjeta-avatar-b__img
-                    img(src='@/assets/curso/temas/181.svg' alt='AvatarTop')
+                    img(src='@/assets/curso/temas/181.svg')
                   .tarjeta.tarjeta--white.tarjeta-avatar-cus
                     .p-4-cus
                       p Analizar y prever los riesgos a los que está expuesto la infraestructura <i>TI</i>.
@@ -239,7 +239,7 @@
               .col-sm-12.col-lg-11
                 .tarjeta-avatar-b.he-5-cus 
                   .tarjeta-avatar-b__img
-                    img(src='@/assets/curso/temas/182.svg' alt='AvatarTop')
+                    img(src='@/assets/curso/temas/182.svg')
                   .tarjeta.tarjeta--white.tarjeta-avatar-cus
                     .p-4-cus
                       p Establecer las estrategias de continuidad del servicio <i>TI</i>.
@@ -247,7 +247,7 @@
               .col-sm-12.col-lg-11
                 .tarjeta-avatar-b.he-5-cus 
                   .tarjeta-avatar-b__img
-                    img(src='@/assets/curso/temas/183.svg' alt='AvatarTop')
+                    img(src='@/assets/curso/temas/183.svg')
                   .tarjeta.tarjeta--white.tarjeta-avatar-cus
                     .p-4-cus
                       p Adoptar medidas proactivas de prevención del riesgo.
@@ -255,7 +255,7 @@
               .col-sm-12.col-lg-11
                 .tarjeta-avatar-b.he-5-cus 
                   .tarjeta-avatar-b__img
-                    img(src='@/assets/curso/temas/184.svg' alt='AvatarTop')
+                    img(src='@/assets/curso/temas/184.svg')
                   .tarjeta.tarjeta--white.tarjeta-avatar-cus
                     .p-4-cus
                       p Desarrollar los planes de contingencia.
@@ -263,7 +263,7 @@
               .col-sm-12.col-lg-11
                 .tarjeta-avatar-b.he-5-cus 
                   .tarjeta-avatar-b__img
-                    img(src='@/assets/curso/temas/185.svg' alt='AvatarTop')
+                    img(src='@/assets/curso/temas/185.svg')
                   .tarjeta.tarjeta--white.tarjeta-avatar-cus
                     .p-4-cus
                       p Poner a prueba dichos planes. 
@@ -271,7 +271,7 @@
               .col-sm-12.col-lg-11
                 .tarjeta-avatar-b.he-5-cus 
                   .tarjeta-avatar-b__img
-                    img(src='@/assets/curso/temas/186.svg' alt='AvatarTop')
+                    img(src='@/assets/curso/temas/186.svg')
                   .tarjeta.tarjeta--white.tarjeta-avatar-cus
                     .p-4-cus.pt-3
                       p Formar al personal sobre los procedimientos necesarios para la pronta recuperación del servicio.
@@ -279,7 +279,7 @@
               .col-sm-12.col-lg-11
                 .tarjeta-avatar-b.he-5-cus 
                   .tarjeta-avatar-b__img
-                    img(src='@/assets/curso/temas/187.svg' alt='AvatarTop')
+                    img(src='@/assets/curso/temas/187.svg')
                   .tarjeta.tarjeta--white.tarjeta-avatar-cus
                     .p-4-cus.pt-2
                       p Revisar periódicamente los planes para adaptarlos a las necesidades reales del negocio.

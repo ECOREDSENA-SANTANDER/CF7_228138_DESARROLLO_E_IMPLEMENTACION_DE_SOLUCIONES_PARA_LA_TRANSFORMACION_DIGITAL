@@ -22,7 +22,7 @@
       span  Las actividades claves para la Gestión de Niveles de Servicio pueden observarse al desplegar el siguiente recurso:
     .row.d-flex.align-items-center.justify-content-center.mb-5(data-aos="zoom-in-left")
       .col-lg-12
-        img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/86.svg', alt='')
+        img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/86.svg' )
     p.mb-5(data-aos="zoom-in-left") En la siguiente figura se describen las interacciones y funcionalidades de la gestión de niveles de servicio.
     .row.mb-5
       .col-sm-12.col-md-12.col-lg-10.m-auto    
@@ -58,49 +58,49 @@
               .tarjeta.tarjeta--slyder.bg7.p-4.h-100
                 .row.justify-content-center.mb-3
                   .col-8
-                    img.img-a.img-t.mb-3.mt-4(src="@/assets/curso/temas/124.svg", alt="alt").img100.m-auto
+                    img.img-a.img-t.mb-3.mt-4(src="@/assets/curso/temas/124.svg" ).img100.m-auto
                 p.fw-bold.text-center Panorama general
                 p.mb-0.text-center Se debe redactar en un párrafo corto el panorama general sobre el Acuerdo de Nivel Operacional, en este deben recogerse los objetivos principales y los del <i>OLA</i>, esto facilitará el entendimiento y la comprensión de todos los participantes del acuerdo.
               .tarjeta.tarjeta--slyder.bg7.p-4.h-100
                 .row.justify-content-center.mb-3
                   .col-8
-                    img.img-a.img-t.mb-3.mt-4(src="@/assets/curso/temas/125.svg", alt="alt").img100.m-auto
+                    img.img-a.img-t.mb-3.mt-4(src="@/assets/curso/temas/125.svg" ).img100.m-auto
                 p.fw-bold.text-center Involucrados
                 p.mb-0.text-center Indicar quiénes son los involucrados en el acuerdo, los roles y cadena de mando, relacionando los datos de contacto telefónico y correo electrónico.
               .tarjeta.tarjeta--slyder.bg7.p-4.h-100
                 .row.justify-content-center.mb-3
                   .col-8
-                    img.img-a.img-t.mb-3.mt-4(src="@/assets/curso/temas/126.svg", alt="alt").img100.m-auto
+                    img.img-a.img-t.mb-3.mt-4(src="@/assets/curso/temas/126.svg" ).img100.m-auto
                 p.fw-bold.text-center Oportunidades
                 p.mb-0.text-center Se debe describir las oportunidades de negocio que contempla el acuerdo, esto dará cuenta de los retos y brindará mayor contexto necesario para aplicar los términos y condiciones.
               .tarjeta.tarjeta--slyder.bg7.p-4.h-100
                 .row.justify-content-center.mb-3
                   .col-8
-                    img.img-a.img-t.mb-3.mt-4(src="@/assets/curso/temas/127.svg", alt="alt").img100.m-auto
+                    img.img-a.img-t.mb-3.mt-4(src="@/assets/curso/temas/127.svg" ).img100.m-auto
                 p.fw-bold.text-center Plazos e indicadores
                 p.mb-0.text-center  Se deben especificar las fechas en las que será válido el acuerdo, estas pueden depender de contratos, otros acuerdos colectivos o  la disponibilidad de recursos. Es importante indicar cuáles serán los indicadores (<i>KPIs</i>) que se utilizarán para monitorear los logros y desempeños.
               .tarjeta.tarjeta--slyder.bg7.p-4.h-100
                 .row.justify-content-center.mb-3
                   .col-8
-                    img.img-a.img-t.mb-3.mt-4(src="@/assets/curso/temas/128.svg", alt="alt").img100.m-auto
+                    img.img-a.img-t.mb-3.mt-4(src="@/assets/curso/temas/128.svg" ).img100.m-auto
                 p.fw-bold.text-center Manejo de información
                 p.mb-0.text-center  Indicar cómo se dará el adecuado manejo de la relacionada con los servicios, así como la manera que se hará el registro o modificaciones del acuerdo. 
               .tarjeta.tarjeta--slyder.bg7.p-4.h-100
                 .row.justify-content-center.mb-3
                   .col-8
-                    img.img-a.img-t.mb-3.mt-4(src="@/assets/curso/temas/129.svg", alt="alt").img100.m-auto
+                    img.img-a.img-t.mb-3.mt-4(src="@/assets/curso/temas/129.svg" ).img100.m-auto
                 p.fw-bold.text-center Disponibilidad del servicio
                 p.mb-0.text-center  Es importante describir cuál será la disponibilidad del servicio, los días de operación, así como las horas de inicio y cierre.
               .tarjeta.tarjeta--slyder.bg7.p-4.h-100
                 .row.justify-content-center.mb-3
                   .col-8
-                    img.img-a.img-t.mb-3.mt-4(src="@/assets/curso/temas/130.svg", alt="alt").img100.m-auto
+                    img.img-a.img-t.mb-3.mt-4(src="@/assets/curso/temas/130.svg" ).img100.m-auto
                 p.fw-bold.text-center Atención y priorización
                 p.mb-0.text-center Se debe indicar como se priorizarán los problemas o incidentes, además de aclarar cómo serán escalados y los niveles de atención con cada uno de sus alcances.  
               .tarjeta.tarjeta--slyder.bg7.p-4.h-100
                 .row.justify-content-center.mb-3
                   .col-8
-                    img.img-a.img-t.mb-3.mt-4(src="@/assets/curso/temas/131.svg", alt="alt").img100.m-auto
+                    img.img-a.img-t.mb-3.mt-4(src="@/assets/curso/temas/131.svg" ).img100.m-auto
                 p.fw-bold.text-center Firmar el acuerdo
                 p.mb-0.text-center El acuerdo debe ser firmado por figuras de autoridad, se debe dejar una copia para cada parte involucrada y divulgarlos con los responsables definidos en el <i>OLA</i>.
     Separador
@@ -121,14 +121,14 @@
                     .col.mb-3.mb-sm-0
                       p.mb-0 En estos momentos, la comunicación interna es fundamental en todas las empresas, para que exista esa sinergia, especialmente si se ha implementado el teletrabajo u <i>home-office</i>, que han dado apertura a la aparición de la tendencia de nómadas digitales.
       .col-sm-12.col-md-12.col-lg-4
-        img.img-a.img-t.mb-3(src="@/assets/curso/temas/89.png", alt="alt").img100.m-auto
+        img.img-a.img-t.mb-3(src="@/assets/curso/temas/89.png" ).img100.m-auto
       .col-sm-12.col-md-12.col-lg-4
         .bg10.p-4.mb-1(data-aos="fade-left") 
             .row
               .col-lg-12
                 p.mb-1 En muchas organizaciones es necesaria la presencialidad, y que sus empleados atiendan los procesos desde sus puestos de trabajo, en este contexto también es necesario mantener una comunicación constante para que los equipos se sientan acompañados y motivados y se sientan protegidos e informados. 
                 .align-self-end
-                  img.img-t(src='@/assets/curso/temas/10.png', alt='')
+                  img.img-t(src='@/assets/curso/temas/10.png' )
         p.mt-4 Sin duda, en la actualidad se ha dado el auge de videoconferencias con herramientas como <i>Skype, Google Meet, Zoom o Webex</i> que ofrecen muchas posibilidades de conectarnos en tiempo real.
 </template>
 

@@ -27,49 +27,49 @@
               .tarjeta.tarjeta--slyder.bg7.p-4.h-100.align-items-center.justify-content-center
                 .row.justify-content-center.mb-3
                   .col-8
-                    img.img-a.img-t.mb-3.mt-4(src="@/assets/curso/temas/47.svg", alt="alt").img100.m-auto
+                    img.img-a.img-t.mb-3.mt-4(src="@/assets/curso/temas/47.svg" ).img100.m-auto
                 p.fw-bold.text-center Levantamiento de información
                 p.mb-0.text-center Es un proceso mediante el cual se recopilan los datos e información necesaria sobre la situación actual del parque tecnológico de la empresa.
               .tarjeta.tarjeta--slyder.bg7.p-4.h-100
                 .row.justify-content-center.mb-3
                   .col-8
-                    img.img-a.img-t.mb-3.mt-4(src="@/assets/curso/temas/104.svg", alt="alt").img100.m-auto
+                    img.img-a.img-t.mb-3.mt-4(src="@/assets/curso/temas/104.svg" ).img100.m-auto
                 p.fw-bold.text-center Infraestructura tecnológica
                 p.mb-0.text-center Es el conjunto de <i>hardware</i> y <i>software</i> que soportan los procesos y servicios de la organización.
               .tarjeta.tarjeta--slyder.bg7.p-4.h-100
                 .row.justify-content-center.mb-3
                   .col-8
-                    img.img-a.img-t.mb-3.mt-4(src="@/assets/curso/temas/105.svg", alt="alt").img100.m-auto
+                    img.img-a.img-t.mb-3.mt-4(src="@/assets/curso/temas/105.svg" ).img100.m-auto
                 p.fw-bold.text-center Equipos de comunicación y redes
                 p.mb-0.text-center Hace referencia al conjunto de equipos informáticos conectados entre sí, por medio de dispositivos de comunicación que permiten el transporte de datos,  información y recursos digitales. Estos pueden ser alámbricos o inalámbricos.
               .tarjeta.tarjeta--slyder.bg7.p-4.h-100
                 .row.justify-content-center.mb-3
                   .col-8
-                    img.img-a.img-t.mb-3.mt-4(src="@/assets/curso/temas/106.svg", alt="alt").img100.m-auto
+                    img.img-a.img-t.mb-3.mt-4(src="@/assets/curso/temas/106.svg" ).img100.m-auto
                 p.fw-bold.text-center Computador
                 p.mb-0.text-center Es la herramienta tecnológica compuesta por elementos de <i>hardware</i> y <i>software</i> que permite el procesamiento de la información mediante instrucciones para un fin determinado.
               .tarjeta.tarjeta--slyder.bg7.p-4.h-100
                 .row.justify-content-center.mb-3
                   .col-8
-                    img.img-a.img-t.mb-3.mt-4(src="@/assets/curso/temas/107.svg", alt="alt").img100.m-auto
+                    img.img-a.img-t.mb-3.mt-4(src="@/assets/curso/temas/107.svg" ).img100.m-auto
                 p.fw-bold.text-center Centro de procesamiento de datos
                 p.mb-0.text-center Es un espacio físico destinado a mantener el tesoro informático y electrónico de una organización, en este se da la operación de la infraestructura donde se soportan las aplicaciones clave del negocio.
               .tarjeta.tarjeta--slyder.bg7.p-4.h-100
                 .row.justify-content-center.mb-3
                   .col-8
-                    img.img-a.img-t.mb-3.mt-4(src="@/assets/curso/temas/108.svg", alt="alt").img100.m-auto
+                    img.img-a.img-t.mb-3.mt-4(src="@/assets/curso/temas/108.svg" ).img100.m-auto
                 p.fw-bold.text-center <i>Software</i>
                 p.mb-0.text-center Hace referencia a una aplicación o programa informático (intangible) diseñados para una utilidad o fin específico.
               .tarjeta.tarjeta--slyder.bg7.p-4.h-100
                 .row.justify-content-center.mb-3
                   .col-8
-                    img.img-a.img-t.mb-3.mt-4(src="@/assets/curso/temas/109.svg", alt="alt").img100.m-auto
+                    img.img-a.img-t.mb-3.mt-4(src="@/assets/curso/temas/109.svg" ).img100.m-auto
                 p.fw-bold.text-center <i>Hardware</i>
                 p.mb-0.text-center Son los elementos físicos -  tangibles que son considerados un activo de información.
               .tarjeta.tarjeta--slyder.bg7.p-4.h-100
                 .row.justify-content-center.mb-3
                   .col-8
-                    img.img-a.img-t.mb-3.mt-4(src="@/assets/curso/temas/110.svg", alt="alt").img100.m-auto
+                    img.img-a.img-t.mb-3.mt-4(src="@/assets/curso/temas/110.svg" ).img100.m-auto
                 p.fw-bold.text-center Custodio
                 p.mb-0.text-center Es el responsable de administrar un componente tecnológico y que se encarga de hacer efectivos los controles de seguridad para su protección.
       
@@ -83,45 +83,45 @@
         p.bg25.p-4.mb-3 En la actualidad estamos en ambientes de interconexión la mayor parte del tiempo, pues la mayoría de los dispositivos se conectan alguna red que permite la conectividad a los servicios, el funcionamiento de los aplicativos, el almacenamiento en la nube, la recepción y envío de mensajes instantáneos o de correo electrónico, esto ha revolucionado y transformado la sociedad.
         p Para que las redes funcionen requieren de un medio que permita la conexión, como el cableado o de forma inalámbrica por señas de radio, infrarrojo, satélites, entre otros. 
         .d-flex.align-items-center.justify-content-center
-          img.img-a.img-t(src='@/assets/curso/temas/10.png', alt='')
+          img.img-a.img-t(src='@/assets/curso/temas/10.png' )
           p.ml-1-custom.mt-2 Además, se requiere de un “Protocolo” que permita el intercambio de información dependiendo el tipo de conexión que se requiera, por ejemplo:  
       .col-lg-5.my-3
-        img.img-a.img-t(src='@/assets/curso/temas/48.png', alt='')
+        img.img-a.img-t(src='@/assets/curso/temas/48.png' )
     .row.align-items-center.justify-content-center.mb-4
       .col-lg-4.my-3
         .bg11.d-flex.px-3.he-2-cus
-          img.img-a.img-t.bg12.px-1.py-2(src='@/assets/curso/temas/49.svg', alt='')
+          img.img-a.img-t.bg12.px-1.py-2(src='@/assets/curso/temas/49.svg' )
           .wd-80-cus
             p.fw-bold.ml-1-custom.mt-4.mb-0 <i> TCP</i>
             p.ml-1-custom  Protocolo de control de transmisión.
       .col-lg-4.my-3
         .bg11.d-flex.px-3.he-2-cus
-          img.img-a.img-t.bg12.px-1.py-2(src='@/assets/curso/temas/50.svg', alt='')
+          img.img-a.img-t.bg12.px-1.py-2(src='@/assets/curso/temas/50.svg' )
           .wd-80-cus
             p.fw-bold.ml-1-custom.mt-4.mb-0 <i>  IP</i>
             p.ml-1-custom Protocolo de Internet.
       .col-lg-4.my-3
         .bg11.d-flex.px-3.he-2-cus
-          img.img-a.img-t.bg12.px-1.py-2(src='@/assets/curso/temas/51.svg', alt='')
+          img.img-a.img-t.bg12.px-1.py-2(src='@/assets/curso/temas/51.svg' )
           .wd-80-cus
             p.fw-bold.ml-1-custom.mt-4.mb-0 <i> POP</i>
             p.ml-1-custom  Protocolo de oficina de correos.
     .row.align-items-center.justify-content-center.mb-4(data-aos="zoom-in-left")
       .col-lg-4.my-3
         .bg11.d-flex.px-3.he-2-cus
-          img.img-a.img-t.bg12.px-1.py-2(src='@/assets/curso/temas/52.svg', alt='')
+          img.img-a.img-t.bg12.px-1.py-2(src='@/assets/curso/temas/52.svg' )
           .wd-80-cus
             p.fw-bold.ml-1-custom.mt-4.mb-0  <i>SMTP</i>
             p.ml-1-custom  Protocolo para la transferencia simple de correo.
       .col-lg-4.my-3
         .bg11.d-flex.px-3.he-2-cus
-          img.img-a.img-t.bg12.px-1.py-2(src='@/assets/curso/temas/53.svg', alt='')
+          img.img-a.img-t.bg12.px-1.py-2(src='@/assets/curso/temas/53.svg' )
           .wd-80-cus
             p.fw-bold.ml-1-custom.mt-4.mb-0  <i>FTP</i>
             p.ml-1-custom Protocolo de transferencia de archivos.
       .col-lg-4.my-3
         .bg11.d-flex.px-3.he-2-cus
-          img.img-a.img-t.bg12.px-1.py-2(src='@/assets/curso/temas/54.svg', alt='')
+          img.img-a.img-t.bg12.px-1.py-2(src='@/assets/curso/temas/54.svg' )
           .wd-80-cus
             p.fw-bold.ml-1-custom.mt-4.mb-0  <i>HTTP</i>
             p.ml-1-custom  Protocolo de transferencia de hipertexto.
@@ -188,24 +188,24 @@
               .col-sm-12.col-md-10.d-flex.mt-0.flex-sm-column-cus
                 p Consiste en recolectar los datos e información inicial a procesar, es lo que se considera como el "documento fuente".
               .col-sm-12.col-md-2.d-flex.mt-0.flex-sm-column-cus
-                img.ml-1-custom.img-a.img-t.px-1.py-2(src='@/assets/curso/temas/57.svg', alt='')
+                img.ml-1-custom.img-a.img-t.px-1.py-2(src='@/assets/curso/temas/57.svg' )
             .row.justify-content-center.align-items-start(titulo="Entrada")
               .col-sm-12.col-md-10.d-flex.mt-0.flex-sm-column-cus
                 p Los datos iniciales se clasifican antes del procesamiento para su reconocimiento.
               .col-sm-12.col-md-2.d-flex.mt-0.flex-sm-column-cus
-                img.ml-1-custom.img-a.img-t.px-1.py-2(src='@/assets/curso/temas/56.svg', alt='')
+                img.ml-1-custom.img-a.img-t.px-1.py-2(src='@/assets/curso/temas/56.svg' )
             .row.justify-content-center.align-items-start(titulo="Procesamiento")
               .col-sm-12.col-md-12.d-flex.mt-0.flex-sm-column-cus
                 p Es el proceso durante el que ejecutarán las operaciones necesarias para convertir los datos en información significativa y cuando están transformados se preparan para la salida o visualización.
-                img.ml-1-custom.img-a.img-t.px-1.py-2(src='@/assets/curso/temas/58.svg', alt='')
+                img.ml-1-custom.img-a.img-t.px-1.py-2(src='@/assets/curso/temas/58.svg' )
             .row.justify-content-center.align-items-start(titulo="Salida")
               .col-sm-12.col-md-12.d-flex.mt-0.flex-sm-column-cus
                 p Es el mecanismo para presentar los resultados obtenidos en el procesamiento, pueden ser presentados en pantalla, impresos o entregados de la forma que se requiera específicamente.
-                img.ml-1-custom.img-a.img-t.px-1.py-2(src='@/assets/curso/temas/59.svg', alt='')
+                img.ml-1-custom.img-a.img-t.px-1.py-2(src='@/assets/curso/temas/59.svg' )
             .row.justify-content-center.align-items-start(titulo="Distribución")
               .col-sm-12.col-md-12.d-flex.mt-0.flex-sm-column-cus
                 p Es el proceso mediante el cual se envía o entrega la información o producto de salida del procesamiento, estos pueden llegar a ser documentos fuente para futuros procesamientos.
-                img.ml-1-custom.img-a.img-t.px-1.py-2(src='@/assets/curso/temas/60.svg', alt='')
+                img.ml-1-custom.img-a.img-t.px-1.py-2(src='@/assets/curso/temas/60.svg' )
             
 
     Separador
@@ -217,10 +217,10 @@
         .bg14.p-4.mb-1 
           .row.d-flex.align-items-center.justify-content-center
             .col-lg-2
-              img.img-a.img-t(src='@/assets/curso/temas/62.svg', alt='')
+              img.img-a.img-t(src='@/assets/curso/temas/62.svg' )
             .col-lg-10 Por mucho tiempo esta solución ha sido la más utilizada <i>Fibre Channel</i> (<i>FC</i>) y en los últimos años han sobresalido tecnologías como <i>NAS</i> o <i>iSCSI</i> convirtiéndose en alternativas tentadoras para entornos de virtualización, ofreciendo una diferencia en rendimiento y precio.
       .col-lg-5.my-3
-        img.img-a.img-t(src='@/assets/curso/temas/61.png', alt='')
+        img.img-a.img-t(src='@/assets/curso/temas/61.png' )
     .mb-4.d-flex.bg-img-title(data-aos="zoom-in-left")
       .d-flex.flex-wrap.align-items-center.pe-4
         h3.col.px-4.mb-0.text-white.bg-img-blue Generalidades
@@ -229,7 +229,7 @@
     
     .row.align-items-center.justify-content-center.mb-4(data-aos="zoom-in-left")
       .col-lg-5.my-3
-        img.img-a.img-t(src='@/assets/curso/temas/64.png', alt='')
+        img.img-a.img-t(src='@/assets/curso/temas/64.png' )
       .col-lg-7.my-3
         p(data-aos="zoom-in-left") Hay que tener ciertos criterios a la hora de elegir una solución como es: presupuesto disponible, rendimiento y capacidad. Además hay fabricantes que ya cuentan con una propuesta en virtualización que podemos adoptar en el proyecto que se esté proponiendo como una alternativa para trabajar con la misma línea.
         .bg25.p-4.mb-1 
@@ -300,7 +300,7 @@
       
       .row.d-flex.align-items-center.justify-content-center(data-aos="zoom-in-left").mx-5-cus
           .col-sm-12.col-lg-4.he-7-cus
-            img.img-a.img-t(src='@/assets/curso/temas/67.png', alt='')
+            img.img-a.img-t(src='@/assets/curso/temas/67.png' )
           .col-sm-12.col-lg-8.bg19.he-8-cus.ml-neg-cus.align-items-center.justify-content-center
             p(data-aos="zoom-in-left").align-items-center.justify-content-center.img-center-cus Las principales tecnologías de almacenamiento, se relacionan con los protocolos de uso, componentes, y costos,  a continuación, se describen las principales. 
       .p-5-cus.mt-5.mb-5 
@@ -320,20 +320,20 @@
                 p.z-index-cus En cuanto a seguridad, a diferencia de <i>FC</i>, <i>iSCSI</i> implementa sistemas de autenticación (CHAP) y encriptación.
         
           .col-sm-12.col-md-4.z-index-cus
-            img.mb-5(src='@/assets/curso/temas/121.svg', alt='')
+            img.mb-5(src='@/assets/curso/temas/121.svg' )
 
 
         h3(data-aos="zoom-in-left").mb-3 <i>FC - Fiber Channel</i>
         p(data-aos="zoom-in-left").mb-5 <i>FC</i> presenta un grado alto de rendimiento y fiabilidad, pero implican realizar una inversión económica mayor e introducen complejidad en la configuración del centro de datos. <i>FC</i> es la solución más utilizada para entornos de virtualización de gran dimensión o máquinas virtuales con <i>IOPS</i> (número de <i> E/S</i> de acceso a disco) alto gracias a los anchos de banda que se alcanzan (8 <i>Gpbs </i> e incluso 16 <i>Gbps</i>).
         .row(data-aos="zoom-in-left")
           .col-sm-12.col-md-4.mb-5
-            img(src='@/assets/curso/temas/69.svg', alt='')
+            img(src='@/assets/curso/temas/69.svg' )
           .col-sm-12.col-md-8
             .row
               .col-lg-12
                 .tarjeta-avatar-b.mb-3
                   .tarjeta-avatar-b__img
-                    img(src='@/assets/curso/temas/68.svg' alt='AvatarTop')
+                    img(src='@/assets/curso/temas/68.svg')
                   .tarjeta.tarjeta--blanca
                     .p-2
                       h3.mt-2 Seguridad
@@ -342,7 +342,7 @@
               .col-lg-12
                 .tarjeta-avatar-b.mb-3
                   .tarjeta-avatar-b__img
-                    img(src='@/assets/curso/temas/70.svg' alt='AvatarTop')
+                    img(src='@/assets/curso/temas/70.svg')
                   .tarjeta.tarjeta--blanca
                     .p-2
                       h3.mt-2 Costos
@@ -357,7 +357,7 @@
                 p La principal diferencia entre <i>iSCSI</i> y <i>NAS</i> es el tipo de protocolo utilizado. Mientras que <i>iSCSI</i> está basado en bloques de discos, <i>NAS</i> es un sistema de compartición de archivos.
                 .row.align-items-center.justify-content-center 
                   .col-1
-                    img(src='@/assets/curso/temas/122.svg' alt='AvatarTop')
+                    img(src='@/assets/curso/temas/122.svg')
                   .col-11.mt-3
                     p De este modo, se descarga al dispositivo de almacenamiento de la responsabilidad de escribir datos a disco. <i>NAS</i> utiliza un <i>software</i> cliente que se comunica al servidor <i>NFS</i> mediante red <i>Ethernet</i>.
             
@@ -370,7 +370,7 @@
                 p La mayor parte de las plataformas de virtualización soporta <i>NAS</i>. Debido a que <i>NAS</i> es un protocolo muy utilizado, existen diferentes opciones para utilizar un almacenamiento <i>NAS</i> con tus máquinas virtuales: desde un servidor físico convertido en servidor <i>NAS</i> o un dispositivo de almacenamiento dedicado basado en <i>NAS</i>. 
                 .row.align-items-center.justify-content-center 
                   .col-1
-                    img(src='@/assets/curso/temas/123.svg' alt='AvatarTop')
+                    img(src='@/assets/curso/temas/123.svg')
                   .col-11
                     p.mt-3 El coste y rendimiento de cada solución puede variar grandemente siendo los dispositivos dedicados los que ofrecen mayor rendimiento, pero a un coste más alto
                 p.mt-3 En la mayoría de los casos, <i>NAS</i> no ofrece el mismo rendimiento que una red <i>SAN FC</i> pero una arquitectura de red bien configurada puede ofrecer un rendimiento adaptado a tus necesidades. De manera similar a <i>iSCSI</i>, <i>NAS</i> utiliza tarjetas de red para comunicarse con los dispositivos de almacenamiento, por lo tanto tenemos un límite de 1 <i>Gpbs </i>. A diferencia de <i>iSCSI</i> no permite multipathing ofreciendo un rendimiento inferior.
@@ -394,14 +394,14 @@
     p.mb-3(data-aos="zoom-in-left")   <b><i>RAID</i> es la sigla para   “<i>Redundant Array of Independent Disks</i>”.</b> Su definición en español sería "Matriz Redundante de Discos Independientes". Se trata de una tecnología que combina varios discos rígidos (HD) para formar una única unidad lógica, donde los mismos datos son almacenados en todos los discos (redundancia). En otras palabras, es un conjunto de discos rígidos que funcionan como si fueran uno solo.
     .row.align-items-center.justify-content-center.mb-4
       .col-lg-5.my-3
-        img.img-a.img-t(src='@/assets/curso/temas/72.png', alt='')
+        img.img-a.img-t(src='@/assets/curso/temas/72.png' )
       .col-lg-7.my-3
         p(data-aos="zoom-in-left") Este tipo de implementación permite tener una tolerancia alta contra fallas, pues si un disco tiene problemas, los demás continúan funcionando, teniendo el usuario los datos a su disposición como si nada pasara. La tecnología <i>RAID</i> está consolidada hace décadas, ya que surgió de la Universidad de Berkeley, en California (EUA) a finales de la década de 1980.
         .bg10.p-4.mb-1 
           .row.d-flex.align-items-center.justify-content-center
             .col-lg-12 Para conformar el <i>RAID</i>, es preciso utilizar por lo menos 2 discos rígidos. El sistema operativo, en este caso, mezclará los discos como una única unidad lógica. Cuando se graban datos, los mismos se reparten entre los discos del <i>RAID</i>, siempre dependiendo del nivel de <i>RAID</i> adoptado.
         .d-flex.align-items-center.justify-content-center
-            img.img-a.img-t(src='@/assets/curso/temas/10.png', alt='')
+            img.img-a.img-t(src='@/assets/curso/temas/10.png' )
             p.ml-1-custom.mt-3 Mediante la implementación de <i>RAID</i>, además de garantizar la disponibilidad de los datos en caso de fallo de un disco, es posible también equilibrar el acceso a la información, de forma que no haya “cuellos de botella”.
     Separador
     #t_4_4.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
@@ -418,28 +418,28 @@
     .row.align-items-center.justify-content-center(data-aos="zoom-in-left")
       .col-lg-4.m-0
         .bg11.d-flex.px-3.he-5-cus.align-items-center.justify-content-center
-          img.img-a.img-t.bg12.px-1.py-2(src='@/assets/curso/temas/74.svg', alt='')
+          img.img-a.img-t.bg12.px-1.py-2(src='@/assets/curso/temas/74.svg' )
           .wd-80-cus
             p.ml-1-custom Monitorización y seguimiento.
       .col-lg-4.m-0
         .bg11.d-flex.px-3.he-5-cus.align-items-center.justify-content-center
-          img.img-a.img-t.bg12.px-1.py-2(src='@/assets/curso/temas/75.svg', alt='')
+          img.img-a.img-t.bg12.px-1.py-2(src='@/assets/curso/temas/75.svg' )
           .wd-80-cus
             p.ml-1-custom Requisitos de capacidad.
       .col-lg-4.m-0
         .bg11.d-flex.px-3.he-5-cus.align-items-center.justify-content-center
-          img.img-a.img-t.bg12.px-1.py-2(src='@/assets/curso/temas/76.svg', alt='')
+          img.img-a.img-t.bg12.px-1.py-2(src='@/assets/curso/temas/76.svg' )
           .wd-80-cus
             p.ml-1-custom Planificación.
     .row.align-items-center.justify-content-center.mb-4(data-aos="zoom-in-left")
       .col-lg-4.m-0
         .bg11.d-flex.px-3.he-5-cus.align-items-center.justify-content-center
-          img.img-a.img-t.bg12.px-1.py-2(src='@/assets/curso/temas/77.svg', alt='')
+          img.img-a.img-t.bg12.px-1.py-2(src='@/assets/curso/temas/77.svg' )
           .wd-80-cus
             p.ml-1-custom Supervisión.
       .col-lg-4.my-3
         .bg11.d-flex.px-3.he-5-cus.align-items-center.justify-content-center
-          img.img-a.img-t.bg12.px-1.py-2(src='@/assets/curso/temas/78.svg', alt='')
+          img.img-a.img-t.bg12.px-1.py-2(src='@/assets/curso/temas/78.svg' )
           .wd-80-cus
             p.ml-1-custom Gestión de la demanda. 
       .col-lg-4.my-3

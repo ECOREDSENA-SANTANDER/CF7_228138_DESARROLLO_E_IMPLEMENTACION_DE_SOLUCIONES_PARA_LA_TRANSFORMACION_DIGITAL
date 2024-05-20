@@ -24,31 +24,31 @@
           .col-lg-9.col-md-12.my-3
             p Los controles  <i>CIS</i> son una propuesta de controles de seguridad específicos y con los cuales se busca endurecer las acciones defensivas y así prevenir incidentes que afecten los activos de información.
           .col-lg-3.col-md-12.my-3
-            img.img-a.img-t(src='@/assets/curso/temas/37.png', alt='')
+            img.img-a.img-t(src='@/assets/curso/temas/37.png' )
       .py-3.py-md-4.bg26.px-3(titulo="En qué se basan los controles  <i>CIS</i> v8 ")
         .row.align-items-center.justify-content-center
           .col-lg-9.col-md-12.my-3
             p Esta propuesta está basada en múltiples marcos de seguridad, lo que permite abordar diferentes puntos de vista y, asimismo, recoge las mejores propuestas de seguridad.
           .col-lg-3.col-md-12.my-3
-            img.img-a.img-t(src='@/assets/curso/temas/38.png', alt='')
+            img.img-a.img-t(src='@/assets/curso/temas/38.png' )
       .py-3.py-md-4.bg26.px-3(titulo="Estructuración de  <i>CIS</i> v8 ")
         .row.align-items-center.justify-content-center
           .col-lg-9.col-md-12.my-3
             p Los controles  <i>CIS</i> están estructurados en 18 controles y 153 salvaguardas, distribuidos en 3 grupos de implementación.
           .col-lg-3.col-md-12.my-3
-            img.img-a.img-t(src='@/assets/curso/temas/39.png', alt='')
+            img.img-a.img-t(src='@/assets/curso/temas/39.png' )
       .py-3.py-md-4.bg26.px-3(titulo="<i>CIS Benchmarks</i> ")
         .row.align-items-center.justify-content-center
           .col-lg-9.col-md-12.my-3
             p Esta otra iniciativa de recomendaciones específicas para productos de diferentes proveedores y tipos recopila una serie de recomendaciones y pautas para el endurecimiento de sistemas y aplicaciones, y así poder cumplir con un nivel básico de seguridad.
           .col-lg-3.col-md-12.my-3
-            img.img-a.img-t(src='@/assets/curso/temas/40.png', alt='')
+            img.img-a.img-t(src='@/assets/curso/temas/40.png' )
       .py-3.py-md-4.bg26.px-3(titulo="Las más comunes ")
         .row.align-items-center.justify-content-center
           .col-lg-9.col-md-12.my-3
             p Entre las guías más comunes, se encuentran: sistemas operativos <i>Linux</i> y <i>Windows</i>, servicios web, bases de datos, hipervisores, servicios en la nube, dispositivos móviles, dispositivos de red, <i>software</i> de escritorio, dispositivos de impresión.
           .col-lg-3.col-md-12.my-3
-            img.img-a.img-t(src='@/assets/curso/temas/41.png', alt='')
+            img.img-a.img-t(src='@/assets/curso/temas/41.png' )
       
     .row.justify-content-center.align-items-center(data-aos="zoom-in-left")
       .col-lg-10
@@ -72,10 +72,10 @@
         .bg13.p-4.mb-1
           .row.d-flex
             .col-lg-2
-              img.img-a.img-t(src='@/assets/curso/temas/44.svg', alt='')
+              img.img-a.img-t(src='@/assets/curso/temas/44.svg' )
             .col-lg-10 Entre las publicaciones más importantes, se encuentran aquellas relacionadas con auditorías, control del teletrabajo, control de dispositivos móviles, gestión de inventario de activos, entre otros, y algunos marcos de interoperabilidad.
       .col-lg-5.my-3
-        img.img-a.img-t(src='@/assets/curso/temas/43.png', alt='')
+        img.img-a.img-t(src='@/assets/curso/temas/43.png' )
 
     .row.justify-content-center.align-items-center(data-aos="zoom-in-left")
       .col-lg-10

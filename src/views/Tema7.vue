@@ -17,17 +17,17 @@
     .row.text-left-cus.mb-4
       .col-lg-4.my-3.text-left-cus
         .bg11.bg-card.bg-img-1.d-flex.px-3.he-6-cus.flex-column.text-left-cus
-          img.w-auto-cus.bg12.px-3.py-1.mx-3.my-4(src='@/assets/curso/temas/143.svg', alt='')
+          img.w-auto-cus.bg12.px-3.py-1.mx-3.my-4(src='@/assets/curso/temas/143.svg' )
           .wd-100
             p.ml-1-custom ¿Cuáles y en qué cantidad son los servicios a contratar? 
       .col-lg-4.my-3.text-left-cus
         .bg11.bg-card.bg-img-2.d-flex.px-3.he-6-cus.flex-column
-          img.w-auto-cus.bg12.px-3.py-1.mx-3.my-4(data-aos="zoom-in")(src='@/assets/curso/temas/144.svg', alt='')
+          img.w-auto-cus.bg12.px-3.py-1.mx-3.my-4(data-aos="zoom-in")(src='@/assets/curso/temas/144.svg' )
           .wd-100
             p.ml-1-custom ¿Qué nivel de soporte y respuesta a incidentes esperan por parte del proveedor? 
       .col-lg-4.my-3.text-left-cus
         .bg11.bg-card.bg-img-3.d-flex.px-3.he-6-cus.flex-column
-          img.w-auto-cus.bg12.px-3.py-1.mx-3.my-4(data-aos="zoom-in")(src='@/assets/curso/temas/145.svg', alt='')
+          img.w-auto-cus.bg12.px-3.py-1.mx-3.my-4(data-aos="zoom-in")(src='@/assets/curso/temas/145.svg' )
           .wd-100
             p.ml-1-custom ¿Cómo la organización puede validar la calidad en el servicio ofrecido por el proveedor? 
 
@@ -60,11 +60,11 @@
                 i.fas.fa-chevron-right
                 p Proceso y directivas con respecto a la terminación del contrato.
           .col-sm-12.col-md-4.pt-5 
-            img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/146.png', alt='')
+            img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/146.png' )
     p.mb-5(data-aos="zoom-in-left")  #[b Este manejo de las características del servicio, permite la optimización de asignación y costos de recursos en cuanto al tratamiento de la información.  ]Pues no se requiere una inversión en infraestructura, pues es utilizada la del prestador del servicio, a la vez que se busca garantía en dicha prestación, en cuanto a fallas o exceso de recursos, o los costos que puede acarrear situaciones como estas. Como sabemos,  #[b la gestión de la información se encuentra de manera virtual, en manos del cliente o la organización contratante de servicios en la nube, que puede ser accedida a través de internet, mediante bases de datos, correo electrónico, nóminas o gestión de recursos humanos. ] Sin embargo, puede que los datos no estén necesariamente en manos del contratista, dependiendo del modelo utilizado, por lo que el mantenimiento y soporte físico de la información, los procesos y las comunicaciones, pueden regularse por medio de terceros, quien regula el servicio desde cualquier parte del mundo, por medio de recursos como prácticas de deslocalización, compartición de recursos y movilidad, o si es el caso con contratos adicionales <i>AT&T &TA T 6.</i> 
     .row.align-items-center.justify-content-center.mb-4(data-aos="zoom-in-left")
       .col-lg-5.my-3
-        img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/147.png', alt='')
+        img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/147.png' )
       .col-lg-7.my-3
         p.bg13.p-4.mb-3(data-aos="fade-left") Es así que el  #[b #[em cloud computing]  ], puede usar tecnologías de la información y las comunicaciones, mediante técnicas ya existentes de forma innovadora y en una nueva escala. Una consecuencia de este transformador de negocio, tiene como resultado que la persona o la organización que contrata los servicios, puede desconocer la localización precisa de sus datos, así como no disponer del control directo de acceso a los mismos, de su borrado y su portabilidad, por lo que la legislación vigente en países como Colombia, aún se encuentra en diseño, con el fin de llevar a cabo una regulación más responsable al respecto.
         p La contratación como documento formal entre dos partes para la prestación y consumo de productos y/o servicios es un documento regulado en el cual se establecen los acuerdos o reglas de la prestación de un producto o servicio, para la adquisición de servicios en la nube es muy importante tener en cuenta los acuerdos, políticas y documentos contractuales relacionados con los servicios de  #[b #[em cloud computing]  ] que un proveedor establece, ya que en los mismos se indican los acuerdos de nivel de servicios entre otra información relevante.
@@ -86,43 +86,43 @@
               i.fas.fa-quote-right
         p.bg20.p-4.mb-3(data-aos="fade-left") La contratación de servicios de  #[b #[em cloud computing]  ] se lleva a cabo mediante un contrato de prestación de servicios, que se define como el contrato mediante el cual una persona, normalmente un especialista, en algún área, se obliga con respecto a otra a realizar una serie de servicios a cambio de un precio.  #[b Es importante señalar que el pago del contrato está dirigido al cumplimiento de metas, horas, objetivos, proyectos, etc ]. Se trata de un contrato oneroso, y a la contraprestación de pago, es en dinero o especie la cual será pagada proporcionalmente conforme a las actividades realizadas.
         .d-flex.align-items-center.justify-content-center
-          img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/10.png', alt='')
+          img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/10.png' )
           p.ml-1-custom.mt-3 Un contrato oneroso, se define como un tipo de contrato en que ambas partes tienen obligaciones y ventajas económicas recíprocas. Entre los más comunes están: 
       .col-lg-5.my-3
-        img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/98.png', alt='')
+        img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/98.png' )
     
     .row.align-items-center.justify-content-center.mb-4(data-aos="zoom-in-left")
       .col-lg-2.my-3
         .bg11.d-flex.px-3.he-2-cus.align-items-center.justify-content-center.flex-column
-          img.img-a.img-t.bg12-r.px-1.py-2.mt-4(data-aos="zoom-in")(src='@/assets/curso/temas/148.svg', alt='')
+          img.img-a.img-t.bg12-r.px-1.py-2.mt-4(data-aos="zoom-in")(src='@/assets/curso/temas/148.svg' )
           .w-100.text-center
             p Compraventa 
       .col-lg-2.my-3
         .bg11.d-flex.px-3.he-2-cus.align-items-center.justify-content-center.flex-column
-          img.img-a.img-t.bg12-r.px-1.py-2.mt-4(data-aos="zoom-in")(src='@/assets/curso/temas/149.svg', alt='')
+          img.img-a.img-t.bg12-r.px-1.py-2.mt-4(data-aos="zoom-in")(src='@/assets/curso/temas/149.svg' )
           .w-100.text-center
             p Arrendamiento 
       .col-lg-2.my-3
         .bg11.d-flex.px-3.he-2-cus.align-items-center.justify-content-center.flex-column
-          img.img-a.img-t.bg12-r.px-1.py-2.mt-4(data-aos="zoom-in")(src='@/assets/curso/temas/150.svg', alt='')
+          img.img-a.img-t.bg12-r.px-1.py-2.mt-4(data-aos="zoom-in")(src='@/assets/curso/temas/150.svg' )
           .w-100.text-center
             p Sociedad 
 
       .col-lg-2.my-3
         .bg11.d-flex.px-3.he-2-cus.align-items-center.justify-content-center.flex-column
-          img.img-a.img-t.bg12-r.px-1.py-2.mt-4(data-aos="zoom-in")(src='@/assets/curso/temas/151.svg', alt='')
+          img.img-a.img-t.bg12-r.px-1.py-2.mt-4(data-aos="zoom-in")(src='@/assets/curso/temas/151.svg' )
           .w-100.text-center
             p Permuta
         
       .col-lg-2.my-3
         .bg11.d-flex.px-3.he-2-cus.align-items-center.justify-content-center.flex-column
-          img.img-a.img-t.bg12-r.px-1.py-2.mt-4(data-aos="zoom-in")(src='@/assets/curso/temas/152.svg', alt='')
+          img.img-a.img-t.bg12-r.px-1.py-2.mt-4(data-aos="zoom-in")(src='@/assets/curso/temas/152.svg' )
           .w-100.text-center
             p Transporte 
 
       .col-lg-2.my-3
         .bg11.d-flex.px-3.he-2-cus.align-items-center.justify-content-center.flex-column
-          img.img-a.img-t.bg12-r.px-1.py-2.mt-4(data-aos="zoom-in")(src='@/assets/curso/temas/153.svg', alt='')
+          img.img-a.img-t.bg12-r.px-1.py-2.mt-4(data-aos="zoom-in")(src='@/assets/curso/temas/153.svg' )
           .w-100.text-center
             p Contrato de trabajo
 
@@ -136,12 +136,12 @@
     .row.d-flex.justify-content-between
       .col-sm-12.col-md-6.mt-5
         .bg2.my-4.he-4-cus.px-4.pt-3
-          img.w-auto-cus.mt-5(src='@/assets/curso/temas/154.svg', alt='')
+          img.w-auto-cus.mt-5(src='@/assets/curso/temas/154.svg' )
           h4.mb-2.mt-5 Ley de Protección de Datos
           p Ley 1581 de 2012, La presente ley tiene por objeto desarrollar el derecho constitucional que tienen todas las personas a conocer, actualizar y rectificar las informaciones que se hayan recogido sobre ellas en bases de datos o archivos, y los demás derechos, libertades y garantías constitucionales a que se refiere el artículo 15 de la Constitución Política; así como el derecho a la información consagrado en el artículo 20 de la misma.
       .col-sm-12.col-md-6.mt-5
         .bg3.my-4.he-4-cus.px-4.pt-3
-          img.w-auto-cus.mt-5(src='@/assets/curso/temas/155.svg', alt='')
+          img.w-auto-cus.mt-5(src='@/assets/curso/temas/155.svg' )
           h4.mb-2.mt-5 Decreto Número 1317 DE 2013
           p El Decreto tiene como objeto reglamentar parcialmente la Ley 1581 de 2012, por la cual se dictan disposiciones generales para la protección de datos personales.
     
@@ -150,7 +150,7 @@
     .bg14.p-4.mb-1(data-aos="fade-left") 
       .row.d-flex
         .col-lg-1
-          img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/101.svg', alt='')
+          img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/101.svg' )
         .col-lg-11 En la mayoría de los casos, sin embargo, lo que se oferta son contratos de adhesión, constituidos por cláusulas contractuales cerradas, en las que  #[b el proveedor de <i>cloud</i> fija las condiciones con un contrato tipo igual para todos sus clientes, sin que el usuario tenga ninguna opción para negociar sus términos ]. Este último caso es el más común, sobre todo cuando se encuentra el cliente en una situación de desequilibrio  #[b (p.ej.: una <i>pyme</i> frente a un gran proveedor) ], aunque hay que tener en cuenta que esto no eximirá, a ninguno de los dos, de las responsabilidades que determina la ley de protección de datos.
       
 </template>
