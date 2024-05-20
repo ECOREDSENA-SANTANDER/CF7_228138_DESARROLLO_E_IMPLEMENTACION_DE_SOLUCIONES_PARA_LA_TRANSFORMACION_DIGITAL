@@ -331,7 +331,7 @@
               img.w-75-cus(src='@/assets/curso/temas/28.svg', alt='Actividades del plan de gestión de servicios TI')
             .col-lg-10
               .bloque-texto-a__texto.p-4
-                p.mb-0 La gestión de la disponibilidad, involucra algunos requisitos y procesos como la planificación, mantenimiento y monitorización, como se puede ver en la siguiente imagen.
+                p.mb-0 La gestión de la disponibilidad, involucra algunos requisitos y procesos como la planificación, mantenimiento y monitorización, como se puede consultar en la siguiente imagen.
     .titulo-sexto.color-acento-contenido.mb-4(data-aos="zoom-in-left")
       h5 Figura 4. 
       span

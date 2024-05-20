@@ -234,7 +234,7 @@
         p(data-aos="zoom-in-left") Hay que tener ciertos criterios a la hora de elegir una solución como es: presupuesto disponible, rendimiento y capacidad. Además hay fabricantes que ya cuentan con una propuesta en virtualización que podemos adoptar en el proyecto que se esté proponiendo como una alternativa para trabajar con la misma línea.
         .bg25.p-4.mb-1 
           .row.d-flex.align-items-center.justify-content-center
-            .col-lg-12 Normalmente en el campo de la virtualización encontramos tecnologías como <i>FC</i> que es de las más reconocidas, no debemos pasar por alto <i>iSCSI</i> o <i>NAS</i> como alternativas. Estas últimas tienen un abanico de dispositivos <i>iSCSI</i> o <i>NAS</i> en el mercado, observamos características como capacidades y escalabilidad y ver que nuestro requerimiento sea compensado. Por eso se precisa que en este momento del proyecto el almacenamiento es una parte crítica para ello.
+            .col-lg-12 Normalmente en el campo de la virtualización encontramos tecnologías como <i>FC</i> que es de las más reconocidas, no debemos pasar por alto <i>iSCSI</i> o <i>NAS</i> como alternativas. Estas últimas tienen un abanico de dispositivos <i>iSCSI</i> o <i>NAS</i> en el mercado, observamos características como capacidades y escalabilidad y evidenciar que nuestro requerimiento sea compensado. Por eso se precisa que en este momento del proyecto el almacenamiento es una parte crítica para ello.
     .mb-4.d-flex.bg-img-title(data-aos="zoom-in-left")
       .d-flex.flex-wrap.align-items-center.pe-4
         h3.col.px-4.mb-0.text-white.bg-img-blue(style='width: 310px;') Tipos de almacenamiento
