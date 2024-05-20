@@ -250,7 +250,7 @@
               .col-1.align-items-center.justify-content-center
                 img(src='@/assets/curso/temas/117.svg')
               .col-11.align-items-center.justify-content-center
-                p Suelen basarse en tecnologías <i>SCSI- Small Computers System Interface y FC- Fiber Channel</i>. Esta arquitectura de almacenamiento se relacionaba principalmente con la época de los “Mainframe” de <i>IBM</i>. Sin embargo, hoy en día, los PC’s de sobremesa utilizan arquitectura de almacenamiento <i>DAS</i>, mientras que, en los servidores de las empresas, empieza a caer en desuso, utilizándose únicamente para el almacenamiento del sistema operativo.
+                p Suelen basarse en tecnologías <i>SCSI- Small Computers System Interface y FC- Fiber Channel</i>. Esta arquitectura de almacenamiento se relacionaba principalmente con la época de los “<i>Mainframe</i>” de <i>IBM</i>. Sin embargo, hoy en día, los PC’s de sobremesa utilizan arquitectura de almacenamiento <i>DAS</i>, mientras que, en los servidores de las empresas, empieza a caer en desuso, utilizándose únicamente para el almacenamiento del sistema operativo.
             .bg18.p-3 La arquitectura de almacenamiento <i>DAS</i>, presenta muchos inconvenientes, como la dispersión del almacenamiento, que implica una dificultad en la gestión de los <i>backups</i>, así como una baja tolerancia a fallos (sólo posible a través de soluciones <i>RAID</i>), y un alto <i>TCO- Total Cost of Ownership</i>, debido a las dificultades de mantenimiento.
           .col-12
             figure
@@ -337,7 +337,7 @@
                   .tarjeta.tarjeta--blanca
                     .p-2
                       h3.mt-2 Seguridad
-                      p Las redes de almacenamiento basadas en FC en principio son más seguras que las basadas en <i>Ethernet</i> ya que el tráfico está aislado del tráfico normal. Pero por otro lado es más complicado implementar sistemas de autenticación y encriptación.
+                      p Las redes de almacenamiento basadas en <i>FC</i> en principio son más seguras que las basadas en <i>Ethernet</i> ya que el tráfico está aislado del tráfico normal. Pero por otro lado es más complicado implementar sistemas de autenticación y encriptación.
             .row
               .col-lg-12
                 .tarjeta-avatar-b.mb-3
@@ -346,7 +346,7 @@
                   .tarjeta.tarjeta--blanca
                     .p-2
                       h3.mt-2 Costos
-                      p La necesidad de disponer de <i>hardware</i> propio para la tecnología (HBAs y <i>switches</i> <i>FC</i>), hacen la solución más cara y compleja de administrar e implementar. Puede darse el caso de que la empresa no disponga de personal con conocimientos en entornos <i>FC</i>, por lo tanto, se puede incurrir en costes adicionales de formación o consultoría externa.
+                      p La necesidad de disponer de <i>hardware</i> propio para la tecnología (<i>HBAs</i> y <i>switches</i> <i>FC</i>), hacen la solución más cara y compleja de administrar e implementar. Puede darse el caso de que la empresa no disponga de personal con conocimientos en entornos <i>FC</i>, por lo tanto, se puede incurrir en costes adicionales de formación o consultoría externa.
         
         h3(data-aos="zoom-in-left").mb-3 <i>NAS - Network Attached Storage</i>
         TabsB.color-acento-botones.mb-5.bg-white(data-aos="zoom-in-left")
