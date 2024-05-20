@@ -24,7 +24,6 @@
                   .row.justify-content-between.align-items-center
                     .col.mb-3.mb-sm-0
                       p.mb-0 El conocimiento amplio de los aspectos que las configuran y su aplicación son puntos clave que ayudan a garantizar la seguridad de la información y mediante los cuales se logra fortalecer el gobierno corporativo y su propuesta de valor frente a otras organizaciones. 
-    p(data-aos="zoom-in-left").mb-4 El conocimiento amplio de los aspectos que las configuran y su aplicación son puntos clave que ayudan a garantizar la seguridad de la información y mediante los cuales se logra fortalecer el gobierno corporativo y su propuesta de valor frente a otras organizaciones.                
     .row.justify-content-center.align-items-center(data-aos="zoom-in-left")
       .col-lg-10
         .tarjeta.color-primario.p-3.mb-5

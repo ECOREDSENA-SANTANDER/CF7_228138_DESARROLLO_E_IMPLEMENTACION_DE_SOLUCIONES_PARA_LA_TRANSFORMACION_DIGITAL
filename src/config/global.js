@@ -43,7 +43,7 @@ export default {
           },
           {
             numero: '1.2',
-            titulo: 'Plan de gestión de servicios de TI',
+            titulo: 'Plan de gestión de servicios de <i>TI</i>',
             hash: 't_1_2',
           },
         ],
@@ -96,17 +96,17 @@ export default {
         subMenu: [
           {
             numero: '5.1',
-            titulo: 'Acuerdos de Nivel de servicio (ANS)',
+            titulo: 'Acuerdos de Nivel de servicio (<i>ANS</i>)',
             hash: 't_5_1',
           },
           {
             numero: '5.2',
-            titulo: 'Acuerdo de Nivel de Operación (OLA)',
+            titulo: 'Acuerdo de Nivel de Operación (<i>OLA</i>)',
             hash: 't_5_2',
           },
           {
             numero: '5.3',
-            titulo: 'Acuerdo de acompañamiento (UC)',
+            titulo: 'Acuerdo de acompañamiento (<i>UC</i>)',
             hash: 't_5_3',
           },
         ],
@@ -189,17 +189,17 @@ export default {
   },
   complementario: [
     {
-      tema: 'Plan de gestión de servicios de TI.',
+      tema: 'Plan de gestión de servicios de <i>TI</i>.',
       referencia:
-        'Ministerio de Tecnologías de la Información y Comunicaciones. 2019 G.ST.01 Guía del dominio de servicios tecnológicos https://mintic.gov.co/arquitecturati/630/articles-9277_recurso_pdf.pdf',
+        'Ministerio de Tecnologías de la Información y Comunicaciones. 2019 G.ST.01 Guía del dominio de servicios tecnológicos https://www.mintic.gov.co/arquitecturaempresarial /630/articles-237663_recurso_1.pdf',
       tipo: 'Documento',
       link:
-        'https://mintic.gov.co/arquitecturati/630/articles-9277_recurso_pdf.pdf',
+        'https://www.mintic.gov.co/arquitecturaempresarial/630/articles-237663_recurso_1.pdf',
     },
     {
       tema: 'Buenas prácticas en ciberseguridad.',
       referencia:
-        'Center for Internet Security. (2021). CIS Benchmarks. CISECURITY. https://www.cisecurity.org/cis-benchmarks/',
+        '<i>Center for Internet Security</i>. (2021). <i>CIS Benchmarks. CISECURITY</i>. https://www.cisecurity.org/cis-benchmarks/',
       tipo: 'Norma',
       link: 'https://www.cisecurity.org/cis-benchmarks/',
     },
@@ -222,7 +222,7 @@ export default {
     {
       tema: 'Contratación',
       referencia:
-        'Agencia española de protección de datos. (2013). Guía para clientes que contraten servicios de Computing. http://www.oas.org/es/sla/ddi/docs/Gu%C3%ADa%20para%20 clientes%20que%20contraten%20 servicios%20de%20Cloud%20Computing%20-%20AGPD.pdf',
+        'Agencia española de protección de datos. (2013). Guía para clientes que contraten servicios de <i>Computing</i>. http://www.oas.org/es/sla/ddi/docs/Gu%C3%ADa%20para%20 clientes%20que%20contraten%20servicios%20 de%20Cloud%20Computing%20-%20AGPD.pdf',
       tipo: 'PDF',
       link:
         'http://www.oas.org/es/sla/ddi/docs/Gu%C3%ADa%20para%20clientes%20que%20contraten%20servicios%20de%20Cloud%20Computing%20-%20AGPD.pdf',
@@ -237,21 +237,22 @@ export default {
     },
     {
       tema: 'Proveedores de servicio en la nube.',
-      referencia: 'Public Cloud Services Comparison, (s.f) comparecloud.in',
+      referencia:
+        '<i>Public Cloud Services Comparison, (s.f) comparecloud.in</i>',
       tipo: 'Página web',
       link: 'https://comparecloud.in/',
     },
   ],
   glosario: [
     {
-      termino: 'Active Directory',
+      termino: '<i>Active Directory</i>',
       significado:
         'Es una base de datos y un conjunto de servicios que conectan a los usuarios con los recursos de red que necesitan para realizar su trabajo.',
     },
     {
       termino: 'Capacidad',
       significado:
-        'Propiedad de poder contener cierta cantidad de alguna cosa hasta un límite determinado',
+        'Propiedad de poder contener cierta cantidad de alguna cosa hasta un límite determinado.',
     },
     {
       termino: 'Ciberseguridad',
@@ -274,7 +275,7 @@ export default {
         'Es el pacto o convenio, oral o escrito, entre partes que se obligan sobre materia o cosa determinada, y a cuyo cumplimiento pueden ser compelidas.',
     },
     {
-      termino: 'Cloud Computing',
+      termino: '<i>Cloud Computing</i>',
       significado:
         'Conocida también como servicios en la nube, consiste en el uso de una red de servidores remotos alojados en Internet para almacenar, administrar y procesar datos e información, en lugar de un servidor local o una computadora personal.',
     },
@@ -294,7 +295,7 @@ export default {
         'Es un documento técnico que puede ser tomado como referencia para un caso específico.',
     },
     {
-      termino: 'Framework',
+      termino: '<i>Framework</i>',
       significado:
         'Es un marco de trabajo específico, con instrucciones y estructuras, para la implementación de alguna acción.',
     },
@@ -302,146 +303,150 @@ export default {
   referencias: [
     {
       referencia:
-        'A Linux a Day. (2016). Almacenamiento, introducción y terminología. Página web.',
+        '<i>A Linux a Day.</i> (2016). Almacenamiento, introducción y terminología. Página web.',
       link:
-        'https: //alinuxaday.wordpress.com/2016/01/19/almacenamiento-introduccion-y-terminologia',
-    },
-    {
-      referencia: 'Allcode.com (2021). 10 Top Cloud Providers in 2021.',
-      link: 'https: //allcode.com/cloud-providers/',
-    },
-    {
-      referencia: 'Amazon (2021). AWS Directory Service.Página web.',
-      link: 'https: //aws.amazon.com/es/directoryservice/?nc=sn&loc=1',
+        'https://alinuxaday.wordpress.com/2016/01/19/almacenamiento-introduccion-y-terminologia',
     },
     {
       referencia:
-        'Castillo (2018). Active Directory ¿Qué es y para qué sirve’.',
-      link: 'https: //www.profesionalreview.com/2018/12/15/active-directory/',
+        '<i>Allcode.com</i> (2021). 10 <i>Top Cloud Providers in</i> 2021.',
+      link: 'https://allcode.com/cloud-providers/',
+    },
+    {
+      referencia:
+        '<i>Amazon</i> (2021). <i>AWS Directory Service.</i> Página web.',
+      link: 'https://aws.amazon.com/es/directoryservice/?nc=sn&loc=1',
+    },
+    {
+      referencia:
+        'Castillo (2018). <i>Active Directory</i> ¿Qué es y para qué sirve?.',
+      link: 'https://www.profesionalreview.com/2018/12/15/active-directory/',
     },
     {
       referencia:
         'Claranet.es (2021). 6 enfoques para afrontar la migración a la nube.',
       link:
-        'https: //www.claranet.es/blog/6-enfoques-para-afrontar-la-migracion-a-la-nube',
+        'https://www.claranet.es/blog/6-enfoques-para-afrontar-la-migracion-a-la-nube',
     },
     {
       referencia:
-        'Center for Internet Security (2021). CIS Benchmarks. CISECURITY.',
-      link: 'https: //www.cisecurity.org/cis-benchmarks/',
+        '<i>Center for Internet Security</i> (2021). <i>CIS Benchmarks. CISECURITY.</i>',
+      link: 'https://www.cisecurity.org/cis-benchmarks/',
     },
     {
       referencia:
         'ICONTEC. (2012). Tecnología de la información. Técnicas de seguridad. Gestión de incidentes de seguridad de la información. (GTC-ISO/IEC 27035).',
       link:
-        'https: //e-collection-icontec-org.bdigital.sena.edu.co/normavw.aspx?ID=311',
+        'https://e-collection-icontec-org.bdigital.sena.edu.co/normavw.aspx?ID=311',
     },
     {
       referencia:
         'ICONTEC. (2017). Tecnología de la información. Gestión del servicio. Parte 2: código de práctica (NTC-ISO/IEC 20000-2).',
-      link: 'https: //www.avancejuridico.com/docpdf/NORMA_TECNICA_20000-02.pdf',
+      link:
+        'https://tienda.icontec.org/gp-tecnologia-de-la-informacion-gestion-del-servicio-parte-2-orientaciones-para-la-aplicacion-del-sistema-de-gestion-del-servicio-sgs-tecnologia-de-la-informacion-gestion-del-servicio-parte-2-orientaciones-para-la-aplicacion-del-sistema-de-gestion-del-ser',
     },
     {
       referencia:
         'ICONTEC. (2020). Tecnologías de la información. Técnicas de seguridad. Directrices para ciberseguridad (GTC-ISO-IEC 27032: 2020).',
       link:
-        'https: //tienda.icontec.org/gp-tecnologias-de-la-informacion-tecnicas-de-seguridad-directrices-para-ciberseguridad-gtc-iso-iec27032-2020.html',
+        'https://tienda.icontec.org/gp-tecnologias-de-la-informacion-tecnicas-de-seguridad-directrices-para-ciberseguridad-gtc-iso-iec27032-2020.html',
     },
     {
       referencia:
         'ISO 27001. (s. f.-a). Evaluación del Desempeño en ISO 27001- Requisitos en detalle.',
-      link: 'https: //normaiso27001.es/evaluacion-del-desempeno-en-iso-27001/',
+      link: 'https://normaiso27001.es/evaluacion-del-desempeno-en-iso-27001/',
     },
     {
       referencia:
         'ISO 27001. (s. f.-b). ISO 27001 Paso a Paso - 8 Auditoría Interna - ¿Cómo afrontarla?',
       link:
-        'https: //normaiso27001.es/fase-8-auditoria-interna-segun-iso-27001/',
+        'https://normaiso27001.es/fase-8-auditoria-interna-segun-iso-27001/',
     },
     {
       referencia:
         'ISO. (2018). Directrices para la auditoría de los sistemas de gestión. (ISO 19011).',
       link:
-        'https: //e-collection-icontec-org.bdigital.sena.edu.co/normavw.aspx?ID=75245',
+        'https://e-collection-icontec-org.bdigital.sena.edu.co/normavw.aspx?ID=75245',
     },
     {
       referencia:
         'ISO. (2020). ISO/IEC 27001:2013. Information technology — Security techniques — Information security management systems — Requirements.',
-      link: 'https: //www.iso.org/standard/54534.html',
-    },
-    {
-      referencia: 'Microsoft (2021). Cuentas de Active Directory. Docs.',
-      link:
-        'https: //docs.microsoft.com/es-es/windows/security/identity-protection/access-control/active-directory-accounts',
+      link: 'https://www.iso.org/standard/54534.html',
     },
     {
       referencia:
-        'Microsoft (2021). Línea base de seguridad de Azure para Azure Active Directory. Docs.',
+        '<i>Microsoft</i> (2021). Cuentas de <i>Active Directory. Docs.</i>',
       link:
-        'https: //docs.microsoft.com/es-es/security/benchmark/azure/baselines/aad-security-baseline?toc=/azure/active-directory/fundamentals/toc.json',
+        'https://docs.microsoft.com/es-es/windows/security/identity-protection/access-control/active-directory-accounts',
     },
     {
       referencia:
-        'Microsoft (2021). Configuración de redundancia geográfica con Replicación de SQL Server. Docs.',
+        '<i>Microsoft</i> (2021). Línea base de seguridad de <i>Azure</i> para <i>Azure Active Directory. Docs.</i>',
       link:
-        'https: //docs.microsoft.com/es-es/windows-server/identity/ad-fs/deployment/set-up-geographic-redundancy-with-sql-server-replication',
+        'https://docs.microsoft.com/es-es/security/benchmark/azure/baselines/aad-security-baseline?toc=/azure/active-directory/fundamentals/toc.json',
+    },
+    {
+      referencia:
+        '<i>Microsoft</i> (2021). Configuración de redundancia geográfica con Replicación de <i>SQL Server. Docs.</i>',
+      link:
+        'https://docs.microsoft.com/es-es/windows-server/identity/ad-fs/deployment/set-up-geographic-redundancy-with-sql-server-replication',
     },
     {
       referencia: 'MinTIC (2016). Seguridad en la Nube. MinTIC.',
       link:
-        'https: //mintic.gov.co/gestionti/615/articles-5482_G12_Seguridad_Nube.pdf',
+        'https://mintic.gov.co/gestionti/615/articles-5482_G12_Seguridad_Nube.pdf',
     },
     {
       referencia:
         'MinTIC (2016). Guía de auditoría. Seguridad y privacidad de la información. MinTIC.',
       link:
-        'https: //www.mintic.gov.co/gestionti/615/articles-5482_G15_Auditoría.pdf',
+        'https://www.mintic.gov.co/gestionti/615/articles-5482_G15_Auditoría.pdf',
     },
     {
       referencia:
         'MinTIC. (2019). G.ST.01 Guía del dominio de servicios tecnológicos. MinTIC.',
       link:
-        'https: //mintic.gov.co/arquitecturati/630/articles-9277_recurso_pdf.pdf',
+        'https://www.mintic.gov.co/arquitecturaempresarial/630/articles-237663_recurso_1.pdf',
     },
     {
       referencia:
-        'RDR-IT.COM (2021). Active Directory: relación de confianza entre dos bosques / dominios',
+        'RDR-IT.COM (2021). <i>Active Directory</i>: relación de confianza entre dos bosques / dominios',
       link:
-        'https: //rdr-it.com/es/active-directory-relacion-de-confianza-entre-dos-bosques-dominios/',
+        'https://rdr-it.com/es/active-directory-relacion-de-confianza-entre-dos-bosques-dominios/',
     },
     {
       referencia:
-        'SANS Institute (2003). Global Information Assurance Certification Paper',
+        '<i>SANS Institute</i> (2003). <i>Global Information Assurance Certification Paper.</i>',
       link:
-        'https: //www.giac.org/paper/gsec/3292/seguridad-con-el-directorio-activo-politicas-de-grupo/105441#:~:text=Las%20pol%C3%ADticas%20de%20grupo%20del,las%20necesidades%20de%20cada%20usuario.',
+        'https://www.giac.org/paper/gsec/3292/seguridad-con-el-directorio-activo-politicas-de-grupo/105441#:~:text=Las%20pol%C3%ADticas%20de%20grupo%20del,las%20necesidades%20de%20cada%20usuario.',
     },
     {
       referencia: 'Santos García, D. V. (2012). Comunicación oral y escrita.',
       link:
-        'http: //190.57.147.202:90/jspui/bitstream/123456789/650/1/Comunicacion_oral_y_escrita.pdf',
+        'https://www.aliat.click/BibliotecasDigitales/Axiologicas/Comunicacion_oral_y_escrita.pdf',
     },
     {
       referencia:
         'Secretaria General De La Organización De Los Estados Americanos (1992). Honduras - Proyecto de Manejo de los Recursos Naturales Renovables de la Cuenca del Embalse el Cajón - Estudio de Factibilidad. Costos y financiamiento.',
-      link: 'https: //www.oas.org/dsd/publications/Unit/oea15s/ch09.htm',
+      link: 'https://www.oas.org/dsd/publications/Unit/oea15s/ch09.htm',
     },
     {
       referencia:
-        'South Security Cyber Community. (2021). CIS Mapeo de Controles.',
+        '<i>South Security Cyber Community.</i> (2021). <i>CIS</i> Mapeo de Controles.',
       link:
-        'https: //www.southsecurity.org/resources/SouthSecurity-CIS_Mapeo_de_Controles.pdf',
+        'https://es.scribd.com/document/659953605/SouthSecurity-CIS-Mapeo-de-Controles',
     },
     {
       referencia:
-        'TECNOLOGIA-INFORMATICA.COM (2021). ¿Qué es RAID? Los niveles de RAID.',
+        'TECNOLOGIA-INFORMATICA.COM (2021). ¿Qué es <i>RAID</i>? Los niveles de <i>RAID</i>.',
       link:
-        'https: //www.tecnologia-informatica.com/que-es-raid-los-niveles-de-raid',
+        'https://www.tecnologia-informatica.com/que-es-raid-los-niveles-de-raid',
     },
     {
       referencia:
-        'VIRTUALIZAMOS.ES (2021). ¿Qué tecnología de almacenamiento elijo? Fibre Channel, iSCSI o NAS.',
+        'VIRTUALIZAMOS.ES (2021). ¿Qué tecnología de almacenamiento elijo? <i>Fibre Channel, iSCSI o NAS.</i>',
       link:
-        'https: //www.virtualizamos.es/que-tecnologia-de-almacenamiento-elijo-fibre-channel-iscsi-o-nas',
+        'https://www.virtualizamos.es/que-tecnologia-de-almacenamiento-elijo-fibre-channel-iscsi-o-nas',
     },
   ],
   creditos: [
@@ -449,15 +454,14 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Claudia Patricia Aristizabal',
+          nombre: 'Milady Tatiana Villamil Castellanos',
           cargo: 'Responsable del Ecosistema',
           centro: 'Dirección General',
         },
         {
-          nombre: 'Rafael Neftalí Lizcano Reyes',
+          nombre: 'Claudia Johanna Gómez Pérez',
           cargo: 'Responsable de Línea de Producción',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
     },
@@ -468,13 +472,13 @@ export default {
           nombre: 'Jaime Hernán Tejada',
           cargo: 'Experto Temático',
           centro:
-            'Centro de la Industria, la Empresa y los Servicios  CIES - Norte de Santander',
+            'Centro de la Industria, la Empresa y los Servicios  CIES - Regional Norte de Santander',
         },
         {
           nombre: 'Giovanna Andrea Escobar Ospina',
           cargo: 'Diseñadora Instruccional',
           centro:
-            'Centro de la Industria, la Empresa y los Servicios  CIES - Norte de Santander',
+            'Centro de la Industria, la Empresa y los Servicios  CIES -  Regional Norte de Santander',
         },
         {
           nombre: 'Silvia Milena Sequeda Cárdenas',
@@ -492,40 +496,14 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
+          nombre: 'Carla Liliana Sequera Vargas',
+          cargo: 'Diseñadora web',
+          centro: 'Centro Agroturístico - Regional Santander',
+        },
+        {
           nombre: 'Lizeth Karina Manchego Suarez',
-          cargo: 'Desarrollador Fullstack',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-        },
-        {
-          nombre: 'Yerson Fabian Zarate Saavedra',
-          cargo: 'Diseñador de Contenidos Digitales',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-        },
-        {
-          nombre: 'María Carolina Tamayo López',
-          cargo: 'Locución',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-        },
-        {
-          nombre: 'Oleg Litvin',
-          cargo: 'Animador y Productor Multimedia',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-        },
-        {
-          nombre: 'Wilson Andrés Arenales Cáceres',
-          cargo: 'Storyboard e Ilustración',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-        },
-        {
-          nombre: 'Camilo Bolaño',
-          cargo: 'Actividad Didáctica',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          cargo: 'Desarrolladora Full-Stack',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
     },
@@ -533,22 +511,19 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Zuleidy María Ruiz Torres',
-          cargo: 'Validador de Recursos Educativos Digitales',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          nombre: 'Yineth Ibette Gonzalez Quintero',
+          cargo: 'Validadora de Recursos Educativos Digitales',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: 'Luis Gabriel Urueta Alvarez',
-          cargo: 'Validador de Recursos Educativos Digitales',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          nombre: 'Laura Paola Gelvez Manosalva',
+          cargo: 'Validadora de Recursos Educativos Digitales',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: 'Daniel Ricardo Mutis Gómez',
-          cargo: 'Evaluador para Contenidos Inclusivos y Accesibles',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          nombre: 'Erika Fernanda Mejía Pinzón',
+          cargo: 'Evaluadora para contenidos inclusivos y accesibles',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
     },

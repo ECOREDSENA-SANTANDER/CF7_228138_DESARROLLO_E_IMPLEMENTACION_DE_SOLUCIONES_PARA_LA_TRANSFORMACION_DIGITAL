@@ -31,7 +31,7 @@
           .wd-100
             p.ml-1-custom ¿Cómo la organización puede validar la calidad en el servicio ofrecido por el proveedor? 
 
-    p.mb-5(data-aos="zoom-in-left") La respuesta a estas preguntas es lo que permite determinar los objetivos del acuerdo de nivel de servicios o SLA donde se establece un contrato entre el proveedor (externo o interno) y el cliente donde se establecen los servicios y las características de los mismos que el cliente espera de su proveedor.
+    p.mb-5(data-aos="zoom-in-left") La respuesta a estas preguntas es lo que permite determinar los objetivos del acuerdo de nivel de servicios o <i>SLA</i> donde se establece un contrato entre el proveedor (externo o interno) y el cliente donde se establecen los servicios y las características de los mismos que el cliente espera de su proveedor.
     .row.mb-5(data-aos="zoom-in-left")
       .col-sm-12.col-md-12.bg14
         .row 
@@ -61,7 +61,7 @@
                 p Proceso y directivas con respecto a la terminación del contrato.
           .col-sm-12.col-md-4.pt-5 
             img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/146.png', alt='')
-    p.mb-5(data-aos="zoom-in-left")  #[b Este manejo de las características del servicio, permite la optimización de asignación y costos de recursos en cuanto al tratamiento de la información.  ]Pues no se requiere una inversión en infraestructura, pues es utilizada la del prestador del servicio, a la vez que se busca garantía en dicha prestación, en cuanto a fallas o exceso de recursos, o los costos que puede acarrear situaciones como estas. Como sabemos,  #[b la gestión de la información se encuentra de manera virtual, en manos del cliente o la organización contratante de servicios en la nube, que puede ser accedida a través de internet, mediante bases de datos, correo electrónico, nóminas o gestión de recursos humanos. ] Sin embargo, puede que los datos no estén necesariamente en manos del contratista, dependiendo del modelo utilizado, por lo que el mantenimiento y soporte físico de la información, los procesos y las comunicaciones, pueden regularse por medio de terceros, quien regula el servicio desde cualquier parte del mundo, por medio de recursos como prácticas de deslocalización, compartición de recursos y movilidad, o si es el caso con contratos adicionales AT&T &TA T 6. 
+    p.mb-5(data-aos="zoom-in-left")  #[b Este manejo de las características del servicio, permite la optimización de asignación y costos de recursos en cuanto al tratamiento de la información.  ]Pues no se requiere una inversión en infraestructura, pues es utilizada la del prestador del servicio, a la vez que se busca garantía en dicha prestación, en cuanto a fallas o exceso de recursos, o los costos que puede acarrear situaciones como estas. Como sabemos,  #[b la gestión de la información se encuentra de manera virtual, en manos del cliente o la organización contratante de servicios en la nube, que puede ser accedida a través de internet, mediante bases de datos, correo electrónico, nóminas o gestión de recursos humanos. ] Sin embargo, puede que los datos no estén necesariamente en manos del contratista, dependiendo del modelo utilizado, por lo que el mantenimiento y soporte físico de la información, los procesos y las comunicaciones, pueden regularse por medio de terceros, quien regula el servicio desde cualquier parte del mundo, por medio de recursos como prácticas de deslocalización, compartición de recursos y movilidad, o si es el caso con contratos adicionales <i>AT&T &TA T 6.</i> 
     .row.align-items-center.justify-content-center.mb-4(data-aos="zoom-in-left")
       .col-lg-5.my-3
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/147.png', alt='')
@@ -132,7 +132,7 @@
         img.col-lg.d-flex.aos-init.aos-animate(src='@/assets/curso/temas/103.svg').icon-blue
 
     
-    p(data-aos="zoom-in-left") Como se indicaba anteriormente,  #[b la contratación de servicios de cloud computing se realizará por medio de un contrato de prestación de servicios. ]  Resulta imprescindible que ese contrato incorpore entre sus cláusulas las garantías a las que obliga la Ley de Protección de Datos.
+    p(data-aos="zoom-in-left") Como se indicaba anteriormente,  #[b la contratación de servicios de <i>cloud computing</i> se realizará por medio de un contrato de prestación de servicios. ]  Resulta imprescindible que ese contrato incorpore entre sus cláusulas las garantías a las que obliga la Ley de Protección de Datos.
     .row.d-flex.justify-content-between
       .col-sm-12.col-md-6.mt-5
         .bg2.my-4.he-4-cus.px-4.pt-3
@@ -151,7 +151,7 @@
       .row.d-flex
         .col-lg-1
           img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/101.svg', alt='')
-        .col-lg-11 En la mayoría de los casos, sin embargo, lo que se oferta son contratos de adhesión, constituidos por cláusulas contractuales cerradas, en las que  #[b el proveedor de cloud fija las condiciones con un contrato tipo igual para todos sus clientes, sin que el usuario tenga ninguna opción para negociar sus términos ]. Este último caso es el más común, sobre todo cuando se encuentra el cliente en una situación de desequilibrio  #[b (p.ej.: una pyme frente a un gran proveedor) ], aunque hay que tener en cuenta que esto no eximirá, a ninguno de los dos, de las responsabilidades que determina la ley de protección de datos.
+        .col-lg-11 En la mayoría de los casos, sin embargo, lo que se oferta son contratos de adhesión, constituidos por cláusulas contractuales cerradas, en las que  #[b el proveedor de <i>cloud</i> fija las condiciones con un contrato tipo igual para todos sus clientes, sin que el usuario tenga ninguna opción para negociar sus términos ]. Este último caso es el más común, sobre todo cuando se encuentra el cliente en una situación de desequilibrio  #[b (p.ej.: una <i>pyme</i> frente a un gran proveedor) ], aunque hay que tener en cuenta que esto no eximirá, a ninguno de los dos, de las responsabilidades que determina la ley de protección de datos.
       
 </template>
 

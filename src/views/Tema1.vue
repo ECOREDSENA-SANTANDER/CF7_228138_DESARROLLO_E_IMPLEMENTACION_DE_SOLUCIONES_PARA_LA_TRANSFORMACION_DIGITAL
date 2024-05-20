@@ -13,7 +13,7 @@
             :style="{'background-image': `url(${require('@/assets/curso/temas/2.jpg')})`}"
           )
           .bloque-texto-g__texto.p-4
-            p.mb-0 Para el diseño del plan de gestión de servicios de  #[b TI ], es importante tener en cuenta las actividades descritas en la G.ST.01 Guía del dominio de servicios tecnológicos, del Ministerio de Tecnologías de la Información y las Comunicaciones, del 2014, documento que permite la adopción de los elementos del dominio de los servicios tecnológicos, para Colombia, en el marco de la arquitectura de TI, razón por la cual se tomará de manera literal para su comprensión e implementación.
+            p.mb-0 Para el diseño del plan de gestión de servicios de   <b><i>TI</i></b>, es importante tener en cuenta las actividades descritas en la G.ST.01 Guía del dominio de servicios tecnológicos, del Ministerio de Tecnologías de la Información y las Comunicaciones, del 2014, documento que permite la adopción de los elementos del dominio de los servicios tecnológicos, para Colombia, en el marco de la arquitectura de <i>TI</i>, razón por la cual se tomará de manera literal para su comprensión e implementación.
 
     p.mb-5.fw-bold(data-aos="zoom-in-left") Las tecnologías de la información, se pueden clasificar de la siguiente manera:  
 
@@ -65,7 +65,7 @@
     .row.align-items-center.justify-content-center.mb-4(data-aos="zoom-in-left")
       .col-lg-7.mb-2-cus
         p Las tecnologías de la información van evolucionando con el tiempo, de acuerdo con las necesidades sociales, gubernamentales, empresariales o de negocio, permitiendo lo que hoy conocemos como desarrollo tecnológico, que trae consigo la creación de nuevas tecnologías y que han permitido transformaciones y cambios en la cultura, la comunicación.
-        p.mb-2   Las características de las TI estimulan la interactividad entre usuarios y la transmisión de información por medio de dispositivos, se adaptan según las necesidades de las personas y del mercado, se ejecutan a gran velocidad gracias al internet y tienen un impacto social e individual.
+        p.mb-2   Las características de las <i>TI</i> estimulan la interactividad entre usuarios y la transmisión de información por medio de dispositivos, se adaptan según las necesidades de las personas y del mercado, se ejecutan a gran velocidad gracias al internet y tienen un impacto social e individual.
         .d-flex.align-items-center.justify-content-center
           img.img-a.img-t(src='@/assets/curso/temas/10.png', alt='')
           p.ml-1-custom.mt-2 Por esto es importante reconocer las características y tipificaciones de la tecnología, las cuales se presentan a continuación: 
@@ -83,7 +83,7 @@
       .col-lg-4.mb-2-cus
         .bg11.d-flex.px-3.he-1-cus
           img.img-a.img-t.bg12.px-1.py-2(src='@/assets/curso/temas/13.png', alt='')
-          p.ml-1-custom.mt-2.wd-80-cus Tecnología blanda – hace referencia a los elementos intangibles, cualquier tipo de software.
+          p.ml-1-custom.mt-2.wd-80-cus Tecnología blanda – hace referencia a los elementos intangibles, cualquier tipo de <i>software</i>.
     .row.align-items-center.justify-content-center.mb-4(data-aos="zoom-in-left")
       .col-lg-4.mb-2-cus
         .bg11.d-flex.px-3.he-1-cus
@@ -113,13 +113,13 @@
     Separador
 
     #t_1_2.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
-      h2 1.2  Plan de gestión de servicios de TI 
+      h2 1.2  Plan de gestión de servicios de <i>TI</i> 
     .row.align-items-center.justify-content-center.mb-4(data-aos="zoom-in-left")
       .col-lg-5.my-3
         img.img-a.img-t(src='@/assets/curso/temas/20.png', alt='')
       .col-lg-7.my-3
         p La disposición de los sistemas de información, #[b requieren establecer un plan que posibilite adoptar estrategias de servicios tecnológicos, y de esta forma se pueda garantizar la disponibilidad y la operación del servicio.  ]  Pues éste debe ser permanente y constante, para sus usuarios.
-        .bg13.p-4.mb-1   Para el diseño del plan de gestión de servicios de TI, es importante tener en cuenta las actividades descritas en la G.ST.01 Guía del dominio de servicios tecnológicos, del Ministerio de Tecnologías de la Información y las Comunicaciones, del 2014, documento que permite la adopción de los elementos del dominio de los servicios tecnológicos, para Colombia, en el marco de la arquitectura de TI, razón por la cual se tomará de manera literal para su comprensión e implementación.
+        .bg13.p-4.mb-1   Para el diseño del plan de gestión de servicios de <i>TI</i>, es importante tener en cuenta las actividades descritas en la G.ST.01 Guía del dominio de servicios tecnológicos, del Ministerio de Tecnologías de la Información y las Comunicaciones, del 2014, documento que permite la adopción de los elementos del dominio de los servicios tecnológicos, para Colombia, en el marco de la arquitectura de <i>TI</i>, razón por la cual se tomará de manera literal para su comprensión e implementación.
         .d-flex.align-items-center.justify-content-center
           img.img-a.img-t(src='@/assets/curso/temas/10.png', alt='')
           p.ml-1-custom.mt-2 Las actividades en cada una de las gestiones corresponden a las descritas en la siguiente imagen, que serán explicadas a continuación:
@@ -129,16 +129,16 @@
         .titulo-sexto.color-acento-contenido.mb-4
           h5 Figura 1.
           span
-            |  Actividades del plan de gestión de servicios TI
+            |  Actividades del plan de gestión de servicios <i>TI</i>
         figure.mt-4.mb-5(data-aos="zoom-in-left")
           img(src='@/assets/curso/temas/21.svg', alt='Diagrama que enuncia las tres actividades del plan de gestión de servicios TI: Gestión de Capacidad, de Continuidad y de Disponibilidad.')
-    
+        
     
     .mb-4.d-flex.bg-img-title(data-aos="zoom-in-left")
       .d-flex.flex-wrap.align-items-center.pe-4
         h3.col.px-4.mb-0.text-white.aos-init.aos-animate(style='width: 290px;').bg-img-blue Gestión de la capacidad
         img.col-lg.d-flex.aos-init.aos-animate(src='@/assets/curso/temas/103.svg').icon-blue 
-    p.mb-5(data-aos="zoom-in-left")   La gestión de la capacidad, posibilita encargarse de las TI,  asegurando que la capacidad de las tecnologías de la información, cumplen los requisitos establecidos, al momento y en el futuro de la organización, y que genera un costo que puede ser asumido sin problema, tanto en la gestión de la capacidad física, como económica.
+    p.mb-5(data-aos="zoom-in-left")   La gestión de la capacidad, posibilita encargarse de las <i>TI</i>,  asegurando que la capacidad de las tecnologías de la información, cumplen los requisitos establecidos, al momento y en el futuro de la organización, y que genera un costo que puede ser asumido sin problema, tanto en la gestión de la capacidad física, como económica.
     
     .cajaLM
       .row.justify-content-center.align-items-center(data-aos="zoom-in-left")
@@ -159,22 +159,22 @@
                   .row.justify-content-center.mb-3
                     .col-8
                       img.img-a.img-t.mb-3.mt-4(src="@/assets/curso/temas/25.png", alt="alt").img100.m-auto
-                  p.mb-0.text-center Desarrollo del Plan de Capacidad
+                  p.mb-0.text-center Desarrollo del Plan de Capacidad.
                 .tarjeta.tarjeta--slyder.bg5.p-4.h-100
                   .row.justify-content-center.mb-3
                     .col-8
                       img.img-a.img-t.mb-3.mt-4(src="@/assets/curso/temas/25.png", alt="alt").img100.m-auto
-                  p.mb-0.text-center Modelado y simulación de diferentes escenarios de capacidad
+                  p.mb-0.text-center Modelado y simulación de diferentes escenarios de capacidad.
                 .tarjeta.tarjeta--slyder.bg5.p-4.h-100
                   .row.justify-content-center.mb-3
                     .col-8
                       img.img-a.img-t.mb-3.mt-4(src="@/assets/curso/temas/25.png", alt="alt").img100.m-auto
-                  p.mb-0.text-center Monitorización del uso y rendimiento de la infraestructura TI. 
+                  p.mb-0.text-center Monitorización del uso y rendimiento de la infraestructura <i>TI</i>. 
                 .tarjeta.tarjeta--slyder.bg5.p-4.h-100
                   .row.justify-content-center.mb-3
                     .col-8
                       img.img-a.img-t.mb-3.mt-4(src="@/assets/curso/temas/25.png", alt="alt").img100.m-auto
-                  p.mb-0.text-center Gestión de la demanda
+                  p.mb-0.text-center Gestión de la demanda.
                 .tarjeta.tarjeta--slyder.bg5.p-4.h-100
                   .row.justify-content-center.mb-3
                     .col-8
@@ -185,15 +185,15 @@
           img.img-a.img-t(src='@/assets/curso/temas/24.png', alt='Actividades del plan de gestión de servicios TI')
 
       p.mt-3(data-aos="zoom-in-left") En la siguiente figura se relacionan las actividades más significativas para la gestión de la capacidad:
-      .row(data-aos="zoom-in-left")
+      .row(data-aos="zoom-in-left").mb-5
         .col-sm-12.col-md-12.col-lg-10.m-auto
           .titulo-sexto.color-acento-contenido.mb-4
             h5 Figura 2.
             span
               | Gestión de capacidad
-          figure.mt-4.mb-5(data-aos="zoom-in-left")
+          figure.mt-4(data-aos="zoom-in-left")
             img(src='@/assets/curso/temas/25.svg', alt='Esquema que relaciona las actividades de la gestión de la capacidad: Requisitos de capacidad, planificación, supervisión, gestión de la demanda.')
-    
+          figcaption.ps-4  Nota. https://mintic.gov.co/arquitecturati/630/articles-9277_recurso_pdf.pdf 
     .mb-4.d-flex.bg-img-title(data-aos="zoom-in-left")
       .d-flex.flex-wrap.align-items-center.pe-4
         h3.col.px-4.mb-0.text-white.aos-init.aos-animate(style='width: 300px;').bg-img-blue Gestión de la continuidad
@@ -206,7 +206,7 @@
           .col-sm-12.col-md-2.col-lg-1.m-0.p-0.d-none.d-md-block
               img.he-5-cus.img-pos-3(src='@/assets/curso/temas/176.svg')
           .col-sm-12.col-md-10.col-lg-6.bg22.text-white.m-0.p-0.he-5-cus.px-3.z-index-cus 
-              h5.mt-5-cus Las actividades claves para la Gestión de la Continuidad de los Servicios TI 
+              h5.mt-5-cus Las actividades claves para la Gestión de la Continuidad de los Servicios <i>TI</i> 
         .row.mb-5.align-items-center.justify-content-center
           .col-sm-12.col-lg-6.z-index-cus.px-5.m-auto 
             img(src='@/assets/curso/temas/178.svg')
@@ -218,7 +218,7 @@
                     img(src='@/assets/curso/temas/179.svg' alt='AvatarTop')
                   .tarjeta.tarjeta--white.tarjeta-avatar-cus
                     .p-4-cus
-                      p Establecer  las políticas y alcance de la ITSCM.
+                      p Establecer  las políticas y alcance de la <i>ITSCM</i>.
             .row.mb-3
               .col-sm-12.col-lg-11
                 .tarjeta-avatar-b.he-5-cus 
@@ -226,7 +226,7 @@
                     img(src='@/assets/curso/temas/180.svg' alt='AvatarTop')
                   .tarjeta.tarjeta--white.tarjeta-avatar-cus
                     .p-4-cus
-                      p Evaluar el impacto en el negocio de una interrupción de los servicios TI.
+                      p Evaluar el impacto en el negocio de una interrupción de los servicios <i>TI</i>.
             .row.mb-3
               .col-sm-12.col-lg-11
                 .tarjeta-avatar-b.he-5-cus 
@@ -234,7 +234,7 @@
                     img(src='@/assets/curso/temas/181.svg' alt='AvatarTop')
                   .tarjeta.tarjeta--white.tarjeta-avatar-cus
                     .p-4-cus
-                      p Analizar y prever los riesgos a los que está expuesto la infraestructura TI.
+                      p Analizar y prever los riesgos a los que está expuesto la infraestructura <i>TI</i>.
             .row.mb-3
               .col-sm-12.col-lg-11
                 .tarjeta-avatar-b.he-5-cus 
@@ -242,7 +242,7 @@
                     img(src='@/assets/curso/temas/182.svg' alt='AvatarTop')
                   .tarjeta.tarjeta--white.tarjeta-avatar-cus
                     .p-4-cus
-                      p Establecer las estrategias de continuidad del servicio TI.
+                      p Establecer las estrategias de continuidad del servicio <i>TI</i>.
             .row.mb-3
               .col-sm-12.col-lg-11
                 .tarjeta-avatar-b.he-5-cus 
@@ -315,7 +315,7 @@
             :style="{'background-image': `url(${require('@/assets/curso/temas/31.png')})`}"
           )
           .bloque-texto-g__texto.px-4.py-5
-            p.mb-0 Esta gestión es la encargada de asegurar que la infraestructura, así como los procesos, las herramientas y las funciones de TI, sean los adecuados para dar cumplimiento a los objetivos de disponibilidad establecidos.
+            p.mb-0 Esta gestión es la encargada de asegurar que la infraestructura, así como los procesos, las herramientas y las funciones de <i>TI</i>, sean los adecuados para dar cumplimiento a los objetivos de disponibilidad establecidos.
     p.mb-5(data-aos="zoom-in-left").fw-bold Las actividades claves para la Gestión de la Disponibilidad son las siguientes:
     .row.my-5.d-none.d-lg-block
       .col-lg-12.m-auto 
