@@ -31,7 +31,7 @@
             span
               |  Interacciones y funcionalidades gestión de niveles de servicio
         figure.mt-4.mb-5(data-aos="zoom-in-left")
-            img(src='@/assets/curso/temas/87.svg', alt='Esquema que muestra cómo interactúan los elementos de la gestión de los niveles de servicio: soporte al servicio, centro de servicios y provisión de servicios, cliente, planificación, implementación, revisión y catálogo de servicios.')
+            img(src='@/assets/curso/temas/87.svg', alt='En la figura se diagraman diferentes interacciones: Monitorización y seguimiento en el centro y resaltado, conectándose hacia arriba con: soporte al servicio, centro de servicios y provisión de servicios; y conectándose hacia abajo con: cliente, planificación, implementación y revisión. A su vez la planificación, recibe la información del SIP a través del catálogo de servicios.')
             figcaption.ps-4  Nota. https://mintic.gov.co/arquitecturati/630/articles-9277_recurso_pdf.pdf    
     
     Separador
