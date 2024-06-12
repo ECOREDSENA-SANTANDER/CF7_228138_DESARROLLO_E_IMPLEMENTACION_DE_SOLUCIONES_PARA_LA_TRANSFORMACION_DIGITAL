@@ -301,7 +301,7 @@
     figure.mt-4.mb-5(data-aos="zoom-in-left")
       .row.mb-5.justify-content-center.align-items-center
         .col-sm-12.col-lg-8.justify-content-center.align-items-center
-          img(src='@/assets/curso/temas/29.svg', alt='la figura enuncia los siguientes procesos: Alcance, análisis, estrategias, planificación, supervisión y operación, las cuales se encuentran organizadas en ese orden y enmarcadas por una flecha. Por fuera de la flecha se enuncia la monitorización y seguimiento, sugiriendo que son actividades transversales a los procesos')
+          img(src='@/assets/curso/temas/29.svg', alt='La figura enuncia los siguientes procesos: Alcance, análisis, estrategias, planificación, supervisión y operación, las cuales se encuentran organizadas en ese orden y enmarcadas por una flecha. Por fuera de la flecha se enuncia la monitorización y seguimiento, sugiriendo que son actividades transversales a los procesos')
       figcaption.ps-4  Nota. https://mintic.gov.co/arquitecturati/630/articles-9277_recurso_pdf.pdf    
     .mb-4.d-flex.bg-img-title(data-aos="zoom-in-left")
       .d-flex.flex-wrap.align-items-center.pe-4
@@ -339,7 +339,7 @@
     figure.mt-4.mb-5(data-aos="zoom-in-left")
       .row.mb-5.justify-content-center.align-items-center
           .col-sm-12.col-lg-8.justify-content-center.align-items-center
-            img(src='@/assets/curso/temas/33.svg', alt='la figura organiza los siguientes procesos: Requisitos, planificación, mantenimiento, planificación y monitorización. Adicionalmente se enuncia la monitorización y seguimiento y la CDMB.')
+            img(src='@/assets/curso/temas/33.svg', alt='La figura organiza los siguientes procesos: Requisitos, planificación, mantenimiento, planificación y monitorización. Adicionalmente se enuncia la monitorización y seguimiento y la CDMB.')
       figcaption.ps-4  Nota. https://mintic.gov.co/arquitecturati/630/articles-9277_recurso_pdf.pdf    
 
 </template>
