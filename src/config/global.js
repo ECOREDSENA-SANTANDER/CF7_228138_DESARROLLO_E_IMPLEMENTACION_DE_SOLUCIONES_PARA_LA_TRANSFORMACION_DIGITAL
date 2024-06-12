@@ -354,13 +354,13 @@ export default {
     {
       referencia:
         'ISO 27001. (s. f.-a). Evaluación del Desempeño en ISO 27001- Requisitos en detalle.',
-      link: 'https://normaiso27001.es/evaluacion-del-desempeno-en-iso-27001/',
+      link: 'https://es.isms.online/iso-27001/performance-evaluation-9/',
     },
     {
       referencia:
         'ISO 27001. (s. f.-b). ISO 27001 Paso a Paso - 8 Auditoría Interna - ¿Cómo afrontarla?',
       link:
-        'https://normaiso27001.es/fase-8-auditoria-interna-segun-iso-27001/',
+        'https://www.escuelaeuropeaexcelencia.com/2021/01/como-afrontar-las-auditorias-internas-en-seguridad-de-la-informacion-iso-27001/',
     },
     {
       referencia:
@@ -400,7 +400,7 @@ export default {
       referencia:
         'MinTIC (2016). Guía de auditoría. Seguridad y privacidad de la información. MinTIC.',
       link:
-        'https://www.mintic.gov.co/gestionti/615/articles-5482_G15_Auditoría.pdf',
+        'https://mintic.gov.co/gestionti/615/articles-5482_G15_Auditoria.pdf',
     },
     {
       referencia:
@@ -539,25 +539,4 @@ export default {
     creativeCommons:
       'Licencia creative commons CC BY-NC-SA<br><a href="https://creativecommons.org/licenses/by-nc-sa/2.0/" target="_blank">Consultar licencia</a>',
   },
-  // creditosInicio: [
-  //   {
-  //     titulo: 'En alianza',
-  //     contenido: [
-  //       require('@/assets/template/logo-sena-naranja.svg'),
-  //       require('@/assets/template/mintic.jpg'),
-  //       require('@/assets/template/minsalud.jpg'),
-  //     ],
-  //   },
-  //   {
-  //     titulo: 'En compañía',
-  //     contenido: [
-  //       require('@/assets/template/presidencia.jpg'),
-  //       require('@/assets/template/ecopetrol.jpg'),
-  //     ],
-  //   },
-  //   {
-  //     titulo: 'Una iniciativa',
-  //     contenido: [require('@/assets/template/santander.jpg')],
-  //   },
-  // ],
 }
