@@ -84,7 +84,7 @@
         figure
           .video
             iframe(width="560" height="315" src="https://www.youtube.com/embed/qp1qQEAhKt8" title="Description" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-          figcaption Video. Description
+          figcaption Video. SENA 2024.
     Separador
     #t_6_2.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2 6.2 Evaluación 
