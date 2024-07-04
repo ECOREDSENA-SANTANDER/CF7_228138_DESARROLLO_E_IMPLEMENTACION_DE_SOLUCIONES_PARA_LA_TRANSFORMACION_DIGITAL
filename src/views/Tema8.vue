@@ -39,7 +39,7 @@
                 img.img-a.img-t.bg12-r.px-1.py-2.mt-4(data-aos="zoom-in")(src='@/assets/curso/temas/160.svg' )
                 .w-100.text-center
                   p Archivos 
-      .col-lg-4.my-3
+      .col-lg-4.my-3.d-none.d-lg-block
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/102.png' )
     h5.mb-5(data-aos="zoom-in-left") Los siguientes fueron considerados los principales proveedores de servicios en la nube en el año 2021: 
     SlyderA(tipo="b").slider-a-custom.mb-5(data-aos="zoom-in-left")
@@ -52,19 +52,19 @@
         .row.align-items-center.justify-content-center
           .col-lg-6.col-md-12.my-3
             h4.mb-4 <i>Amazon Web Services </i>
-            p <i>Amazon Web Services</i> es una colección de servicios de computación en la nube pública que en conjunto forman una plataforma de computación en la nube, ofrecidas a través de Internet por Amazon.com. Es usado en aplicaciones populares como <i>Dropbox, Foursquare, HootSuite</i>.
+            p <i>Amazon Web Services</i> es una colección de servicios de computación en la nube pública que en conjunto forman una plataforma de computación en la nube, ofrecidas a través de <i>Internet</i> por Amazon.com. Es usado en aplicaciones populares como <i>Dropbox, Foursquare, HootSuite</i>.
           .col-lg-6.col-md-12.my-3
             img.img-a.img-t(src='@/assets/curso/temas/162.svg' )
         .row.align-items-center.justify-content-center
           .col-lg-6.col-md-12.my-3
-            h4.mb-4 <i>Digital Occean </i>
+            h4.mb-4 <i>Digital Ocean </i>
             p <i>Digital Ocean</i> es un proveedor estadounidense de servidores virtuales privados, con sede principal en la ciudad de Nueva York. La compañía alquila instalaciones de centros de cómputo existentes, incluyendo sitios como Nueva York, Toronto, Bangalore, Ámsterdam, San Francisco, Londres y Singapur.
           .col-lg-6.col-md-12.my-3
             img.img-a.img-t(src='@/assets/curso/temas/163.svg' )
         .row.align-items-center.justify-content-center
           .col-lg-6.col-md-12.my-3
             h4.mb-4 <i>Google Cloud</i>
-            p <i>Google Cloud</i> es una plataforma que ha reunido todas las aplicaciones de desarrollo web que <i>Google</i> estaba ofreciendo por separado.
+            p <i>Google Cloud</i> es una plataforma que ha reunido todas las aplicaciones de desarrollo <i>web</i> que <i>Google</i> estaba ofreciendo por separado.
           .col-lg-6.col-md-12.my-3
             img.img-a.img-t(src='@/assets/curso/temas/164.svg' )
         .row.align-items-center.justify-content-center
@@ -76,7 +76,7 @@
         .row.align-items-center.justify-content-center
           .col-lg-6.col-md-12.my-3
             h4.mb-4 <i>IBM Cloud </i>
-            p IBM <i>cloud computing</i> es un conjunto de servicios de computación en la nube para empresas que ofrece la compañía de tecnología de la información <i>IBM</i>. 
+            p <i>IBM cloud computing</i> es un conjunto de servicios de computación en la nube para empresas que ofrece la compañía de tecnología de la información <i>IBM</i>. 
           .col-lg-6.col-md-12.my-3
             img.img-a.img-t(src='@/assets/curso/temas/166.svg' )
         .row.align-items-center.justify-content-center
@@ -102,7 +102,7 @@
       .col-lg-10
         .tarjeta.color-primario.p-3.mb-5
           .row.justify-content-around.align-items-center
-            .col-3.col-sm-2.col-lg-1
+            .col-3.col-sm-2.col-lg-1.d-none.d-lg-block
               img(src="@/assets/curso/temas/42.svg")
             .col
               .row.justify-content-between.align-items-center

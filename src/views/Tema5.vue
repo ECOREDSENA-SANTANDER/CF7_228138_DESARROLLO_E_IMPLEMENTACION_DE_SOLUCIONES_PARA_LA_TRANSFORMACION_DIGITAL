@@ -114,13 +114,13 @@
           .col-lg-12
             .tarjeta.bg14.p-3.mb-5.mt-4
               .row.justify-content-around.align-items-center
-                .col-sm-2.col-md-2.w-img-cus
+                .col-sm-2.col-md-2.w-img-cus.d-none.d-lg-block
                   img(src="@/assets/curso/temas/88.svg")
                 .col-sm-12.col-md-10
                   .row.justify-content-between.align-items-center
                     .col.mb-3.mb-sm-0
                       p.mb-0 En estos momentos, la comunicación interna es fundamental en todas las empresas, para que exista esa sinergia, especialmente si se ha implementado el teletrabajo u <i>home-office</i>, que han dado apertura a la aparición de la tendencia de nómadas digitales.
-      .col-sm-12.col-md-12.col-lg-4
+      .col-sm-12.col-md-12.col-lg-4.d-none.d-lg-block
         img.img-a.img-t.mb-3(src="@/assets/curso/temas/89.png" ).img100.m-auto
       .col-sm-12.col-md-12.col-lg-4
         .bg10.p-4.mb-1(data-aos="fade-left") 

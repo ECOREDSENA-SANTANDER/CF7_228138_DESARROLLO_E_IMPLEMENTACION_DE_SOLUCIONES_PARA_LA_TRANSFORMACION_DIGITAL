@@ -65,11 +65,11 @@
     .row.align-items-center.justify-content-center.mb-4(data-aos="zoom-in-left")
       .col-lg-7.mb-2-cus
         p Las tecnologías de la información van evolucionando con el tiempo, de acuerdo con las necesidades sociales, gubernamentales, empresariales o de negocio, permitiendo lo que hoy conocemos como desarrollo tecnológico, que trae consigo la creación de nuevas tecnologías y que han permitido transformaciones y cambios en la cultura, la comunicación.
-        p.mb-2   Las características de las <i>TI</i> estimulan la interactividad entre usuarios y la transmisión de información por medio de dispositivos, se adaptan según las necesidades de las personas y del mercado, se ejecutan a gran velocidad gracias al internet y tienen un impacto social e individual.
+        p.mb-2   Las características de las <i>TI</i> estimulan la interactividad entre usuarios y la transmisión de información por medio de dispositivos, se adaptan según las necesidades de las personas y del mercado, se ejecutan a gran velocidad gracias al <i>internet</i> y tienen un impacto social e individual.
         .d-flex.align-items-center.justify-content-center
           img.img-a.img-t(src='@/assets/curso/temas/10.png')
           p.ml-1-custom.mt-2 Por esto es importante reconocer las características y tipificaciones de la tecnología, las cuales se presentan a continuación: 
-      .col-lg-5.mb-2-cus
+      .col-lg-5.mb-2-cus.d-none.d-lg-block
         img.img-a.img-t(src='@/assets/curso/temas/9.png')
     .row.align-items-center.justify-content-center.mb-4(data-aos="zoom-in-left")
       .col-lg-4.mb-2-cus
@@ -96,7 +96,7 @@
       .col-lg-4.mb-2-cus
         .bg11.d-flex.px-3.he-1-cus
           img.img-a.img-t.bg12.px-1.py-2(src='@/assets/curso/temas/16.png')
-          p.ml-1-custom.mt-2.wd-80-cus Permiten la comunicación y transmisión de datos, apertura hacia los servicios en la nube y una estrecha relación con la internet.
+          p.ml-1-custom.mt-2.wd-80-cus Permiten la comunicación y transmisión de datos, apertura hacia los servicios en la nube y una estrecha relación con la <i>internet</i>.
     .row.align-items-center.justify-content-center.mb-4(data-aos="zoom-in-left")
       .col-lg-4.mb-2-cus
         .bg11.d-flex.px-3.he-1-cus
@@ -115,7 +115,7 @@
     #t_1_2.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2 1.2  Plan de gestión de servicios de <i>TI</i> 
     .row.align-items-center.justify-content-center.mb-4(data-aos="zoom-in-left")
-      .col-lg-5.my-3
+      .col-lg-5.my-3.d-none.d-lg-block
         img.img-a.img-t(src='@/assets/curso/temas/20.png')
       .col-lg-7.my-3
         p La disposición de los sistemas de información, #[b requieren establecer un plan que posibilite adoptar estrategias de servicios tecnológicos, y de esta forma se pueda garantizar la disponibilidad y la operación del servicio.  ]  Pues éste debe ser permanente y constante, para sus usuarios.
@@ -146,7 +146,7 @@
           .row.justify-content-center.align-items-center
             .col-lg-12
                 .row.justify-content-around.align-items-center
-                  .col-sm-12.col-lg-2
+                  .col-sm-12.col-lg-2.d-none.d-lg-block
                     img(src="@/assets/curso/temas/23.svg")
                   .col-sm-12.col-lg-10
                     .row.justify-content-between.align-items-center
@@ -181,7 +181,7 @@
                       img.img-a.img-t.mb-3.mt-4(src="@/assets/curso/temas/25.png").img100.m-auto
                   p.mb-0.text-center Creación y mantenimiento de la Base de Datos de Capacidad (CDB).
             
-        .col-lg-4
+        .col-lg-4.d-none.d-lg-block
           img.img-a.img-t(src='@/assets/curso/temas/24.png', alt='Actividades del plan de gestión de servicios TI')
 
       p.mt-3(data-aos="zoom-in-left") En la siguiente figura se relacionan las actividades más significativas para la gestión de la capacidad:
@@ -290,7 +290,7 @@
       .col-lg-12
         .bloque-texto-a.color-acento-botones-cus.p-2.p-md-3.mb-5
           .row.m-0.align-items-center.justify-content-between
-            .col-lg-2.mb-4.mb-lg-0
+            .col-lg-2.mb-4.mb-lg-0.d-none.d-lg-block
               img.w-75-cus(src='@/assets/curso/temas/28.svg', alt='Actividades del plan de gestión de servicios TI')
             .col-lg-10
               .bloque-texto-a__texto.p-4 Estas actividades para la gestión de la calidad, se corresponden con algunos procesos de la organización, tal como se indican en la siguiente figura:
@@ -327,7 +327,7 @@
       .col-lg-12
         .bloque-texto-a.color-acento-contenido-cus.p-2.p-md-3.mb-5
           .row.m-0.align-items-center.justify-content-between
-            .col-lg-2.mb-4.mb-lg-0
+            .col-lg-2.mb-4.mb-lg-0.d-none.d-lg-block
               img.w-75-cus(src='@/assets/curso/temas/28.svg', alt='Actividades del plan de gestión de servicios TI')
             .col-lg-10
               .bloque-texto-a__texto.p-4

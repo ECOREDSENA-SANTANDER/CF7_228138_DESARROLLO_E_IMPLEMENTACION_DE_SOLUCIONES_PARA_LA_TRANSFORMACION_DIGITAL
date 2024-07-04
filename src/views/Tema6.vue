@@ -8,12 +8,12 @@
       h1 Propuesta técnico-económica 
     p(data-aos="zoom-in-left") La propuesta técnica y económica, es un documento en el que se plasma de forma detallada la estrategia a desarrollar para dar solución a un problema propuesto. El contenido de la propuesta puede cambiar dependiendo de la organización o los requerimientos del proyecto.
     .row.align-items-center.justify-content-center.mb-4(data-aos="zoom-in-left")
-      .col-lg-5.my-3
+      .col-lg-5.my-3.d-none.d-lg-block
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/90.png' )
       .col-lg-7.my-3.bg16
         .p-4.mb-1(data-aos="fade-left") 
           .row.d-flex.align-items-center.justify-content-center
-            .col-lg-2
+            .col-lg-2.d-none.d-lg-block
               img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/91.svg' )
             .col-lg-10 Para el diseño, construcción y presentación de la propuesta técnica de servicios, se deben considerar aspectos y elementos de suma importancia que dan carácter a la misma y que otorgan, tanto al oferente como al cliente, seguridad y confianza.
         p.mb-4.mx-4 Para el éxito de una propuesta técnica se deberá tener claridad en aspectos vitales como:
@@ -77,7 +77,7 @@
         .d-flex.align-items-center.justify-content-center
           img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/10.png' )
           p.ml-1-custom.mt-3 Explore el recurso que se presenta a continuación y conozca a profundidad, los aspectos más importantes sobre la elaboración de la propuesta:
-      .col-lg-5.my-3
+      .col-lg-5.my-3.d-none.d-lg-block
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/92.png' )
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12(data-aos="fade-left")
@@ -92,7 +92,7 @@
       .col-lg-7.my-3
         p.bg13.p-4.mb-3(data-aos="fade-left") La comprobación y análisis de la propuesta de servicio estará mediada y determinada por aspectos relativos a la normatividad, a la contratación y/o licitación, a las garantías de efectividad de la propuesta misma, entre otros.
         p A continuación, le presentamos los elementos más relevantes que afectan directamente el proceso de validación de una propuesta técnico-económica: 
-      .col-lg-5.my-3
+      .col-lg-5.my-3.d-none.d-lg-block
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/136.png' )
     SlyderA(tipo="b").slider-a-custom.mb-5(data-aos="zoom-in-left")
       .row
@@ -129,7 +129,7 @@
 
     p.mb-5(data-aos="zoom-in-left") Podemos considerar que una evaluación económica es completa cuando se comparan varias opciones y se ponderan costes y resultados; la evaluación económica también la conocemos como un método sistemático que analiza diferentes programas con el fin de ofrecer una información que sirva de apoyo para la toma de decisiones.
     .row.align-items-center.justify-content-center.mb-4(data-aos="zoom-in-left")
-      .col-lg-4.my-3
+      .col-lg-4.my-3.d-none.d-lg-block
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/93.png' )
       .col-lg-8.my-3
         p.bg13.p-4.mb-3(data-aos="fade-left") Se compone de un conjunto de técnicas de medición y valoración comparativa de resultados (costes y consecuencias) realizado en escenarios reales. La evaluación económica ayuda a optar las mejores opciones (oportunidades) persiguiendo un método objetivo y sistemático. 

@@ -68,7 +68,7 @@ export default {
         subMenu: [
           {
             numero: '4.1',
-            titulo: 'Conectividad e internet',
+            titulo: 'Conectividad e <i>internet</i>',
             hash: 't_4_1',
           },
           {
@@ -239,7 +239,7 @@ export default {
       tema: 'Proveedores de servicio en la nube.',
       referencia:
         '<i>Public Cloud Services Comparison, (s.f) comparecloud.in</i>',
-      tipo: 'Página web',
+      tipo: 'Página <i>web</i>',
       link: 'https://comparecloud.in/',
     },
   ],
@@ -277,7 +277,7 @@ export default {
     {
       termino: '<i>Cloud Computing</i>',
       significado:
-        'Conocida también como servicios en la nube, consiste en el uso de una red de servidores remotos alojados en Internet para almacenar, administrar y procesar datos e información, en lugar de un servidor local o una computadora personal.',
+        'Conocida también como servicios en la nube, consiste en el uso de una red de servidores remotos alojados en <i>Internet</i> para almacenar, administrar y procesar datos e información, en lugar de un servidor local o una computadora personal.',
     },
     {
       termino: 'Disponibilidad',
@@ -303,7 +303,7 @@ export default {
   referencias: [
     {
       referencia:
-        '<i>A Linux a Day.</i> (2016). Almacenamiento, introducción y terminología. Página web.',
+        '<i>A Linux a Day.</i> (2016). Almacenamiento, introducción y terminología. Página <i>web</i>.',
       link:
         'https://alinuxaday.wordpress.com/2016/01/19/almacenamiento-introduccion-y-terminologia',
     },
@@ -314,7 +314,7 @@ export default {
     },
     {
       referencia:
-        '<i>Amazon</i> (2021). <i>AWS Directory Service.</i> Página web.',
+        '<i>Amazon</i> (2021). <i>AWS Directory Service.</i> Página <i>web</i>.',
       link: 'https://aws.amazon.com/es/directoryservice/?nc=sn&loc=1',
     },
     {

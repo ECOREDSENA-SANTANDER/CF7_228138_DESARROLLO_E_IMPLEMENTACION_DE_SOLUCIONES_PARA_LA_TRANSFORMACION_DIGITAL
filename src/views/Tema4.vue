@@ -76,7 +76,7 @@
     Separador
 
     #t_4_1.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
-      h2 4.1 Conectividad e internet 
+      h2 4.1 Conectividad e <i>internet</i> 
     p(data-aos="zoom-in-left").mb-2 El medio de conexión es un punto de partida que se usa para interconectar las máquinas de una red, se puede realizar a través de dispositivos permiten la conexión mediante un cable coaxial, un cable de par trenzado o un cable de fibra óptica. La conexión también puede establecerse de forma inalámbrica mediante señales de radio, tecnología láser o infrarroja o transmisión por satélite.
     .row.align-items-center.justify-content-center.mb-4(data-aos="zoom-in-left")
       .col-lg-7.my-3
@@ -85,26 +85,26 @@
         .d-flex.align-items-center.justify-content-center
           img.img-a.img-t(src='@/assets/curso/temas/10.png' )
           p.ml-1-custom.mt-2 Además, se requiere de un “Protocolo” que permita el intercambio de información dependiendo el tipo de conexión que se requiera, por ejemplo:  
-      .col-lg-5.my-3
+      .col-lg-5.my-3.d-none.d-lg-block
         img.img-a.img-t(src='@/assets/curso/temas/48.png' )
     .row.align-items-center.justify-content-center.mb-4
       .col-lg-4.my-3
         .bg11.d-flex.px-3.he-2-cus
           img.img-a.img-t.bg12.px-1.py-2(src='@/assets/curso/temas/49.svg' )
           .wd-80-cus
-            p.fw-bold.ml-1-custom.mt-4.mb-0 <i> TCP</i>
+            p.fw-bold.ml-1-custom.mt-4.mb-0 <i>TCP</i>
             p.ml-1-custom  Protocolo de control de transmisión.
       .col-lg-4.my-3
         .bg11.d-flex.px-3.he-2-cus
           img.img-a.img-t.bg12.px-1.py-2(src='@/assets/curso/temas/50.svg' )
           .wd-80-cus
-            p.fw-bold.ml-1-custom.mt-4.mb-0 <i>  IP</i>
-            p.ml-1-custom Protocolo de Internet.
+            p.fw-bold.ml-1-custom.mt-4.mb-0 <i> IP</i>
+            p.ml-1-custom Protocolo de <i>Internet</i>.
       .col-lg-4.my-3
         .bg11.d-flex.px-3.he-2-cus
           img.img-a.img-t.bg12.px-1.py-2(src='@/assets/curso/temas/51.svg' )
           .wd-80-cus
-            p.fw-bold.ml-1-custom.mt-4.mb-0 <i> POP</i>
+            p.fw-bold.ml-1-custom.mt-4.mb-0 <i>POP</i>
             p.ml-1-custom  Protocolo de oficina de correos.
     .row.align-items-center.justify-content-center.mb-4(data-aos="zoom-in-left")
       .col-lg-4.my-3
@@ -132,7 +132,7 @@
           .video
             iframe(width="560" height="315" src="https://www.youtube.com/embed/xaXbMzXJL3U" title="Description" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
           figcaption Video. SENA 2024.
-    p(data-aos="zoom-in-left").mb-2 Es así como la internet se convierte en la red más grande que existe y permite que las computadoras estén interconectadas a nivel mundial, disponiendo el acceso a miles de servidores que proveen información.
+    p(data-aos="zoom-in-left").mb-2 Es así como la <i>internet</i> se convierte en la red más grande que existe y permite que las computadoras estén interconectadas a nivel mundial, disponiendo el acceso a miles de servidores que proveen información.
     h4(data-aos="zoom-in-left").mb-4 Los tipos de conectividad pueden dividirse en:
     TabsA.color-acento-botones.mb-5
       .tarjeta.bg14.p-5(titulo="Conexión analógica")
@@ -153,18 +153,18 @@
         h4 Cable
         .row 
           .col-sm-12.col-md-9
-            p Es reconocida por utilizar cables de fibra óptica y cable coaxial para así emitir una óptima señal, puede alcanzar hasta más de 200 Mbps en velocidad de bajada teniendo este tipo de señal con que cuenta el operador de internet.
+            p Es reconocida por utilizar cables de fibra óptica y cable coaxial para así emitir una óptima señal, puede alcanzar hasta más de 200 <i>Mbps</i> en velocidad de bajada teniendo este tipo de señal con que cuenta el operador de <i>internet</i>.
           .col-sm-12.col-md-3 
             img.img-t(src='@/assets/curso/temas/113.svg')
-      .tarjeta.bg14.p-5(titulo="Internet inalámbrico")
-        h4 Internet inalámbrico
+      .tarjeta.bg14.p-5(titulo="<i>Internet</i> inalámbrico")
+        h4 <i>Internet</i> inalámbrico
         .row 
           .col-sm-12.col-md-9
             p Es el método donde  la conexión de nodos se da por medio de ondas electromagnéticas, sin necesidad de una red cableada o alámbrica.
           .col-sm-12.col-md-3 
             img.img-t(src='@/assets/curso/temas/114.svg') 
-      .tarjeta.bg14.p-5(titulo="Internet satelital")
-        h4 Internet satelital
+      .tarjeta.bg14.p-5(titulo="<i>Internet</i> satelital")
+        h4 <i>Internet</i> satelital
         .row 
           .col-sm-12.col-md-9
             p Es un método de conexión mediante ondas electromagnéticas utilizando como medio de comunicación un satélite y una estación terrena. Es un sistema de acceso muy recomendable en aquellos lugares donde no hay cobertura o factibilidad técnica para otros tipos de conexión tradicional.
@@ -187,25 +187,25 @@
             .row.justify-content-center.align-items-start(titulo="Origen")
               .col-sm-12.col-md-10.d-flex.mt-0.flex-sm-column-cus
                 p Consiste en recolectar los datos e información inicial a procesar, es lo que se considera como el "documento fuente".
-              .col-sm-12.col-md-2.d-flex.mt-0.flex-sm-column-cus
-                img.ml-1-custom.img-a.img-t.px-1.py-2(src='@/assets/curso/temas/57.svg' )
+              .col-sm-12.col-md-2.d-flex.mt-0.flex-sm-column-cus.d-none.d-lg-block
+                img.img-a.img-t.px-1.py-2(src='@/assets/curso/temas/57.svg' )
             .row.justify-content-center.align-items-start(titulo="Entrada")
               .col-sm-12.col-md-10.d-flex.mt-0.flex-sm-column-cus
                 p Los datos iniciales se clasifican antes del procesamiento para su reconocimiento.
-              .col-sm-12.col-md-2.d-flex.mt-0.flex-sm-column-cus
-                img.ml-1-custom.img-a.img-t.px-1.py-2(src='@/assets/curso/temas/56.svg' )
+              .col-sm-12.col-md-2.d-flex.mt-0.flex-sm-column-cus.d-none.d-lg-block
+                img.img-a.img-t.px-1.py-2(src='@/assets/curso/temas/56.svg' )
             .row.justify-content-center.align-items-start(titulo="Procesamiento")
               .col-sm-12.col-md-12.d-flex.mt-0.flex-sm-column-cus
                 p Es el proceso durante el que ejecutarán las operaciones necesarias para convertir los datos en información significativa y cuando están transformados se preparan para la salida o visualización.
-                img.ml-1-custom.img-a.img-t.px-1.py-2(src='@/assets/curso/temas/58.svg' )
+                img.img-a.img-t.px-1.py-2.d-none.d-lg-block(src='@/assets/curso/temas/58.svg' )
             .row.justify-content-center.align-items-start(titulo="Salida")
               .col-sm-12.col-md-12.d-flex.mt-0.flex-sm-column-cus
                 p Es el mecanismo para presentar los resultados obtenidos en el procesamiento, pueden ser presentados en pantalla, impresos o entregados de la forma que se requiera específicamente.
-                img.ml-1-custom.img-a.img-t.px-1.py-2(src='@/assets/curso/temas/59.svg' )
+                img.img-a.img-t.px-1.py-2.d-none.d-lg-block(src='@/assets/curso/temas/59.svg' )
             .row.justify-content-center.align-items-start(titulo="Distribución")
               .col-sm-12.col-md-12.d-flex.mt-0.flex-sm-column-cus
                 p Es el proceso mediante el cual se envía o entrega la información o producto de salida del procesamiento, estos pueden llegar a ser documentos fuente para futuros procesamientos.
-                img.ml-1-custom.img-a.img-t.px-1.py-2(src='@/assets/curso/temas/60.svg' )
+                img.img-a.img-t.px-1.py-2.d-none.d-lg-block(src='@/assets/curso/temas/60.svg' )
             
 
     Separador
@@ -216,19 +216,19 @@
         p(data-aos="zoom-in-left") Un asunto indispensable para la construcción de una solución de virtualización es el almacenamiento. Es una de las decisiones más importantes de tener en cuenta, los entornos no son iguales por su tipo de requerimiento y finalidad, por ese motivo hay una solución que puede acoplarse al tipo de soluciones que se tiene que brindar.
         .bg14.p-4.mb-1 
           .row.d-flex.align-items-center.justify-content-center
-            .col-lg-2
+            .col-lg-2.d-none.d-lg-block
               img.img-a.img-t(src='@/assets/curso/temas/62.svg' )
             .col-lg-10 Por mucho tiempo esta solución ha sido la más utilizada <i>Fibre Channel</i> (<i>FC</i>) y en los últimos años han sobresalido tecnologías como <i>NAS</i> o <i>iSCSI</i> convirtiéndose en alternativas tentadoras para entornos de virtualización, ofreciendo una diferencia en rendimiento y precio.
-      .col-lg-5.my-3
+      .col-lg-5.my-3.d-none.d-lg-block
         img.img-a.img-t(src='@/assets/curso/temas/61.png' )
     .mb-4.d-flex.bg-img-title(data-aos="zoom-in-left")
       .d-flex.flex-wrap.align-items-center.pe-4
-        h3.col.px-4.mb-0.text-white.bg-img-blue Generalidades
+        h3.col.px-4.mb-0.text-white.bg-img-blue(style='width: 200px;') Generalidades
         img.col-lg.d-flex.aos-init.aos-animate(src='@/assets/curso/temas/103.svg').icon-blue
 
     
     .row.align-items-center.justify-content-center.mb-4(data-aos="zoom-in-left")
-      .col-lg-5.my-3
+      .col-lg-5.my-3.d-none.d-lg-block
         img.img-a.img-t(src='@/assets/curso/temas/64.png' )
       .col-lg-7.my-3
         p(data-aos="zoom-in-left") Hay que tener ciertos criterios a la hora de elegir una solución como es: presupuesto disponible, rendimiento y capacidad. Además hay fabricantes que ya cuentan con una propuesta en virtualización que podemos adoptar en el proyecto que se esté proponiendo como una alternativa para trabajar con la misma línea.
@@ -267,7 +267,7 @@
                     img(src='@/assets/curso/temas/117.svg')
                   .col-10.align-items-center.justify-content-center
                     p Los principales beneficios de las Arquitecturas de Almacenamiento <i>NAS</i> son que proporcionan un mejor <i>TCO -Total Cost of Ownship</i>, resultando fácilmente escalable y capaces de ofrecer una alta disponibilidad.
-                .bg18.p-4.mt-4 Actualmente las soluciones <i>NAS</i> se basan en TCP/IP, con protocolos <i>NFS</i> o <i>CIFS</i> por encima. En consecuencia, un dispositivo <i>NAS</i> será una máquina dedicada con una o varias direcciones IP y además estará dotado de una conexión de alta velocidad a la red <i>LAN</i>. De esta forma, los equipos clientes en una arquitectura de almacenamiento <i>NAS</i>, delegan la gestión del sistema de ficheros al propio dispositivo <i>NAS</i>, que se limita a montar las unidades de red exportadas o compartidas, es así que los usuarios y aplicaciones utilizan estos sistemas de ficheros como si fueran locales, aunque para el sistema operativo se trate claramente de sistemas de ficheros remotos.
+                .bg18.p-4.mt-4 Actualmente las soluciones <i>NAS</i> se basan en <i>TCP/IP</i>, con protocolos <i>NFS</i> o <i>CIFS</i> por encima. En consecuencia, un dispositivo <i>NAS</i> será una máquina dedicada con una o varias direcciones <i>IP</i> y además estará dotado de una conexión de alta velocidad a la red <i>LAN</i>. De esta forma, los equipos clientes en una arquitectura de almacenamiento <i>NAS</i>, delegan la gestión del sistema de ficheros al propio dispositivo <i>NAS</i>, que se limita a montar las unidades de red exportadas o compartidas, es así que los usuarios y aplicaciones utilizan estos sistemas de ficheros como si fueran locales, aunque para el sistema operativo se trate claramente de sistemas de ficheros remotos.
          
               
         .row.p-4(numero="3" titulo="<i>SAN Storage Area Network</i>")
@@ -299,7 +299,7 @@
 
       
       .row.d-flex.align-items-center.justify-content-center(data-aos="zoom-in-left").mx-5-cus
-          .col-sm-12.col-lg-4.he-7-cus
+          .col-sm-12.col-lg-4.he-7-cus.d-none.d-lg-block
             img.img-a.img-t(src='@/assets/curso/temas/67.png' )
           .col-sm-12.col-lg-8.bg19.he-8-cus.ml-neg-cus.align-items-center.justify-content-center
             p(data-aos="zoom-in-left").align-items-center.justify-content-center.img-center-cus Las principales tecnologías de almacenamiento, se relacionan con los protocolos de uso, componentes, y costos,  a continuación, se describen las principales. 
@@ -311,7 +311,7 @@
             ul.lista-ul--color
               li 
                 i.fas.fa-chevron-right
-                p.z-index-cus <i>iSCSI</i> utiliza los llamados iniciadores (<i>initiator</i>) para enviar comando <i>iSCSI</i> a los dispositivos de almacenamiento. Estos iniciadores pueden ser basados en <i>software</i> o <i>hardware</i>. En la mayoría de las situaciones, los iniciadores <i>software</i> pueden ser suficientes, una solución | ofrece un mejor rendimiento en <i> E/S</i> utilizando menos recursos del <i>host</i>. Hay que tener en cuenta que una solución <i>software</i> introduce un overhead de CPU en el <i>host</i> que se conecta a la red de almacenamiento.
+                p.z-index-cus <i>iSCSI</i> utiliza los llamados iniciadores (<i>initiator</i>) para enviar comando <i>iSCSI</i> a los dispositivos de almacenamiento. Estos iniciadores pueden ser basados en <i>software</i> o <i>hardware</i>. En la mayoría de las situaciones, los iniciadores <i>software</i> pueden ser suficientes, una solución | ofrece un mejor rendimiento en <i> E/S</i> utilizando menos recursos del <i>host</i>. Hay que tener en cuenta que una solución <i>software</i> introduce un <i>overhead</i> de <i>CPU</i> en el <i>host</i> que se conecta a la red de almacenamiento.
               li 
                 i.fas.fa-chevron-right
                 p.z-index-cus <i>iSCSI</i> da un buen rendimiento en redes de 1Gbps (más si utilizamos multipathing), pero actualmente se pueden construir redes <i>iSCSI</i> de 10 <i>Gbps</i> que ofrecen un rendimiento parecido e incluso mejor que <i>FC</i>. El problema de las redes de 10 <i>Gbps</i> es que son tan caras de implementar como una red <i>FC</i>.
@@ -393,7 +393,7 @@
     
     p.mb-3(data-aos="zoom-in-left")   <b><i>RAID</i> es la sigla para   “<i>Redundant Array of Independent Disks</i>”.</b> Su definición en español sería "Matriz Redundante de Discos Independientes". Se trata de una tecnología que combina varios discos rígidos (HD) para formar una única unidad lógica, donde los mismos datos son almacenados en todos los discos (redundancia). En otras palabras, es un conjunto de discos rígidos que funcionan como si fueran uno solo.
     .row.align-items-center.justify-content-center.mb-4
-      .col-lg-5.my-3
+      .col-lg-5.my-3.d-none.d-lg-block
         img.img-a.img-t(src='@/assets/curso/temas/72.png' )
       .col-lg-7.my-3
         p(data-aos="zoom-in-left") Este tipo de implementación permite tener una tolerancia alta contra fallas, pues si un disco tiene problemas, los demás continúan funcionando, teniendo el usuario los datos a su disposición como si nada pasara. La tecnología <i>RAID</i> está consolidada hace décadas, ya que surgió de la Universidad de Berkeley, en California (EUA) a finales de la década de 1980.
@@ -415,30 +415,30 @@
           .bloque-texto-g__texto.px-4.py-5
             p.mb-0 La gestión de la capacidad, posibilita encargarse de las TI, asegurando que la capacidad de las tecnologías de la información, cumplen los requisitos establecidos, al momento y en el futuro de la organización, y que genera un costo que puede ser asumido sin problema, tanto en la gestión de la capacidad física, como económica.
     p.mb-5(data-aos="zoom-in-left") Una correcta definición de los servicios de una compañía, es clave en el proceso, por esta razón debe tenerse claro cuál es la herramienta o herramientas útiles en la gestión diaria del servicio, así como los indicadores que medirán dicho servicio. Las actividades más significativas de la Gestión de la Capacidad son: 
-    .row.align-items-center.justify-content-center(data-aos="zoom-in-left")
+    .row.align-items-center.justify-content-center.mb-0
       .col-lg-4.m-0
-        .bg11.d-flex.px-3.he-5-cus.align-items-center.justify-content-center
+        .bg11.d-flex.px-3.he-5-cus.align-items-center.justify-content-center.mb-cus
           img.img-a.img-t.bg12.px-1.py-2(src='@/assets/curso/temas/74.svg' )
           .wd-80-cus
             p.ml-1-custom Monitorización y seguimiento.
       .col-lg-4.m-0
-        .bg11.d-flex.px-3.he-5-cus.align-items-center.justify-content-center
+        .bg11.d-flex.px-3.he-5-cus.align-items-center.justify-content-center.mb-cus
           img.img-a.img-t.bg12.px-1.py-2(src='@/assets/curso/temas/75.svg' )
           .wd-80-cus
             p.ml-1-custom Requisitos de capacidad.
       .col-lg-4.m-0
-        .bg11.d-flex.px-3.he-5-cus.align-items-center.justify-content-center
+        .bg11.d-flex.px-3.he-5-cus.align-items-center.justify-content-center.mb-cus
           img.img-a.img-t.bg12.px-1.py-2(src='@/assets/curso/temas/76.svg' )
           .wd-80-cus
             p.ml-1-custom Planificación.
-    .row.align-items-center.justify-content-center.mb-4(data-aos="zoom-in-left")
+    .row.align-items-center.justify-content-center.mb-0
       .col-lg-4.m-0
-        .bg11.d-flex.px-3.he-5-cus.align-items-center.justify-content-center
+        .bg11.d-flex.px-3.he-5-cus.align-items-center.justify-content-center.mb-cus
           img.img-a.img-t.bg12.px-1.py-2(src='@/assets/curso/temas/77.svg' )
           .wd-80-cus
             p.ml-1-custom Supervisión.
       .col-lg-4.my-3
-        .bg11.d-flex.px-3.he-5-cus.align-items-center.justify-content-center
+        .bg11.d-flex.px-3.he-5-cus.align-items-center.justify-content-center.mb-cus
           img.img-a.img-t.bg12.px-1.py-2(src='@/assets/curso/temas/78.svg' )
           .wd-80-cus
             p.ml-1-custom Gestión de la demanda. 

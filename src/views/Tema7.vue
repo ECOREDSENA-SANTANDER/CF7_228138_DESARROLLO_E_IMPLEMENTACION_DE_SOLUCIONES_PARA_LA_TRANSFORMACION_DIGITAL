@@ -59,11 +59,11 @@
               li.mb-0.pb-0 
                 i.fas.fa-chevron-right
                 p Proceso y directivas con respecto a la terminación del contrato.
-          .col-sm-12.col-md-4.pt-5 
+          .col-sm-12.col-md-4.pt-5.d-none.d-lg-block 
             img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/146.png' )
-    p.mb-5(data-aos="zoom-in-left")  #[b Este manejo de las características del servicio, permite la optimización de asignación y costos de recursos en cuanto al tratamiento de la información.  ]Pues no se requiere una inversión en infraestructura, pues es utilizada la del prestador del servicio, a la vez que se busca garantía en dicha prestación, en cuanto a fallas o exceso de recursos, o los costos que puede acarrear situaciones como estas. Como sabemos,  #[b la gestión de la información se encuentra de manera virtual, en manos del cliente o la organización contratante de servicios en la nube, que puede ser accedida a través de internet, mediante bases de datos, correo electrónico, nóminas o gestión de recursos humanos. ] Sin embargo, puede que los datos no estén necesariamente en manos del contratista, dependiendo del modelo utilizado, por lo que el mantenimiento y soporte físico de la información, los procesos y las comunicaciones, pueden regularse por medio de terceros, quien regula el servicio desde cualquier parte del mundo, por medio de recursos como prácticas de deslocalización, compartición de recursos y movilidad, o si es el caso con contratos adicionales <i>AT&T &TA T 6.</i> 
+    p.mb-5(data-aos="zoom-in-left")  #[b Este manejo de las características del servicio, permite la optimización de asignación y costos de recursos en cuanto al tratamiento de la información.  ]Pues no se requiere una inversión en infraestructura, pues es utilizada la del prestador del servicio, a la vez que se busca garantía en dicha prestación, en cuanto a fallas o exceso de recursos, o los costos que puede acarrear situaciones como estas. Como sabemos,  #[b la gestión de la información se encuentra de manera virtual, en manos del cliente o la organización contratante de servicios en la nube, que puede ser accedida a través de <i>internet</i>, mediante bases de datos, correo electrónico, nóminas o gestión de recursos humanos. ] Sin embargo, puede que los datos no estén necesariamente en manos del contratista, dependiendo del modelo utilizado, por lo que el mantenimiento y soporte físico de la información, los procesos y las comunicaciones, pueden regularse por medio de terceros, quien regula el servicio desde cualquier parte del mundo, por medio de recursos como prácticas de deslocalización, compartición de recursos y movilidad, o si es el caso con contratos adicionales <i>AT&T &TA T 6.</i> 
     .row.align-items-center.justify-content-center.mb-4(data-aos="zoom-in-left")
-      .col-lg-5.my-3
+      .col-lg-5.my-3.d-none.d-lg-block
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/147.png' )
       .col-lg-7.my-3
         p.bg13.p-4.mb-3(data-aos="fade-left") Es así que el  #[b #[em cloud computing]  ], puede usar tecnologías de la información y las comunicaciones, mediante técnicas ya existentes de forma innovadora y en una nueva escala. Una consecuencia de este transformador de negocio, tiene como resultado que la persona o la organización que contrata los servicios, puede desconocer la localización precisa de sus datos, así como no disponer del control directo de acceso a los mismos, de su borrado y su portabilidad, por lo que la legislación vigente en países como Colombia, aún se encuentra en diseño, con el fin de llevar a cabo una regulación más responsable al respecto.
@@ -88,7 +88,7 @@
         .d-flex.align-items-center.justify-content-center
           img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/10.png' )
           p.ml-1-custom.mt-3 Un contrato oneroso, se define como un tipo de contrato en que ambas partes tienen obligaciones y ventajas económicas recíprocas. Entre los más comunes están: 
-      .col-lg-5.my-3
+      .col-lg-5.my-3.d-none.d-lg-block
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/98.png' )
     
     .row.align-items-center.justify-content-center.mb-4(data-aos="zoom-in-left")
@@ -149,7 +149,7 @@
     p.my-5(data-aos="zoom-in-left") Atendiendo a la relación contractual establecida entre el cliente y el proveedor de la nube, también este contrato se puede clasificar como negociado o de adhesión. Podemos decir que un contrato entre el cliente y el proveedor es negociado si el primero tiene, o se le ofrece, la capacidad para fijar las condiciones de contratación en función del tipo de datos que se van a procesar, las medidas de seguridad exigibles, el esquema de subcontratación, la localización de los datos, la portabilidad de los mismos y cualquier otro aspecto de adecuación a la regulación organizacional y a las restricciones que esta regulación implica.
     .bg14.p-4.mb-1(data-aos="fade-left") 
       .row.d-flex
-        .col-lg-1
+        .col-lg-1.d-none.d-lg-block
           img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/101.svg' )
         .col-lg-11 En la mayoría de los casos, sin embargo, lo que se oferta son contratos de adhesión, constituidos por cláusulas contractuales cerradas, en las que  #[b el proveedor de <i>cloud</i> fija las condiciones con un contrato tipo igual para todos sus clientes, sin que el usuario tenga ninguna opción para negociar sus términos ]. Este último caso es el más común, sobre todo cuando se encuentra el cliente en una situación de desequilibrio  #[b (p.ej.: una <i>pyme</i> frente a un gran proveedor) ], aunque hay que tener en cuenta que esto no eximirá, a ninguno de los dos, de las responsabilidades que determina la ley de protección de datos.
       
