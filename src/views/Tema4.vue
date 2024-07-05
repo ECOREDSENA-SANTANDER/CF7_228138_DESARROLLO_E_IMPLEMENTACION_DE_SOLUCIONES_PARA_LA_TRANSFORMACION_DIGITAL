@@ -314,7 +314,7 @@
                 p.z-index-cus <i>iSCSI</i> utiliza los llamados iniciadores (<i>initiator</i>) para enviar comando <i>iSCSI</i> a los dispositivos de almacenamiento. Estos iniciadores pueden ser basados en <i>software</i> o <i>hardware</i>. En la mayoría de las situaciones, los iniciadores <i>software</i> pueden ser suficientes, una solución | ofrece un mejor rendimiento en <i> E/S</i> utilizando menos recursos del <i>host</i>. Hay que tener en cuenta que una solución <i>software</i> introduce un <i>overhead</i> de <i>CPU</i> en el <i>host</i> que se conecta a la red de almacenamiento.
               li 
                 i.fas.fa-chevron-right
-                p.z-index-cus <i>iSCSI</i> da un buen rendimiento en redes de 1Gbps (más si utilizamos multipathing), pero actualmente se pueden construir redes <i>iSCSI</i> de 10 <i>Gbps</i> que ofrecen un rendimiento parecido e incluso mejor que <i>FC</i>. El problema de las redes de 10 <i>Gbps</i> es que son tan caras de implementar como una red <i>FC</i>.
+                p.z-index-cus <i>iSCSI</i> da un buen rendimiento en redes de 1Gbps (más si utilizamos <i>multipathing</i>), pero actualmente se pueden construir redes <i>iSCSI</i> de 10 <i>Gbps</i> que ofrecen un rendimiento parecido e incluso mejor que <i>FC</i>. El problema de las redes de 10 <i>Gbps</i> es que son tan caras de implementar como una red <i>FC</i>.
               li 
                 i.fas.fa-chevron-right
                 p.z-index-cus En cuanto a seguridad, a diferencia de <i>FC</i>, <i>iSCSI</i> implementa sistemas de autenticación (CHAP) y encriptación.
@@ -372,8 +372,8 @@
                   .col-1
                     img(src='@/assets/curso/temas/123.svg')
                   .col-11
-                    p.mt-3 El coste y rendimiento de cada solución puede variar grandemente siendo los dispositivos dedicados los que ofrecen mayor rendimiento, pero a un coste más alto
-                p.mt-3 En la mayoría de los casos, <i>NAS</i> no ofrece el mismo rendimiento que una red <i>SAN FC</i> pero una arquitectura de red bien configurada puede ofrecer un rendimiento adaptado a tus necesidades. De manera similar a <i>iSCSI</i>, <i>NAS</i> utiliza tarjetas de red para comunicarse con los dispositivos de almacenamiento, por lo tanto tenemos un límite de 1 <i>Gpbs </i>. A diferencia de <i>iSCSI</i> no permite multipathing ofreciendo un rendimiento inferior.
+                    p.mt-3 El coste y rendimiento de cada solución puede variar grandemente siendo los dispositivos dedicados los que ofrecen mayor rendimiento, pero a un coste más alto.
+                p.mt-3 En la mayoría de los casos, <i>NAS</i> no ofrece el mismo rendimiento que una red <i>SAN FC</i> pero una arquitectura de red bien configurada puede ofrecer un rendimiento adaptado a tus necesidades. De manera similar a <i>iSCSI</i>, <i>NAS</i> utiliza tarjetas de red para comunicarse con los dispositivos de almacenamiento, por lo tanto tenemos un límite de 1 <i>Gpbs </i>. A diferencia de <i>iSCSI</i> no permite <i>multipathing</i> ofreciendo un rendimiento inferior.
               .col-md-4
                   img(src='@/assets/curso/temas/83.svg')
           .py-4.py-md-5(titulo="Desventajas" :icono="require('@/assets/curso/temas/81.svg')")
