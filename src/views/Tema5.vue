@@ -16,8 +16,8 @@
             p.mb-0 En un entorno en constante evolución, es fundamental contar con mecanismos que garanticen la excelencia en la prestación de servicios y la satisfacción de los clientes internos y externos, garantizando así el éxito de la transformación digital en las organizaciones.   
     Separador
     #t_5_1.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
-      h2 5.1 Acuerdos de Nivel de servicio (<i>ANS</i>) 
-    p(data-aos="zoom-in-left") También conocidos como <i>SLA</i>, por sus siglas en inglés 
+      h2 5.1 Acuerdos de Nivel de servicio (ANS) 
+    p(data-aos="zoom-in-left") También conocidos como SLA, por sus siglas en inglés 
       span.color-green #[b #[em Service Level Agreement]]. 
       span  Las actividades claves para la Gestión de Niveles de Servicio pueden observarse al desplegar el siguiente recurso:
     .row.d-flex.align-items-center.justify-content-center.mb-5(data-aos="zoom-in-left")
@@ -36,7 +36,7 @@
     
     Separador
     #t_5_2.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
-      h2 5.2 Acuerdo de Nivel de Operación (<i>OLA</i>) 
+      h2 5.2 Acuerdo de Nivel de Operación (OLA) 
     .row.align-items-center.justify-content-center(data-aos="zoom-in-left")
         .col-lg-12
           .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5
@@ -44,8 +44,8 @@
               :style="{'background-image': `url(${require('@/assets/curso/temas/88.png')})`}"
             )
             .bloque-texto-g__texto.p-5
-              p.mb-0 Acuerdo de Nivel Operacional, <i>OLA</i> por sus siglas en inglés: <i>Operational Level Agreement</i>, es un acuerdo realizado entre un proveedor de servicios de TI y otra parte de la misma organización, como por ejemplo: el área de sistemas, área de desarrollo u otras, en el que se definen los bienes y servicios que se proveen y las responsabilidades de ambas partes.
-    p.mb-5(data-aos="zoom-in-left") A continuación, se presentan las recomendaciones para crear el <i>OLA</i> :
+              p.mb-0 Acuerdo de Nivel Operacional, OLA por sus siglas en inglés: <i>Operational Level Agreement</i>, es un acuerdo realizado entre un proveedor de servicios de TI y otra parte de la misma organización, como por ejemplo: el área de sistemas, área de desarrollo u otras, en el que se definen los bienes y servicios que se proveen y las responsabilidades de ambas partes.
+    p.mb-5(data-aos="zoom-in-left") A continuación, se presentan las recomendaciones para crear el OLA :
     .row.justify-content-center.align-items-center.radius-4-cus.bg-norepeat.bg-cover.pb-3(
             :style="{'background-image': `url(${require('@/assets/curso/temas/46.svg')})`}"
           )
@@ -60,7 +60,7 @@
                   .col-8
                     img.img-a.img-t.mb-3.mt-4(src="@/assets/curso/temas/124.svg" ).img100.m-auto
                 p.fw-bold.text-center Panorama general
-                p.mb-0.text-center Se debe redactar en un párrafo corto el panorama general sobre el Acuerdo de Nivel Operacional, en este deben recogerse los objetivos principales y los del <i>OLA</i>, esto facilitará el entendimiento y la comprensión de todos los participantes del acuerdo.
+                p.mb-0.text-center Se debe redactar en un párrafo corto el panorama general sobre el Acuerdo de Nivel Operacional, en este deben recogerse los objetivos principales y los del OLA, esto facilitará el entendimiento y la comprensión de todos los participantes del acuerdo.
               .tarjeta.tarjeta--slyder.bg7.p-4.h-100
                 .row.justify-content-center.mb-3
                   .col-8
@@ -78,7 +78,7 @@
                   .col-8
                     img.img-a.img-t.mb-3.mt-4(src="@/assets/curso/temas/127.svg" ).img100.m-auto
                 p.fw-bold.text-center Plazos e indicadores
-                p.mb-0.text-center  Se deben especificar las fechas en las que será válido el acuerdo, estas pueden depender de contratos, otros acuerdos colectivos o  la disponibilidad de recursos. Es importante indicar cuáles serán los indicadores (<i>KPIs</i>) que se utilizarán para monitorear los logros y desempeños.
+                p.mb-0.text-center  Se deben especificar las fechas en las que será válido el acuerdo, estas pueden depender de contratos, otros acuerdos colectivos o  la disponibilidad de recursos. Es importante indicar cuáles serán los indicadores (KPIs) que se utilizarán para monitorear los logros y desempeños.
               .tarjeta.tarjeta--slyder.bg7.p-4.h-100
                 .row.justify-content-center.mb-3
                   .col-8
@@ -102,11 +102,11 @@
                   .col-8
                     img.img-a.img-t.mb-3.mt-4(src="@/assets/curso/temas/131.svg" ).img100.m-auto
                 p.fw-bold.text-center Firmar el acuerdo
-                p.mb-0.text-center El acuerdo debe ser firmado por figuras de autoridad, se debe dejar una copia para cada parte involucrada y divulgarlos con los responsables definidos en el <i>OLA</i>.
+                p.mb-0.text-center El acuerdo debe ser firmado por figuras de autoridad, se debe dejar una copia para cada parte involucrada y divulgarlos con los responsables definidos en el OLA.
     Separador
     #t_5_3.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
-      h2 5.3 Acuerdo de acompañamiento (<i>UC</i>)
-    p.mb-5(data-aos="zoom-in-left") Son talleres interactivos para las zonas de trabajo híbridos (virtuales o presenciales) en los que se ponen en práctica las herramientas <i>CoCreArE </i> de acuerdo con las necesidades de cada equipo. Los acompañamientos pueden consistir en una o varias sesiones.      
+      h2 5.3 Acuerdo de acompañamiento (UC)
+    p.mb-5(data-aos="zoom-in-left") Son talleres interactivos para las zonas de trabajo híbridos (virtuales o presenciales) en los que se ponen en práctica las herramientas CoCreArE de acuerdo con las necesidades de cada equipo. Los acompañamientos pueden consistir en una o varias sesiones.      
     .row.mb-5(data-aos="zoom-in-left")
       .col-sm-12.col-md-12.col-lg-4
         p.mb-3 También dentro de toda infraestructura se pueden proporcionar herramientas de acompañamiento, que hoy en día se están utilizando, con el objetivo de optimizar los procesos, mejorar la comunicación, acompañamiento y conservar a los equipos de trabajo motivados. 
@@ -129,7 +129,7 @@
                 p.mb-1 En muchas organizaciones es necesaria la presencialidad, y que sus empleados atiendan los procesos desde sus puestos de trabajo, en este contexto también es necesario mantener una comunicación constante para que los equipos se sientan acompañados y motivados y se sientan protegidos e informados. 
                 .align-self-end
                   img.img-t(src='@/assets/curso/temas/10.png' )
-        p.mt-4 Sin duda, en la actualidad se ha dado el auge de videoconferencias con herramientas como <i>Skype, Google Meet, Zoom o Webex</i> que ofrecen muchas posibilidades de conectarnos en tiempo real.
+        p.mt-4 Sin duda, en la actualidad se ha dado el auge de videoconferencias con herramientas como Skype, Google Meet, Zoom o Webex que ofrecen muchas posibilidades de conectarnos en tiempo real.
 </template>
 
 <script>

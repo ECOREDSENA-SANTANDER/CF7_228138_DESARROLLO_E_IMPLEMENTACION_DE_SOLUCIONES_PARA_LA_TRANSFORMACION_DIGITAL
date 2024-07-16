@@ -31,7 +31,7 @@
           .wd-100
             p.ml-1-custom ¿Cómo la organización puede validar la calidad en el servicio ofrecido por el proveedor? 
 
-    p.mb-5(data-aos="zoom-in-left") La respuesta a estas preguntas es lo que permite determinar los objetivos del acuerdo de nivel de servicios o <i>SLA</i> donde se establece un contrato entre el proveedor (externo o interno) y el cliente donde se establecen los servicios y las características de los mismos que el cliente espera de su proveedor.
+    p.mb-5(data-aos="zoom-in-left") La respuesta a estas preguntas es lo que permite determinar los objetivos del acuerdo de nivel de servicios o SLA donde se establece un contrato entre el proveedor (externo o interno) y el cliente donde se establecen los servicios y las características de los mismos que el cliente espera de su proveedor.
     .row.mb-5(data-aos="zoom-in-left")
       .col-sm-12.col-md-12.bg14
         .row 
@@ -61,7 +61,7 @@
                 p Proceso y directivas con respecto a la terminación del contrato.
           .col-sm-12.col-md-4.pt-5.d-none.d-lg-block 
             img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/146.png' )
-    p.mb-5(data-aos="zoom-in-left")  #[b Este manejo de las características del servicio, permite la optimización de asignación y costos de recursos en cuanto al tratamiento de la información.  ]Pues no se requiere una inversión en infraestructura, pues es utilizada la del prestador del servicio, a la vez que se busca garantía en dicha prestación, en cuanto a fallas o exceso de recursos, o los costos que puede acarrear situaciones como estas. Como sabemos,  #[b la gestión de la información se encuentra de manera virtual, en manos del cliente o la organización contratante de servicios en la nube, que puede ser accedida a través de <i>internet</i>, mediante bases de datos, correo electrónico, nóminas o gestión de recursos humanos. ] Sin embargo, puede que los datos no estén necesariamente en manos del contratista, dependiendo del modelo utilizado, por lo que el mantenimiento y soporte físico de la información, los procesos y las comunicaciones, pueden regularse por medio de terceros, quien regula el servicio desde cualquier parte del mundo, por medio de recursos como prácticas de deslocalización, compartición de recursos y movilidad, o si es el caso con contratos adicionales <i>AT&T &TA T 6.</i> 
+    p.mb-5(data-aos="zoom-in-left")  #[b Este manejo de las características del servicio, permite la optimización de asignación y costos de recursos en cuanto al tratamiento de la información.  ]Pues no se requiere una inversión en infraestructura, pues es utilizada la del prestador del servicio, a la vez que se busca garantía en dicha prestación, en cuanto a fallas o exceso de recursos, o los costos que puede acarrear situaciones como estas. Como sabemos,  #[b la gestión de la información se encuentra de manera virtual, en manos del cliente o la organización contratante de servicios en la nube, que puede ser accedida a través de internet, mediante bases de datos, correo electrónico, nóminas o gestión de recursos humanos. ] Sin embargo, puede que los datos no estén necesariamente en manos del contratista, dependiendo del modelo utilizado, por lo que el mantenimiento y soporte físico de la información, los procesos y las comunicaciones, pueden regularse por medio de terceros, quien regula el servicio desde cualquier parte del mundo, por medio de recursos como prácticas de deslocalización, compartición de recursos y movilidad, o si es el caso con contratos adicionales <i>AT&T &TA T 6.</i> 
     .row.align-items-center.justify-content-center.mb-4(data-aos="zoom-in-left")
       .col-lg-5.my-3.d-none.d-lg-block
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/147.png' )
@@ -87,7 +87,7 @@
         p.bg20.p-4.mb-3(data-aos="fade-left") La contratación de servicios de  #[b #[em cloud computing]  ] se lleva a cabo mediante un contrato de prestación de servicios, que se define como el contrato mediante el cual una persona, normalmente un especialista, en algún área, se obliga con respecto a otra a realizar una serie de servicios a cambio de un precio.  #[b Es importante señalar que el pago del contrato está dirigido al cumplimiento de metas, horas, objetivos, proyectos, etc ]. Se trata de un contrato oneroso, y a la contraprestación de pago, es en dinero o especie la cual será pagada proporcionalmente conforme a las actividades realizadas.
         .d-flex.align-items-center.justify-content-center
           img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/10.png' )
-          p.ml-1-custom.mt-3 Un contrato oneroso, se define como un tipo de contrato en que ambas partes tienen obligaciones y ventajas económicas recíprocas. Entre los más comunes están: 
+          p.ml-1-custom.mt-3 Un contrato oneroso se define como un tipo de contrato en que ambas partes tienen obligaciones y ventajas económicas recíprocas. Entre los más comunes están: 
       .col-lg-5.my-3.d-none.d-lg-block
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/98.png' )
     

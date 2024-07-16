@@ -45,56 +45,56 @@
     SlyderA(tipo="b").slider-a-custom.mb-5(data-aos="zoom-in-left")
         .row.align-items-center.justify-content-center
           .col-lg-6.col-md-12.my-3
-            h4.mb-4 <i>Alibaba Cloud </i>
-            p Traducción del inglés- <i>Alibaba Cloud</i>-, también conocida como <i>Aliyun</i>, es una empresa de computación en la nube, una subsidiaria de <i>Alibaba Group. Alibaba Cloud</i> proporciona servicios de computación en la nube a empresas en línea y al propio ecosistema de comercio electrónico de <i>Alibaba</i>.
+            h4.mb-4 Alibaba Cloud 
+            p Traducción del inglés - Alibaba Cloud -, también conocida como Aliyun, es una empresa de computación en la nube, una subsidiaria de Alibaba Group. Alibaba Cloud proporciona servicios de computación en la nube a empresas en línea y al propio ecosistema de comercio electrónico de Alibaba.
           .col-lg-6.col-md-12.my-3
             img.img-a.img-t(src='@/assets/curso/temas/161.svg' )
         .row.align-items-center.justify-content-center
           .col-lg-6.col-md-12.my-3
-            h4.mb-4 <i>Amazon Web Services </i>
-            p <i>Amazon Web Services</i> es una colección de servicios de computación en la nube pública que en conjunto forman una plataforma de computación en la nube, ofrecidas a través de <i>Internet</i> por Amazon.com. Es usado en aplicaciones populares como <i>Dropbox, Foursquare, HootSuite</i>.
+            h4.mb-4 Amazon Web Services 
+            p Amazon Web Services es una colección de servicios de computación en la nube pública que en conjunto forman una plataforma de computación en la nube, ofrecidas a través de internet por Amazon.com. Es usado en aplicaciones populares como Dropbox, Foursquare, HootSuite.
           .col-lg-6.col-md-12.my-3
             img.img-a.img-t(src='@/assets/curso/temas/162.svg' )
         .row.align-items-center.justify-content-center
           .col-lg-6.col-md-12.my-3
-            h4.mb-4 <i>Digital Ocean </i>
-            p <i>Digital Ocean</i> es un proveedor estadounidense de servidores virtuales privados, con sede principal en la ciudad de Nueva York. La compañía alquila instalaciones de centros de cómputo existentes, incluyendo sitios como Nueva York, Toronto, Bangalore, Ámsterdam, San Francisco, Londres y Singapur.
+            h4.mb-4 Digital Ocean 
+            p Digital Ocean es un proveedor estadounidense de servidores virtuales privados, con sede principal en la ciudad de Nueva York. La compañía alquila instalaciones de centros de cómputo existentes, incluyendo sitios como Nueva York, Toronto, Bangalore, Ámsterdam, San Francisco, Londres y Singapur.
           .col-lg-6.col-md-12.my-3
             img.img-a.img-t(src='@/assets/curso/temas/163.svg' )
         .row.align-items-center.justify-content-center
           .col-lg-6.col-md-12.my-3
-            h4.mb-4 <i>Google Cloud</i>
-            p <i>Google Cloud</i> es una plataforma que ha reunido todas las aplicaciones de desarrollo <i>web</i> que <i>Google</i> estaba ofreciendo por separado.
+            h4.mb-4 Google Cloud
+            p Google Cloud es una plataforma que ha reunido todas las aplicaciones de desarrollo web que Google estaba ofreciendo por separado.
           .col-lg-6.col-md-12.my-3
             img.img-a.img-t(src='@/assets/curso/temas/164.svg' )
         .row.align-items-center.justify-content-center
           .col-lg-6.col-md-12.my-3
-            h4.mb-4 <i>Huawei Cloud</i>
-            p <i>Huawei Mobile Cloud</i> es un sistema de almacenamiento nube o <i>cloud computing</i> desarrollado por <i>Huawei</i>. Fue lanzado el 27 de septiembre de 2017 para los dispositivos <i>Huawei</i> con el sistema operativo <i>HarmonyOS y Android</i>. 
+            h4.mb-4 Huawei Cloud
+            p Huawei Mobile Cloud es un sistema de almacenamiento nube o <i>cloud computing</i> desarrollado por Huawei. Fue lanzado el 27 de septiembre de 2017 para los dispositivos Huawei con el sistema operativo HarmonyOS y Android. 
           .col-lg-6.col-md-12.my-3
             img.img-a.img-t(src='@/assets/curso/temas/165.svg' )
         .row.align-items-center.justify-content-center
           .col-lg-6.col-md-12.my-3
-            h4.mb-4 <i>IBM Cloud </i>
-            p <i>IBM cloud computing</i> es un conjunto de servicios de computación en la nube para empresas que ofrece la compañía de tecnología de la información <i>IBM</i>. 
+            h4.mb-4 IBM <i>Cloud </i>
+            p IBM <i>cloud computing</i> es un conjunto de servicios de computación en la nube para empresas que ofrece la compañía de tecnología de la información IBM. 
           .col-lg-6.col-md-12.my-3
             img.img-a.img-t(src='@/assets/curso/temas/166.svg' )
         .row.align-items-center.justify-content-center
           .col-lg-6.col-md-12.my-3
-            h4.mb-4 <i>Microsoft Azure</i> 
-            p <i>Microsoft Azure</i> es un servicio de computación en la nube creado por <i>Microsoft</i>  para construir, probar, desplegar y administrar aplicaciones y servicios mediante el uso de sus centros de datos.
+            h4.mb-4 Microsoft Azure
+            p Microsoft Azurees un servicio de computación en la nube creado por Microsoft  para construir, probar, desplegar y administrar aplicaciones y servicios mediante el uso de sus centros de datos.
           .col-lg-6.col-md-12.my-3
             img.img-a.img-t(src='@/assets/curso/temas/167.svg' )
         .row.align-items-center.justify-content-center
           .col-lg-6.col-md-12.my-3
-            h4.mb-4 <i>Oracle Cloud</i>
-            p Es un servicio de computación en nube ofrecido por <i>Oracle Corporation</i> que proporciona servidores, almacenamiento, redes, aplicaciones y servicios a través de una red global de centros de datos administrados por <i>Oracle Corporation</i>.
+            h4.mb-4 Oracle Cloud
+            p Es un servicio de computación en nube ofrecido por Oracle Corporation que proporciona servidores, almacenamiento, redes, aplicaciones y servicios a través de una red global de centros de datos administrados por Oracle Corporation.
           .col-lg-6.col-md-12.my-3
             img.img-a.img-t(src='@/assets/curso/temas/168.svg' )
         .row.align-items-center.justify-content-center
           .col-lg-6.col-md-12.my-3
-            h4.mb-4 <i>Salesforce</i>
-            p <i>Salesforce</i> es una empresa estadounidense de <i>software</i> bajo demanda, más conocida por producir un <i>CRM</i> llamado <i>Sales Cloud</i>.
+            h4.mb-4 Salesforce
+            p Salesforce es una empresa estadounidense de <i>software</i> bajo demanda, más conocida por producir un CRM llamado Sales Cloud.
           .col-lg-6.col-md-12.my-3
             img.img-a.img-t(src='@/assets/curso/temas/169.svg' )
         

@@ -19,25 +19,25 @@
     p(data-aos="zoom-in-left").mb-5.fw-bold Conozca, ahora, algunas de las buenas prácticas más representativas:  
 
     TabsC.color-primario.mb-5(data-aos="zoom-in-left")
-      .py-3.py-md-4.bg26.px-3(titulo="Controles <i>CIS</i> v8 ")
+      .py-3.py-md-4.bg26.px-3(titulo="Controles CIS v8 ")
         .row.align-items-center.justify-content-center
           .col-lg-9.col-md-12.my-3
-            p Los controles  <i>CIS</i> son una propuesta de controles de seguridad específicos y con los cuales se busca endurecer las acciones defensivas y así prevenir incidentes que afecten los activos de información.
+            p Los controles  CIS son una propuesta de controles de seguridad específicos y con los cuales se busca endurecer las acciones defensivas y así prevenir incidentes que afecten los activos de información.
           .col-lg-3.col-md-12.my-3.d-none.d-lg-block
             img.img-a.img-t(src='@/assets/curso/temas/37.png' )
-      .py-3.py-md-4.bg26.px-3(titulo="En qué se basan los controles  <i>CIS</i> v8 ")
+      .py-3.py-md-4.bg26.px-3(titulo="En qué se basan los controles  CIS v8 ")
         .row.align-items-center.justify-content-center
           .col-lg-9.col-md-12.my-3
             p Esta propuesta está basada en múltiples marcos de seguridad, lo que permite abordar diferentes puntos de vista y, asimismo, recoge las mejores propuestas de seguridad.
           .col-lg-3.col-md-12.my-3.d-none.d-lg-block
             img.img-a.img-t(src='@/assets/curso/temas/38.png' )
-      .py-3.py-md-4.bg26.px-3(titulo="Estructuración de  <i>CIS</i> v8 ")
+      .py-3.py-md-4.bg26.px-3(titulo="Estructuración de  CIS v8 ")
         .row.align-items-center.justify-content-center
           .col-lg-9.col-md-12.my-3
-            p Los controles  <i>CIS</i> están estructurados en 18 controles y 153 salvaguardas, distribuidos en 3 grupos de implementación.
+            p Los controles  CIS están estructurados en 18 controles y 153 salvaguardas, distribuidos en 3 grupos de implementación.
           .col-lg-3.col-md-12.my-3.d-none.d-lg-block
             img.img-a.img-t(src='@/assets/curso/temas/39.png' )
-      .py-3.py-md-4.bg26.px-3(titulo="<i>CIS Benchmarks</i> ")
+      .py-3.py-md-4.bg26.px-3(titulo="CIS Benchmarks")
         .row.align-items-center.justify-content-center
           .col-lg-9.col-md-12.my-3
             p Esta otra iniciativa de recomendaciones específicas para productos de diferentes proveedores y tipos recopila una serie de recomendaciones y pautas para el endurecimiento de sistemas y aplicaciones, y así poder cumplir con un nivel básico de seguridad.
@@ -46,7 +46,7 @@
       .py-3.py-md-4.bg26.px-3(titulo="Las más comunes ")
         .row.align-items-center.justify-content-center
           .col-lg-9.col-md-12.my-3
-            p Entre las guías más comunes, se encuentran: sistemas operativos <i>Linux</i> y <i>Windows</i>, servicios <i>web</i>, bases de datos, hipervisores, servicios en la nube, dispositivos móviles, dispositivos de red, <i>software</i> de escritorio, dispositivos de impresión.
+            p Entre las guías más comunes, se encuentran: sistemas operativos Linux y Windows, servicios web, bases de datos, hipervisores, servicios en la nube, dispositivos móviles, dispositivos de red, <i>software</i> de escritorio, dispositivos de impresión.
           .col-lg-3.col-md-12.my-3.d-none.d-lg-block
             img.img-a.img-t(src='@/assets/curso/temas/41.png' )
       
@@ -60,15 +60,15 @@
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
                   h3.mb-1 Buenas Prácticas en Ciberseguridad
-                  p.mb-0 Cada dia, se unan más colaboradores a esta iniciativa y al uso de Buenas Prácticas en Ciberseguridad; obtenga mayor información al respecto, visitando el portal de <i>CiSecurity.org.</i>
+                  p.mb-0 Cada dia, se unan más colaboradores a esta iniciativa y al uso de Buenas Prácticas en Ciberseguridad; obtenga mayor información al respecto, visitando el portal de CiSecurity.org.
                 .col-sm-auto
                   a.boton.color-acento-botones(href="https://www.cisecurity.org/cis-benchmarks/" target="_blank")
                     span Ir al sitio
                     i.fas.fa-link
-    h4(data-aos="zoom-in-left").mb-3 Publicaciones especiales de <i>NIST</i>
+    h4(data-aos="zoom-in-left").mb-3 Publicaciones especiales de NIST
     .row.align-items-center.justify-content-center.mb-4(data-aos="zoom-in-left")
       .col-lg-7.my-3
-        p Desde <i>NIST</i>, <i>National Institute of Standards and Technology</i>, se vienen publicando una serie de documentos de apoyo a la gestión de la seguridad, bajo el prefijo <i>SP</i> (<i>Special Publication</i>), con los cuales se busca aportar desde algunas pautas a la estandarización de acciones que buscan mejorar la seguridad de los activos de información.
+        p Desde NIST, <i>National Institute of Standards and Technology</i>, se vienen publicando una serie de documentos de apoyo a la gestión de la seguridad, bajo el prefijo SP (<i>Special Publication</i>), con los cuales se busca aportar desde algunas pautas a la estandarización de acciones que buscan mejorar la seguridad de los activos de información.
         .bg13.p-4.mb-1
           .row.d-flex
             .col-lg-2.d-none.d-lg-block
@@ -86,8 +86,8 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  h3.mb-1 Publicaciones de <i>NIST</i>
-                  p.mb-0 Conozca las publicaciones de <i>NIST</i> más importantes, visitando el sitio que aquí se propone.
+                  h3.mb-1 Publicaciones de NIST
+                  p.mb-0 Conozca las publicaciones de NIST más importantes, visitando el sitio que aquí se propone.
                 .col-sm-auto
                   a.boton.color-acento-botones(href="https://csrc.nist.gov/publications/sp" target="_blank")
                     span Ir al sitio

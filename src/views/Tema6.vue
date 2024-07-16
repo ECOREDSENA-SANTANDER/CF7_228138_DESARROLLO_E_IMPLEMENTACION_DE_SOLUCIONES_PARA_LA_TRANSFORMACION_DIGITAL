@@ -46,7 +46,7 @@
         h4 Términos de referencia
         .row 
           .col-sm-12.col-md-9
-            p Reconozca los Términos de Referencia (<i>TDR</i>) que son los lineamientos generales establecidos por el contratante y donde define los resultados esperados, estos contienen los objetivos, alcances y resultados.
+            p Reconozca los Términos de Referencia (TDR) que son los lineamientos generales establecidos por el contratante y donde define los resultados esperados, estos contienen los objetivos, alcances y resultados.
           .col-sm-12.col-md-3
             img.img-t(src='@/assets/curso/temas/133.svg')
       .tarjeta.bg14.p-5(titulo="Propuesta técnica")
@@ -73,7 +73,7 @@
     .row.align-items-center.justify-content-center.mb-4(data-aos="zoom-in-left")
       .col-lg-7.my-3
         p Es necesario, entonces, recordar que se debe tener una papelería adecuada que represente al negocio; el formato de documento, físico o virtual, debe contar con un diseño sobrio pero atractivo, el documento debe tener un encabezado en el cual debe ir el nombre de la empresa y el NIT o el nombre de la persona que trabaja <i>freelance</i>, este debe ir acompañado del logo. 
-        p.bg10.p-4.mb-3(data-aos="fade-left") En el pie de página debe ir la dirección de la empresa y datos de contacto como números telefónicos correos, <i>WhatsApp, Facebook, Instagram</i> etc. Se debe tener en cuenta, como insumos principales, los <i> TDR </i> o la entrevista al momento de elaborar la propuesta.
+        p.bg10.p-4.mb-3(data-aos="fade-left") En el pie de página debe ir la dirección de la empresa y datos de contacto como números telefónicos, correos, WhatsApp, Facebook, Instagram, etc. Se debe tener en cuenta, como insumos principales, los TDR o la entrevista al momento de elaborar la propuesta.
         .d-flex.align-items-center.justify-content-center
           img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/10.png' )
           p.ml-1-custom.mt-3 Explore el recurso que se presenta a continuación y conozca a profundidad, los aspectos más importantes sobre la elaboración de la propuesta:
@@ -98,7 +98,7 @@
       .row
         .col-lg-6.col-md-12.my-3
           h4.mb-4 Contratación
-          p Se realiza después que el cliente haya aceptado una de las propuestas técnicas presentadas, o que al ofertante le hayan adjudicado una licitación; para legalizar este trámite es necesario cerrar el acuerdo por medio de un contrato escrito, en el cual estén estipulado todos los términos y condiciones que se acordaron en la propuesta técnica o en el pliego de condiciones.  
+          p Se realiza después que el cliente haya aceptado una de las propuestas técnicas presentadas, o que al ofertante le hayan adjudicado una licitación; para legalizar este trámite es necesario cerrar el acuerdo por medio de un contrato escrito, en el cual estén estipulados todos los términos y condiciones que se acordaron en la propuesta técnica o en el pliego de condiciones.  
         .col-lg-6.col-md-12.my-3
           img.img-a.img-t(src='@/assets/curso/temas/137.png' )
       .row

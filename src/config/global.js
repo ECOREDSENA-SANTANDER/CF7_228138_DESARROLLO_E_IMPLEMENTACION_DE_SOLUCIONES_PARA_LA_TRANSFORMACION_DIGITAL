@@ -43,7 +43,7 @@ export default {
           },
           {
             numero: '1.2',
-            titulo: 'Plan de gestión de servicios de <i>TI</i>',
+            titulo: 'Plan de gestión de servicios de TI',
             hash: 't_1_2',
           },
         ],
@@ -68,7 +68,7 @@ export default {
         subMenu: [
           {
             numero: '4.1',
-            titulo: 'Conectividad e <i>internet</i>',
+            titulo: 'Conectividad e internet',
             hash: 't_4_1',
           },
           {
@@ -96,17 +96,17 @@ export default {
         subMenu: [
           {
             numero: '5.1',
-            titulo: 'Acuerdos de Nivel de servicio (<i>ANS</i>)',
+            titulo: 'Acuerdos de Nivel de servicio (ANS)',
             hash: 't_5_1',
           },
           {
             numero: '5.2',
-            titulo: 'Acuerdo de Nivel de Operación (<i>OLA</i>)',
+            titulo: 'Acuerdo de Nivel de Operación (OLA)',
             hash: 't_5_2',
           },
           {
             numero: '5.3',
-            titulo: 'Acuerdo de acompañamiento (<i>UC</i>)',
+            titulo: 'Acuerdo de acompañamiento (UC)',
             hash: 't_5_3',
           },
         ],
@@ -189,7 +189,7 @@ export default {
   },
   complementario: [
     {
-      tema: 'Plan de gestión de servicios de <i>TI</i>.',
+      tema: 'Plan de gestión de servicios de TI.',
       referencia:
         'Ministerio de Tecnologías de la Información y Comunicaciones. 2019 G.ST.01 Guía del dominio de servicios tecnológicos https://www.mintic.gov.co/arquitecturaempresarial /630/articles-237663_recurso_1.pdf',
       tipo: 'Documento',
@@ -199,7 +199,7 @@ export default {
     {
       tema: 'Buenas prácticas en ciberseguridad.',
       referencia:
-        '<i>Center for Internet Security</i>. (2021). <i>CIS Benchmarks. CISECURITY</i>. https://www.cisecurity.org/cis-benchmarks/',
+        '<i>Center for Internet Security</i>. (2021). CIS Benchmarks. CISECURITY. https://www.cisecurity.org/cis-benchmarks/',
       tipo: 'Norma',
       link: 'https://www.cisecurity.org/cis-benchmarks/',
     },
@@ -239,7 +239,7 @@ export default {
       tema: 'Proveedores de servicio en la nube.',
       referencia:
         '<i>Public Cloud Services Comparison, (s.f) comparecloud.in</i>',
-      tipo: 'Página <i>web</i>',
+      tipo: 'Página web',
       link: 'https://comparecloud.in/',
     },
   ],
@@ -277,7 +277,7 @@ export default {
     {
       termino: '<i>Cloud Computing</i>',
       significado:
-        'Conocida también como servicios en la nube, consiste en el uso de una red de servidores remotos alojados en <i>Internet</i> para almacenar, administrar y procesar datos e información, en lugar de un servidor local o una computadora personal.',
+        'Conocida también como servicios en la nube, consiste en el uso de una red de servidores remotos alojados en internet para almacenar, administrar y procesar datos e información, en lugar de un servidor local o una computadora personal.',
     },
     {
       termino: 'Disponibilidad',
@@ -303,18 +303,16 @@ export default {
   referencias: [
     {
       referencia:
-        '<i>A Linux a Day.</i> (2016). Almacenamiento, introducción y terminología. Página <i>web</i>.',
+        '<i>A Linux a Day.</i> (2016). Almacenamiento, introducción y terminología. Página web.',
       link:
         'https://alinuxaday.wordpress.com/2016/01/19/almacenamiento-introduccion-y-terminologia',
     },
     {
-      referencia:
-        '<i>Allcode.com</i> (2021). 10 <i>Top Cloud Providers in</i> 2021.',
+      referencia: 'Allcode.com (2021). 10 <i>Top Cloud Providers in</i> 2021.',
       link: 'https://allcode.com/cloud-providers/',
     },
     {
-      referencia:
-        '<i>Amazon</i> (2021). <i>AWS Directory Service.</i> Página <i>web</i>.',
+      referencia: 'Amazon (2021). <i>AWS Directory Service.</i> Página web.',
       link: 'https://aws.amazon.com/es/directoryservice/?nc=sn&loc=1',
     },
     {
@@ -330,7 +328,7 @@ export default {
     },
     {
       referencia:
-        '<i>Center for Internet Security</i> (2021). <i>CIS Benchmarks. CISECURITY.</i>',
+        '<i>Center for Internet Security</i> (2021). CIS Benchmarks. CISECURITY.',
       link: 'https://www.cisecurity.org/cis-benchmarks/',
     },
     {
@@ -374,20 +372,19 @@ export default {
       link: 'https://www.iso.org/standard/54534.html',
     },
     {
-      referencia:
-        '<i>Microsoft</i> (2021). Cuentas de <i>Active Directory. Docs.</i>',
+      referencia: 'Microsoft (2021). Cuentas de <i>Active Directory. Docs.</i>',
       link:
         'https://docs.microsoft.com/es-es/windows/security/identity-protection/access-control/active-directory-accounts',
     },
     {
       referencia:
-        '<i>Microsoft</i> (2021). Línea base de seguridad de <i>Azure</i> para <i>Azure Active Directory. Docs.</i>',
+        'Microsoft (2021). Línea base de seguridad de  para <i>Azure Active Directory. Docs.</i>',
       link:
         'https://docs.microsoft.com/es-es/security/benchmark/azure/baselines/aad-security-baseline?toc=/azure/active-directory/fundamentals/toc.json',
     },
     {
       referencia:
-        '<i>Microsoft</i> (2021). Configuración de redundancia geográfica con Replicación de <i>SQL Server. Docs.</i>',
+        'Microsoft (2021). Configuración de redundancia geográfica con Replicación de <i>SQL Server. Docs.</i>',
       link:
         'https://docs.microsoft.com/es-es/windows-server/identity/ad-fs/deployment/set-up-geographic-redundancy-with-sql-server-replication',
     },
@@ -432,19 +429,19 @@ export default {
     },
     {
       referencia:
-        '<i>South Security Cyber Community.</i> (2021). <i>CIS</i> Mapeo de Controles.',
+        '<i>South Security Cyber Community.</i> (2021). CIS Mapeo de Controles.',
       link:
         'https://es.scribd.com/document/659953605/SouthSecurity-CIS-Mapeo-de-Controles',
     },
     {
       referencia:
-        'TECNOLOGIA-INFORMATICA.COM (2021). ¿Qué es <i>RAID</i>? Los niveles de <i>RAID</i>.',
+        'TECNOLOGIA-INFORMATICA.COM (2021). ¿Qué es RAID? Los niveles de RAID.',
       link:
         'https://www.tecnologia-informatica.com/que-es-raid-los-niveles-de-raid',
     },
     {
       referencia:
-        'VIRTUALIZAMOS.ES (2021). ¿Qué tecnología de almacenamiento elijo? <i>Fibre Channel, iSCSI o NAS.</i>',
+        'VIRTUALIZAMOS.ES (2021). ¿Qué tecnología de almacenamiento elijo? <i>Fibre Channel</i>, iSCSI o NAS.',
       link:
         'https://www.virtualizamos.es/que-tecnologia-de-almacenamiento-elijo-fibre-channel-iscsi-o-nas',
     },
@@ -502,7 +499,7 @@ export default {
       autores: [
         {
           nombre: 'Carla Liliana Sequera Vargas',
-          cargo: 'Diseñadora web',
+          cargo: 'Diseñadora Web',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
@@ -516,18 +513,13 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Yineth Ibette Gonzalez Quintero',
-          cargo: 'Validadora de Recursos Educativos Digitales',
-          centro: 'Centro Agroturístico - Regional Santander',
-        },
-        {
           nombre: 'Laura Paola Gelvez Manosalva',
           cargo: 'Validadora de Recursos Educativos Digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
           nombre: 'Erika Fernanda Mejía Pinzón',
-          cargo: 'Evaluadora para contenidos inclusivos y accesibles',
+          cargo: 'Evaluadora para Contenidos Inclusivos y Accesibles',
           centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
