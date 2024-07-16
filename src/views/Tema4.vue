@@ -304,7 +304,7 @@
           .col-sm-12.col-lg-8.bg19.he-8-cus.ml-neg-cus.align-items-center.justify-content-center
             p(data-aos="zoom-in-left").align-items-center.justify-content-center.img-center-cus Las principales tecnologías de almacenamiento, se relacionan con los protocolos de uso, componentes, y costos,  a continuación, se describen las principales. 
       .p-5-cus.mt-5.mb-5 
-        h3(data-aos="zoom-in-left").mb-5 <i>iSCSI - Internet Small Computer System Interface</i>
+        h3(data-aos="zoom-in-left").mb-5 iSCSI - <i>Internet Small Computer System Interface</i>
         p(data-aos="zoom-in-left").mb-5 Sistema de almacenamiento basado en bloques como FC -<i>Fiber Channel</i>, pero a diferencia, utiliza componentes de una red <i>Ethernet</i> tradicional para realizar la conexión entre los <i>hosts</i> y el sistema de almacenamiento. Al utilizar componentes <i>Ethernet</i>, iSCSI es más barato de implementar.
         .row 
           .col-sm-12.col-md-8
