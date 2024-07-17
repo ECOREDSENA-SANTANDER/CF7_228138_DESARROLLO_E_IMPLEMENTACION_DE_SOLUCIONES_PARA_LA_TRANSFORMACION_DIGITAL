@@ -397,7 +397,7 @@ export default {
       referencia:
         'MinTIC (2016). Guía de auditoría. Seguridad y privacidad de la información. MinTIC.',
       link:
-        'https://mintic.gov.co/gestionti/615/articles-5482_G15_Auditoria.pdf',
+        'https://www.mintic.gov.co/arquitecturaempresarial/630/articles-237663_recurso_1.pdf',
     },
     {
       referencia:

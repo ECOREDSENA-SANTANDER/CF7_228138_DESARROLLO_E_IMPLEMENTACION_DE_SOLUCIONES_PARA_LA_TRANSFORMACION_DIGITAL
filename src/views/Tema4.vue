@@ -280,7 +280,7 @@
                 p Las redes de almacenamiento SAN han facilitado enormemente la creación de Centros de Procesos de Datos (CDP) distribuidos, <i>Clusters</i> Geográficos, creación de centros de respaldo (BDC), etc.
           .col-12
             figure
-              img(src='@/assets/curso/temas/119.svg')
+              img(src='@/assets/curso/temas/119.svg', alt='La imagen describe una red de almacenamiento de datos. Los clientes, representados por computadoras, están conectados a un switch de red. Este switch está conectado a servidores, los cuales a su vez están conectados a dispositivos de almacenamiento a través de un canal de fibra. Esta configuración ilustra cómo los datos se transfieren desde los clientes, a través del switch de red y los servidores, hacia los dispositivos de almacenamiento para su gestión y resguardo.')
     
     
     
