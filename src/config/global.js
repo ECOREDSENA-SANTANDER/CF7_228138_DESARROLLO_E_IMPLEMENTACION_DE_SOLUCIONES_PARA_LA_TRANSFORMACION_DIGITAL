@@ -206,10 +206,10 @@ export default {
     {
       tema: 'Buenas prácticas en ciberseguridad.',
       referencia:
-        'MinTIC (2016) Seguridad en la Nube. https://mintic.gov.co/gestionti/615/articles-5482_G12_Seguridad_Nube.pdf',
+        '¿Qué es la seguridad en la nube? (2023, 27 noviembre). www.kaspersky.es. https://www.kaspersky.es/resource-center/definitions/what-is-cloud-security',
       tipo: 'Guía',
       link:
-        'https://mintic.gov.co/gestionti/615/articles-5482_G12_Seguridad_Nube.pdf',
+        'https://www.kaspersky.es/resource-center/definitions/what-is-cloud-security',
     },
     {
       tema: 'Contratación',
@@ -230,7 +230,7 @@ export default {
     {
       tema: 'Contratación',
       referencia:
-        'República de Colombia, Ministerio de tecnologías de la información y las comunicaciones. (2012). Ley 1581 de 2012. https://www.funcionpublica.gov.co/eva/ gestornormativo/norma_pdf.php?i=49981',
+        'República de Colombia, Ministerio de tecnologías de la información y las comunicaciones. (2012). Ley 1581 de 2012. https://www.funcionpublica.gov.co/eva/gestornormativo/norma_pdf.php?i=49981',
       tipo: 'PDF',
       link:
         'https://www.funcionpublica.gov.co/eva/gestornormativo/norma_pdf.php?i=49981',
@@ -389,9 +389,9 @@ export default {
         'https://docs.microsoft.com/es-es/windows-server/identity/ad-fs/deployment/set-up-geographic-redundancy-with-sql-server-replication',
     },
     {
-      referencia: 'MinTIC (2016). Seguridad en la Nube. MinTIC.',
+      referencia: '¿Qué es la seguridad en la nube? (2023, 27 noviembre).',
       link:
-        'https://mintic.gov.co/gestionti/615/articles-5482_G12_Seguridad_Nube.pdf',
+        'https://www.kaspersky.es/resource-center/definitions/what-is-cloud-security',
     },
     {
       referencia:

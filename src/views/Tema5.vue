@@ -22,7 +22,7 @@
       span  Las actividades claves para la Gestión de Niveles de Servicio pueden observarse al desplegar el siguiente recurso:
     .row.d-flex.align-items-center.justify-content-center.mb-5(data-aos="zoom-in-left")
       .col-lg-12
-        img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/86.svg' )
+        img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/86.svg',alt='La imagen describe las actividades claves para la gestión de niveles de servicio, incluyendo: planificación, asignación de recursos, elaboración de un catálogo de servicios, desarrollo de SLAs tipo, herramientas para la monitorización de la calidad del servicio, análisis de las necesidades del cliente, elaboración de los Requisitos de Nivel de Servicio (SLR), implementación de Acuerdos de Nivel de Servicio, supervisión y revisión de dichos acuerdos, elaboración de informes de rendimiento, control de proveedores externos, y la elaboración de Programas de Mejora del Servicio (SIP).' )
     p.mb-5(data-aos="zoom-in-left") En la siguiente figura se describen las interacciones y funcionalidades de la gestión de niveles de servicio.
     .row.mb-5
       .col-sm-12.col-md-12.col-lg-10.m-auto    
@@ -32,7 +32,7 @@
               |  Interacciones y funcionalidades gestión de niveles de servicio
         figure.mt-4.mb-5(data-aos="zoom-in-left")
             img(src='@/assets/curso/temas/87.svg', alt='En la figura se diagraman diferentes interacciones: Monitorización y seguimiento en el centro y resaltado, conectándose hacia arriba con: soporte al servicio, centro de servicios y provisión de servicios; y conectándose hacia abajo con: cliente, planificación, implementación y revisión. A su vez la planificación, recibe la información del SIP a través del catálogo de servicios.')
-            figcaption.ps-4  Nota. https://mintic.gov.co/arquitecturati/630/articles-9277_recurso_pdf.pdf    
+            figcaption.ps-4  Nota. https://campus.certcampus.com/itil/gestion-de-niveles-de-servicios/    
     
     Separador
     #t_5_2.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")

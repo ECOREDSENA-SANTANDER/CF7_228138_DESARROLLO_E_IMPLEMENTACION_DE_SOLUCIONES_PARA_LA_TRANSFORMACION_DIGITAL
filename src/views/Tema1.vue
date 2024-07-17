@@ -193,7 +193,7 @@
               | Gestión de capacidad
           figure.mt-4(data-aos="zoom-in-left")
             img(src='@/assets/curso/temas/25.svg', alt='El diagrama organiza las siguientes actividades: requisitos de capacidad, planificación, supervisión y gestión de la demanda. Adicionalmente, la monitorización y seguimiento se encuentran entre la planificación y la supervisión; y la gestión de la demanda y el CDB se desprenden de la supervisión.')
-          figcaption.ps-4  Nota. https://mintic.gov.co/arquitecturati/630/articles-9277_recurso_pdf.pdf 
+          figcaption.ps-4  Nota. https://campus.certcampus.com/itil/gestion-de-la-capacidad/
     .mb-4.d-flex.bg-img-title(data-aos="zoom-in-left")
       .d-flex.flex-wrap.align-items-center.pe-4
         h3.col.px-4.mb-0.text-white.aos-init.aos-animate(style='width: 300px;').bg-img-blue Gestión de la continuidad
@@ -302,7 +302,7 @@
       .row.mb-5.justify-content-center.align-items-center
         .col-sm-12.col-lg-8.justify-content-center.align-items-center
           img(src='@/assets/curso/temas/29.svg', alt='La figura enuncia los siguientes procesos: Alcance, análisis, estrategias, planificación, supervisión y operación, las cuales se encuentran organizadas en ese orden y enmarcadas por una flecha. Por fuera de la flecha se enuncia la monitorización y seguimiento, sugiriendo que son actividades transversales a los procesos')
-      figcaption.ps-4  Nota. https://mintic.gov.co/arquitecturati/630/articles-9277_recurso_pdf.pdf    
+      figcaption.ps-4  Nota. https://campus.certcampus.com/itil/gestion-de-la-capacidad/    
     .mb-4.d-flex.bg-img-title(data-aos="zoom-in-left")
       .d-flex.flex-wrap.align-items-center.pe-4
         h3.col.px-4.mb-0.text-white.bg-img-blue(style='width: 350px;') Gestión de la disponibilidad
@@ -340,7 +340,7 @@
       .row.mb-5.justify-content-center.align-items-center
           .col-sm-12.col-lg-8.justify-content-center.align-items-center
             img(src='@/assets/curso/temas/33.svg', alt='La figura organiza los siguientes procesos: Requisitos, planificación, mantenimiento, planificación y monitorización. Adicionalmente se enuncia la monitorización y seguimiento y la CDMB.')
-      figcaption.ps-4  Nota. https://mintic.gov.co/arquitecturati/630/articles-9277_recurso_pdf.pdf    
+      figcaption.ps-4  Nota. https://campus.certcampus.com/itil/gestion-de-niveles-de-servicios/    
 
 </template>
 

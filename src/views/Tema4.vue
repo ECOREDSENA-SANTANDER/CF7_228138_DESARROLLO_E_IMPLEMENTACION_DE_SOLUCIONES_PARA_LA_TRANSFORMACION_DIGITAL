@@ -130,7 +130,7 @@
       .col-lg-12
         figure
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/xaXbMzXJL3U" title="Description" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/g1r1JihReCM" title="Description" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
           figcaption Video. SENA 2024.
     p(data-aos="zoom-in-left").mb-2 Es así como la internet se convierte en la red más grande que existe y permite que las computadoras estén interconectadas a nivel mundial, disponiendo el acceso a miles de servidores que proveen información.
     h4(data-aos="zoom-in-left").mb-4 Los tipos de conectividad pueden dividirse en:
@@ -254,13 +254,13 @@
             .bg18.p-3 La arquitectura de almacenamiento DAS, presenta muchos inconvenientes, como la dispersión del almacenamiento, que implica una dificultad en la gestión de los <i>backups</i>, así como una baja tolerancia a fallos (sólo posible a través de soluciones RAID), y un alto TCO- <i>Total Cost of Ownership</i>, debido a las dificultades de mantenimiento.
           .col-12
             figure
-              img(src='@/assets/curso/temas/116.svg')
+              img(src='@/assets/curso/temas/116.svg', alt='La imagen detalla  una arquitectura de almacenamiento de datos en la que varios servidores están conectados a una unidad de almacenamiento de discos a través de interfaces eSATA, FC (Fibre Channel) o SAS (Serial Attached SCSI).')
         .row.p-4(numero="2" titulo="NAS <i>Network Attached Storage</i>")
           .col-12.mb-4
             p Con la introducción de las redes locales (LAN), se empezaron a utilizar servidores de almacenamiento conectados a la red, a los cuales se podía acceder directamente a través de la propia infraestructura mediante protocolos específicos como NFS -<i>Network File System</i>, en entornos UNIX y CIFS-<i>Common Internet File System</i> , en entornos Microsoft (antes conocido como SMB, protocolo original de IBM que fue mejorado por Microsoft en CIFS) o incluso mediante FTP, HTTP, etc.
             .row 
               .col-sm-12.col-lg-4
-                img(src='@/assets/curso/temas/120.svg')
+                img(src='@/assets/curso/temas/120.svg', alt='La imagen expone una configuración de almacenamiento en red (NAS), donde un servidor NAS está conectado a varios clientes a través de una red Ethernet. El servidor NAS permite que los clientes accedan y compartan datos de manera eficiente en la red.')
               .col-sm-12.col-lg-8
                 .row.align-items-center.justify-content-center 
                   .col-2.align-items-center.justify-content-center.d-none.d-lg-block
