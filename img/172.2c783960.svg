@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="421.742" height="247.594" viewBox="0 0 421.742 247.594">
+  <defs>
+    <filter id="Rectángulo_46258" x="0" y="0" width="421.742" height="247.594" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rectángulo_46258)">
+    <rect id="Rectángulo_46258-2" data-name="Rectángulo 46258" width="403.742" height="229.594" rx="17" transform="translate(9 6)" fill="#ffe5cf"/>
+  </g>
+  <path id="Trazado_816909" data-name="Trazado 816909" d="M88.512-49.383q0,24.773-10.254,37.9T48.234,1.641q-19.523,0-29.859-12.879T7.793-48.152V-70.137q0-25.02,10.377-37.98t29.9-12.961q19.523,0,29.859,12.838T88.512-71.367ZM64.8-73.5q0-14.848-4.061-21.615T48.07-101.883q-8.367,0-12.346,6.439T31.5-75.3v29.039q0,14.6,3.979,21.7t12.756,7.1q8.7,0,12.551-6.809T64.8-45.117ZM186.375,0H104.508V-16.242l38.637-41.18A95.316,95.316,0,0,0,154.916-72.6a24.381,24.381,0,0,0,3.814-12.3q0-7.957-4.02-12.51t-11.484-4.553q-8.039,0-12.674,5.537t-4.635,14.561H102.129a39.156,39.156,0,0,1,5.209-19.934,36.713,36.713,0,0,1,14.725-14.15,44.755,44.755,0,0,1,21.574-5.127q18.457,0,28.67,8.859T182.52-87.2a40.159,40.159,0,0,1-4.594,18.047q-4.594,9.188-15.75,21.41L135.023-19.113h51.352Z" transform="translate(194.85 182)" fill="#f9dabf"/>
+</svg>
